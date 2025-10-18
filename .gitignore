@@ -1,7 +1,7 @@
 *.pyc
 __pycache__/
-*.sqlite
-*.sqlite3
+
+
 .venv/
 venv/
 *.egg-info/
@@ -10,5 +10,3 @@ build/
 .DS_Store
 .env
 
-# Generated files
-files/outputs/

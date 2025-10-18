@@ -44,11 +44,17 @@ Place your master glossary file at `files/inputs/monta_raw_glossary.xlsx`, then:
 # Option 1: Use the wrapper script (automatically activates venv)
 ./import.sh                                    # Basic import
 ./import.sh --markdown                         # Import + markdown
-./import.sh --markdown --alternatives          # Full workflow
+./import.sh --markdown --alternatives          # Full workflow (requires OpenAI)
 
 # Option 2: Activate venv manually
 source .venv/bin/activate
 python import.py --markdown --alternatives
+```
+
+**⚠️ Note:** The `--alternatives` flag uses OpenAI to generate alternative terms. You must create a `.env` file with your OpenAI API key before using this option:
+
+```bash
+echo "OPENAI_API_KEY=sk-your-key-here" > .env
 ```
 
 ## 📥 Data Source
@@ -226,15 +232,29 @@ This function:
 - `description` (TEXT) - Language-specific description
 - UNIQUE(term_id, language_code)
 
-## 🔐 Environment Variables
+## 🔐 Environment Variables (Optional)
 
-Create a `.env` file for OpenAI integration:
+The `--alternatives` flag uses OpenAI's GPT-4 API to automatically generate alternative words for each term (e.g., "EV" → "electric vehicle", "e-car", etc.). This feature is **optional** but highly recommended.
 
-```env
-OPENAI_API_KEY=your_api_key_here
+**To enable alternatives generation:**
+
+1. Get an API key from [OpenAI](https://platform.openai.com/api-keys)
+2. Create a `.env` file in the project root:
+
+```bash
+echo "OPENAI_API_KEY=sk-your-key-here" > .env
 ```
 
-Required only for `--alternatives` option.
+3. Run import with `--alternatives` flag:
+
+```bash
+./import.sh --alternatives --limit 10  # Test with 10 terms first
+./import.sh --markdown --alternatives  # Full workflow
+```
+
+**Cost:** ~$0.01-0.02 per term (about $5 for 250 terms). The script includes rate limiting to respect API quotas.
+
+**Note:** The import and markdown generation work perfectly fine **without** OpenAI. The `--alternatives` flag is optional.
 
 ## 🧪 Running Tests
 
@@ -273,17 +293,25 @@ pip install -r requirements.txt
 ./import.sh --markdown
 ```
 
-### 3. Add Alternative Words with AI
-```bash
-# Setup OpenAI key first
-echo "OPENAI_API_KEY=your_key_here" > .env
+### 3. Add Alternative Words with AI (Optional)
 
-# Test with a few terms
+Alternative words help with text normalization and search. This step uses OpenAI and is optional.
+
+```bash
+# 1. Setup OpenAI key first (required for --alternatives)
+echo "OPENAI_API_KEY=sk-your-key-here" > .env
+
+# 2. Test with a few terms to verify it works
 ./import.sh --alternatives --limit 10
 
-# Generate for all terms
+# 3. Generate for all terms (takes ~2 minutes for 250 terms)
 ./import.sh --alternatives
+
+# 4. Regenerate markdown to include the new alternatives
+./import.sh --skip-import --markdown
 ```
+
+**Without OpenAI:** You can still use the glossary without alternatives. The Excel file may already contain some alternative words that will be imported automatically.
 
 ### 4. Regenerate Markdown Only
 ```bash
@@ -305,9 +333,18 @@ pip install -r requirements.txt
 ```
 
 ### "OPENAI_API_KEY not found"
+
+This error only occurs if you use the `--alternatives` flag. To fix:
+
 ```bash
-# Create .env file with your OpenAI API key
-echo "OPENAI_API_KEY=your_key_here" > .env
+# Get your API key from https://platform.openai.com/api-keys
+echo "OPENAI_API_KEY=sk-your-key-here" > .env
+```
+
+**Alternatively:** Skip the `--alternatives` flag if you don't need AI-generated alternative words:
+
+```bash
+./import.sh --markdown  # Works without OpenAI
 ```
 
 ### Database file not found
