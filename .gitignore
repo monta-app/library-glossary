@@ -1,0 +1,14 @@
+*.pyc
+__pycache__/
+*.sqlite
+*.sqlite3
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+.env
+
+# Generated files
+files/outputs/
