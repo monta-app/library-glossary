@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 # Add python package directory to path
-project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+project_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(project_dir, 'python'))
 
 from monta_glossary.database import GlossaryDB
@@ -421,8 +421,7 @@ Examples:
     args = parser.parse_args()
 
     # Determine paths
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    project_dir = os.path.dirname(script_dir)
+    project_dir = os.path.dirname(os.path.abspath(__file__))
     excel_path = os.path.join(project_dir, 'files', 'inputs', 'monta_raw_glossary.xlsx')
     db_path = os.path.join(project_dir, 'files', 'outputs', 'glossary.sqlite')
     md_path = os.path.join(project_dir, 'files', 'outputs', 'glossary.md')

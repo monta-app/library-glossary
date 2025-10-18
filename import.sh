@@ -18,4 +18,4 @@ fi
 
 # Activate virtual environment and run import
 source .venv/bin/activate
-python scripts/import.py "$@"
+python import.py "$@"

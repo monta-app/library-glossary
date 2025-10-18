@@ -12,8 +12,8 @@ glossary/
 │   └── outputs/
 │       ├── glossary.sqlite    # SQLite database (generated)
 │       └── glossary.md        # Markdown file (generated)
-├── scripts/                    # Data processing
-│   └── import.py              # Unified import script
+├── import.py                   # Unified import script
+├── import.sh                   # Wrapper script (auto-activates venv)
 ├── python/                     # Python package
 │   └── monta_glossary/
 ├── kotlin/                     # Kotlin package
@@ -48,7 +48,7 @@ Place your master glossary file at `files/inputs/monta_raw_glossary.xlsx`, then:
 
 # Option 2: Activate venv manually
 source .venv/bin/activate
-python scripts/import.py --markdown --alternatives
+python import.py --markdown --alternatives
 ```
 
 ## 📥 Data Source
