@@ -1,5 +1,9 @@
 # EV Charging Glossary
 
+> **⚠️ NOTE: This file is currently NOT used in the import process.**
+> This is a reference document only. The active glossary source is `monta_raw_glossary.xlsx`.
+> If you want to incorporate these terms, they need to be added to the Excel file and re-imported.
+
 A comprehensive glossary of electric vehicle charging terms and concepts.
 
 Total terms: 32

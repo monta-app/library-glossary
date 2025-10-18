@@ -5,14 +5,36 @@ import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.*
 import java.io.File
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
+
+data class TestCase(
+    val name: String,
+    val description: String,
+    val input: String,
+    val expected: String
+)
+
+data class TestFixtures(
+    val normalize_text_tests: List<TestCase>,
+    val edge_cases: List<TestCase>
+)
 
 class GlossaryTest {
     private lateinit var glossary: Glossary
+    private lateinit var testFixtures: TestFixtures
     private val dbPath = "../files/glossary.sqlite"
+    private val fixturesPath = "../files/test-fixtures.json"
 
     @BeforeEach
     fun setup() {
         glossary = Glossary(dbPath)
+
+        // Load test fixtures
+        val fixturesFile = File(fixturesPath)
+        val fixturesJson = fixturesFile.readText()
+        val gson = Gson()
+        testFixtures = gson.fromJson(fixturesJson, TestFixtures::class.java)
     }
 
     @AfterEach
@@ -134,5 +156,31 @@ class GlossaryTest {
         val terms = glossary.getAll()
         assertTrue(terms.isNotEmpty())
         assertTrue(terms.all { it.term.isNotEmpty() })
+    }
+
+    @Test
+    fun `normalizeText should pass all fixture test cases`() {
+        for (testCase in testFixtures.normalize_text_tests) {
+            val result = glossary.normalizeText(testCase.input)
+            assertEquals(
+                testCase.expected,
+                result,
+                "Test '${testCase.name}' failed: expected '${testCase.expected}', got '$result'"
+            )
+        }
+    }
+
+    @Test
+    fun `normalizeText should pass edge case tests`() {
+        for (testCase in testFixtures.edge_cases) {
+            if (testCase.input.isNotEmpty()) {
+                val result = glossary.normalizeText(testCase.input)
+                assertEquals(
+                    testCase.expected,
+                    result,
+                    "Edge case '${testCase.name}' failed: expected '${testCase.expected}', got '$result'"
+                )
+            }
+        }
     }
 }

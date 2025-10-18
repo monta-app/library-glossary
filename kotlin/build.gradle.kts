@@ -13,6 +13,7 @@ repositories {
 dependencies {
     implementation("org.xerial:sqlite-jdbc:3.43.0.0")
     testImplementation(kotlin("test"))
+    testImplementation("com.google.code.gson:gson:2.10.1")
 }
 
 kotlin {

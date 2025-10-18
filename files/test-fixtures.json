@@ -1,0 +1,115 @@
+{
+  "description": "Shared test fixtures for glossary normalization tests across all implementations",
+  "test_terms": [
+    {
+      "term": "charging station",
+      "alternative_words": ["charge point", "charger", "charging point"],
+      "case_sensitive": false,
+      "description": "EV charging infrastructure"
+    },
+    {
+      "term": "electric vehicle",
+      "alternative_words": ["EV", "e-car", "electric car"],
+      "case_sensitive": false,
+      "description": "Battery powered vehicle"
+    },
+    {
+      "term": "API",
+      "alternative_words": ["api", "Api"],
+      "case_sensitive": true,
+      "description": "Application Programming Interface"
+    }
+  ],
+  "normalize_text_tests": [
+    {
+      "name": "empty_text",
+      "description": "Should handle empty text",
+      "input": "",
+      "expected": ""
+    },
+    {
+      "name": "no_glossary_terms",
+      "description": "Should preserve text without glossary terms",
+      "input": "This is just random text without any specific terminology",
+      "expected": "This is just random text without any specific terminology"
+    },
+    {
+      "name": "simple_replacement",
+      "description": "Should replace alternative with canonical term",
+      "input": "The charge point is ready",
+      "expected": "The charging station is ready"
+    },
+    {
+      "name": "multiple_occurrences",
+      "description": "Should replace multiple occurrences of the same term",
+      "input": "The charger is ready. Another charger is over there.",
+      "expected": "The charging station is ready. Another charging station is over there."
+    },
+    {
+      "name": "case_insensitive",
+      "description": "Should handle case insensitive matching",
+      "input": "The CHARGE POINT is ready",
+      "expected": "The charging station is ready"
+    },
+    {
+      "name": "case_sensitive",
+      "description": "Should respect case sensitive terms",
+      "input": "The API is ready",
+      "expected": "The API is ready"
+    },
+    {
+      "name": "case_sensitive_lowercase",
+      "description": "Should replace case sensitive alternatives",
+      "input": "The api is ready",
+      "expected": "The API is ready"
+    },
+    {
+      "name": "preserve_surrounding_text",
+      "description": "Should preserve text before and after replacements",
+      "input": "Before the charger after",
+      "expected": "Before the charging station after"
+    },
+    {
+      "name": "word_boundaries",
+      "description": "Should respect word boundaries and not replace partial matches",
+      "input": "charging charges charged recharger",
+      "expected": "charging charges charged recharger"
+    },
+    {
+      "name": "special_characters",
+      "description": "Should handle special regex characters",
+      "input": "Cost: $100 (test) [array] {object}",
+      "expected": "Cost: $100 (test) [array] {object}"
+    },
+    {
+      "name": "mixed_terms",
+      "description": "Should replace multiple different terms",
+      "input": "The EV uses a charge point for charging",
+      "expected": "The electric vehicle uses a charging station for charging"
+    },
+    {
+      "name": "sentence_case",
+      "description": "Should handle terms at sentence start",
+      "input": "Charger is ready. The e-car arrived.",
+      "expected": "charging station is ready. The electric vehicle arrived."
+    }
+  ],
+  "edge_cases": [
+    {
+      "name": "null_or_none",
+      "description": "Implementation should handle null/None gracefully (implementation-specific)"
+    },
+    {
+      "name": "unicode_text",
+      "description": "Should handle unicode characters",
+      "input": "The charger costs €50 or ¥500",
+      "expected": "The charging station costs €50 or ¥500"
+    },
+    {
+      "name": "newlines",
+      "description": "Should handle text with newlines",
+      "input": "First charger\nSecond charge point",
+      "expected": "First charging station\nSecond charging station"
+    }
+  ]
+}

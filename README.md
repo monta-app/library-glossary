@@ -8,18 +8,25 @@ A multi-language repository for managing and accessing Monta's terminology gloss
 glossary/
 ├── files/                      # Data files
 │   ├── inputs/
-│   │   └── monta_raw_glossary.xlsx  # Master glossary (input)
-│   └── outputs/
-│       ├── glossary.sqlite    # SQLite database (generated)
-│       └── glossary.md        # Markdown file (generated)
+│   │   ├── monta_raw_glossary.xlsx  # Master glossary (input)
+│   │   └── external_glossary.md     # Reference only (not imported)
+│   ├── outputs/
+│   │   ├── glossary.sqlite          # SQLite database (generated)
+│   │   └── glossary.md              # Markdown file (generated)
+│   └── test-fixtures.json           # Shared test data for all implementations
 ├── import.py                   # Unified import script
 ├── import.sh                   # Wrapper script (auto-activates venv)
+├── setup_test_data.py          # Verify test data in database
 ├── python/                     # Python package
-│   └── monta_glossary/
+│   ├── monta_glossary/
+│   └── test_glossary.py        # Test suite with fixtures
 ├── kotlin/                     # Kotlin package
-│   └── src/main/kotlin/com/monta/glossary/
+│   └── src/
+│       ├── main/kotlin/com/monta/glossary/
+│       └── test/kotlin/com/monta/glossary/  # Test suite with fixtures
 └── typescript/                 # TypeScript package
-    └── src/
+    ├── src/
+    └── test/                   # Test suite with fixtures
 ```
 
 ## 🚀 Quick Start
@@ -405,10 +412,12 @@ echo "OPENAI_API_KEY=sk-your-key-here" > .env
 
 ## 🧪 Running Tests
 
+All three implementations share the same test data from `files/test-fixtures.json`, ensuring consistent behavior across languages.
+
 ### Python
 ```bash
 cd python
-pytest test_glossary.py
+pytest test_glossary.py -v
 ```
 
 ### TypeScript
@@ -423,6 +432,15 @@ npm test
 cd kotlin
 ./gradlew test
 ```
+
+### Test Coverage
+
+All implementations test:
+- Text normalization (replacing alternatives with canonical terms)
+- Word boundaries and case sensitivity
+- Special character handling
+- Basic CRUD operations (get, search, count)
+- Shared test fixtures ensure consistency across all languages
 
 ## 💡 Common Use Cases
 
@@ -529,9 +547,4 @@ Copyright © Monta
 3. Run tests in all packages
 4. Commit changes
 
----
-
-**Additional Documentation:**
-- [STRUCTURE.md](STRUCTURE.md) - Detailed architecture
-- [QUICKSTART.md](QUICKSTART.md) - Fast reference
-- Package-specific READMEs in `python/`, `kotlin/`, `typescript/` directories
+For package-specific documentation, see the README files in `python/`, `kotlin/`, and `typescript/` directories.

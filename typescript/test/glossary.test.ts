@@ -1,12 +1,29 @@
 import { Glossary } from '../src/index';
 import * as path from 'path';
+import * as fs from 'fs';
+
+interface TestCase {
+  name: string;
+  description: string;
+  input: string;
+  expected: string;
+}
+
+interface TestFixtures {
+  normalize_text_tests: TestCase[];
+  edge_cases: TestCase[];
+}
 
 describe('Glossary', () => {
   let glossary: Glossary;
+  let testFixtures: TestFixtures;
   const dbPath = path.join(__dirname, '..', '..', '..', 'files', 'glossary.sqlite');
+  const fixturesPath = path.join(__dirname, '..', '..', '..', 'files', 'test-fixtures.json');
 
   beforeAll(() => {
     glossary = new Glossary(dbPath);
+    const fixturesData = fs.readFileSync(fixturesPath, 'utf-8');
+    testFixtures = JSON.parse(fixturesData);
   });
 
   afterAll(() => {
@@ -91,6 +108,24 @@ describe('Glossary', () => {
     it('should count terms', () => {
       const count = glossary.count();
       expect(count).toBeGreaterThan(0);
+    });
+  });
+
+  describe('normalizeText with fixtures', () => {
+    it('should pass all fixture test cases', () => {
+      testFixtures.normalize_text_tests.forEach((testCase) => {
+        const result = glossary.normalizeText(testCase.input);
+        expect(result).toBe(testCase.expected);
+      });
+    });
+
+    it('should pass edge case tests', () => {
+      testFixtures.edge_cases.forEach((testCase) => {
+        if (testCase.input && testCase.expected) {
+          const result = glossary.normalizeText(testCase.input);
+          expect(result).toBe(testCase.expected);
+        }
+      });
     });
   });
 });

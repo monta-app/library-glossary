@@ -2,6 +2,7 @@
 
 import pytest
 import os
+import json
 from monta_glossary import Glossary
 
 
@@ -14,6 +15,16 @@ def glossary():
     gloss = Glossary(db_path)
     yield gloss
     gloss.close()
+
+
+@pytest.fixture
+def test_fixtures():
+    """Load test fixtures from JSON file."""
+    fixtures_path = os.path.join(
+        os.path.dirname(__file__), "..", "..", "files", "test-fixtures.json"
+    )
+    with open(fixtures_path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
 class TestNormalizeText:
@@ -120,3 +131,26 @@ class TestBasicFunctionality:
         terms = glossary.get_all()
         assert len(terms) > 0
         assert all(hasattr(t, "term") for t in terms)
+
+
+class TestNormalizeTextWithFixtures:
+    """Test normalize_text using shared test fixtures."""
+
+    def test_all_fixtures(self, glossary, test_fixtures):
+        """Run all normalize_text tests from fixtures."""
+        for test_case in test_fixtures["normalize_text_tests"]:
+            result = glossary.normalize_text(test_case["input"])
+            assert result == test_case["expected"], (
+                f"Test '{test_case['name']}' failed: "
+                f"expected '{test_case['expected']}', got '{result}'"
+            )
+
+    def test_edge_cases(self, glossary, test_fixtures):
+        """Run edge case tests from fixtures."""
+        for test_case in test_fixtures["edge_cases"]:
+            if "input" in test_case and "expected" in test_case:
+                result = glossary.normalize_text(test_case["input"])
+                assert result == test_case["expected"], (
+                    f"Edge case '{test_case['name']}' failed: "
+                    f"expected '{test_case['expected']}', got '{result}'"
+                )
