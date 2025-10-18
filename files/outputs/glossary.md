@@ -5,6 +5,8 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 ## AC
 **Tag:** industry
 
+**Alternative words:** AC Charging Point, AC Charger, AC Charging Station, AC Power Source, Alternating Current
+
 **Description:** Type of charge point with slower charging speeds, typically found in home, workplace, or public settings
 
 **Translations:**
@@ -25,6 +27,8 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 
 ## AFIR 
 **Tag:** industry
+
+**Alternative words:** Alternative Fuels Regulation, AFIR Standards, AFIR Guidelines, AFIR Protocols, Alternative Fuels Infrastructure Rules
 
 **Description:** Acronym for Alternative Fuels Infrastructure Regulation (AFIR) . Source and target capitalization intact.
 
@@ -47,6 +51,8 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 ## API
 **Tag:** product
 
+**Alternative words:** Application Programming Interface, Data Integration Interface, System Integration API, Public Integration Interface, Public Interface
+
 **Description:** Monta’s Public API allows end customers to integrate their Monta-connected charge points and EVs with any system to use the data. For example, triggering a home charge based on conditions like house meter or solar energy
 
 **Translations:**
@@ -68,6 +74,8 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 ## API key
 **Tag:** industry
 
+**Alternative words:** API Identifier, API Access Token, API Secret Key, Application Programming Interface Key, API Credential
+
 **Description:** A unique identifier, that  serves as a "password" to validate the client's identity when making requests to the API.
 
 **Translations:**
@@ -87,6 +95,8 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 
 ## Administrator
 **Tag:** product
+
+**Alternative words:** Manager, Account Holder, Superuser, Admin, System Operator
 
 **Description:** Role access functionality for Business plan users in HUB, enabling to diversify access permissions for team members within an account. Admin account has a full access and full functionaltity available. 
 

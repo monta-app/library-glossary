@@ -64,6 +64,153 @@ The original Monta raw glossary is maintained in Google Sheets:
 
 Export this spreadsheet as Excel (`.xlsx`) and place it at `files/inputs/monta_raw_glossary.xlsx` before running the import.
 
+## 📦 Integration Guide
+
+### Choose Your Integration Method
+
+**Decision tree:**
+- 🏢 Multiple projects need glossary → **Git Submodule**
+- 🚀 Single project, auto updates → **Direct Git Install**
+- 🔧 Custom setup or offline → **Local Copy**
+- 💻 Development/testing → **Local Path Reference**
+
+### Method 1: Git Submodule (Recommended for Teams)
+
+**Why:** Keep glossary in sync across projects, easy updates, single source of truth.
+
+```bash
+# Add as submodule
+cd your-project
+git submodule add git@github.com:monta-app/library-glossary.git libs/glossary
+git submodule update --init --recursive
+
+# Install the package
+pip install -e libs/glossary/python  # Python
+npm install libs/glossary/typescript  # TypeScript
+```
+
+**Add to dependencies:**
+```txt
+# requirements.txt (Python)
+-e libs/glossary/python
+
+# package.json (TypeScript)
+{
+  "dependencies": {
+    "@monta/glossary": "file:libs/glossary/typescript"
+  }
+}
+
+# build.gradle.kts (Kotlin)
+dependencies {
+    implementation(files("libs/glossary/kotlin"))
+}
+```
+
+**Team workflow:**
+```bash
+# First time setup
+git clone your-project
+git submodule update --init --recursive
+pip install -r requirements.txt
+
+# Update glossary
+cd libs/glossary && git pull origin main && cd ../..
+git add libs/glossary
+git commit -m "Update glossary"
+
+# Team members sync
+git pull && git submodule update --remote
+```
+
+### Method 2: Direct Git Install
+
+**Why:** Simple, automatically gets latest version.
+
+```bash
+# Python
+pip install git+ssh://git@github.com/monta-app/library-glossary.git#subdirectory=python
+
+# TypeScript
+npm install git+ssh://git@github.com/monta-app/library-glossary.git#subdirectory=typescript
+```
+
+Add to dependencies:
+```txt
+# requirements.txt
+git+ssh://git@github.com/monta-app/library-glossary.git#subdirectory=python
+
+# package.json
+{
+  "dependencies": {
+    "@monta/glossary": "git+ssh://git@github.com/monta-app/library-glossary.git#subdirectory=typescript"
+  }
+}
+```
+
+### Method 3: Local Copy
+
+**Why:** Custom setups, offline access, or when you need just the database.
+
+```bash
+# Copy just the database
+cp /path/to/glossary/files/outputs/glossary.sqlite your-project/data/
+
+# Or copy entire package
+cp -r /path/to/glossary/python/monta_glossary your-project/libs/
+```
+
+### Method 4: Local Path Reference (Development)
+
+**Why:** Perfect for local development, changes reflected immediately.
+
+```bash
+# Python
+pip install -e /path/to/glossary/python
+
+# Or in requirements.txt
+-e /path/to/glossary/python
+```
+
+```json
+// TypeScript package.json
+{
+  "dependencies": {
+    "@monta/glossary": "file:../path/to/glossary/typescript"
+  }
+}
+```
+
+```kotlin
+// Kotlin build.gradle.kts
+dependencies {
+    implementation(files("/path/to/glossary/kotlin"))
+}
+```
+
+### CI/CD Integration
+
+**GitHub Actions:**
+```yaml
+- uses: actions/checkout@v3
+  with:
+    submodules: recursive  # For submodules
+
+- name: Install dependencies
+  run: pip install -r requirements.txt
+```
+
+**Docker:**
+```dockerfile
+FROM python:3.9
+WORKDIR /app
+COPY . .
+RUN git submodule update --init --recursive
+RUN pip install -r requirements.txt
+# Copy database to container
+RUN cp libs/glossary/files/outputs/glossary.sqlite /app/data/
+```
+
 ## 📦 Using in Your Projects
 
 ### Python
