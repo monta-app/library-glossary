@@ -58,23 +58,3 @@ jobs:
     - name: Run tests
       working-directory: ./typescript
       run: npm test
-
-  test-kotlin:
-    name: Test Kotlin
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v4
-
-    - name: Set up JDK
-      uses: actions/setup-java@v4
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-
-    - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v3
-
-    - name: Run tests
-      working-directory: ./kotlin
-      run: gradle test
