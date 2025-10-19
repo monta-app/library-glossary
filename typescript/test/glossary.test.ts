@@ -17,8 +17,8 @@ interface TestFixtures {
 describe('Glossary', () => {
   let glossary: Glossary;
   let testFixtures: TestFixtures;
-  const dbPath = path.join(__dirname, '..', '..', '..', 'files', 'outputs', 'glossary.sqlite');
-  const fixturesPath = path.join(__dirname, '..', '..', '..', 'files', 'test-fixtures.json');
+  const dbPath = path.join(__dirname, '..', '..', 'files', 'outputs', 'glossary.sqlite');
+  const fixturesPath = path.join(__dirname, '..', '..', 'files', 'test-fixtures.json');
 
   beforeAll(() => {
     glossary = new Glossary(dbPath);
