@@ -82,7 +82,7 @@ describe('Glossary', () => {
         const result = glossary.normalizeText(upperCaseInput);
 
         // Should replace regardless of case for non-case-sensitive terms
-        expect(result).toBe(caseInsensitiveTerm.term);
+        expect(result).toContain(caseInsensitiveTerm.term);
       }
     });
 

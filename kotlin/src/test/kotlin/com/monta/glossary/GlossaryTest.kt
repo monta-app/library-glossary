@@ -11,8 +11,8 @@ import com.google.gson.reflect.TypeToken
 data class TestCase(
     val name: String,
     val description: String,
-    val input: String,
-    val expected: String
+    val input: String?,
+    val expected: String?
 )
 
 data class TestFixtures(
@@ -173,7 +173,7 @@ class GlossaryTest {
     @Test
     fun `normalizeText should pass edge case tests`() {
         for (testCase in testFixtures.edge_cases) {
-            if (testCase.input.isNotEmpty()) {
+            if (testCase.input != null && testCase.expected != null) {
                 val result = glossary.normalizeText(testCase.input)
                 assertEquals(
                     testCase.expected,
