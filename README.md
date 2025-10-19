@@ -16,7 +16,6 @@ glossary/
 │   └── test-fixtures.json           # Shared test data for all implementations
 ├── import.py                   # Unified import script
 ├── import.sh                   # Wrapper script (auto-activates venv)
-├── setup_test_data.py          # Verify test data in database
 ├── python/                     # Python package
 │   ├── monta_glossary/
 │   └── test_glossary.py        # Test suite with fixtures
