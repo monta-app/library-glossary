@@ -23,7 +23,7 @@ data class TestFixtures(
 class GlossaryTest {
     private lateinit var glossary: Glossary
     private lateinit var testFixtures: TestFixtures
-    private val dbPath = "../files/glossary.sqlite"
+    private val dbPath = "../files/outputs/glossary.sqlite"
     private val fixturesPath = "../files/test-fixtures.json"
 
     @BeforeEach

@@ -10,7 +10,7 @@ from monta_glossary import Glossary
 def glossary():
     """Create a glossary instance for testing."""
     db_path = os.path.join(
-        os.path.dirname(__file__), "..", "..", "files", "glossary.sqlite"
+        os.path.dirname(__file__), "..", "files", "outputs", "glossary.sqlite"
     )
     gloss = Glossary(db_path)
     yield gloss
@@ -21,7 +21,7 @@ def glossary():
 def test_fixtures():
     """Load test fixtures from JSON file."""
     fixtures_path = os.path.join(
-        os.path.dirname(__file__), "..", "..", "files", "test-fixtures.json"
+        os.path.dirname(__file__), "..", "files", "test-fixtures.json"
     )
     with open(fixtures_path, "r", encoding="utf-8") as f:
         return json.load(f)

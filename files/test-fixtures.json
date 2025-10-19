@@ -2,8 +2,8 @@
   "description": "Shared test fixtures for glossary normalization tests across all implementations",
   "test_terms": [
     {
-      "term": "charging station",
-      "alternative_words": ["charge point", "charger", "charging point"],
+      "term": "charge point",
+      "alternative_words": ["charging station", "charger", "charging point"],
       "case_sensitive": false,
       "description": "EV charging infrastructure"
     },
@@ -36,20 +36,20 @@
     {
       "name": "simple_replacement",
       "description": "Should replace alternative with canonical term",
-      "input": "The charge point is ready",
-      "expected": "The charging station is ready"
+      "input": "The charging station is ready",
+      "expected": "The charge point is ready"
     },
     {
       "name": "multiple_occurrences",
       "description": "Should replace multiple occurrences of the same term",
       "input": "The charger is ready. Another charger is over there.",
-      "expected": "The charging station is ready. Another charging station is over there."
+      "expected": "The charge point is ready. Another charge point is over there."
     },
     {
       "name": "case_insensitive",
       "description": "Should handle case insensitive matching",
-      "input": "The CHARGE POINT is ready",
-      "expected": "The charging station is ready"
+      "input": "The CHARGING STATION is ready",
+      "expected": "The charge point is ready"
     },
     {
       "name": "case_sensitive",
@@ -67,7 +67,7 @@
       "name": "preserve_surrounding_text",
       "description": "Should preserve text before and after replacements",
       "input": "Before the charger after",
-      "expected": "Before the charging station after"
+      "expected": "Before the charge point after"
     },
     {
       "name": "word_boundaries",
@@ -84,14 +84,14 @@
     {
       "name": "mixed_terms",
       "description": "Should replace multiple different terms",
-      "input": "The EV uses a charge point for charging",
-      "expected": "The electric vehicle uses a charging station for charging"
+      "input": "The EV uses a charging station for charging",
+      "expected": "The electric vehicle uses a charge point for charging"
     },
     {
       "name": "sentence_case",
       "description": "Should handle terms at sentence start",
       "input": "Charger is ready. The e-car arrived.",
-      "expected": "charging station is ready. The electric vehicle arrived."
+      "expected": "charge point is ready. The electric vehicle arrived."
     }
   ],
   "edge_cases": [
@@ -103,13 +103,13 @@
       "name": "unicode_text",
       "description": "Should handle unicode characters",
       "input": "The charger costs €50 or ¥500",
-      "expected": "The charging station costs €50 or ¥500"
+      "expected": "The charge point costs €50 or ¥500"
     },
     {
       "name": "newlines",
       "description": "Should handle text with newlines",
-      "input": "First charger\nSecond charge point",
-      "expected": "First charging station\nSecond charging station"
+      "input": "First charger\nSecond charging station",
+      "expected": "First charge point\nSecond charge point"
     }
   ]
 }

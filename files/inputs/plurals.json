@@ -1,0 +1,902 @@
+{
+  "version": "1.0",
+  "description": "Auto-generated and manual plural forms for glossary terms. Plurals are applied as alternatives during text normalization.",
+  "plurals": {
+    "api key": {
+      "singular": "api key",
+      "plural": "api keys"
+    },
+    "administrator": {
+      "singular": "administrator",
+      "plural": "administrators"
+    },
+    "advenir": {
+      "singular": "advenir",
+      "plural": "advenirs"
+    },
+    "alternative fuels infrastructure regulation": {
+      "singular": "alternative fuels infrastructure regulation",
+      "plural": "alternative fuels infrastructure regulations"
+    },
+    "app store": {
+      "singular": "app store",
+      "plural": "app stores"
+    },
+    "app clips": {
+      "singular": "app clips",
+      "plural": "app clip"
+    },
+    "auto withdrawal": {
+      "singular": "auto withdrawal",
+      "plural": "auto withdrawals"
+    },
+    "autocharge": {
+      "singular": "autocharge",
+      "plural": "autocharges"
+    },
+    "autostart": {
+      "singular": "autostart",
+      "plural": "autostarts"
+    },
+    "basic": {
+      "singular": "basic",
+      "plural": "basics"
+    },
+    "ct clamp": {
+      "singular": "ct clamp",
+      "plural": "ct clamps"
+    },
+    "california pricing": {
+      "singular": "california pricing",
+      "plural": "california pricings"
+    },
+    "data pipelines": {
+      "singular": "data pipelines",
+      "plural": "data pipeline"
+    },
+    "data warehouse": {
+      "singular": "data warehouse",
+      "plural": "data warehouses"
+    },
+    "data+": {
+      "singular": "data+",
+      "plural": "data+s"
+    },
+    "enterprise": {
+      "singular": "enterprise",
+      "plural": "enterprises"
+    },
+    "finance+": {
+      "singular": "finance+",
+      "plural": "finance+s"
+    },
+    "free": {
+      "singular": "free",
+      "plural": "frees"
+    },
+    "growth+": {
+      "singular": "growth+",
+      "plural": "growth+s"
+    },
+    "hardware portal": {
+      "singular": "hardware portal",
+      "plural": "hardware portals"
+    },
+    "help centre": {
+      "singular": "help centre",
+      "plural": "help centres"
+    },
+    "hub": {
+      "singular": "hub",
+      "plural": "hubs"
+    },
+    "hypercare": {
+      "singular": "hypercare",
+      "plural": "hypercares"
+    },
+    "ice vehicle": {
+      "singular": "ice vehicle",
+      "plural": "ice vehicles"
+    },
+    "in-between charges": {
+      "singular": "in-between charges",
+      "plural": "in-between chargeses"
+    },
+    "insights": {
+      "singular": "insights",
+      "plural": "insightss"
+    },
+    "instant app": {
+      "singular": "instant app",
+      "plural": "instant apps"
+    },
+    "made to move": {
+      "singular": "made to move",
+      "plural": "made to moves"
+    },
+    "manager": {
+      "singular": "manager",
+      "plural": "managers"
+    },
+    "map": {
+      "singular": "map",
+      "plural": "maps"
+    },
+    "me": {
+      "singular": "me",
+      "plural": "us"
+    },
+    "monta control": {
+      "singular": "monta control",
+      "plural": "monta controls"
+    },
+    "noc agent": {
+      "singular": "noc agent",
+      "plural": "noc agents"
+    },
+    "ocpi tariff ": {
+      "singular": "ocpi tariff ",
+      "plural": "ocpi tariffs"
+    },
+    "ocpp toolkit": {
+      "singular": "ocpp toolkit",
+      "plural": "ocpp toolkits"
+    },
+    "open charge point protocol": {
+      "singular": "open charge point protocol",
+      "plural": "open charge point protocols"
+    },
+    "plug&charge": {
+      "singular": "plug&charge",
+      "plural": "plug&charges"
+    },
+    "powerbank": {
+      "singular": "powerbank",
+      "plural": "powerbanks"
+    },
+    "pro": {
+      "singular": "pro",
+      "plural": "pros"
+    },
+    "professional ": {
+      "singular": "professional ",
+      "plural": "professionals "
+    },
+    "refer & earn": {
+      "singular": "refer & earn",
+      "plural": "refer & earns"
+    },
+    "sepa direct debit": {
+      "singular": "sepa direct debit",
+      "plural": "sepa direct debits"
+    },
+    "shop": {
+      "singular": "shop",
+      "plural": "shops"
+    },
+    "single sign-on": {
+      "singular": "single sign-on",
+      "plural": "single sign-ons"
+    },
+    "stationid": {
+      "singular": "stationid",
+      "plural": "stationids"
+    },
+    "stay in charge": {
+      "singular": "stay in charge",
+      "plural": "stay in charges"
+    },
+    "supporter": {
+      "singular": "supporter",
+      "plural": "supporters"
+    },
+    "vat export ": {
+      "singular": "vat export ",
+      "plural": "vat exports"
+    },
+    "account": {
+      "singular": "account",
+      "plural": "accounts"
+    },
+    "additional fee": {
+      "singular": "additional fee",
+      "plural": "additional fees"
+    },
+    "alert": {
+      "singular": "alert",
+      "plural": "alerts"
+    },
+    "alert group": {
+      "singular": "alert group",
+      "plural": "alert groups"
+    },
+    "auto refill": {
+      "singular": "auto refill",
+      "plural": "auto refills"
+    },
+    "automatic reading": {
+      "singular": "automatic reading",
+      "plural": "automatic readings"
+    },
+    "available": {
+      "singular": "available",
+      "plural": "availables"
+    },
+    "balance": {
+      "singular": "balance",
+      "plural": "balances"
+    },
+    "battery capacity": {
+      "singular": "battery capacity",
+      "plural": "battery capacities"
+    },
+    "battery level": {
+      "singular": "battery level",
+      "plural": "battery levels"
+    },
+    "bilateral agreement": {
+      "singular": "bilateral agreement",
+      "plural": "bilateral agreements"
+    },
+    "busy": {
+      "singular": "busy",
+      "plural": "busies"
+    },
+    "certified electronic mail": {
+      "singular": "certified electronic mail",
+      "plural": "certified electronic mails"
+    },
+    "charge amount": {
+      "singular": "charge amount",
+      "plural": "charge amounts"
+    },
+    "charge discount": {
+      "singular": "charge discount",
+      "plural": "charge discounts"
+    },
+    "charge history": {
+      "singular": "charge history",
+      "plural": "charge histories"
+    },
+    "charge key": {
+      "singular": "charge key",
+      "plural": "charge keys"
+    },
+    "charge limit": {
+      "singular": "charge limit",
+      "plural": "charge limits"
+    },
+    "charge point": {
+      "singular": "charge point",
+      "plural": "charge points"
+    },
+    "charge point management system": {
+      "singular": "charge point management system",
+      "plural": "charge point management systems"
+    },
+    "charge point operator": {
+      "singular": "charge point operator",
+      "plural": "charge point operators"
+    },
+    "charge point settings": {
+      "singular": "charge point settings",
+      "plural": "charge point setting"
+    },
+    "charge point subscription": {
+      "singular": "charge point subscription",
+      "plural": "charge point subscriptions"
+    },
+    "charge power": {
+      "singular": "charge power",
+      "plural": "charge powers"
+    },
+    "charge price": {
+      "singular": "charge price",
+      "plural": "charge prices"
+    },
+    "charge profile": {
+      "singular": "charge profile",
+      "plural": "charge profiles"
+    },
+    "charge rate": {
+      "singular": "charge rate",
+      "plural": "charge rates"
+    },
+    "charge session": {
+      "singular": "charge session",
+      "plural": "charge sessions"
+    },
+    "charger": {
+      "singular": "charger",
+      "plural": "chargers"
+    },
+    "charging": {
+      "singular": "charging",
+      "plural": "chargings"
+    },
+    "charging app": {
+      "singular": "charging app",
+      "plural": "charging apps"
+    },
+    "charging cable": {
+      "singular": "charging cable",
+      "plural": "charging cables"
+    },
+    "charging fee": {
+      "singular": "charging fee",
+      "plural": "charging fees"
+    },
+    "charging point": {
+      "singular": "charging point",
+      "plural": "charging points"
+    },
+    "charging rule": {
+      "singular": "charging rule",
+      "plural": "charging rules"
+    },
+    "charging schedule": {
+      "singular": "charging schedule",
+      "plural": "charging schedules"
+    },
+    "charging site": {
+      "singular": "charging site",
+      "plural": "charging sites"
+    },
+    "charging speed": {
+      "singular": "charging speed",
+      "plural": "charging speeds"
+    },
+    "charging station": {
+      "singular": "charging station",
+      "plural": "charging stations"
+    },
+    "chat": {
+      "singular": "chat",
+      "plural": "chats"
+    },
+    "client secret": {
+      "singular": "client secret",
+      "plural": "client secrets"
+    },
+    "company car": {
+      "singular": "company car",
+      "plural": "company cars"
+    },
+    "company registration number ": {
+      "singular": "company registration number ",
+      "plural": "company registration numbers"
+    },
+    "connect": {
+      "singular": "connect",
+      "plural": "connects"
+    },
+    "connector": {
+      "singular": "connector",
+      "plural": "connectors"
+    },
+    "cost group": {
+      "singular": "cost group",
+      "plural": "cost groups"
+    },
+    "credit": {
+      "singular": "credit",
+      "plural": "credits"
+    },
+    "credit note": {
+      "singular": "credit note",
+      "plural": "credit notes"
+    },
+    "current": {
+      "singular": "current",
+      "plural": "currents"
+    },
+    "custom subscription": {
+      "singular": "custom subscription",
+      "plural": "custom subscriptions"
+    },
+    "customer success manager": {
+      "singular": "customer success manager",
+      "plural": "customer success managers"
+    },
+    "deep link": {
+      "singular": "deep link",
+      "plural": "deep links"
+    },
+    "delayed start": {
+      "singular": "delayed start",
+      "plural": "delayed starts"
+    },
+    "deposit": {
+      "singular": "deposit",
+      "plural": "deposits"
+    },
+    "distribution system operator (dso)": {
+      "singular": "distribution system operator (dso)",
+      "plural": "distribution system operator (dso)s"
+    },
+    "dynamic load balancing": {
+      "singular": "dynamic load balancing",
+      "plural": "dynamic load balancings"
+    },
+    "dynamic price": {
+      "singular": "dynamic price",
+      "plural": "dynamic prices"
+    },
+    "e-mobility service provider": {
+      "singular": "e-mobility service provider",
+      "plural": "e-mobility service providers"
+    },
+    "electricity costs": {
+      "singular": "electricity costs",
+      "plural": "electricity cost"
+    },
+    "electricity price": {
+      "singular": "electricity price",
+      "plural": "electricity prices"
+    },
+    "electricity tax refund ": {
+      "singular": "electricity tax refund ",
+      "plural": "electricity tax refunds"
+    },
+    "electricity tax refund subscription": {
+      "singular": "electricity tax refund subscription",
+      "plural": "electricity tax refund subscriptions"
+    },
+    "end time": {
+      "singular": "end time",
+      "plural": "end times"
+    },
+    "excise tax": {
+      "singular": "excise tax",
+      "plural": "excise taxes"
+    },
+    "fail-safe": {
+      "singular": "fail-safe",
+      "plural": "fail-safes"
+    },
+    "fair price": {
+      "singular": "fair price",
+      "plural": "fair prices"
+    },
+    "fallback price": {
+      "singular": "fallback price",
+      "plural": "fallback prices"
+    },
+    "fee": {
+      "singular": "fee",
+      "plural": "fees"
+    },
+    "fee per minute": {
+      "singular": "fee per minute",
+      "plural": "fee per minutes"
+    },
+    "firmware": {
+      "singular": "firmware",
+      "plural": "firmwares"
+    },
+    "fixed price": {
+      "singular": "fixed price",
+      "plural": "fixed prices"
+    },
+    "fleet": {
+      "singular": "fleet",
+      "plural": "fleets"
+    },
+    "forecast": {
+      "singular": "forecast",
+      "plural": "forecasts"
+    },
+    "funds": {
+      "singular": "funds",
+      "plural": "fund"
+    },
+    "fuse protection": {
+      "singular": "fuse protection",
+      "plural": "fuse protections"
+    },
+    "grid": {
+      "singular": "grid",
+      "plural": "grids"
+    },
+    "hardware": {
+      "singular": "hardware",
+      "plural": "hardwares"
+    },
+    "hardware agnostic": {
+      "singular": "hardware agnostic",
+      "plural": "hardware agnostics"
+    },
+    "hardware manufacturer": {
+      "singular": "hardware manufacturer",
+      "plural": "hardware manufacturers"
+    },
+    "home charger": {
+      "singular": "home charger",
+      "plural": "home chargers"
+    },
+    "home charging": {
+      "singular": "home charging",
+      "plural": "home chargings"
+    },
+    "home energy": {
+      "singular": "home energy",
+      "plural": "home energies"
+    },
+    "housing association": {
+      "singular": "housing association",
+      "plural": "housing associations"
+    },
+    "idle fee": {
+      "singular": "idle fee",
+      "plural": "idle fees"
+    },
+    "idle time": {
+      "singular": "idle time",
+      "plural": "idle times"
+    },
+    "incident": {
+      "singular": "incident",
+      "plural": "incidents"
+    },
+    "installation": {
+      "singular": "installation",
+      "plural": "installations"
+    },
+    "installer": {
+      "singular": "installer",
+      "plural": "installers"
+    },
+    "installer job": {
+      "singular": "installer job",
+      "plural": "installer jobs"
+    },
+    "integration": {
+      "singular": "integration",
+      "plural": "integrations"
+    },
+    "invoice": {
+      "singular": "invoice",
+      "plural": "invoices"
+    },
+    "join code": {
+      "singular": "join code",
+      "plural": "join codes"
+    },
+    "kw effect": {
+      "singular": "kw effect",
+      "plural": "kw effects"
+    },
+    "kwh price": {
+      "singular": "kwh price",
+      "plural": "kwh prices"
+    },
+    "load balancing": {
+      "singular": "load balancing",
+      "plural": "load balancings"
+    },
+    "load management ": {
+      "singular": "load management ",
+      "plural": "load managements"
+    },
+    "marketplace": {
+      "singular": "marketplace",
+      "plural": "marketplaces"
+    },
+    "master price": {
+      "singular": "master price",
+      "plural": "master prices"
+    },
+    "member": {
+      "singular": "member",
+      "plural": "members"
+    },
+    "member fee": {
+      "singular": "member fee",
+      "plural": "member fees"
+    },
+    "member price": {
+      "singular": "member price",
+      "plural": "member prices"
+    },
+    "member price group": {
+      "singular": "member price group",
+      "plural": "member price groups"
+    },
+    "member role": {
+      "singular": "member role",
+      "plural": "member roles"
+    },
+    "meter id": {
+      "singular": "meter id",
+      "plural": "meter ids"
+    },
+    "meter accuracy": {
+      "singular": "meter accuracy",
+      "plural": "meter accuracies"
+    },
+    "meter reading": {
+      "singular": "meter reading",
+      "plural": "meter readings"
+    },
+    "multi-level load balancing": {
+      "singular": "multi-level load balancing",
+      "plural": "multi-level load balancings"
+    },
+    "native schedule": {
+      "singular": "native schedule",
+      "plural": "native schedules"
+    },
+    "nested team": {
+      "singular": "nested team",
+      "plural": "nested teams"
+    },
+    "network overview dashboard ": {
+      "singular": "network overview dashboard ",
+      "plural": "network overview dashboards"
+    },
+    "network tariff": {
+      "singular": "network tariff",
+      "plural": "network tariffs"
+    },
+    "on-site": {
+      "singular": "on-site",
+      "plural": "on-sites"
+    },
+    "operator ": {
+      "singular": "operator ",
+      "plural": "operators "
+    },
+    "operator team": {
+      "singular": "operator team",
+      "plural": "operator teams"
+    },
+    "pair": {
+      "singular": "pair",
+      "plural": "pairs"
+    },
+    "parent team": {
+      "singular": "parent team",
+      "plural": "parent teams"
+    },
+    "passcode": {
+      "singular": "passcode",
+      "plural": "passcodes"
+    },
+    "password": {
+      "singular": "password",
+      "plural": "passwords"
+    },
+    "payment": {
+      "singular": "payment",
+      "plural": "payments"
+    },
+    "payment method": {
+      "singular": "payment method",
+      "plural": "payment methods"
+    },
+    "payment terminal": {
+      "singular": "payment terminal",
+      "plural": "payment terminals"
+    },
+    "peak hours": {
+      "singular": "peak hours",
+      "plural": "peak hour"
+    },
+    "personal tax number": {
+      "singular": "personal tax number",
+      "plural": "personal tax numbers"
+    },
+    "price group": {
+      "singular": "price group",
+      "plural": "price groups"
+    },
+    "private charge point": {
+      "singular": "private charge point",
+      "plural": "private charge points"
+    },
+    "private team": {
+      "singular": "private team",
+      "plural": "private teams"
+    },
+    "production forecast": {
+      "singular": "production forecast",
+      "plural": "production forecasts"
+    },
+    "professional team": {
+      "singular": "professional team",
+      "plural": "professional teams"
+    },
+    "promotion code": {
+      "singular": "promotion code",
+      "plural": "promotion codes"
+    },
+    "public charge point": {
+      "singular": "public charge point",
+      "plural": "public charge points"
+    },
+    "public price": {
+      "singular": "public price",
+      "plural": "public prices"
+    },
+    "reboot": {
+      "singular": "reboot",
+      "plural": "reboots"
+    },
+    "recipient code ": {
+      "singular": "recipient code ",
+      "plural": "recipient codes"
+    },
+    "referral": {
+      "singular": "referral",
+      "plural": "referrals"
+    },
+    "refill": {
+      "singular": "refill",
+      "plural": "refills"
+    },
+    "reimbursement": {
+      "singular": "reimbursement",
+      "plural": "reimbursements"
+    },
+    "reimbursement price": {
+      "singular": "reimbursement price",
+      "plural": "reimbursement prices"
+    },
+    "reliability": {
+      "singular": "reliability",
+      "plural": "reliabilities"
+    },
+    "residental charging": {
+      "singular": "residental charging",
+      "plural": "residental chargings"
+    },
+    "reverse charge": {
+      "singular": "reverse charge",
+      "plural": "reverse charges"
+    },
+    "roadmap": {
+      "singular": "roadmap",
+      "plural": "roadmaps"
+    },
+    "roaming": {
+      "singular": "roaming",
+      "plural": "roamings"
+    },
+    "sales tax": {
+      "singular": "sales tax",
+      "plural": "sales taxes"
+    },
+    "schedule": {
+      "singular": "schedule",
+      "plural": "schedules"
+    },
+    "scheduled charging": {
+      "singular": "scheduled charging",
+      "plural": "scheduled chargings"
+    },
+    "self-healing": {
+      "singular": "self-healing",
+      "plural": "self-healings"
+    },
+    "serial number": {
+      "singular": "serial number",
+      "plural": "serial numbers"
+    },
+    "service provider": {
+      "singular": "service provider",
+      "plural": "service providers"
+    },
+    "site": {
+      "singular": "site",
+      "plural": "sites"
+    },
+    "site owner": {
+      "singular": "site owner",
+      "plural": "site owners"
+    },
+    "smart charge": {
+      "singular": "smart charge",
+      "plural": "smart charges"
+    },
+    "smart charging": {
+      "singular": "smart charging",
+      "plural": "smart chargings"
+    },
+    "solar charging ": {
+      "singular": "solar charging ",
+      "plural": "solar chargings"
+    },
+    "solar surplus charging": {
+      "singular": "solar surplus charging",
+      "plural": "solar surplus chargings"
+    },
+    "sort code": {
+      "singular": "sort code",
+      "plural": "sort codes"
+    },
+    "spot price": {
+      "singular": "spot price",
+      "plural": "spot prices"
+    },
+    "start fee": {
+      "singular": "start fee",
+      "plural": "start fees"
+    },
+    "start time": {
+      "singular": "start time",
+      "plural": "start times"
+    },
+    "state of charge (soc)": {
+      "singular": "state of charge (soc)",
+      "plural": "state of charge (soc)s"
+    },
+    "statement": {
+      "singular": "statement",
+      "plural": "statements"
+    },
+    "sticker": {
+      "singular": "sticker",
+      "plural": "stickers"
+    },
+    "support settings": {
+      "singular": "support settings",
+      "plural": "support setting"
+    },
+    "surplus energy": {
+      "singular": "surplus energy",
+      "plural": "surplus energies"
+    },
+    "swipe": {
+      "singular": "swipe",
+      "plural": "swipes"
+    },
+    "tariff": {
+      "singular": "tariff",
+      "plural": "tariffs"
+    },
+    "tax id": {
+      "singular": "tax id",
+      "plural": "tax ids"
+    },
+    "tax identification number ": {
+      "singular": "tax identification number ",
+      "plural": "tax identification numbers"
+    },
+    "team": {
+      "singular": "team",
+      "plural": "teams"
+    },
+    "theme": {
+      "singular": "theme",
+      "plural": "themes"
+    },
+    "transaction fee": {
+      "singular": "transaction fee",
+      "plural": "transaction fees"
+    },
+    "user": {
+      "singular": "user",
+      "plural": "users"
+    },
+    "user role": {
+      "singular": "user role",
+      "plural": "user roles"
+    },
+    "wallet": {
+      "singular": "wallet",
+      "plural": "wallets"
+    },
+    "white label": {
+      "singular": "white label",
+      "plural": "white labels"
+    },
+    "wholesaler": {
+      "singular": "wholesaler",
+      "plural": "wholesalers"
+    },
+    "workplace charging": {
+      "singular": "workplace charging",
+      "plural": "workplace chargings"
+    }
+  }
+}

@@ -9,6 +9,8 @@ glossary/
 ├── files/                      # Data files
 │   ├── inputs/
 │   │   ├── monta_raw_glossary.xlsx  # Master glossary (input)
+│   │   ├── amendments.json          # Custom amendments (optional)
+│   │   ├── alternatives.json        # Alternative words (AI + manual)
 │   │   └── external_glossary.md     # Reference only (not imported)
 │   ├── outputs/
 │   │   ├── glossary.sqlite          # SQLite database (generated)
@@ -48,20 +50,223 @@ Place your master glossary file at `files/inputs/monta_raw_glossary.xlsx`, then:
 
 ```bash
 # Option 1: Use the wrapper script (automatically activates venv)
-./import.sh                                    # Basic import
-./import.sh --markdown                         # Import + markdown
-./import.sh --markdown --alternatives          # Full workflow (requires OpenAI)
+./import.sh                        # Basic import (generates markdown automatically)
+./import.sh --amendments           # With custom amendments
+./import.sh --alternatives         # With AI-generated alternatives (requires OpenAI)
 
 # Option 2: Activate venv manually
 source .venv/bin/activate
-python import.py --markdown --alternatives
+python import.py
+python import.py --amendments --alternatives
 ```
+
+**Processing Pipeline:**
+
+Every import automatically runs:
+1. Import from Excel → Database
+2. Apply amendments (if `--amendments` flag)
+3. Apply alternatives from `alternatives.json`
+4. Generate AI alternatives (if `--alternatives` flag) → Save to `alternatives.json`
+5. Apply newly generated alternatives
+6. Generate `glossary.md` (always)
 
 **⚠️ Note:** The `--alternatives` flag uses OpenAI to generate alternative terms. You must create a `.env` file with your OpenAI API key before using this option:
 
 ```bash
 echo "OPENAI_API_KEY=sk-your-key-here" > .env
 ```
+
+### 3. Amendments System (Optional)
+
+The amendment system allows you to make custom modifications to the glossary data after importing from Excel, without modifying the original Excel file. This is useful for:
+
+- **Merging duplicate terms** (e.g., merge "Chargers" into "charge point" as an alternative)
+- **Adding custom translations or alternatives** not in the Excel file
+- **Updating term descriptions or metadata** programmatically
+- **Deleting obsolete terms**
+- **Adding completely new terms** via code
+
+**How it works:**
+
+1. Create `files/inputs/amendments.json` with your changes
+2. Run the import with `--amendments` flag
+3. Amendments are applied **after** Excel import, **before** alternatives generation
+
+**Example Use Cases:**
+
+**1. Merge duplicate terms:**
+```json
+{
+  "amendments": [
+    {
+      "type": "delete_term",
+      "term": "Chargers",
+      "comment": "Remove duplicate"
+    },
+    {
+      "type": "add_alternatives",
+      "term": "charge point",
+      "alternatives": ["Charger", "Chargers"],
+      "comment": "Add as alternatives instead"
+    }
+  ]
+}
+```
+
+**2. Update term metadata:**
+```json
+{
+  "type": "update_term",
+  "term": "charge point",
+  "changes": {
+    "description": "Updated description text",
+    "tags": "hardware, infrastructure",
+    "case_sensitive": false
+  }
+}
+```
+
+**3. Add translations:**
+```json
+{
+  "type": "add_translation",
+  "term": "charge point",
+  "translations": {
+    "es": "Punto de Carga",
+    "it": "Punto di Ricarica"
+  }
+}
+```
+
+**4. Add new term via code:**
+```json
+{
+  "type": "add_term",
+  "term": "New Technical Term",
+  "data": {
+    "description": "Description here",
+    "translations": {
+      "en": "New Technical Term",
+      "da": "Ny Teknisk Term"
+    },
+    "alternatives": ["NTT"]
+  }
+}
+```
+
+**5. Other operations:**
+```json
+{
+  "type": "remove_alternative",
+  "term": "charge point",
+  "alternative": "Unwanted Term"
+}
+```
+
+```json
+{
+  "type": "add_description",
+  "term": "charge point",
+  "descriptions": {
+    "nl": "Nederlandse beschrijving",
+    "en_US": "American English description"
+  }
+}
+```
+
+**Usage:**
+
+```bash
+# Apply amendments
+./import.sh --amendments
+
+# Apply amendments without re-importing Excel
+./import.sh --skip-import --amendments
+
+# Full pipeline with AI alternatives
+./import.sh --amendments --alternatives
+```
+
+**Amendment Types:**
+
+- `update_term` - Modify existing term metadata (description, tags, case_sensitive, translatable, forbidden)
+- `add_alternatives` - Add alternative words to existing term
+- `remove_alternative` - Remove specific alternative word
+- `add_translation` - Add/update translations for specific languages
+- `add_description` - Add language-specific descriptions (e.g., nl_description)
+- `add_term` - Create completely new term (not in Excel)
+- `delete_term` - Remove a term entirely
+
+**Notes:**
+
+- Term matching is **case-insensitive** - "Charge Point", "charge point", and "CHARGE POINT" all match the same term
+- Amendments are **idempotent** - running multiple times produces the same result
+- Amendments are tracked in git for full audit history
+- Existing alternatives/translations are preserved when adding new ones
+
+### 4. Alternative Words System
+
+The `alternatives.json` file stores alternative words/phrases for each term. This file serves as the single source of truth for all alternatives, whether AI-generated or manually added.
+
+**How it works:**
+
+1. **Always applied**: Every import automatically loads alternatives from `alternatives.json` and adds them to the database
+2. **AI generation (optional)**: Use `--alternatives` flag to generate alternatives with OpenAI
+3. **Manual editing**: You can directly edit `alternatives.json` to add/modify alternatives
+4. **Version controlled**: Track all alternative words in git with full history
+
+**File format:**
+
+```json
+{
+  "version": "1.0",
+  "description": "Alternative words/phrases for glossary terms",
+  "alternatives": {
+    "charge point": [
+      "Charger",
+      "CP",
+      "Charging Station",
+      "Wall Box",
+      "EVSE"
+    ],
+    "electric vehicle": [
+      "EV",
+      "e-car",
+      "battery electric vehicle"
+    ]
+  }
+}
+```
+
+**Workflow:**
+
+```bash
+# Generate AI alternatives for all terms (one-time setup)
+./import.sh --alternatives
+
+# Review and edit files/inputs/alternatives.json manually
+# Add more alternatives, remove bad ones, etc.
+
+# Subsequent imports automatically use alternatives.json
+./import.sh
+
+# Generate alternatives for new terms only (skips existing)
+./import.sh --alternatives
+
+# Force regenerate all alternatives
+./import.sh --alternatives --force
+
+# Test AI on 10 terms first
+./import.sh --alternatives --limit 10
+```
+
+**Benefits:**
+
+- **Git-trackable**: See who added which alternatives and when
+- **Reviewable**: Review AI suggestions before committing
+- **Editable**: Manually refine or add alternatives anytime
+- **Reusable**: One source of truth used across all imports
+- **Incremental**: AI only processes terms without alternatives
 
 ## 📥 Data Source
 
@@ -351,8 +556,9 @@ This function:
 ## 🔄 Workflow
 
 1. **Update Excel**: Place new `download.xlsx` in `files/`
-2. **Run Import**: `./import.sh --markdown --alternatives`
-3. **Distribute**: The `files/glossary.sqlite` file can be used by all packages
+2. **Run Import**: `./import.sh --amendments --alternatives`
+3. **Review**: Check `alternatives.json` for AI-generated alternatives
+4. **Distribute**: The `files/outputs/glossary.sqlite` and `glossary.md` files are generated automatically
 
 ## 📚 Database Schema
 
@@ -387,9 +593,9 @@ This function:
 
 ## 🔐 Environment Variables (Optional)
 
-The `--alternatives` flag uses OpenAI's GPT-4 API to automatically generate alternative words for each term (e.g., "EV" → "electric vehicle", "e-car", etc.). This feature is **optional** but highly recommended.
+The `--alternatives` flag uses OpenAI's GPT-4 API to automatically generate alternative words and saves them to `alternatives.json`. This feature is **optional** but highly recommended.
 
-**To enable alternatives generation:**
+**To enable AI alternatives generation:**
 
 1. Get an API key from [OpenAI](https://platform.openai.com/api-keys)
 2. Create a `.env` file in the project root:
@@ -402,12 +608,16 @@ echo "OPENAI_API_KEY=sk-your-key-here" > .env
 
 ```bash
 ./import.sh --alternatives --limit 10  # Test with 10 terms first
-./import.sh --markdown --alternatives  # Full workflow
+./import.sh --alternatives              # Generate for all terms
 ```
 
 **Cost:** ~$0.01-0.02 per term (about $5 for 250 terms). The script includes rate limiting to respect API quotas.
 
-**Note:** The import and markdown generation work perfectly fine **without** OpenAI. The `--alternatives` flag is optional.
+**Note:**
+- Import and markdown generation work perfectly fine **without** OpenAI
+- AI-generated alternatives are saved to `alternatives.json` for review
+- You can manually edit `alternatives.json` anytime
+- Future imports automatically use alternatives from `alternatives.json`
 
 ## 🧪 Running Tests
 
@@ -448,13 +658,13 @@ All implementations test:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-./import.sh --markdown
+./import.sh
 ```
 
 ### 2. Update Glossary from New Excel
 ```bash
 # Place new file at files/inputs/monta_raw_glossary.xlsx
-./import.sh --markdown
+./import.sh
 ```
 
 ### 3. Add Alternative Words with AI (Optional)
@@ -462,7 +672,7 @@ pip install -r requirements.txt
 Alternative words help with text normalization and search. This step uses OpenAI and is optional.
 
 ```bash
-# 1. Setup OpenAI key first (required for --alternatives)
+# 1. Setup OpenAI key first
 echo "OPENAI_API_KEY=sk-your-key-here" > .env
 
 # 2. Test with a few terms to verify it works
@@ -471,15 +681,19 @@ echo "OPENAI_API_KEY=sk-your-key-here" > .env
 # 3. Generate for all terms (takes ~2 minutes for 250 terms)
 ./import.sh --alternatives
 
-# 4. Regenerate markdown to include the new alternatives
-./import.sh --skip-import --markdown
+# 4. Review and edit alternatives.json
+# Remove unwanted alternatives, add manual ones, etc.
+
+# 5. Future imports automatically use alternatives.json
+./import.sh
 ```
 
-**Without OpenAI:** You can still use the glossary without alternatives. The Excel file may already contain some alternative words that will be imported automatically.
+**Without OpenAI:** You can still use the glossary without AI. You can manually edit `alternatives.json` or use alternatives from Excel/amendments.
 
-### 4. Regenerate Markdown Only
+### 4. Apply Amendments and Alternatives Only
 ```bash
-./import.sh --skip-import --markdown
+# Re-apply amendments/alternatives without re-importing Excel
+./import.sh --skip-import --amendments
 ```
 
 ## 🐛 Troubleshooting
@@ -508,7 +722,7 @@ echo "OPENAI_API_KEY=sk-your-key-here" > .env
 **Alternatively:** Skip the `--alternatives` flag if you don't need AI-generated alternative words:
 
 ```bash
-./import.sh --markdown  # Works without OpenAI
+./import.sh  # Works without OpenAI - markdown generated automatically
 ```
 
 ### Database file not found
@@ -542,8 +756,9 @@ Copyright © Monta
 ## 🤝 Contributing
 
 1. Update `files/inputs/monta_raw_glossary.xlsx` with new terms
-2. Run: `./import.sh --alternatives --markdown`
-3. Run tests in all packages
-4. Commit changes
+2. Run: `./import.sh --amendments --alternatives`
+3. Review and commit `alternatives.json` if changes look good
+4. Run tests in all packages
+5. Commit changes
 
 For package-specific documentation, see the README files in `python/`, `kotlin/`, and `typescript/` directories.

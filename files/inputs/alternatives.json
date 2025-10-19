@@ -1,0 +1,1747 @@
+{
+  "version": "1.0",
+  "description": "Alternative words/phrases for glossary terms. All term keys are normalized to lowercase for consistency.",
+  "alternatives": {
+    "ac": [
+      "ac charging station",
+      "ac power source",
+      "alternating current supply",
+      "alternating current",
+      "ac charger"
+    ],
+    "account": [
+      "login credentials",
+      "membership",
+      "profile",
+      "user account",
+      "user profile"
+    ],
+    "additional fee": [
+      "supplementary charge",
+      "extra cost",
+      "extra charge",
+      "surcharge",
+      "ancillary fee"
+    ],
+    "administrator": [
+      "manager",
+      "master user",
+      "account owner",
+      "supervisor",
+      "admin"
+    ],
+    "advenir": [
+      "advenir scheme",
+      "french electric vehicle charging program",
+      "french ev infrastructure program",
+      "advenir project",
+      "advenir initiative"
+    ],
+    "afir ": [
+      "alternative fuel regulation",
+      "af infrastructure regulation",
+      "afir regulation",
+      "alternative fuels ir",
+      "regulation for alternative fuels infrastructure"
+    ],
+    "alert": [
+      "alarm",
+      "warning",
+      "prompt",
+      "signal",
+      "notification"
+    ],
+    "alert group": [
+      "crisis alert group",
+      "incident notification group",
+      "alert team",
+      "incident alert cluster",
+      "notification group"
+    ],
+    "alternative fuels infrastructure regulation": [
+      "alternative energy infrastructure law",
+      "afir",
+      "renewable fuels infrastructure regulation",
+      "alternative fuels deployment mandate",
+      "clean fuels infrastructure directive"
+    ],
+    "api": [
+      "web api",
+      "api suite",
+      "application programming interface",
+      "software interface",
+      "rest api"
+    ],
+    "api key": [
+      "api identifier",
+      "application programming interface key",
+      "api access key",
+      "api token",
+      "api secret key"
+    ],
+    "app clips": [
+      "light apps",
+      "shortcuts",
+      "instant apps",
+      "quick access apps",
+      "mini apps"
+    ],
+    "app store": [
+      "apple store for apps",
+      "apple's application store",
+      "itunes app store",
+      "ios app store",
+      "apple app marketplace"
+    ],
+    "auto refill": [
+      "auto top-up",
+      "automatic recharge",
+      "auto reload",
+      "automatic balance refill",
+      "automatic wallet refill"
+    ],
+    "auto withdrawal": [
+      "auto transfer",
+      "automatic debit",
+      "auto-debit",
+      "automatic fund transfer",
+      "scheduled withdrawal"
+    ],
+    "autocharge": [
+      "plug and charge",
+      "smartcharge",
+      "self-charging",
+      "automatic charging",
+      "easycharge"
+    ],
+    "automatic reading": [
+      "smart meter reading",
+      "automatic meter data collection",
+      "remote meter reading",
+      "automated data logging",
+      "automated meter reading"
+    ],
+    "autostart": [
+      "autobegin",
+      "automated start",
+      "autocharge",
+      "instant start",
+      "automatic charging initiation"
+    ],
+    "available": [
+      "ready for use",
+      "open",
+      "operational",
+      "accessible",
+      "in service"
+    ],
+    "balance": [
+      "credit",
+      "account balance",
+      "funds",
+      "available balance",
+      "financial resources"
+    ],
+    "basic": [
+      "entry-level",
+      "standard",
+      "fundamental",
+      "basic plan",
+      "starter"
+    ],
+    "battery capacity": [
+      "battery charge capacity",
+      "energy storage capacity",
+      "battery power capacity",
+      "energy capacity",
+      "battery storage capacity"
+    ],
+    "battery level": [
+      "battery charge",
+      "battery capacity",
+      "power level",
+      "battery status",
+      "state of charge (soc)"
+    ],
+    "bilateral agreement": [
+      "joint agreement",
+      "reciprocal contract",
+      "mutual agreement",
+      "two-party deal",
+      "dual-side arrangement"
+    ],
+    "busy": [
+      "engaged",
+      "in use",
+      "occupied",
+      "unavailable",
+      "active"
+    ],
+    "california pricing": [
+      "ocpp california pricing",
+      "real-time pricing communication",
+      "dynamic pricing communication",
+      "cpms california pricing",
+      "california method pricing"
+    ],
+    "certified electronic mail": [
+      "verified electronic mail",
+      "authenticated digital mail",
+      "certified email communication",
+      "accredited e-mail",
+      "approved e-correspondence"
+    ],
+    "charge": [
+      "energize",
+      "juice up",
+      "power up",
+      "recharge",
+      "refuel"
+    ],
+    "charge amount": [
+      "energy transferred",
+      "quantity of charge",
+      "charging volume",
+      "power supplied",
+      "kwh delivered"
+    ],
+    "charge discount": [
+      "charge deduction",
+      "charging reduction",
+      "charge discount offer",
+      "charging rebate",
+      "charge concession"
+    ],
+    "charge history": [
+      "power consumption history",
+      "charging record",
+      "energy usage history",
+      "charging session history",
+      "charging log"
+    ],
+    "charge key": [
+      "rfid key",
+      "charging pass",
+      "charging card",
+      "access card",
+      "charging fob"
+    ],
+    "charge limit": [
+      "charging cap",
+      "charging threshold",
+      "battery charge ceiling",
+      "max charge",
+      "maximum charge level"
+    ],
+    "charge point": [
+      "charging port",
+      "charging pedestal",
+      "charging outlet",
+      "charging post"
+    ],
+    "charge point management system": [
+      "ev charging network management software",
+      "ev charge point control system",
+      "evcs management system",
+      "electric vehicle charging station management platform",
+      "charging station management software"
+    ],
+    "charge point operator": [
+      "charging network operator",
+      "charging station provider",
+      "ev station operator",
+      "charging infrastructure provider",
+      "evse (electric vehicle supply equipment) operator"
+    ],
+    "charge point settings": [
+      "evse configurations",
+      "charging point options",
+      "charging station preferences",
+      "charger setup",
+      "charge port parameters"
+    ],
+    "charge point subscription": [
+      "charging station subscription",
+      "charge station upkeep subscription",
+      "evse service plan",
+      "charge point maintenance package",
+      "ev charging service agreement"
+    ],
+    "charge power": [
+      "power output",
+      "power supply rate",
+      "kw delivery rate",
+      "charging rate",
+      "charging capacity"
+    ],
+    "charge price": [
+      "rate per charge",
+      "cost per charge",
+      "charging cost",
+      "charging fee",
+      "kwh pricing"
+    ],
+    "charge profile": [
+      "charging plan",
+      "charging schedule",
+      "charge preset",
+      "charge configuration",
+      "charging preference setting"
+    ],
+    "charge rate": [
+      "charging pace",
+      "charging efficiency",
+      "charging efficacy",
+      "charging velocity",
+      "charging speed"
+    ],
+    "charge session": [
+      "charging time",
+      "charging interval",
+      "charging period",
+      "charging process",
+      "charging cycle"
+    ],
+    "charger": [
+      "charging station",
+      "evse (electric vehicle supply equipment)",
+      "charging dock",
+      "charging post",
+      "charging unit"
+    ],
+    "charging": [
+      "energizing",
+      "refueling",
+      "recharging",
+      "powering up",
+      "juicing up"
+    ],
+    "charging app": [
+      "charging management app",
+      "ev charging application",
+      "ev charging mobile app",
+      "charging platform",
+      "charging software"
+    ],
+    "charging cable": [
+      "power cable",
+      "ev charging wire",
+      "ev charging connector",
+      "charging lead",
+      "charging cord"
+    ],
+    "charging fee": [
+      "charging rate",
+      "charging expense",
+      "charging cost",
+      "charging tariff",
+      "charging price"
+    ],
+    "charging point": [
+      "charging station",
+      "charge port",
+      "charging outlet",
+      "charging dock",
+      "ev charging station"
+    ],
+    "charging rule": [
+      "charging schedule",
+      "charging protocol",
+      "charging regimen",
+      "charging settings",
+      "charge plan"
+    ],
+    "charging schedule": [
+      "charging routine",
+      "charging plan",
+      "power schedule",
+      "charging timetable",
+      "charging timeframe"
+    ],
+    "charging site": [
+      "charging facility",
+      "charging location",
+      "ev charging area"
+    ],
+    "charging speed": [
+      "charging power",
+      "charging rate",
+      "charge rate",
+      "charging capacity",
+      "power input rate"
+    ],
+    "charging station": [
+      "evse (electric vehicle supply equipment)",
+      "ev charging point"
+    ],
+    "chat": [
+      "direct messaging",
+      "messaging",
+      "support communication",
+      "live chat",
+      "instant messaging"
+    ],
+    "client secret": [
+      "oauth client secret",
+      "client key",
+      "app secret",
+      "application secret",
+      "api secret key"
+    ],
+    "company car": [
+      "corporate vehicle",
+      "employer-provided car",
+      "business car",
+      "work car",
+      "fleet vehicle"
+    ],
+    "company registration number ": [
+      "corporate registration number",
+      "company identifier",
+      "company id number",
+      "business registry number",
+      "business identification number"
+    ],
+    "connect": [
+      "plug-in",
+      "pair",
+      "interface",
+      "link",
+      "sync"
+    ],
+    "connector": [
+      "adapter",
+      "ev plug",
+      "charge connector",
+      "plug",
+      "charging point"
+    ],
+    "cost group": [
+      "cost cluster",
+      "pricing set",
+      "expenditure group",
+      "expense category",
+      "price bracket"
+    ],
+    "cp": [
+      "evse (electric vehicle supply equipment)",
+      "ev charger",
+      "charging spot",
+      "charging station",
+      "charging post"
+    ],
+    "cpi": [
+      "evse integration",
+      "charging point connection",
+      "charge spot connection",
+      "electric vehicle supply equipment integration",
+      "charging station integration"
+    ],
+    "cpms": [
+      "charging infrastructure management system",
+      "electric vehicle charge point management",
+      "charge station management system",
+      "ev charging management system",
+      "csms"
+    ],
+    "cpo": [
+      "charging infrastructure operator",
+      "ev charging operator",
+      "charging network operator",
+      "evse operator",
+      "charging station operator"
+    ],
+    "credit": [
+      "account balance",
+      "monetary credit",
+      "funds",
+      "balance",
+      "deposit"
+    ],
+    "credit note": [
+      "refund note",
+      "sales return note",
+      "adjustment note",
+      "credit statement",
+      "credit memo"
+    ],
+    "ct clamp": [
+      "ct sensor",
+      "amperage transformer clamp",
+      "current sensing clamp",
+      "current transformer clip",
+      "current probe"
+    ],
+    "current": [
+      "charge flow",
+      "electric flow",
+      "electrical current",
+      "amperage",
+      "power flow"
+    ],
+    "custom subscription": [
+      "custom service package",
+      "bespoke subscription package",
+      "custom plan",
+      "personalized plan",
+      "tailored subscription"
+    ],
+    "customer success manager": [
+      "client onboarding manager",
+      "client success coordinator",
+      "customer experience manager",
+      "customer support manager",
+      "user success specialist"
+    ],
+    "data pipelines": [
+      "data workflows",
+      "data streams",
+      "information pipelines",
+      "data conduits",
+      "data channels"
+    ],
+    "data warehouse": [
+      "data mart",
+      "data store",
+      "data repository",
+      "data vault",
+      "data storage"
+    ],
+    "data+": [
+      "advanced data add-on",
+      "data plus",
+      "data+ upgrade",
+      "enhanced data package",
+      "data extra"
+    ],
+    "dc": [
+      "direct current",
+      "high-power charger",
+      "rapid charger",
+      "dc fast charging station",
+      "fast charger"
+    ],
+    "deep link": [
+      "quick link",
+      "hyperlink",
+      "direct link",
+      "internal link",
+      "embedded link"
+    ],
+    "delayed start": [
+      "start delay",
+      "late start",
+      "scheduled delay",
+      "time-delay start",
+      "postponed start"
+    ],
+    "deposit": [
+      "prepayment",
+      "advance payment",
+      "upfront payment",
+      "down payment",
+      "credit top-up"
+    ],
+    "distribution system operator (dso)": [
+      "electricity distribution operator",
+      "power distribution operator",
+      "power network operator",
+      "electricity distribution network manager",
+      "distribution network operator (dno)"
+    ],
+    "dso": [
+      "electricity distribution operator",
+      "dno",
+      "power network operator",
+      "distribution service operator",
+      "distribution network operator"
+    ],
+    "dynamic load balancing": [
+      "dynamic power management",
+      "adaptive load balancing",
+      "dynamic load distribution",
+      "dynamic energy balancing",
+      "intelligent load management"
+    ],
+    "dynamic price": [
+      "market-based pricing",
+      "demand-based pricing",
+      "variable pricing",
+      "flexible pricing",
+      "fluctuating price"
+    ],
+    "e-mobility service provider": [
+      "e-mobility solutions company",
+      "electric mobility service provider",
+      "electric vehicle infrastructure provider",
+      "ev charging service provider",
+      "ev mobility services company"
+    ],
+    "ein": [
+      "tax id number",
+      "federal tax identification number",
+      "federal employer identification number",
+      "irs number",
+      "fein"
+    ],
+    "electricity costs": [
+      "utility costs",
+      "electric charges",
+      "power costs",
+      "energy tariffs",
+      "energy expenses"
+    ],
+    "electricity price": [
+      "electricity tariff",
+      "kwh price",
+      "utility rate",
+      "power rate",
+      "energy cost"
+    ],
+    "electricity tax refund ": [
+      "energy tax refund for ev",
+      "danish ev tax refund scheme",
+      "ev electricity tax return",
+      "electricity tax rebate",
+      "electricity tax reimbursement"
+    ],
+    "electricity tax refund subscription": [
+      "ev charging tax refund service",
+      "power tax refund subscription",
+      "ev charge point tax rebate program",
+      "electricity tax rebate plan",
+      "electric tax rebates scheme"
+    ],
+    "emsp": [
+      "emsp",
+      "electric vehicle service provider",
+      "e-mobility services",
+      "electric mobility service provider",
+      "ev charging service provider"
+    ],
+    "end time": [
+      "completion time",
+      "termination time",
+      "stop time",
+      "finish time",
+      "cutoff time"
+    ],
+    "enterprise": [
+      "corporation",
+      "large organization",
+      "large-scale business",
+      "multisite company",
+      "corporate entity"
+    ],
+    "ev": [
+      "electric motor car",
+      "electric car",
+      "e-car",
+      "electric automobile",
+      "electric auto"
+    ],
+    "evse": [
+      "ev charging equipment",
+      "charge point",
+      "charging point",
+      "charging station",
+      "electric vehicle charging station"
+    ],
+    "excise tax": [
+      "duty",
+      "indirect tax",
+      "levy",
+      "excise duty",
+      "tariff"
+    ],
+    "fail-safe": [
+      "backup plan",
+      "emergency response system",
+      "safety mechanism",
+      "redundancy protocol",
+      "contingency measure"
+    ],
+    "fair price": [
+      "reasonable rate",
+      "equitable cost",
+      "value for money",
+      "market-standard rate",
+      "competitive price"
+    ],
+    "fallback price": [
+      "backup price",
+      "reserve price",
+      "secondary price",
+      "default price",
+      "contingency price"
+    ],
+    "fee": [
+      "expense",
+      "price",
+      "tariff"
+    ],
+    "fee per minute": [
+      "minute-based charge",
+      "minute rate",
+      "charging duration fee",
+      "per-minute rate",
+      "time-based fee"
+    ],
+    "finance+": [
+      "finance add-on",
+      "advanced finance features",
+      "finance enhanced package",
+      "finance upgrade",
+      "premium finance module"
+    ],
+    "firmware": [
+      "rom software",
+      "microcode",
+      "control program",
+      "embedded software",
+      "system software"
+    ],
+    "fixed price": [
+      "set price",
+      "constant price",
+      "unchanging price",
+      "standard price",
+      "flat rate"
+    ],
+    "fleet": [
+      "fleet vehicles",
+      "motor pool",
+      "company cars",
+      "vehicle fleet",
+      "vehicle pool"
+    ],
+    "forecast": [
+      "estimation",
+      "outlook",
+      "anticipation",
+      "projection",
+      "prediction"
+    ],
+    "free": [
+      "zero charge",
+      "gratis",
+      "complimentary",
+      "cost-free",
+      "no cost"
+    ],
+    "funds": [
+      "money",
+      "capital",
+      "bankroll",
+      "balance",
+      "cash"
+    ],
+    "fuse protection": [
+      "overload protection",
+      "power surge protection",
+      "fuse safeguard",
+      "current protection",
+      "circuit protection"
+    ],
+    "grid": [
+      "utility network",
+      "energy grid",
+      "power network",
+      "electricity network",
+      "power grid"
+    ],
+    "growth+": [
+      "expansion+",
+      "advanced add-on",
+      "upgrade+",
+      "premium extension",
+      "enhancement+"
+    ],
+    "hardware": [
+      "charging station",
+      "evse (electric vehicle supply equipment)",
+      "charging equipment",
+      "charging unit",
+      "charge point"
+    ],
+    "hardware agnostic": [
+      "hardware-neutral",
+      "cross-hardware compatible",
+      "hardware-independent",
+      "multi-hardware compatible",
+      "universally compatible"
+    ],
+    "hardware manufacturer": [
+      "evse manufacturer",
+      "charging equipment maker",
+      "charge point producer",
+      "charge infrastructure provider",
+      "charging station builder"
+    ],
+    "hardware portal": [
+      "device portal",
+      "equipment portal",
+      "hardware dashboard",
+      "hardware interface",
+      "manufacturer's interface"
+    ],
+    "help centre": [
+      "faq section",
+      "user guide",
+      "support centre",
+      "help desk",
+      "knowledge base"
+    ],
+    "home charger": [
+      "domestic charging station",
+      "home charging point",
+      "residential charger",
+      "home evse (electric vehicle supply equipment)",
+      "private charging station"
+    ],
+    "home charging": [
+      "home ev charging",
+      "residential charging",
+      "in-house charging",
+      "personal charging station",
+      "domestic charging"
+    ],
+    "home energy": [
+      "domestic energy",
+      "household energy",
+      "residential power",
+      "home-based electricity",
+      "home power supply"
+    ],
+    "housing association": [
+      "residential cooperative",
+      "housing cooperative",
+      "residential association",
+      "community housing organization",
+      "housing society"
+    ],
+    "hub": [
+      "charging point management platform",
+      "charging station management system",
+      "ev charging network controller",
+      "ev operations control center",
+      "charging infrastructure management"
+    ],
+    "hypercare": [
+      "premium support",
+      "specialized support",
+      "enterprise-level assistance",
+      "advanced customer care",
+      "enhanced service plan"
+    ],
+    "iban": [
+      "iban code",
+      "international banking identification number",
+      "global bank account identifier",
+      "cross-border bank account number",
+      "international account number"
+    ],
+    "ice vehicle": [
+      "diesel vehicle",
+      "fossil fuel vehicle",
+      "traditional fuel vehicle",
+      "gasoline vehicle",
+      "combustion engine car"
+    ],
+    "idle fee": [
+      "occupancy fee",
+      "lingering fee",
+      "delay penalty",
+      "overstay fee",
+      "downtime charge"
+    ],
+    "idle time": [
+      "downtime",
+      "non-charging time",
+      "inactive time",
+      "standby time",
+      "blocking period"
+    ],
+    "in-between charges": [
+      "halfway charging",
+      "between charges",
+      "intermediate charges",
+      "interim charges",
+      "midway charging"
+    ],
+    "incident": [
+      "problem",
+      "fault",
+      "anomaly",
+      "malfunction",
+      "issue"
+    ],
+    "insights": [
+      "intelligence",
+      "charging statistics",
+      "charge info",
+      "data overview",
+      "analytics"
+    ],
+    "installation": [
+      "implementation",
+      "charge point installation",
+      "establishment",
+      "deployment",
+      "setup"
+    ],
+    "installer": [
+      "ev charger installer",
+      "certified electrician",
+      "charge point technician",
+      "installation professional",
+      "charging station installer"
+    ],
+    "installer job": [
+      "installation project",
+      "installer work order",
+      "installation job",
+      "installer assignment",
+      "installation task"
+    ],
+    "instant app": [
+      "fast access app",
+      "instantaneous application",
+      "on-the-go app",
+      "quick app",
+      "light app"
+    ],
+    "integration": [
+      "interfacing",
+      "amalgamation",
+      "connection",
+      "system unification",
+      "incorporation"
+    ],
+    "invoice": [
+      "account statement",
+      "bill",
+      "billing statement",
+      "payment notice",
+      "charge sheet"
+    ],
+    "join code": [
+      "invitation code",
+      "entry key",
+      "team passcode",
+      "enrollment code",
+      "access code"
+    ],
+    "kw effect": [
+      "kilowatt energy transfer",
+      "kilowatt output",
+      "kw power",
+      "kw charging rate",
+      "power level in kw"
+    ],
+    "kwh price": [
+      "rate per kwh",
+      "kwh cost",
+      "kilowatt-hour pricing",
+      "price per kwh",
+      "cost per kilowatt-hour"
+    ],
+    "load balancing": [
+      "load sharing",
+      "power balancing",
+      "power management",
+      "current optimization",
+      "load distribution"
+    ],
+    "load management ": [
+      "power load balancing",
+      "power management",
+      "energy distribution control",
+      "demand management",
+      "load balancing"
+    ],
+    "made to move": [
+      "engineered for movement",
+      "built for motion",
+      "designed to mobilize",
+      "created for commuting",
+      "made for mobility"
+    ],
+    "manager": [
+      "executive",
+      "administrator",
+      "overseer",
+      "coordinator",
+      "supervisor"
+    ],
+    "map": [
+      "geo-feature",
+      "locator",
+      "electronic map",
+      "cartographic display",
+      "navigation chart"
+    ],
+    "marketplace": [
+      "bazaar",
+      "ecommerce platform",
+      "sales platform",
+      "trading platform",
+      "exchange"
+    ],
+    "master price": [
+      "main price",
+      "primary cost",
+      "base rate",
+      "fundamental price",
+      "core pricing"
+    ],
+    "me": [
+      "profile",
+      "personal info",
+      "account",
+      "user",
+      "my account"
+    ],
+    "member": [
+      "team player",
+      "collaborator",
+      "associate",
+      "participant",
+      "contributor"
+    ],
+    "member fee": [
+      "member dues",
+      "team levy",
+      "monthly contribution",
+      "membership charge",
+      "subscription fee"
+    ],
+    "member price": [
+      "member tariff",
+      "membership pricing",
+      "member fee",
+      "membership rate",
+      "subscriber cost"
+    ],
+    "member price group": [
+      "employee charge cost group",
+      "team member pricing tier",
+      "member fee group",
+      "staff pricing level",
+      "membership rate category"
+    ],
+    "member role": [
+      "team position",
+      "permission role",
+      "access level",
+      "user status",
+      "user role"
+    ],
+    "meter accuracy": [
+      "accuracy of energy meter readings",
+      "energy consumption accuracy",
+      "charging measurement accuracy",
+      "meter precision",
+      "electric meter correctness"
+    ],
+    "meter id": [
+      "utility meter identification number",
+      "meter code",
+      "meter identification code",
+      "meter number",
+      "meter identifier"
+    ],
+    "meter reading": [
+      "power usage tracking",
+      "kwh reading",
+      "energy measurement",
+      "electricity consumption monitor",
+      "energy metering"
+    ],
+    "mid": [
+      "eu measurement regulation",
+      "european union mid",
+      "measurement index directive",
+      "mid standards",
+      "mid regulation"
+    ],
+    "monta control": [
+      "monta operational oversight",
+      "monta diagnostics",
+      "monta operations control",
+      "monta management",
+      "monta monitoring"
+    ],
+    "multi-level load balancing": [
+      "multi-level power balancing",
+      "multi-stage load distribution",
+      "tiered load balancing",
+      "hierarchical load sharing",
+      "multi-tier load equalization"
+    ],
+    "native schedule": [
+      "early session phase",
+      "warm-up charging stage",
+      "initial charge phase",
+      "preliminary charging period",
+      "pre-full power stage"
+    ],
+    "nested team": [
+      "sub-team",
+      "child team",
+      "associated team",
+      "linked team",
+      "subsidiary team"
+    ],
+    "network overview dashboard ": [
+      "network monitoring panel",
+      "b2b fleet monitoring interface",
+      "alert and issue management cockpit",
+      "fleet health dashboard",
+      "real-time network visualization"
+    ],
+    "network tariff": [
+      "power network charge",
+      "network fee",
+      "grid tariff",
+      "distribution tariff",
+      "utility rate"
+    ],
+    "nfc": [
+      "tap-and-go payment",
+      "rfid",
+      "contactless payment",
+      "proximity card",
+      "near field communication"
+    ],
+    "noc agent": [
+      "ai-powered noc operative",
+      "network operations center agent",
+      "ai diagnostic agent",
+      "diagnostic assistant",
+      "noc specialist"
+    ],
+    "ocpi": [
+      "ocpi protocol",
+      "open interface for ev charging stations",
+      "ocpi standard",
+      "open charge point protocol",
+      "open charging interface"
+    ],
+    "ocpi tariff ": [
+      "ocpi rate plan",
+      "ocpi pricing structure",
+      "ocpi pricing scheme",
+      "electric vehicle charging rate",
+      "ev charging tariff"
+    ],
+    "ocpp": [
+      "charging station protocol",
+      "ev charging communication protocol",
+      "open charging protocol",
+      "open communication for ev charging",
+      "ocpp standard"
+    ],
+    "ocpp toolkit": [
+      "ocpp compliance tool",
+      "ev charging test kit",
+      "ocpp validation suite",
+      "charge point testing toolkit",
+      "ocpp testing software"
+    ],
+    "oicp": [
+      "oicp communication protocol",
+      "oicp tech standard",
+      "open intercharge protocol",
+      "oicp standard",
+      "intercharge protocol"
+    ],
+    "on-site": [
+      "on-location",
+      "on the spot",
+      "on-premises",
+      "at the location",
+      "in-place"
+    ],
+    "open charge point protocol": [
+      "ocpp communication protocol",
+      "charging point open protocol",
+      "open charging protocol",
+      "open protocol for charging points",
+      "ocpp standard"
+    ],
+    "operator ": [
+      "charging station operator",
+      "provider",
+      "charge point operator",
+      "charger installer",
+      "evse (electric vehicle supply equipment) operator"
+    ],
+    "operator team": [
+      "operator crew",
+      "operator unit",
+      "operator group",
+      "operator squad",
+      "professional team"
+    ],
+    "p2p": [
+      "private charging transactions",
+      "direct payment ev charging",
+      "direct charging transactions",
+      "peer-to-peer charging",
+      "individual-to-individual charging"
+    ],
+    "pair": [
+      "bind",
+      "associate",
+      "link",
+      "connect",
+      "integrate"
+    ],
+    "parent team": [
+      "primary team",
+      "superior team",
+      "hosting team",
+      "main team",
+      "parent group"
+    ],
+    "passcode": [
+      "payment code",
+      "authentication code",
+      "verification code",
+      "security code",
+      "pin"
+    ],
+    "password": [
+      "passcode",
+      "security key",
+      "authentication code",
+      "secret code",
+      "login key"
+    ],
+    "payment": [
+      "wallet management",
+      "transaction",
+      "financials",
+      "billing"
+    ],
+    "payment method": [
+      "payment system",
+      "payment mode",
+      "transaction method",
+      "payment type",
+      "billing option"
+    ],
+    "payment terminal": [
+      "payment machine",
+      "payment processing unit",
+      "card reader",
+      "payment device",
+      "transaction terminal"
+    ],
+    "peak hours": [
+      "busy hours",
+      "high demand period",
+      "peak demand time",
+      "rush hours",
+      "prime time"
+    ],
+    "personal tax number": [
+      "taxpayer identification number (tin)",
+      "income tax number",
+      "personal identification number (pin)",
+      "social security number (ssn)",
+      "individual taxpayer identification number (itin)"
+    ],
+    "plug&charge": [
+      "auto-start charging",
+      "instant plug-in power",
+      "automatic charging",
+      "quick connect charge",
+      "direct charging"
+    ],
+    "powerbank": [
+      "grid-integrated energy storage",
+      "power buffer",
+      "energy reservoir",
+      "power storage system",
+      "grid-connected battery"
+    ],
+    "price group": [
+      "tariff group",
+      "rate group",
+      "cost group",
+      "pricing category",
+      "price bracket"
+    ],
+    "private charge point": [
+      "company-specific charging point",
+      "proprietary charge point",
+      "restricted access charging station",
+      "private charging station",
+      "exclusive charge point"
+    ],
+    "private team": [
+      "exclusive team",
+      "proprietary team",
+      "private member group",
+      "confidential team",
+      "private group"
+    ],
+    "pro": [
+      "pro subscription",
+      "multiple charge points management plan",
+      "professional plan",
+      "professional subscription",
+      "pro package"
+    ],
+    "production forecast": [
+      "generation prediction",
+      "electricity generation forecast",
+      "solar yield forecast",
+      "power output estimation",
+      "energy production projection"
+    ],
+    "professional ": [
+      "pro",
+      "expert",
+      "business-oriented",
+      "specialist",
+      "corporate"
+    ],
+    "professional team": [
+      "professional group",
+      "business team",
+      "association squad",
+      "corporate group",
+      "commercial team"
+    ],
+    "promotion code": [
+      "promo code",
+      "offer code",
+      "voucher code",
+      "coupon code",
+      "discount code"
+    ],
+    "public charge point": [
+      "community charging station",
+      "public charging station",
+      "public charging outlet",
+      "public ev charging point",
+      "public evse (electric vehicle supply equipment)"
+    ],
+    "public price": [
+      "public cost",
+      "standard price",
+      "general public pricing",
+      "public rate",
+      "open price"
+    ],
+    "reboot": [
+      "system refresh",
+      "restart",
+      "reset",
+      "hard reboot",
+      "power cycle"
+    ],
+    "recipient code ": [
+      "e-invoice recipient code",
+      "receiver code",
+      "recipient identifier",
+      "receiver's identification code",
+      "beneficiary code"
+    ],
+    "refer & earn": [
+      "referral bonus",
+      "referral rewards",
+      "referral discount",
+      "refer-a-friend",
+      "referral program"
+    ],
+    "referral": [
+      "endorsement",
+      "referral code",
+      "invite",
+      "recommendation",
+      "invitation"
+    ],
+    "refill": [
+      "reload",
+      "boost",
+      "replenish",
+      "recharge",
+      "top up"
+    ],
+    "reimbursement": [
+      "compensation",
+      "recompense",
+      "refund",
+      "payback",
+      "repayment"
+    ],
+    "reimbursement price": [
+      "repayment amount",
+      "remuneration cost",
+      "refund value",
+      "payback price",
+      "compensation rate"
+    ],
+    "reliability": [
+      "operational integrity",
+      "dependability",
+      "performance stability",
+      "uptime",
+      "consistency"
+    ],
+    "residental charging": [
+      "residential ev charging",
+      "household charging",
+      "home charging",
+      "charging at home",
+      "domestic charging"
+    ],
+    "reverse charge": [
+      "self-accounting for vat",
+      "reverse vat",
+      "reverse tax",
+      "buyer's vat responsibility",
+      "zero-rated vat transaction"
+    ],
+    "rfid": [
+      "rfid key fob",
+      "rfid chip",
+      "rfid card",
+      "radio-frequency identification",
+      "rfid tag"
+    ],
+    "roadmap": [
+      "blueprint",
+      "development outline",
+      "action plan",
+      "project timeline",
+      "strategy plan"
+    ],
+    "roaming": [
+      "cross-network charging",
+      "network-hopping",
+      "multi-network access",
+      "charging network interchange",
+      "interoperable charging"
+    ],
+    "sales tax": [
+      "vat",
+      "retail tax",
+      "purchase tax",
+      "consumption tax",
+      "goods and services tax"
+    ],
+    "schedule": [
+      "arrange",
+      "program",
+      "set up",
+      "timetable",
+      "plan"
+    ],
+    "scheduled charging": [
+      "timed charging",
+      "charge timing",
+      "preset charging",
+      "programmed charging",
+      "charging scheduling"
+    ],
+    "self-healing": [
+      "auto-remediation",
+      "self-correcting",
+      "autonomous repair",
+      "self-repairing",
+      "automated recovery"
+    ],
+    "sepa direct debit": [
+      "euro direct debit",
+      "direct debit under sepa",
+      "european direct debit",
+      "single euro payments area direct debit",
+      "sepa dd"
+    ],
+    "serial number": [
+      "device id",
+      "tracking number",
+      "device code",
+      "product id",
+      "identifier code"
+    ],
+    "service provider": [
+      "service vendor",
+      "charging service provider",
+      "charging network provider",
+      "service supplier",
+      "charge point operator"
+    ],
+    "shop": [
+      "purchase platform",
+      "e-commerce section",
+      "retail space",
+      "marketplace",
+      "store"
+    ],
+    "single sign-on": [
+      "universal login",
+      "single login",
+      "sso",
+      "unified login",
+      "one-click sign-on"
+    ],
+    "site": [
+      "charging facility",
+      "charging location",
+      "ev charging spot",
+      "charging station",
+      "charging point"
+    ],
+    "site owner": [
+      "charge point installer",
+      "property owner",
+      "premises owner",
+      "facility owner",
+      "location owner"
+    ],
+    "smart charge": [
+      "eco-friendly charge",
+      "smart charging",
+      "intelligent charging",
+      "preference-based charging",
+      "strategic charge"
+    ],
+    "smart charging": [
+      "flexible charging",
+      "demand response charging",
+      "green charging",
+      "intelligent charging",
+      "dynamic charging"
+    ],
+    "solar charging ": [
+      "renewable energy charging",
+      "solar-based ev refuelling",
+      "solar energy charging",
+      "photovoltaic charging",
+      "sun-powered ev charging"
+    ],
+    "solar surplus charging": [
+      "excess solar power charging",
+      "sun-powered surplus charging",
+      "pv surplus charging",
+      "photovoltaic overflow charging",
+      "renewable excess energy charging"
+    ],
+    "sort code": [
+      "bank identifier code",
+      "bank branch identifier",
+      "banking code",
+      "bank office code",
+      "branch number"
+    ],
+    "spot price": [
+      "market price",
+      "real-time price",
+      "spot rate",
+      "commodities price",
+      "current price"
+    ],
+    "sso": [
+      "single identity verification",
+      "one-click sign-in",
+      "single login",
+      "central authentication",
+      "unified login"
+    ],
+    "start fee": [
+      "charge onset fee",
+      "startup cost",
+      "initiation fee",
+      "commencement charge",
+      "beginning fee"
+    ],
+    "start time": [
+      "initiation time",
+      "beginning of charge session",
+      "onset time",
+      "charging start",
+      "commencement time"
+    ],
+    "state of charge (soc)": [
+      "battery charge level",
+      "battery life remaining",
+      "battery capacity percentage",
+      "battery charge state",
+      "charge status"
+    ],
+    "statement": [
+      "bill summary",
+      "expense overview",
+      "invoice breakdown",
+      "cost summary",
+      "billing report"
+    ],
+    "stationid": [
+      "station identification number",
+      "charging unit id",
+      "evse id",
+      "charging point identifier",
+      "charge station code"
+    ],
+    "stay in charge": [
+      "charging dispatch",
+      "power pulse",
+      "remain energized",
+      "keep powered",
+      "energy update"
+    ],
+    "sticker": [
+      "scan code label",
+      "barcode sticker",
+      "quick response code sticker",
+      "qr tag",
+      "qr label"
+    ],
+    "support settings": [
+      "assistance preferences",
+      "support configuration",
+      "help configurations",
+      "support preferences",
+      "help settings"
+    ],
+    "supporter": [
+      "aid",
+      "customer service representative",
+      "helper",
+      "assistant",
+      "support agent"
+    ],
+    "surplus energy": [
+      "extra energy",
+      "leftover electricity",
+      "unused power",
+      "excess power",
+      "spare energy"
+    ],
+    "swipe": [
+      "press",
+      "slide",
+      "select",
+      "tap",
+      "click"
+    ],
+    "tariff": [
+      "rate",
+      "cost structure",
+      "schedule of charges",
+      "fee schedule",
+      "pricing plan"
+    ],
+    "tax id": [
+      "vat registration number",
+      "vat id",
+      "irs number",
+      "taxpayer identification number",
+      "tin"
+    ],
+    "tax identification number ": [
+      "italian tax code",
+      "tin",
+      "codice fiscale",
+      "fiscal code",
+      "italian fiscal identification number"
+    ],
+    "team": [
+      "crew",
+      "unit",
+      "group",
+      "department",
+      "squad"
+    ],
+    "theme": [
+      "custom theme",
+      "skinning",
+      "white-labeling",
+      "brand identity customization",
+      "branding feature"
+    ],
+    "transaction fee": [
+      "service charge",
+      "processing fee",
+      "transaction cost",
+      "operation fee",
+      "commission fee"
+    ],
+    "user": [
+      "consumer",
+      "customer",
+      "participant",
+      "end-user",
+      "client"
+    ],
+    "user role": [
+      "user profile",
+      "user authority",
+      "user position",
+      "user status",
+      "user level"
+    ],
+    "vat": [
+      "goods and services tax",
+      "consumption tax",
+      "indirect tax",
+      "vat rate",
+      "value added tax"
+    ],
+    "vat ": [
+      "vatin",
+      "vat id",
+      "value added tax id",
+      "tax identification number",
+      "tin"
+    ],
+    "vat export ": [
+      "zero vat export",
+      "exempted vat export",
+      "0% vat export",
+      "non-taxable export",
+      "vat-free export"
+    ],
+    "vin": [
+      "automobile identification code",
+      "chassis number",
+      "vehicle serial number",
+      "car identification number",
+      "car vin"
+    ],
+    "wallet": [
+      "digital wallet",
+      "payment wallet",
+      "e-wallet",
+      "electronic purse",
+      "transaction hub"
+    ],
+    "white label": [
+      "private label",
+      "brand license",
+      "resold solutions",
+      "rebranded services",
+      "oem (original equipment manufacturer)"
+    ],
+    "wholesaler": [
+      "reseller",
+      "supplier",
+      "distributor",
+      "dealer",
+      "bulk seller"
+    ],
+    "workplace charging": [
+      "employment location charging",
+      "office charging",
+      "business site charging",
+      "company charging facilities",
+      "job site charging"
+    ]
+  }
+}

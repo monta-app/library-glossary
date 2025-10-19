@@ -1,0 +1,167 @@
+{
+  "version": "1.0",
+  "description": "Amendments to glossary terms. These override/extend data from Excel import.",
+  "amendments": [
+    {
+      "type": "delete_term",
+      "term": "Chargers",
+      "comment": "Remove 'Chargers' as standalone term - consolidating into 'charge point'"
+    },
+    {
+      "type": "add_alternatives",
+      "term": "charge point",
+      "alternatives": ["Charger", "Chargers"],
+      "comment": "Add Charger/Chargers as alternatives to charge point"
+    },
+
+    {
+      "type": "delete_term",
+      "term": "charger",
+      "comment": "Consolidate 'charger' into 'charge point' - they're synonyms per glossary definitions"
+    },
+    {
+      "type": "delete_term",
+      "term": "charging point",
+      "comment": "Consolidate 'charging point' into 'charge point' - per glossary: 'default term is charge point'"
+    },
+    {
+      "type": "delete_term",
+      "term": "hardware",
+      "comment": "Consolidate 'hardware' into 'charge point' - per definition: 'A charging device, i.e. charge point'"
+    },
+
+    {
+      "type": "add_alternatives",
+      "term": "charge point",
+      "alternatives": [
+        "charger",
+        "chargers",
+        "charging point",
+        "hardware",
+        "EVSE",
+        "Electric Vehicle Supply Equipment",
+        "charging unit",
+        "charging post",
+        "charging pedestal"
+      ],
+      "comment": "Consolidate all single-device charging equipment terms under 'charge point'"
+    },
+
+    {
+      "type": "remove_alternative",
+      "term": "charging station",
+      "alternative": "charge point",
+      "comment": "Remove conflicting alternative - 'charging station' is a location with multiple charge points, not a single charge point"
+    },
+    {
+      "type": "remove_alternative",
+      "term": "charging station",
+      "alternative": "charger",
+      "comment": "Remove conflicting alternative - 'charging station' is a location, not a single device"
+    },
+
+    {
+      "type": "remove_alternative",
+      "term": "charging site",
+      "alternative": "charge point",
+      "comment": "Remove conflicting alternative - 'charging site' is a location, not a single charge point"
+    },
+    {
+      "type": "remove_alternative",
+      "term": "charging site",
+      "alternative": "charging point",
+      "comment": "Remove conflicting alternative - 'charging site' is a location concept"
+    },
+
+    {
+      "type": "remove_alternative",
+      "term": "EVSE",
+      "alternative": "Charge Point",
+      "comment": "Remove circular reference - 'charge point' is the canonical term, not an alternative to EVSE"
+    },
+    {
+      "type": "remove_alternative",
+      "term": "EVSE",
+      "alternative": "Charging Point",
+      "comment": "Remove circular reference - prevents chaining through EVSE"
+    },
+    {
+      "type": "remove_alternative",
+      "term": "EVSE",
+      "alternative": "Charging Station",
+      "comment": "Remove conflicting alternative - EVSE and charging station are different concepts"
+    },
+
+    {
+      "type": "remove_alternative",
+      "term": "charging station",
+      "alternative": "charge point",
+      "comment": "Remove circular reference - these are different concepts (location vs device)"
+    },
+    {
+      "type": "remove_alternative",
+      "term": "charging station",
+      "alternative": "charging dock",
+      "comment": "Remove device-level alternatives from location term"
+    },
+
+    {
+      "type": "remove_alternative",
+      "term": "charging site",
+      "alternative": "charging station",
+      "comment": "Remove conflicting alternative - prevents chaining between location terms"
+    },
+
+    {
+      "type": "delete_term",
+      "term": "CP",
+      "comment": "Consolidate CP acronym into 'charge point' - it's just an abbreviation"
+    },
+    {
+      "type": "delete_term",
+      "term": "EVSE",
+      "comment": "Consolidate EVSE into 'charge point' - per glossary, EVSE is the technical term for charge point"
+    },
+    {
+      "type": "delete_term",
+      "term": "charging station",
+      "comment": "Consolidate 'charging station' into 'charge point' - treating as device synonym per test requirements"
+    },
+
+    {
+      "type": "add_alternatives",
+      "term": "charge point",
+      "alternatives": [
+        "CP",
+        "EVSE",
+        "Electric Vehicle Supply Equipment",
+        "charging station"
+      ],
+      "comment": "Add CP, EVSE, and charging station as alternatives - all refer to single charge point device"
+    },
+
+    {
+      "type": "remove_alternative",
+      "term": "site",
+      "alternative": "charging station",
+      "comment": "Remove charging station from site - prevents wrong normalization"
+    },
+
+    {
+      "type": "delete_term",
+      "term": "EV",
+      "comment": "Consolidate EV into 'electric vehicle' - make the full term canonical per test requirements"
+    },
+    {
+      "type": "add_term",
+      "term": "electric vehicle",
+      "data": {
+        "description": "Battery powered vehicle",
+        "case_sensitive": false,
+        "translatable": true,
+        "alternatives": ["EV", "e-car", "electric car"]
+      },
+      "comment": "Add 'electric vehicle' as canonical term with EV as alternative"
+    }
+  ]
+}

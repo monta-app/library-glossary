@@ -5,7 +5,7 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 ## AC
 **Tag:** industry
 
-**Alternative words:** AC Charging Point, AC Charger, AC Charging Station, AC Power Source, Alternating Current
+**Alternative words:** ac charging station, ac power source, alternating current supply, alternating current, ac charger
 
 **Description:** Type of charge point with slower charging speeds, typically found in home, workplace, or public settings
 
@@ -28,7 +28,7 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 ## AFIR 
 **Tag:** industry
 
-**Alternative words:** Alternative Fuels Regulation, AFIR Standards, AFIR Guidelines, AFIR Protocols, Alternative Fuels Infrastructure Rules
+**Alternative words:** alternative fuel regulation, af infrastructure regulation, afir regulation, alternative fuels ir, regulation for alternative fuels infrastructure
 
 **Description:** Acronym for Alternative Fuels Infrastructure Regulation (AFIR) . Source and target capitalization intact.
 
@@ -51,7 +51,7 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 ## API
 **Tag:** product
 
-**Alternative words:** Application Programming Interface, Data Integration Interface, System Integration API, Public Integration Interface, Public Interface
+**Alternative words:** web api, api suite, application programming interface, software interface, rest api
 
 **Description:** Monta’s Public API allows end customers to integrate their Monta-connected charge points and EVs with any system to use the data. For example, triggering a home charge based on conditions like house meter or solar energy
 
@@ -74,7 +74,7 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 ## API key
 **Tag:** industry
 
-**Alternative words:** API Identifier, API Access Token, API Secret Key, Application Programming Interface Key, API Credential
+**Alternative words:** api identifier, application programming interface key, api access key, api token, api secret key, api keys
 
 **Description:** A unique identifier, that  serves as a "password" to validate the client's identity when making requests to the API.
 
@@ -96,7 +96,7 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 ## Administrator
 **Tag:** product
 
-**Alternative words:** Manager, Account Holder, Superuser, Admin, System Operator
+**Alternative words:** manager, master user, account owner, supervisor, admin, administrators
 
 **Description:** Role access functionality for Business plan users in HUB, enabling to diversify access permissions for team members within an account. Admin account has a full access and full functionaltity available. 
 
@@ -117,6 +117,8 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 
 ## Advenir
 **Tag:** industry
+
+**Alternative words:** advenir scheme, french electric vehicle charging program, french ev infrastructure program, advenir project, advenir initiative, advenirs
 
 **Description:** French government program aimed at expanding the nation's EV charging infrastructure. 
 
@@ -139,6 +141,8 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 ## Alternative Fuels Infrastructure Regulation
 **Tag:** industry
 
+**Alternative words:** alternative energy infrastructure law, afir, renewable fuels infrastructure regulation, alternative fuels deployment mandate, clean fuels infrastructure directive, alternative fuels infrastructure regulations
+
 **Description:** Refers to setting mandatory targets for EU countries to deploy infrastructure for alternative fuels, ensuring compatibility, user information, and payment options.
 
 **Translations:**
@@ -160,6 +164,8 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 ## App Store
 **Tag:** industry
 
+**Alternative words:** apple store for apps, apple's application store, itunes app store, ios app store, apple app marketplace, app stores
+
 **Description:** Apple's app marketplace for iOS, IpadOS. Source and target capitalization intact.
 
 **Translations:**
@@ -180,6 +186,8 @@ This glossary maps Monta terminology for AI models. Each entry includes descript
 
 ## App clips
 **Tag:** industry
+
+**Alternative words:** light apps, shortcuts, instant apps, quick access apps, mini apps, app clip
 
 **Description:** Description:
 Lightweight Apple experience that lets iOS drivers start a charge or complete a quick action in Monta Charge without installing the full app.
@@ -216,6 +224,8 @@ See also: Instant Apps, Charge.
 ## Auto withdrawal
 **Tag:** product
 
+**Alternative words:** auto transfer, automatic debit, auto-debit, automatic fund transfer, scheduled withdrawal, auto withdrawals
+
 **Description:** Label of sub-header in Wallet > Withdraw section. Enables automatic monthly transfer of available funds to the user's bank account.
 
 **Translations:**
@@ -236,6 +246,8 @@ See also: Instant Apps, Charge.
 
 ## AutoCharge
 **Tag:** product
+
+**Alternative words:** plug and charge, smartcharge, self-charging, automatic charging, easycharge, autocharges
 
 **Description:** Source and target capitalization intact.  B2C feature enabling automatic charging. 
 
@@ -258,6 +270,8 @@ See also: Instant Apps, Charge.
 ## AutoStart
 **Tag:** product
 
+**Alternative words:** autobegin, automated start, autocharge, instant start, automatic charging initiation, autostarts
+
 **Description:** Source and target capitalization intact. Feature enables to start automatic charge, when EV gets plugged into to charge point that is set to be Private.
 
 **Translations:**
@@ -279,6 +293,8 @@ See also: Instant Apps, Charge.
 ## Basic
 **Tag:** brand
 
+**Alternative words:** entry-level, standard, fundamental, basic plan, starter, basics
+
 **Description:** Source and target capitalization intact. Subscription plan at Monta.
 
 **Translations:**
@@ -297,29 +313,10 @@ See also: Instant Apps, Charge.
 
 ---
 
-## CP
-**Tag:** industry
-
-**Description:** Charge Point (CP): Industry acronym for a charge point. Opt for the full term "charge point" or "charger" for EN-US
-
-**Translations:**
-- DA: ladestander
-- DE: B2B: Ladestation; B2C: Wallbox
-- EN: CP
-- EN_US: CP
-- ES: punto de recarga
-- FR: borne de recharge
-- FR_CA: borne de recharge
-- IT: punto di ricarica
-- NL: laadpaal
-- NO: ladepunkt
-- RO: stație de încărcare
-- SV: laddpunkt
-
----
-
 ## CPI
 **Tag:** industry
+
+**Alternative words:** evse integration, charging point connection, charge spot connection, electric vehicle supply equipment integration, charging station integration
 
 **Description:** Acronym for Charge Point Integration, enabling communication and data exchange between charging stations and central management systems or external platforms.
 
@@ -342,6 +339,8 @@ See also: Instant Apps, Charge.
 ## CPMS
 **Tag:** industry
 
+**Alternative words:** charging infrastructure management system, electric vehicle charge point management, charge station management system, ev charging management system, csms
+
 **Description:** Acronym for Charge Point Management System, e.g. HUB.
 
 **Translations:**
@@ -362,6 +361,8 @@ See also: Instant Apps, Charge.
 
 ## CPO
 **Tag:** industry
+
+**Alternative words:** charging infrastructure operator, ev charging operator, charging network operator, evse operator, charging station operator
 
 **Description:** Abbrev for charge charge point operator, an entity responsible for the operation, maintenance, and technical management of charge points and sites.
 
@@ -384,6 +385,8 @@ See also: Instant Apps, Charge.
 ## CT clamp
 **Tag:** industry
 
+**Alternative words:** ct sensor, amperage transformer clamp, current sensing clamp, current transformer clip, current probe, ct clamps
+
 **Description:** Current transformer clamp is an electrical device used to measure the current flowing through a conductor without having to make direct contact with the electrical circuit. Used in power monitoring, energy metering, and electrical diagnostics.
 
 **Translations:**
@@ -404,6 +407,8 @@ See also: Instant Apps, Charge.
 
 ## California Pricing
 **Tag:** industry
+
+**Alternative words:** ocpp california pricing, real-time pricing communication, dynamic pricing communication, cpms california pricing, california method pricing, california pricings
 
 **Description:** California Pricing is an OCPP-based method for a Charge Point Management System (CPMS) to communicate pricing (price per kWh, running cost, final cost, etc.) to the charge point in real time during a charging session. This allows the charger’s display to show the current price and accumulated cost to the EV driver, fulfilling the California regulatory mandate for transparent pricing. The term “California Pricing” comes from its origin in California regulations, but the concept has since gained wider usage beyond California as a best practice for real-time tariff display and cost calculation in EV charging. It is not simply a descriptive phrase, but the informal name of a specific technical solution (defined by an OCA whitepaper) to a industry-wide problem. Usage rule: When mentioning for the first time, always expand the abbreviation.
 
@@ -426,6 +431,8 @@ See also: Instant Apps, Charge.
 ## Charge
 **Tag:** brand
 
+**Alternative words:** energize, juice up, power up, recharge, refuel
+
 **Description:** A proper noun. Monta consumer app.
 
 **Translations:**
@@ -444,41 +451,10 @@ See also: Instant Apps, Charge.
 
 ---
 
-## Chargers
-**Tag:** product
-
-**Description:** Description:
-UI label on the Charge app home screen linking to the list or map of available charging locations.
-
-Usage rules:
-- Always Title Case: “Chargers.”
-- Use plural only.
-- Do not replace with “Charge points,” “Stations,” or “Sites.”
-- Keep label to one word.
-
-Surface: Charge app (Home screen).
-Audience: EV drivers.
-Tone: Product-neutral.
-See also: Charge point, Charging site.
-
-**Translations:**
-- DA: Ladere
-- DE: Ladestationen
-- EN: Chargers
-- EN_US: Chargers
-- ES: Cargadores
-- FR: Bornes
-- FR_CA: Bornes
-- IT: Punti di ricarica
-- NL: Laadpalen
-- NO: Ladere
-- RO: Stații
-- SV: Laddare
-
----
-
 ## DC
 **Tag:** industry
+
+**Alternative words:** direct current, high-power charger, rapid charger, dc fast charging station, fast charger
 
 **Description:** Type of charge point using direct current (DC), offering much higher power outputs. DC offer fast or ultra-fast charging, in contrary to AC. DC are usually found in charging parks, located in strategically by highways, rest areas, etc.
 
@@ -501,6 +477,8 @@ See also: Charge point, Charging site.
 ## DSO
 **Tag:** industry
 
+**Alternative words:** electricity distribution operator, dno, power network operator, distribution service operator, distribution network operator
+
 **Description:** See the full-term - distribution system operator (DSO) - for more details. 
 
 **Translations:**
@@ -521,6 +499,8 @@ See also: Charge point, Charging site.
 
 ## Data pipelines
 **Tag:** brand
+
+**Alternative words:** data workflows, data streams, information pipelines, data conduits, data channels, data pipeline
 
 **Description:** B2B feature. A built‑in Hub capability that lets operators discover, connect, and monitor managed data‑sharing integrations to external endpoints such as national access points (NAPs), AFIR reporting, rebate programs, and similar compliance or partner systems. It automates delivery of required static and dynamic data and gives visibility into what’s shared and each connection’s status, all scoped by permissions
 
@@ -543,6 +523,8 @@ See also: Charge point, Charging site.
 ## Data warehouse
 **Tag:** product
 
+**Alternative words:** data mart, data store, data repository, data vault, data storage, data warehouses
+
 **Description:** A feature/functionality for Monta to share data with partners.
 
 **Translations:**
@@ -563,6 +545,8 @@ See also: Charge point, Charging site.
 
 ## Data+
 **Tag:** brand
+
+**Alternative words:** advanced data add-on, data plus, data+ upgrade, enhanced data package, data extra, data+s
 
 **Description:** Label for product add-on that can be optionally purchased to unlock more advanced features for partner and operator subscriptions.
 
@@ -585,6 +569,8 @@ See also: Charge point, Charging site.
 ## EIN
 **Tag:** industry
 
+**Alternative words:** tax id number, federal tax identification number, federal employer identification number, irs number, fein
+
 **Description:** Employer identification number - used for tax reporting purposes, including payroll, tax returns, etc. US-centric term.
 
 **Translations:**
@@ -606,6 +592,8 @@ See also: Charge point, Charging site.
 ## EMSP
 **Tag:** industry
 
+**Alternative words:** emsp, electric vehicle service provider, e-mobility services, electric mobility service provider, ev charging service provider
+
 **Description:** Abbr. for E-mobility Service Provider. Offers EV charging services to EV drivers via its own network or through roaming agreements with other networks. Used in the context of invoices and receipts.
 
 **Translations:**
@@ -624,52 +612,10 @@ See also: Charge point, Charging site.
 
 ---
 
-## EV
-**Tag:** industry
-
-**Description:** Acronym for electric vehicles. Use local equivalent, either as an acronym or full term
-
-**Translations:**
-- DA: elbil
-- DE: Elektroauto, Elektrofahrzeug
-- EN: EV
-- EN_US: EV
-- ES: VE
-- FR: VE
-- FR_CA: VE
-- IT: EV
-- NL: EV / elektrisch voertuig / elektrische auto
-- NO: elbil
-- RO: VE (Vehicule Electrice)
-- SV: elbil
-
----
-
-## EVSE
-**Tag:** industry
-
-**Description:** Acronym for  Electric Vehicle Supply Equipment.  The physical charging equipment. Translation depends on the context:
-1. Tech-facing - keep the acronym, used in technical context ( back-end, installer tools, documentation, API's etc.) 
-2. User-facing - spell out acronym, use local equlavent. Used in B2C flows, marketing (not technical audience)
-
-**Translations:**
-- DA: EVSE or ladeudstyr
-- DE: EVSE or Ladeeinrichtung
-- EN: EVSE
-- EN_US: EVSE or charging equipment
-- ES: EVSE or equipo de recarga
-- FR: EVSE or équipement de recharge
-- FR_CA: EAVE or équipement d'alimentation pour véhicule électrique 
-- IT: EVSE or attrezzatura di ricarica
-- NL: EVSE or laadpunt
-- NO: EVSE or ladeutstyr
-- RO: EVSE or echipament de încărcare
-- SV: EVSE or laddutrustning
-
----
-
 ## Enterprise
 **Tag:** brand
+
+**Alternative words:** corporation, large organization, large-scale business, multisite company, corporate entity, enterprises
 
 **Description:** Source and target capitalization intact. Monta subscription plan, targetting large-scale charging across multiple sites and offering the complete user experience.
 
@@ -692,6 +638,8 @@ See also: Charge point, Charging site.
 ## Finance+
 **Tag:** brand
 
+**Alternative words:** finance add-on, advanced finance features, finance enhanced package, finance upgrade, premium finance module, finance+s
+
 **Description:** Label for product add-on that can be optionally purchased to unlock more advanced features for partner and operator subscriptions.
 
 **Translations:**
@@ -712,6 +660,8 @@ See also: Charge point, Charging site.
 
 ## Free
 **Tag:** brand
+
+**Alternative words:** zero charge, gratis, complimentary, cost-free, no cost, frees
 
 **Description:** Source and target capitalization intact. Name of Monta's subscription plan, which is most limited and free of charge.
 
@@ -734,6 +684,8 @@ See also: Charge point, Charging site.
 ## Growth+
 **Tag:** brand
 
+**Alternative words:** expansion+, advanced add-on, upgrade+, premium extension, enhancement+, growth+s
+
 **Description:** Label for product add-on that can be optionally purchased to unlock more advanced features for partner and operator subscriptions.
 
 **Translations:**
@@ -754,6 +706,8 @@ See also: Charge point, Charging site.
 
 ## Hardware Portal
 **Tag:** brand
+
+**Alternative words:** device portal, equipment portal, hardware dashboard, hardware interface, manufacturer's interface, hardware portals
 
 **Description:** Monta platform for hardware manufacturers to gain valuable, actionable insights on their charge points to enhance product quality and stability. The portal includes features like remote firmware updates and OCPP compatibility testing with Monta's OCPP Toolkit.
 
@@ -778,6 +732,8 @@ Loc details - DNT "Hardware" // "Portal" - follow existing Portal translation
 ## Help Centre
 **Tag:** brand
 
+**Alternative words:** faq section, user guide, support centre, help desk, knowledge base, help centres
+
 **Description:** Publically available guide and help article database.
 
 **Translations:**
@@ -798,6 +754,8 @@ Loc details - DNT "Hardware" // "Portal" - follow existing Portal translation
 
 ## Hub
 **Tag:** product
+
+**Alternative words:** charging point management platform, charging station management system, ev charging network controller, ev operations control center, charging infrastructure management, hubs
 
 **Description:** Charge point management system, enabling back-end solutions within EV operations, financial and charge point management. Key user segments - solution providers and large enterprises.
 
@@ -820,6 +778,8 @@ Loc details - DNT "Hardware" // "Portal" - follow existing Portal translation
 ## Hypercare
 **Tag:** brand
 
+**Alternative words:** premium support, specialized support, enterprise-level assistance, advanced customer care, enhanced service plan, hypercares
+
 **Description:** Source and target capitalization intact. Service within Enterprise plan. Tailored support package for new enterprise customers to succeed with Monta.
 
 **Translations:**
@@ -840,6 +800,8 @@ Loc details - DNT "Hardware" // "Portal" - follow existing Portal translation
 
 ## IBAN
 **Tag:** industry
+
+**Alternative words:** iban code, international banking identification number, global bank account identifier, cross-border bank account number, international account number
 
 **Description:** International Bank Account Number - standardized format for bank account numbers that is used internationally to facilitate the processing of cross-border transactions
 
@@ -862,6 +824,8 @@ Loc details - DNT "Hardware" // "Portal" - follow existing Portal translation
 ## ICE vehicle
 **Tag:** industry
 
+**Alternative words:** diesel vehicle, fossil fuel vehicle, traditional fuel vehicle, gasoline vehicle, combustion engine car, ice vehicles
+
 **Description:** Acronym refers to 'Internal Combustion Engine vehicle', i.e. vehicles powered by fossil fuels (e.g., gasoline or diesel), as opposed to electric vehicles (EVs).
 
 **Translations:**
@@ -882,6 +846,8 @@ Loc details - DNT "Hardware" // "Portal" - follow existing Portal translation
 
 ## In-Between Charges
 **Tag:** brand
+
+**Alternative words:** halfway charging, between charges, intermediate charges, interim charges, midway charging, in-between chargeses
 
 **Description:** Title of Monta's podcast. Available on Spotify. Source and target capitalization intact.
 
@@ -904,6 +870,8 @@ Loc details - DNT "Hardware" // "Portal" - follow existing Portal translation
 ## Insights
 **Tag:** product
 
+**Alternative words:** intelligence, charging statistics, charge info, data overview, analytics, insightss
+
 **Description:**  'Insights'  section and button label in the 'Charge' app. Displays accumulated data during charging and forecasts, such as SmartCharge, Spotprice, etc
 
 **Translations:**
@@ -924,6 +892,8 @@ Loc details - DNT "Hardware" // "Portal" - follow existing Portal translation
 
 ## Instant App
 **Tag:** industry
+
+**Alternative words:** fast access app, instantaneous application, on-the-go app, quick app, light app, instant apps
 
 **Description:** 
 Lightweight app version for Android devices, enabling charging with the Charge app without having to download the app. The Apple version is called App clips. Technical term and less likely to be used for user-facing content. 
@@ -948,6 +918,8 @@ Lightweight app version for Android devices, enabling charging with the Charge a
 ## MID
 **Tag:** industry
 
+**Alternative words:** eu measurement regulation, european union mid, measurement index directive, mid standards, mid regulation
+
 **Description:** Measurement Index Directive (MID) is a European Union regulation that sets standards for the accuracy and reliability of measurement instruments. In non-English languages, MID is typically retained as MID, used in formal, regulatory, or detailed documentation. The spelled-out term is sometimes used for clarification in long-form and content for less-technical segment. 
 
 **Translations:**
@@ -968,6 +940,8 @@ Lightweight app version for Android devices, enabling charging with the Charge a
 
 ## Made to Move
 **Tag:** brand
+
+**Alternative words:** engineered for movement, built for motion, designed to mobilize, created for commuting, made for mobility, made to moves
 
 **Description:** A global tagline. Always remains in English across all the languages
 
@@ -990,6 +964,8 @@ Lightweight app version for Android devices, enabling charging with the Charge a
 ## Manager
 **Tag:** product
 
+**Alternative words:** executive, administrator, overseer, coordinator, supervisor, managers
+
 **Description:** Role access functionality for Business plan users in HUB, enabling to diversify access permissions for team members within an account.  Manager role gives almost the same access rights as Admin, with few restrictions.
 
 **Translations:**
@@ -1010,6 +986,8 @@ Lightweight app version for Android devices, enabling charging with the Charge a
 
 ## Map
 **Tag:** product
+
+**Alternative words:** geo-feature, locator, electronic map, cartographic display, navigation chart, maps
 
 **Description:** Label of "Map feature" displayed in the main landing UI in the app. Source and target capitalization intact.
 
@@ -1032,6 +1010,8 @@ Lightweight app version for Android devices, enabling charging with the Charge a
 ## Me
 **Tag:** product
 
+**Alternative words:** profile, personal info, account, user, my account, us
+
 **Description:** Label of "Me" button in the main landing UI in the app. Source and target capitalization intact.
 
 **Translations:**
@@ -1052,6 +1032,8 @@ Lightweight app version for Android devices, enabling charging with the Charge a
 
 ## Monta Control
 **Tag:** brand 
+
+**Alternative words:** monta operational oversight, monta diagnostics, monta operations control, monta management, monta monitoring, monta controls
 
 **Description:** Brand name for a secondary product offering integrated into the HUB, designed specifically for operators. It provides real-time access to raw OCPP logs, visibility into Plug & Charge sessions, diagnostic insights, and configuration capabilities for enhanced operational control and troubleshooting.
 
@@ -1074,6 +1056,8 @@ Lightweight app version for Android devices, enabling charging with the Charge a
 ## NFC
 **Tag:** industry
 
+**Alternative words:** tap-and-go payment, rfid, contactless payment, proximity card, near field communication
+
 **Description:** Used in the context of charge key.
 
 **Translations:**
@@ -1094,6 +1078,8 @@ Lightweight app version for Android devices, enabling charging with the Charge a
 
 ## NOC Agent
 **Tag:** brand
+
+**Alternative words:** ai-powered noc operative, network operations center agent, ai diagnostic agent, diagnostic assistant, noc specialist, noc agents
 
 **Description:** B2B feature. AI-powered diagnostic assistant built into Monta Control and Hub
 Reads session logs and related signals across multiple data sources to identify likely root causes of failed or degraded charging sessions, then presents clear, actionable explanations for operators and support teams
@@ -1117,6 +1103,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## OCPI
 **Tag:** industry
 
+**Alternative words:** ocpi protocol, open interface for ev charging stations, ocpi standard, open charge point protocol, open charging interface
+
 **Description:** Acronym for 'Open Charge Point Interface'. In user-facing content, OCPI is typically kept as an acronym rather than spelled out. Used mainly in technical contexts. It is an established and widely understood within the industry.
 
 **Translations:**
@@ -1137,6 +1125,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## OCPI tariff 
 **Tag:** industry
+
+**Alternative words:** ocpi rate plan, ocpi pricing structure, ocpi pricing scheme, electric vehicle charging rate, ev charging tariff, ocpi tariffs
 
 **Description:** A standardized method for defining and sharing pricing information for electric vehicle (EV) charging services between various participants in the EV ecosystem. 
 
@@ -1159,6 +1149,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## OCPP
 **Tag:** industry
 
+**Alternative words:** charging station protocol, ev charging communication protocol, open charging protocol, open communication for ev charging, ocpp standard
+
 **Description:** Acronym for 'Open Charge Point Protocol'. Technical standard for 'How charge points (hardware) communicate with EV software. In user-facing content, OCPP is typically kept as an acronym rather than spelled out. It is an established and widely understood within the industry.
 
 **Translations:**
@@ -1179,6 +1171,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## OCPP Toolkit
 **Tag:** brand
+
+**Alternative words:** ocpp compliance tool, ev charging test kit, ocpp validation suite, charge point testing toolkit, ocpp testing software, ocpp toolkits
 
 **Description:** Monta Integration Testing tool, enabling manufacturers to test OCPP implementation of their charge point and firmware. This ensures stability and quality of the hardware, when used together with Monta's software.
 
@@ -1201,6 +1195,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## OICP
 **Tag:** industry
 
+**Alternative words:** oicp communication protocol, oicp tech standard, open intercharge protocol, oicp standard, intercharge protocol
+
 **Description:** Acronym for 'Open InterCharge Protocol'. Technical standard how networks communicate with charge points. In user-facing content, OICP is typically kept as an acronym rather than spelled out. It is an established and widely understood within the industry.
 
 **Translations:**
@@ -1221,6 +1217,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## Open Charge Point Protocol
 **Tag:** industry
+
+**Alternative words:** ocpp communication protocol, charging point open protocol, open charging protocol, open protocol for charging points, ocpp standard, open charge point protocols
 
 **Description:** Spelled out term for OCPP. Technical and regulated term, remains in English in all languages
 
@@ -1243,6 +1241,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## P2P
 **Tag:** industry
 
+**Alternative words:** private charging transactions, direct payment ev charging, direct charging transactions, peer-to-peer charging, individual-to-individual charging
+
 **Description:** Facilitate direct charging transactions, when one private individual (the seller) allows another (the buyer) to charge an EV at their charge point, and payment is made directly from the buyer to the seller using the Monta platform. Used in invoiced.
 
 **Translations:**
@@ -1263,6 +1263,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## Plug&Charge
 **Tag:** brand
+
+**Alternative words:** auto-start charging, instant plug-in power, automatic charging, quick connect charge, direct charging, plug&charges
 
 **Description:** Feature enables instant charging upon cable connection, as an alternative to RFID and app authentication, for Monta-operated Charge Points.
 
@@ -1285,6 +1287,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## PowerBank
 **Tag:** brand
 
+**Alternative words:** grid-integrated energy storage, power buffer, energy reservoir, power storage system, grid-connected battery, powerbanks
+
 **Description:** Grid service feature that connects charging points to the grid system, allowing Monta to pause and resume charging based on the grid’s imbalance at any given moment.
 
 **Translations:**
@@ -1305,6 +1309,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## Pro
 **Tag:** brand
+
+**Alternative words:** pro subscription, multiple charge points management plan, professional plan, professional subscription, pro package, pros
 
 **Description:** Subscription plan, targetting smaller sites that need to manage multiple charge points. Source and target capitalization intact.
 
@@ -1327,6 +1333,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## Professional 
 **Tag:** brand
 
+**Alternative words:** pro, expert, business-oriented, specialist, corporate, professionals 
+
 **Description:** A type of Team (feature), designed to cater  a variety of B2B needs, such as  Housing association, Parking, Hotel, and Company.
 
 **Translations:**
@@ -1347,6 +1355,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## RFID
 **Tag:** industry
+
+**Alternative words:** rfid key fob, rfid chip, rfid card, radio-frequency identification, rfid tag
 
 **Description:** See "Charge key" term, synonyms. Source and target capitalization intact.
 
@@ -1369,6 +1379,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## Refer & Earn
 **Tag:** brand
 
+**Alternative words:** referral bonus, referral rewards, referral discount, refer-a-friend, referral program, refer & earns
+
 **Description:** Subheader title of referal label in 'Me' section in the mobile app. Enabling discount when a new user is being referred to Monta by an existing user. Source and target capitalization intact.
 
 **Translations:**
@@ -1389,6 +1401,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## SEPA Direct Debit
 **Tag:** industry
+
+**Alternative words:** euro direct debit, direct debit under sepa, european direct debit, single euro payments area direct debit, sepa dd, sepa direct debits
 
 **Description:** A pan-European direct debit system that allows merchants and businesses to collect Euro-denominated payments from accounts in the 36 SEPA (Single Euro Payments Area) countries. Source and target capitalization intact.
 
@@ -1411,6 +1425,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## SSO
 **Tag:** industry
 
+**Alternative words:** single identity verification, one-click sign-in, single login, central authentication, unified login
+
 **Description:** Single sign-on. SSO is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems.
 
 **Translations:**
@@ -1431,6 +1447,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## Shop
 **Tag:** brand
+
+**Alternative words:** purchase platform, e-commerce section, retail space, marketplace, store, shops
 
 **Description:** Shop feature, where Monta branded charge keys, RDIF, stickers are purchased.
 
@@ -1453,6 +1471,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## Single Sign-On
 **Tag:** industry
 
+**Alternative words:** universal login, single login, sso, unified login, one-click sign-on, single sign-ons
+
 **Description:** Single Sign-On. SSO is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems.
 
 **Translations:**
@@ -1473,6 +1493,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## StationID
 **Tag:** industry
+
+**Alternative words:** station identification number, charging unit id, evse id, charging point identifier, charge station code, stationids
 
 **Description:** A unique identifier for a specific charge station. A technical term, used in technical and software documentations. 3rd party term Advenir
 
@@ -1495,6 +1517,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## Stay in charge
 **Tag:** brand
 
+**Alternative words:** charging dispatch, power pulse, remain energized, keep powered, energy update, stay in charges
+
 **Description:** Monthly newsletter's title
 
 **Translations:**
@@ -1516,6 +1540,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## Supporter
 **Tag:** product
 
+**Alternative words:** aid, customer service representative, helper, assistant, support agent, supporters
+
 **Description:** Role access functionality for Business plan users in HUB, enabling to diversify access permissions for team members within an account. Supporter  role  is dedicated to the support team and handles end-users queries, troubleshooting issues with charge points.
 
 **Translations:**
@@ -1535,6 +1561,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## VAT
 **Tag:** industry
+
+**Alternative words:** goods and services tax, consumption tax, indirect tax, vat rate, value added tax
 
 **Description:** The tax rate  in percentage applied to the price of goods or services. Used in the EU countries for cross-boarder sales.  US equivalence is sales tax.
 
@@ -1557,6 +1585,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## VAT 
 **Tag:** industry
 
+**Alternative words:** vatin, vat id, value added tax id, tax identification number, tin
+
 **Description:** A VAT identification number (or VAT number) identifies a business registered for VAT, used for cross-border trade within the EU and internationally. Format - country code + numeric/alphanumeric ID
 
 **Translations:**
@@ -1577,6 +1607,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## VAT export 
 **Tag:** industry
+
+**Alternative words:** zero vat export, exempted vat export, 0% vat export, non-taxable export, vat-free export, vat exports
 
 **Description:** EU VAT regulation term, applied in use cases, where 0% VAT rate is applied. Zero-rated VAT must be reported appropriately in transactions.
 
@@ -1599,6 +1631,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## VIN
 **Tag:** industry
 
+**Alternative words:** automobile identification code, chassis number, vehicle serial number, car identification number, car vin
+
 **Description:** Refers to the Vehicle Identification Number (VIN), a unique code that identifies a vehicle and provides details about its manufacturing. "VIN" is globally standardized and commonly used across languages. For clarity in long-form content, it can be spelled out with local translation
 
 **Translations:**
@@ -1619,6 +1653,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## account
 **Tag:** product
+
+**Alternative words:** login credentials, membership, profile, user account, user profile, accounts
 
 **Description:** Refers to an account in the portal/app; not bank account
 
@@ -1641,6 +1677,8 @@ Reads session logs and related signals across multiple data sources to identify 
 ## additional fee
 **Tag:** product
 
+**Alternative words:** supplementary charge, extra cost, extra charge, surcharge, ancillary fee, additional fees
+
 **Description:** Extra fees, a Team owner can apply to a price group, i.e. start fee, charging fee, minute fee & idle fee.
 
 **Translations:**
@@ -1661,6 +1699,8 @@ Reads session logs and related signals across multiple data sources to identify 
 
 ## alert
 **Tag:** product
+
+**Alternative words:** alarm, warning, prompt, signal, notification, alerts
 
 **Description:** A feature to provide operators and solution providers with a structured way to monitor and respond to important system or operational events. 
 event-driven notifications raised when conditions are met (e.g., device offline, error state, repeated failed charges). They’re the building blocks that surface issues to operators via our notification system and UI. Linked to the functionality "Alert group"
@@ -1684,6 +1724,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 ## alert group
 **Tag:** product
 
+**Alternative words:** crisis alert group, incident notification group, alert team, incident alert cluster, notification group, alert groups
+
 **Description:** A feature for configuring notifications about critical incidents on charge points, charging sites, ensuring users are alerted about the incidents.
 
 **Translations:**
@@ -1704,6 +1746,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 
 ## auto refill
 **Tag:** product
+
+**Alternative words:** auto top-up, automatic recharge, auto reload, automatic balance refill, automatic wallet refill, auto refills
 
 **Description:** Label of a sub-header in Wallet > Refill section. It is an automatic top-up functionality in Wallet. Users can enable the auto-refill option and adjust what amount is being auto-refilled into the Wallet, when the balance is nearing zero.
 
@@ -1726,6 +1770,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 ## automatic reading
 **Tag:** industry
 
+**Alternative words:** smart meter reading, automatic meter data collection, remote meter reading, automated data logging, automated meter reading, automatic readings
+
 **Description:** Remote process of automatically collecting data from an electricity meter, where consumption information is recorded and stored for remote access by the utility or service provider
 
 **Translations:**
@@ -1746,6 +1792,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 
 ## available
 **Tag:** product
+
+**Alternative words:** ready for use, open, operational, accessible, in service, availables
 
 **Description:** Adj. refers to charge point status, is integrated and available for a charge
 
@@ -1768,6 +1816,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 ## balance
 **Tag:** product
 
+**Alternative words:** credit, account balance, funds, available balance, financial resources, balances
+
 **Description:** Noun. Available amount of money in the user's Wallet in consumer and business app.
 
 **Translations:**
@@ -1788,6 +1838,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 
 ## battery capacity
 **Tag:** industry
+
+**Alternative words:** battery charge capacity, energy storage capacity, battery power capacity, energy capacity, battery storage capacity, battery capacities
 
 **Description:** amount of electrical energy a battery can store and deliver, typically measured in ampere-hours (Ah) or watt-hours (Wh). It indicates the total charge the battery can hold and release over time.
 
@@ -1810,6 +1862,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 ## battery level
 **Tag:** industry
 
+**Alternative words:** battery charge, battery capacity, power level, battery status, state of charge (soc), battery levels
+
 **Description:** Label of a field that tells the current battery-% of an integrated car, i.e. "Battery level: 78%"
 
 **Translations:**
@@ -1830,6 +1884,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 
 ## bilateral agreement
 **Tag:** product
+
+**Alternative words:** joint agreement, reciprocal contract, mutual agreement, two-party deal, dual-side arrangement, bilateral agreements
 
 **Description:** Feature in Monta Hub allowing operators to create and manage price agreements and charge point access with EMSPs (Electric Mobility Service Providers), typically used in roaming scenarios.
 
@@ -1852,6 +1908,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 ## busy
 **Tag:** product
 
+**Alternative words:** engaged, in use, occupied, unavailable, active, busies
+
 **Description:** Adj. refers to the charge point state. Busy can entail various sub-states: blocked, scheduled, and charging.
 
 **Translations:**
@@ -1872,6 +1930,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 
 ## certified electronic mail
 **Tag:** industry
+
+**Alternative words:** verified electronic mail, authenticated digital mail, certified email communication, accredited e-mail, approved e-correspondence, certified electronic mails
 
 **Description:** Italian billing compliance term, used in Italy-only for  legal communication purposes. No equlavent concepts in other languages, thus do a literal translation. 
 
@@ -1914,6 +1974,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 ## charge amount
 **Tag:** industry
 
+**Alternative words:** energy transferred, quantity of charge, charging volume, power supplied, kwh delivered, charge amounts
+
 **Description:** Refers to amount of charged kWh during a charge session.
 
 **Translations:**
@@ -1934,6 +1996,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 
 ## charge discount
 **Tag:** product
+
+**Alternative words:** charge deduction, charging reduction, charge discount offer, charging rebate, charge concession, charge discounts
 
 **Description:** A in-product term for the feature - Charge Subscription - where users can apply a discount on charging. B2B feature in HUB. Not capitalized.
 
@@ -1956,6 +2020,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 ## charge history
 **Tag:** product
 
+**Alternative words:** power consumption history, charging record, energy usage history, charging session history, charging log, charge histories
+
 **Description:** Label for the 'Charge History' header in the 'Me' section, showing charging logs with kWh, charge point name, and total price
 
 **Translations:**
@@ -1976,6 +2042,8 @@ event-driven notifications raised when conditions are met (e.g., device offline,
 
 ## charge key
 **Tag:** industry
+
+**Alternative words:** rfid key, charging pass, charging card, access card, charging fob, charge keys
 
 **Description:** Description:
 Physical device (RFID card or fob) used to identify a user or team and authorize charging on compatible charge points.
@@ -2010,6 +2078,8 @@ See also: RFID, Wallet, Team, Charge session.
 ## charge limit
 **Tag:** industry
 
+**Alternative words:** charging cap, charging threshold, battery charge ceiling, max charge, maximum charge level, charge limits
+
 **Description:** The maximum level to which an electric vehicle's battery is charged during a charging session.
 
 **Translations:**
@@ -2030,6 +2100,8 @@ See also: RFID, Wallet, Team, Charge session.
 
 ## charge point
 **Tag:** industry
+
+**Alternative words:** Charger, Chargers, charger, chargers, charging point, hardware, EVSE, Electric Vehicle Supply Equipment, charging unit, charging post, charging pedestal, CP, charging station, charging port, charging outlet, charge points
 
 **Description:** Default term, electrical outlet that supplies electrical power for charging plug-in electric vehicles. In copy sometimes used as a charger, or charging station. In target locale translate into the default term - charge point.
 
@@ -2052,6 +2124,8 @@ borne de recharge
 
 ## charge point management system
 **Tag:** industry
+
+**Alternative words:** ev charging network management software, ev charge point control system, evcs management system, electric vehicle charging station management platform, charging station management software, charge point management systems
 
 **Description:** Description:
 Software platform used by operators to monitor, manage, and optimize EV charging infrastructure. Handles connectivity, pricing, access, reporting, and system integrations.
@@ -2086,6 +2160,8 @@ See also: Hub, Charge point, Operator.
 ## charge point operator
 **Tag:** industry
 
+**Alternative words:** charging network operator, charging station provider, ev station operator, charging infrastructure provider, evse (electric vehicle supply equipment) operator, charge point operators
+
 **Description:** A charge point operator (CPO) is an entity that owns, operates, and maintains charging stations for electric vehicles (EVs). Operators at Monta are considered as Partners. many functionalities are designed to support their needs.
 
 **Translations:**
@@ -2106,6 +2182,8 @@ See also: Hub, Charge point, Operator.
 
 ## charge point settings
 **Tag:** product
+
+**Alternative words:** evse configurations, charging point options, charging station preferences, charger setup, charge port parameters, charge point setting
 
 **Description:** Title of charge point settings in the 'Charge' app.
 
@@ -2128,6 +2206,8 @@ See also: Hub, Charge point, Operator.
 ## charge point subscription
 **Tag:** product
 
+**Alternative words:** charging station subscription, charge station upkeep subscription, evse service plan, charge point maintenance package, ev charging service agreement, charge point subscriptions
+
 **Description:** An add-on service for private charge point maintenance. Targeted for private CP owners and facilitated typically by charge point operators, and installers.
 
 **Translations:**
@@ -2148,6 +2228,8 @@ See also: Hub, Charge point, Operator.
 
 ## charge power
 **Tag:** industry
+
+**Alternative words:** power output, power supply rate, kw delivery rate, charging rate, charging capacity, charge powers
 
 **Description:** Description:
 Amount of electrical power delivered from the charge point to the EV at a given moment, measured in kilowatts (kW).
@@ -2182,6 +2264,8 @@ See also: Charging speed, kW, Load balancing.
 ## charge price
 **Tag:** industry
 
+**Alternative words:** rate per charge, cost per charge, charging cost, charging fee, kwh pricing, charge prices
+
 **Description:** Price accumulated during a charge session. It relates to member price, price per kWH, price per min.
 
 **Translations:**
@@ -2202,6 +2286,8 @@ See also: Charging speed, kW, Load balancing.
 
 ## charge profile
 **Tag:** product
+
+**Alternative words:** charging plan, charging schedule, charge preset, charge configuration, charging preference setting, charge profiles
 
 **Description:** Source and target capitalization intact. Business app feature (in Portal), enabling users to set up pre-set charge sessions, based either on SmartCharge preferences or preferred schedules. These can be applied for fleet and private charge sessions.
 
@@ -2224,6 +2310,8 @@ See also: Charging speed, kW, Load balancing.
 ## charge rate
 **Tag:** brand
 
+**Alternative words:** charging pace, charging efficiency, charging efficacy, charging velocity, charging speed, charge rates
+
 **Description:** Refers to the completed charging performance of an EV, linked to "charging stability," often represented as a percentage (e.g., 98% success rate, surpassing the industry standard of 85%)
 
 **Translations:**
@@ -2245,6 +2333,8 @@ See also: Charging speed, kW, Load balancing.
 ## charge session
 **Tag:** industry
 
+**Alternative words:** charging time, charging interval, charging period, charging process, charging cycle, charge sessions
+
 **Description:** The timespan in which an EV is being charged.
 
 **Translations:**
@@ -2263,30 +2353,10 @@ See also: Charging speed, kW, Load balancing.
 
 ---
 
-## charger
-**Tag:** industry
-
-**Description:** Charger (charge point): "Charger" refers to "charge point." 
-While these terms may be used interchangeably in the source copy, ALWAYS use the target language translation for "Charge Point" when translating.
-
-**Translations:**
-- DA: ladestander
-- DE: Ladestation
-- EN: charger
-- EN_US: charger
-- ES: punto de recarga
-- FR: borne de recharge
-- FR_CA: borne de recharge
-- IT: punto di ricarica
-- NL: laadpaal
-- NO: ladepunkt
-- RO: stație de încărcare
-- SV: laddpunkt
-
----
-
 ## charging
 **Tag:** industry 
+
+**Alternative words:** energizing, refueling, recharging, powering up, juicing up, chargings
 
 **Description:** adjective (describing process, states or attribute to the process
 
@@ -2307,6 +2377,8 @@ While these terms may be used interchangeably in the source copy, ALWAYS use the
 
 ## charging app
 **Tag:** industry
+
+**Alternative words:** charging management app, ev charging application, ev charging mobile app, charging platform, charging software, charging apps
 
 **Description:** Description:
 Generic term for mobile apps that allow EV drivers to find, start, schedule, or pay for charging sessions.
@@ -2340,6 +2412,8 @@ See also: Charge, Hub.
 
 ## charging cable
 **Tag:** industry
+
+**Alternative words:** power cable, ev charging wire, ev charging connector, charging lead, charging cord, charging cables
 
 **Description:** Description:
 A cable that connects an electric vehicle to a charge point to deliver electricity for charging.
@@ -2380,6 +2454,8 @@ See also: Connector, Charge point.
 ## charging fee
 **Tag:** product
 
+**Alternative words:** charging rate, charging expense, charging cost, charging tariff, charging price, charging fees
+
 **Description:** Fee type (visible to the user) A one-off fee to be applied after a specified time of charging. e.g. One-time fee of DKK 50,00 is added after the first 60 min. of charging
 
 **Translations:**
@@ -2398,29 +2474,10 @@ See also: Connector, Charge point.
 
 ---
 
-## charging point
-**Tag:** industry
-
-**Description:** Monta's default term is charge point and please use the corresponding translation, despite a synonym of charge point is used in the copy.
-
-**Translations:**
-- DA: ladestander
-- DE: Ladestation
-- EN: charging point
-- EN_US: charger
-- ES: punto de recarga
-- FR: borne de recharge
-- FR_CA: borne de recharge
-- IT: punto di ricarica
-- NL: laadpaal
-- NO: ladepunkt
-- RO: stație de încărcare
-- SV: laddpunkt
-
----
-
 ## charging rule
 **Tag:** product
+
+**Alternative words:** charging schedule, charging protocol, charging regimen, charging settings, charge plan, charging rules
 
 **Description:** Charge schedule settings in the 'Charge' app allow users to pre-define charging schedules when private users plug in their cable into their own charge point. Automates  repetitive scheduling tasks for home charging car owners. 
 
@@ -2443,6 +2500,8 @@ See also: Connector, Charge point.
 ## charging schedule
 **Tag:** product
 
+**Alternative words:** charging routine, charging plan, power schedule, charging timetable, charging timeframe, charging schedules
+
 **Description:** A plan for charging an EV that lets owners customize charge times for efficiency and cost-effectiveness. In the Charge app, this is managed through the 'Schedule' feature, where users pre-set a charging time window.
 
 **Translations:**
@@ -2463,6 +2522,8 @@ See also: Connector, Charge point.
 
 ## charging site
 **Tag:** industry
+
+**Alternative words:** charging facility, charging location, ev charging area, charging sites
 
 **Description:** A location where EVs charge, equipped with infrastructure and typically containing multiple charging units
 
@@ -2485,6 +2546,8 @@ site de recharge
 
 ## charging speed
 **Tag:** industry
+
+**Alternative words:** charging power, charging rate, charge rate, charging capacity, power input rate, charging speeds
 
 **Description:** Description:
 Rate at which an EV battery gains energy during charging, expressed as power (kW) or duration.
@@ -2516,29 +2579,10 @@ See also: Charge power.
 
 ---
 
-## charging station
-**Tag:** industry
-
-**Description:** A charging station is a site with one or more charging points where EVs can be recharged. It includes chargers, communication systems for payment and monitoring, and may be publicly or privately accessible. Used in CPI Tool, Hardware Portal. 
-
-**Translations:**
-- DA: ladestation
-- DE: Ladestation
-- EN: charging station
-- EN_US: charging station
-- ES: estación de carga
-- FR: station de recharge
-- FR_CA: station de recharge
-- IT: stazione di ricarica
-- NL: laadstation
-- NO: ladestasjon
-- RO: stație de încărcare
-- SV: laddstation
-
----
-
 ## chat
 **Tag:** product
+
+**Alternative words:** direct messaging, messaging, support communication, live chat, instant messaging, chats
 
 **Description:** Label for the communication function with support or the charge point owner. 'Chat' can be used as a verb, noun, or adjective
 
@@ -2561,6 +2605,8 @@ See also: Charge power.
 ## client secret
 **Tag:** industry
 
+**Alternative words:** oauth client secret, client key, app secret, application secret, api secret key, client secrets
+
 **Description:** A secret key known only to the client and server, used to authenticate the client in OAuth or similar authentication protocols, linked to API.
 
 **Translations:**
@@ -2581,6 +2627,8 @@ See also: Charge power.
 
 ## company car
 **Tag:** industry
+
+**Alternative words:** corporate vehicle, employer-provided car, business car, work car, fleet vehicle, company cars
 
 **Description:** A vehicle provided by en employer. In the Monta context, user can obtain a company car agreement, where work-related charges get reimbursed via Monta Wallet financial service.
 
@@ -2603,6 +2651,8 @@ See also: Charge power.
 ## company registration number 
 **Tag:** industry
 
+**Alternative words:** corporate registration number, company identifier, company id number, business registry number, business identification number, company registration numbers
+
 **Description:** A central business ID that identifies a legal entity in official, commercial, and legal contexts within the EU
 
 **Translations:**
@@ -2623,6 +2673,8 @@ See also: Charge power.
 
 ## connect
 **Tag:** product
+
+**Alternative words:** plug-in, pair, interface, link, sync, connects
 
 **Description:** Verb. Used when EV is being connected to Monta software or plug-in with a charge point
 
@@ -2645,6 +2697,8 @@ See also: Charge power.
 ## connector
 **Tag:** industry
 
+**Alternative words:** adapter, ev plug, charge connector, plug, charging point, connectors
+
 **Description:** Connectors at each cable end compatible with the EV port and power outlet, e.g. CHAdeMO, Type 2, CCS, Type 1, etc.
 
 **Translations:**
@@ -2665,6 +2719,8 @@ See also: Charge power.
 
 ## cost group
 **Tag:** product
+
+**Alternative words:** cost cluster, pricing set, expenditure group, expense category, price bracket, cost groups
 
 **Description:** A price group type that defines the real cost for the team of a given charge. They represent what the team actually pays for the electricity or charging service, as opposed to what they charge to users. This functionality is a data tracking tool, not a payment system, used to monitor the actual electricity cost of operating charge point.
 
@@ -2687,6 +2743,8 @@ See also: Charge power.
 ## credit
 **Tag:** product
 
+**Alternative words:** account balance, monetary credit, funds, balance, deposit, credits
+
 **Description:** Non-withdrawable funds added to a Team Wallet, used for Monta transactions (charges, fees, purchases). Teams earn credits through referrals, promo codes, or PowerBank
 
 **Translations:**
@@ -2707,6 +2765,8 @@ See also: Charge power.
 
 ## credit note
 **Tag:** industry
+
+**Alternative words:** refund note, sales return note, adjustment note, credit statement, credit memo, credit notes
 
 **Description:** A document issued to correct or reduce the amount of a previously issued invoice, often due to returns, discounts, or billing errors. It indicates a credit in favor of the buyer.
 
@@ -2729,6 +2789,8 @@ See also: Charge power.
 ## current
 **Tag:** industry
 
+**Alternative words:** charge flow, electric flow, electrical current, amperage, power flow, currents
+
 **Description:** The flow of electric charge used to power or charge an electric vehicle, typically delivered as either alternating current (AC) or direct current (DC), depending on the charging infrastructure.
 
 **Translations:**
@@ -2749,6 +2811,8 @@ See also: Charge power.
 
 ## custom subscription
 **Tag:** product
+
+**Alternative words:** custom service package, bespoke subscription package, custom plan, personalized plan, tailored subscription, custom subscriptions
 
 **Description:** Feature. A monthly subscription plan that charge point operators offer to their clients, including services such as operation, maintenance, leasing, and repair of charge points. End-users pay a monthly fee via Monta to the operator or service provider
 
@@ -2771,6 +2835,8 @@ See also: Charge power.
 ## customer success manager
 **Tag:** brand
 
+**Alternative words:** client onboarding manager, client success coordinator, customer experience manager, customer support manager, user success specialist, customer success managers
+
 **Description:** A dedicated support agent, ensuring new users are properly onboarded and succeeding with the Monta software.
 
 **Translations:**
@@ -2791,6 +2857,8 @@ See also: Charge power.
 
 ## deep link
 **Tag:** industry
+
+**Alternative words:** quick link, hyperlink, direct link, internal link, embedded link, deep links
 
 **Description:** Button label in Hub, URL that navigates directly to specific content within the web-app.
 
@@ -2813,6 +2881,8 @@ See also: Charge power.
 ## delayed start
 **Tag:** product
 
+**Alternative words:** start delay, late start, scheduled delay, time-delay start, postponed start, delayed starts
+
 **Description:** Scheduling option when using SmartCharge. It is subtitle to a switch that enabled the user to delay the start of the charge.
 
 **Translations:**
@@ -2833,6 +2903,8 @@ See also: Charge power.
 
 ## deposit
 **Tag:** product
+
+**Alternative words:** prepayment, advance payment, upfront payment, down payment, credit top-up, deposits
 
 **Description:** Noun, added funds into user's wallet balance and made disposible for payments and transactions. 
 
@@ -2856,6 +2928,8 @@ See also: Charge power.
 ## distribution system operator (DSO)
 **Tag:** industry
 
+**Alternative words:** electricity distribution operator, power distribution operator, power network operator, electricity distribution network manager, distribution network operator (dno), distribution system operator (dso)s
+
 **Description:** A DSO (Distribution System Operator) manages and maintains the electricity distribution network that delivers power to end-users. It differs from a utility provider, which generates and supplies electricity
 
 **Translations:**
@@ -2876,6 +2950,8 @@ See also: Charge power.
 
 ## dynamic load balancing
 **Tag:** industry
+
+**Alternative words:** dynamic power management, adaptive load balancing, dynamic load distribution, dynamic energy balancing, intelligent load management, dynamic load balancings
 
 **Description:** Refers to the process of distributing energy across a network of outlets a dynamic and efficient manner, i.e. continuously monitoring the workload on different resources and dynamically adjusting the distribution of tasks or data to ensure optimal utilization and performance.
 
@@ -2898,6 +2974,8 @@ See also: Charge power.
 ## dynamic price
 **Tag:** product
 
+**Alternative words:** market-based pricing, demand-based pricing, variable pricing, flexible pricing, fluctuating price, dynamic prices
+
 **Description:** A price group with a master price based on the spot price. Dynamic pricing reflects market fluctuations, unlike fixed pricing
 
 **Translations:**
@@ -2919,6 +2997,8 @@ See also: Charge power.
 ## e-mobility service provider
 **Tag:** industry
 
+**Alternative words:** e-mobility solutions company, electric mobility service provider, electric vehicle infrastructure provider, ev charging service provider, ev mobility services company, e-mobility service providers
+
 **Description:** An e-mobility service provider (eMSP) is a company that offers a range of services related to electric mobility and offer various solutions and infrastructure to facilitate EV charging and mobility services.
 
 **Translations:**
@@ -2937,8 +3017,17 @@ See also: Charge power.
 
 ---
 
+## electric vehicle
+**Alternative words:** EV, e-car, electric car
+
+**Description:** Battery powered vehicle
+
+---
+
 ## electricity costs
 **Tag:** industry
+
+**Alternative words:** utility costs, electric charges, power costs, energy tariffs, energy expenses, electricity cost
 
 **Description:** General term, indicating electricity costs. Applied for pricing setting.
 
@@ -2961,6 +3050,8 @@ See also: Charge power.
 ## electricity price
 **Tag:** industry
 
+**Alternative words:** electricity tariff, kwh price, utility rate, power rate, energy cost, electricity prices
+
 **Description:** Price for electricity set by utility sector.
 
 **Translations:**
@@ -2981,6 +3072,8 @@ See also: Charge power.
 
 ## electricity tax refund 
 **Tag:** product
+
+**Alternative words:** energy tax refund for ev, danish ev tax refund scheme, ev electricity tax return, electricity tax rebate, electricity tax reimbursement, electricity tax refunds
 
 **Description:** A Danish government scheme that reimburses private EV owners for the electricity tax paid on home charging, provided charging is metered and handled via an approved subscription or provider.
 
@@ -3003,6 +3096,8 @@ See also: Charge power.
 ## electricity tax refund subscription
 **Tag:** brand
 
+**Alternative words:** ev charging tax refund service, power tax refund subscription, ev charge point tax rebate program, electricity tax rebate plan, electric tax rebates scheme, electricity tax refund subscriptions
+
 **Description:** Service/plan type enabling tax refund when renting out private charge point to a 3rd party. Relevant only in Denmark.
 
 **Translations:**
@@ -3024,6 +3119,8 @@ See also: Charge power.
 ## end time
 **Tag:** product
 
+**Alternative words:** completion time, termination time, stop time, finish time, cutoff time, end times
+
 **Description:** Functionality in Scheduling feature, identify when charge window should end, e.g. charge to kick in in the timespan between 1.00 a.m - 6 a.m.
 
 **Translations:**
@@ -3044,6 +3141,8 @@ See also: Charge power.
 
 ## excise tax
 **Tag:** industry
+
+**Alternative words:** duty, indirect tax, levy, excise duty, tariff, excise taxes
 
 **Description:** Geo-specific tax imposed during EV charging in the US. No direct tax directive is applicable in EU. For translation purposes, use similar taxation concept for the local language. 
 
@@ -3067,6 +3166,8 @@ See also: Charge power.
 ## fail-safe
 **Tag:** industry
 
+**Alternative words:** backup plan, emergency response system, safety mechanism, redundancy protocol, contingency measure, fail-safes
+
 **Description:** A safety measure that reduces the amperage on all chargers if the connection to a meter is lost, until the connection is re-established. Synonym: fallback.
 
 **Translations:**
@@ -3087,6 +3188,8 @@ See also: Charge power.
 
 ## fair price
 **Tag:** product
+
+**Alternative words:** reasonable rate, equitable cost, value for money, market-standard rate, competitive price, fair prices
 
 **Description:** Concept to benchmark good/bad market price on a public charge point for end-users. A filtering option in Maps.
 
@@ -3109,6 +3212,8 @@ See also: Charge power.
 ## fallback price
 **Tag:** industry
 
+**Alternative words:** backup price, reserve price, secondary price, default price, contingency price, fallback prices
+
 **Description:** Price type, Business partners can set up in cases, when Monta cannot follow the spot price, i.e. the fallback price will be enabled in those cases.
 
 **Translations:**
@@ -3129,6 +3234,8 @@ See also: Charge power.
 
 ## fee
 **Tag:** product
+
+**Alternative words:** expense, price, tariff, fees
 
 **Description:** Used widely and describes different fees, e.g. member fee, additional fees. This allow pricing model to be flexible
 
@@ -3151,6 +3258,8 @@ See also: Charge power.
 ## fee per minute
 **Tag:** product
 
+**Alternative words:** minute-based charge, minute rate, charging duration fee, per-minute rate, time-based fee, fee per minutes
+
 **Description:** Type of fee (visible to users) applied after a specified charging time, continuing until the cable is disconnected. A fee per minute, e.g., DKK 1.00/min, is added after the first 60 minutes of charging
 
 **Translations:**
@@ -3171,6 +3280,8 @@ See also: Charge power.
 
 ## firmware
 **Tag:** industry
+
+**Alternative words:** rom software, microcode, control program, embedded software, system software, firmwares
 
 **Description:** Software that provides basic machine instructions enabling hardware to function and communicate with other software on a device
 
@@ -3193,6 +3304,8 @@ See also: Charge power.
 ## fixed price
 **Tag:** product
 
+**Alternative words:** set price, constant price, unchanging price, standard price, flat rate, fixed prices
+
 **Description:** Type of pricing scheme with fixed price, visible to end-users. Fixed price in contrary to e.g spot/dynamic price.
 
 **Translations:**
@@ -3213,6 +3326,8 @@ See also: Charge power.
 
 ## fleet
 **Tag:** industry
+
+**Alternative words:** fleet vehicles, motor pool, company cars, vehicle fleet, vehicle pool, fleets
 
 **Description:** A collection of vehicles owned or operated by an entity. Fleet management covers acquisition, maintenance, utilization, and disposal of these vehicles
 
@@ -3235,6 +3350,8 @@ See also: Charge power.
 ## forecast
 **Tag:** product
 
+**Alternative words:** estimation, outlook, anticipation, projection, prediction, forecasts
+
 **Description:** Refers to forecasted data points such as CO2 levels, renewable energy, and SmartCharge forecasts. Displayed in the consumer app under Insights in the private charge point settings.
 
 **Translations:**
@@ -3255,6 +3372,8 @@ See also: Charge power.
 
 ## funds
 **Tag:** product
+
+**Alternative words:** money, capital, bankroll, balance, cash, fund
 
 **Description:** Withdrawable funds that can be transferred to a user's private bank account. The Wallet offers a withdrawal feature, allowing funds to be withdrawn on demand or set for automatic withdrawal.
 
@@ -3277,6 +3396,8 @@ See also: Charge power.
 ## fuse protection
 **Tag:** brand
 
+**Alternative words:** overload protection, power surge protection, fuse safeguard, current protection, circuit protection, fuse protections
+
 **Description:** B2Cfeature in mobile app, prevents main fuse overload during EV charging by applying a static limit or using smart meter data for dynamic control. Charging is reduced or paused as needed to avoid outages. Supports single or multiple charge points.
 
 **Translations:**
@@ -3298,6 +3419,8 @@ See also: Charge power.
 ## grid
 **Tag:** industry
 
+**Alternative words:** utility network, energy grid, power network, electricity network, power grid, grids
+
 **Description:** Refers to the interconnected network of power generation, transmission lines, substations, and distribution systems that deliver electricity to consumers.
 
 **Translations:**
@@ -3316,29 +3439,10 @@ See also: Charge power.
 
 ---
 
-## hardware
-**Tag:** industry
-
-**Description:** A charging device, i.e. charge point.
-
-**Translations:**
-- DA: hardware
-- DE: Hardware
-- EN: hardware
-- EN_US: hardware
-- ES: hardware
-- FR: équipement
-- FR_CA: équipement
-- IT: hardware
-- NL: hardware
-- NO: maskinvare
-- RO: hardware
-- SV: maskinvara
-
----
-
 ## hardware agnostic
 **Tag:** industry
+
+**Alternative words:** hardware-neutral, cross-hardware compatible, hardware-independent, multi-hardware compatible, universally compatible, hardware agnostics
 
 **Description:** An adjective describing Monta's software, compatible with various charging hardware brands, enabling EV owners to charge at different stations regardless of the hardware brand.
 
@@ -3361,6 +3465,8 @@ See also: Charge power.
 ## hardware manufacturer
 **Tag:** industry
 
+**Alternative words:** evse manufacturer, charging equipment maker, charge point producer, charge infrastructure provider, charging station builder, hardware manufacturers
+
 **Description:** A producer of charge point hardware
 
 **Translations:**
@@ -3382,6 +3488,8 @@ See also: Charge power.
 ## home charger
 **Tag:** industry
 
+**Alternative words:** domestic charging station, home charging point, residential charger, home evse (electric vehicle supply equipment), private charging station, home chargers
+
 **Description:** Refers to charge point at home owned by a private-user
 
 **Translations:**
@@ -3402,6 +3510,8 @@ See also: Charge power.
 
 ## home charging
 **Tag:** industry
+
+**Alternative words:** home ev charging, residential charging, in-house charging, personal charging station, domestic charging, home chargings
 
 **Description:** A service enabled by the Charge app, allowing home users to manage charging, share charge points within their network, or make them publicly available
 
@@ -3425,6 +3535,8 @@ See also: Charge power.
 ## home energy
 **Tag:** brand
 
+**Alternative words:** domestic energy, household energy, residential power, home-based electricity, home power supply, home energies
+
 **Description:** A residential EV charging solution in the Charge app, that optimizes charging costs with features like smart charging, solar charging. It connects users to their home charge points, using weather forecasts, solar data, and smart meters for efficient eletricty consumption.
 
 **Translations:**
@@ -3445,6 +3557,8 @@ See also: Charge power.
 
 ## housing association
 **Tag:** industry
+
+**Alternative words:** residential cooperative, housing cooperative, residential association, community housing organization, housing society, housing associations
 
 **Description:** In this context, a housing association refers to an entity with a shared charge point installed for use by its residents. Opt for local terms, that resonate with the concept.  
 
@@ -3467,6 +3581,8 @@ See also: Charge power.
 ## idle fee
 **Tag:** industry
 
+**Alternative words:** occupancy fee, lingering fee, delay penalty, overstay fee, downtime charge, idle fees
+
 **Description:** Fee type visible to end-users. An additional fee is applied after the scheduled charge is complete and if a car is not removed from the charging station. An incentive to optimize charge point availability.
 
 **Translations:**
@@ -3487,6 +3603,8 @@ See also: Charge power.
 
 ## idle time
 **Tag:** industry
+
+**Alternative words:** downtime, non-charging time, inactive time, standby time, blocking period, idle times
 
 **Description:** The time period when a charge point is occupied but not charging, known as the blocking period, during which an idle fee is applied.
 
@@ -3509,6 +3627,8 @@ See also: Charge power.
 ## incident
 **Tag:** product
 
+**Alternative words:** problem, fault, anomaly, malfunction, issue, incidents
+
 **Description:** Operational event/fault in charging operations (e.g., charge point disconnected, error state). Related alert feature
 
 **Translations:**
@@ -3528,6 +3648,8 @@ See also: Charge power.
 ---
 
 ## installation
+**Alternative words:** implementation, charge point installation, establishment, deployment, setup, installations
+
 **Description:** A physical installation of charge point, including connecting to electricity and establishing an internet connection (SIM card, LAN cable)  A certified installer set it up. 
 
 **Translations:**
@@ -3548,6 +3670,8 @@ See also: Charge power.
 
 ## installer
 **Tag:** industry
+
+**Alternative words:** ev charger installer, certified electrician, charge point technician, installation professional, charging station installer, installers
 
 **Description:** An authorized electrician, who sets charge points and runs maintenance.
 
@@ -3570,6 +3694,8 @@ See also: Charge power.
 ## installer job
 **Tag:** product
 
+**Alternative words:** installation project, installer work order, installation job, installer assignment, installation task, installer jobs
+
 **Description:** Source and target capitalization intact. Feature for operators or a site owners to easily provide access to installers. Smooth method for installers to test and connect to the charge points, without needing Team access.
 
 **Translations:**
@@ -3590,6 +3716,8 @@ See also: Charge power.
 
 ## integration
 **Tag:** industry
+
+**Alternative words:** interfacing, amalgamation, connection, system unification, incorporation, integrations
 
 **Description:** In Monta's context, it refers to integrating charge points with Monta's software, i.e. pointing charge points to the Monta's backend.  Charge point needs to be installed before integrating it with the software. 
 
@@ -3612,6 +3740,8 @@ See also: Charge power.
 ## invoice
 **Tag:** industry
 
+**Alternative words:** account statement, bill, billing statement, payment notice, charge sheet, invoices
+
 **Description:** Refers to b2b and b2p segments, issues each month, containing transaction overview.
 
 **Translations:**
@@ -3632,6 +3762,8 @@ See also: Charge power.
 
 ## join code
 **Tag:** product
+
+**Alternative words:** invitation code, entry key, team passcode, enrollment code, access code, join codes
 
 **Description:** A code, that enables a new team member to join a Team. It's being generated by a Team administrator.
 
@@ -3654,6 +3786,8 @@ See also: Charge power.
 ## kW effect
 **Tag:** industry
 
+**Alternative words:** kilowatt energy transfer, kilowatt output, kw power, kw charging rate, power level in kw, kw effects
+
 **Description:**  Unit of power = kilowatt (kW) defines the amount of power EV battery received in a charge. kW input / power input ( kW)
 
 **Translations:**
@@ -3674,6 +3808,8 @@ See also: Charge power.
 
 ## kWh price
 **Tag:** product
+
+**Alternative words:** rate per kwh, kwh cost, kilowatt-hour pricing, price per kwh, cost per kilowatt-hour, kwh prices
 
 **Description:** Price variable used when setting up a price group. 
 
@@ -3696,6 +3832,8 @@ See also: Charge power.
 ## load balancing
 **Tag:** industry
 
+**Alternative words:** load sharing, power balancing, power management, current optimization, load distribution, load balancings
+
 **Description:** Legacy term, now replaced by "load management" - a broader imdustry term, where load balancing is sub-term. Distribution of available current between multiple charge points to optimize current usage.
 
 **Translations:**
@@ -3717,6 +3855,8 @@ See also: Charge power.
 ## load management 
 **Tag:** industry
 
+**Alternative words:** power load balancing, power management, energy distribution control, demand management, load balancing, load managements
+
 **Description:** Load management is both an industry term and feature name. it is system for distributing power among multiple charge points that are charging simultaneously. It allows installation of more charge points without increasing electrical installation capacity by analyzing available capacity and vehicle demand to ensure capacity limits aren't exceeded.
 
 **Translations:**
@@ -3737,6 +3877,8 @@ See also: Charge power.
 
 ## marketplace
 **Tag:** product
+
+**Alternative words:** bazaar, ecommerce platform, sales platform, trading platform, exchange, marketplaces
 
 **Description:** Feature, where Monta partners up-sell EV charging subscriptions and services to drivers and businesses through the Monta App and Hub
 Feature name (DNT). Lowercase in all locales. English only. Do not translate or inflect.
@@ -3760,6 +3902,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## master price
 **Tag:** product
 
+**Alternative words:** main price, primary cost, base rate, fundamental price, core pricing, master prices
+
 **Description:** Core price set per kWh, per minute, or as a spot price, forming the basis of a price group with additional fees. Set by a Team administrator and managed in Hub
 
 **Translations:**
@@ -3780,6 +3924,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## member
 **Tag:** product
+
+**Alternative words:** team player, collaborator, associate, participant, contributor, members
 
 **Description:** Refer's to a Team member
 
@@ -3802,6 +3948,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## member fee
 **Tag:** product
 
+**Alternative words:** member dues, team levy, monthly contribution, membership charge, subscription fee, member fees
+
 **Description:** Refers to a fee applied by a Team admin, automatically transferred from a member's Wallet to the Team's Wallet monthly. Used in contexts like housing associations to collect payments for shared charge points
 
 **Translations:**
@@ -3822,6 +3970,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## member price
 **Tag:** product
+
+**Alternative words:** member tariff, membership pricing, member fee, membership rate, subscriber cost, member prices
 
 **Description:** Member price is applied specifically for members of a particular team.  There are four types: member, public, reimbursed, and cost price group. Each group has a master price (per minute, kWh, or spot price) and additional fees (start, minute, charging, idle).
 
@@ -3844,6 +3994,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## member price group
 **Tag:** product
 
+**Alternative words:** employee charge cost group, team member pricing tier, member fee group, staff pricing level, membership rate category, member price groups
+
 **Description:** A pricing feature that allows operators to define how much team members pay for charging their EVs on charge points within their team
 
 **Translations:**
@@ -3864,6 +4016,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## member role
 **Tag:** product
+
+**Alternative words:** team position, permission role, access level, user status, user role, member roles
 
 **Description:** Functionality related to access and permission roles. A user setting that categorizes team members into three groups: Team Owner, Team Administrator, and Team Member. Each role grants specific rights and access within the team.
 
@@ -3886,6 +4040,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## meter ID
 **Tag:** industry
 
+**Alternative words:** utility meter identification number, meter code, meter identification code, meter number, meter identifier, meter ids
+
 **Description:** A unique number assigned to an individual meter to distinguish it from others within a utility's network
 
 **Translations:**
@@ -3906,6 +4062,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## meter accuracy
 **Tag:** industry
+
+**Alternative words:** accuracy of energy meter readings, energy consumption accuracy, charging measurement accuracy, meter precision, electric meter correctness, meter accuracies
 
 **Description:** Refers to the accuracy of the electric meter in measuring energy consumed during an EV charging session, indicating how closely the readings match actual consumption.
 
@@ -3928,6 +4086,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## meter reading
 **Tag:** product
 
+**Alternative words:** power usage tracking, kwh reading, energy measurement, electricity consumption monitor, energy metering, meter readings
+
 **Description:** Devise tracking electricity consumption.
 
 **Translations:**
@@ -3948,6 +4108,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## multi-level load balancing
 **Tag:** industry
+
+**Alternative words:** multi-level power balancing, multi-stage load distribution, tiered load balancing, hierarchical load sharing, multi-tier load equalization, multi-level load balancings
 
 **Description:** Ability to load balance between a main fuse and lower-level groups.
 
@@ -3970,6 +4132,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## native schedule
 **Tag:** product
 
+**Alternative words:** early session phase, warm-up charging stage, initial charge phase, preliminary charging period, pre-full power stage, native schedules
+
 **Description:** Describes a phase in the charging session, where EV receives a small amount of current before it becomes full power. This way improves charge session stability, reduces failed charges.
 
 **Translations:**
@@ -3990,6 +4154,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## nested team
 **Tag:** product
+
+**Alternative words:** sub-team, child team, associated team, linked team, subsidiary team, nested teams
 
 **Description:** Functionality in Hub allowing the invitation of users to a parent team (host) and granting access to charge points with the set pricing scheme. Target users include utility companies, enterprises, and housing associations.
 
@@ -4012,6 +4178,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## network overview dashboard 
 **Tag:** product
 
+**Alternative words:** network monitoring panel, b2b fleet monitoring interface, alert and issue management cockpit, fleet health dashboard, real-time network visualization, network overview dashboards
+
 **Description:** B2B feature. Real-time cockpit in Hub showing fleet health and alerts so teams can spot issues, prioritize, and resolve proactively
 
 **Translations:**
@@ -4032,6 +4200,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## network tariff
 **Tag:** industry
+
+**Alternative words:** power network charge, network fee, grid tariff, distribution tariff, utility rate, network tariffs
 
 **Description:** A fee charged by utility companies for using their energy distribution networks.
 
@@ -4054,6 +4224,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## on-site
 **Tag:** industry
 
+**Alternative words:** on-location, on the spot, on-premises, at the location, in-place, on-sites
+
 **Description:** Used as adjective and noun. E.g. on-site maintenance, on-site charging, solve issues on-site.
 
 **Translations:**
@@ -4074,6 +4246,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## operator 
 **Tag:** industry
+
+**Alternative words:** charging station operator, provider, charge point operator, charger installer, evse (electric vehicle supply equipment) operator, operators 
 
 **Description:** Businesses selling, installing, and setting up charge points for themselves or their clients.
 
@@ -4096,6 +4270,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## operator team
 **Tag:** product
 
+**Alternative words:** operator crew, operator unit, operator group, operator squad, professional team, operator teams
+
 **Description:** Team type for partners. An operator team is equal to a professional team, with the only difference that any income on the team wallet on an operator team, will automatically be sent from the team wallet directly to the operator wallet. The Operator will then use this charge income to cover the invoice to Monta.
 
 **Translations:**
@@ -4116,6 +4292,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## pair
 **Tag:** product
+
+**Alternative words:** bind, associate, link, connect, integrate, pairs
 
 **Description:**  Verb, to link or connect a charge key (such as an RFID card) with a charge point or user account in a platform, allowing the key to be recognized and authorized for charging sessions.
 
@@ -4138,6 +4316,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## parent team
 **Tag:** product
 
+**Alternative words:** primary team, superior team, hosting team, main team, parent group, parent teams
+
 **Description:** Functionality in Hub. Tied to Nested Teams. It is a hosting Team of a Nested Team. Source and target capitalization intact.
 
 **Translations:**
@@ -4158,6 +4338,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## passcode
 **Tag:** industry
+
+**Alternative words:** payment code, authentication code, verification code, security code, pin, passcodes
 
 **Description:** 4-digit authentication code required upon handling payments via Monta Wallet. EU + UK requirement in the payment law.
 
@@ -4180,6 +4362,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## password
 **Tag:** industry
 
+**Alternative words:** passcode, security key, authentication code, secret code, login key, passwords
+
 **Description:** A standard term for a password used to log into Monta systems.
 
 **Translations:**
@@ -4200,6 +4384,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## payment
 **Tag:** product
+
+**Alternative words:** wallet management, transaction, financials, billing, payments
 
 **Description:** Label of 'Payment' button in Hub. It provides an overview of Wallet balance, transactions & invoices, as well as enables deposit, and withdrawal of funds.
 
@@ -4222,6 +4408,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## payment method
 **Tag:** product
 
+**Alternative words:** payment system, payment mode, transaction method, payment type, billing option, payment methods
+
 **Description:** Label of subheader in the Wallet, i.e. credit card, RFID, MobilePay, Vipps.
 
 **Translations:**
@@ -4242,6 +4430,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## payment terminal
 **Tag:** product
+
+**Alternative words:** payment machine, payment processing unit, card reader, payment device, transaction terminal, payment terminals
 
 **Description:** A payment terminal is a device used to process electronic payments from customers.
 
@@ -4264,6 +4454,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## peak hours
 **Tag:** industry
 
+**Alternative words:** busy hours, high demand period, peak demand time, rush hours, prime time, peak hour
+
 **Description:** The timeframe, in which many users want to charge.
 
 **Translations:**
@@ -4284,6 +4476,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## personal tax number
 **Tag:** industry
+
+**Alternative words:** taxpayer identification number (tin), income tax number, personal identification number (pin), social security number (ssn), individual taxpayer identification number (itin), personal tax numbers
 
 **Description:** Established taxation term applied in b2c context.  Unique identifier assigned to individuals by a government’s tax authority, used for managing tax-related activities. 
 
@@ -4306,6 +4500,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## price group
 **Tag:** product
 
+**Alternative words:** tariff group, rate group, cost group, pricing category, price bracket, price groups
+
 **Description:** A price configuration setting enabling to set-up end-user price, containing marging, add ons. etc.
 
 **Translations:**
@@ -4326,6 +4522,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## private charge point
 **Tag:** product
+
+**Alternative words:** company-specific charging point, proprietary charge point, restricted access charging station, private charging station, exclusive charge point, private charge points
 
 **Description:** Charge point access rights: Only team members linked to a private charge point can access it and apply pricing. Public charge points are accessible via roaming
 
@@ -4349,6 +4547,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## private team
 **Tag:** product
 
+**Alternative words:** exclusive team, proprietary team, private member group, confidential team, private group, private teams
+
 **Description:** Team type for private home users and partners, created in Hub, allowing the owner to invite multiple home users
 
 **Translations:**
@@ -4369,6 +4569,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## production forecast
 **Tag:** product
+
+**Alternative words:** generation prediction, electricity generation forecast, solar yield forecast, power output estimation, energy production projection, production forecasts
 
 **Description:** A prediction of how much electricity a solar panel system will generate over a specific period, based on system specifications and local weather conditions
 
@@ -4391,6 +4593,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## professional team
 **Tag:** product
 
+**Alternative words:** professional group, business team, association squad, corporate group, commercial team, professional teams
+
 **Description:** Team type for housing associations and businesses
 
 **Translations:**
@@ -4412,6 +4616,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## promotion code
 **Tag:** product
 
+**Alternative words:** promo code, offer code, voucher code, coupon code, discount code, promotion codes
+
 **Description:** A code that gives the user a discount on a charge. This will be stored in user's Wallet.
 
 **Translations:**
@@ -4432,6 +4638,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## public charge point
 **Tag:** industry
+
+**Alternative words:** community charging station, public charging station, public charging outlet, public ev charging point, public evse (electric vehicle supply equipment), public charge points
 
 **Description:** Publicly available charge point.
 
@@ -4455,6 +4663,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## public price
 **Tag:** product
 
+**Alternative words:** public cost, standard price, general public pricing, public rate, open price, public prices
+
 **Description:** Public price is applied to publicly available charge points. There are 4 price groups in total, i.e. member, public, reimbursed, and cost price group.  A price group is comprised of a master price (set per minute, kWh or spot price) and additional fees ( minute, stat, charging, idle fee)
 
 **Translations:**
@@ -4475,6 +4685,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## reboot
 **Tag:** product
+
+**Alternative words:** system refresh, restart, reset, hard reboot, power cycle, reboots
 
 **Description:** Verb, to shut down and restoring power to a charge point, either manually or remotely, to restart it. Can be used as verb and noun.
 
@@ -4497,6 +4709,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## recipient code 
 **Tag:** industry
 
+**Alternative words:** e-invoice recipient code, receiver code, recipient identifier, receiver's identification code, beneficiary code, recipient codes
+
 **Description:** Italian billing compliance term, used in Italy-only to identify the recipient of an e-Invoice). No equlavent concepts in other languages, thus do a literal translation. 
 
 **Translations:**
@@ -4517,6 +4731,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## referral
 **Tag:** product
+
+**Alternative words:** endorsement, referral code, invite, recommendation, invitation, referrals
 
 **Description:** Used in the context of Referal feature, where an existing user can invite a new member and receive a charging balance of certain amount
 
@@ -4539,6 +4755,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## refill
 **Tag:** product
 
+**Alternative words:** reload, boost, replenish, recharge, top up, refills
+
 **Description:** Verb. Top off a Wallet. Sometimes used also "charge", make sure to distinguish between monetary and electricity charge.
 
 **Translations:**
@@ -4559,6 +4777,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## reimbursement
 **Tag:** product
+
+**Alternative words:** compensation, recompense, refund, payback, repayment, reimbursements
 
 **Description:** A feature, allowing employers to reimburse their employees for charge sessions. Variations Home Reimbursement ( b2c, Charge mobile app) Employer Reimbursement (b2b, Hub web app)  Replacement of the legacy feature name "Sponsored Charging".
 
@@ -4581,6 +4801,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## reimbursement price
 **Tag:** product
 
+**Alternative words:** repayment amount, remuneration cost, refund value, payback price, compensation rate, reimbursement prices
+
 **Description:** A money amount per kWh that users' employee receives, as reimbursement for their electricity use when charging at home.
 
 **Translations:**
@@ -4601,6 +4823,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## reliability
 **Tag:** industry
+
+**Alternative words:** operational integrity, dependability, performance stability, uptime, consistency, reliabilities
 
 **Description:** Measurement of how consistent, error-free operation of a charge point or network is, i.e. measured by uptime and availability. A key quality metric in the EV industry used to assess infrastructure performance
 
@@ -4623,6 +4847,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## residental charging
 **Tag:** industry
 
+**Alternative words:** residential ev charging, household charging, home charging, charging at home, domestic charging, residental chargings
+
 **Description:** Type of charging, accommodated in a residential area.
 
 **Translations:**
@@ -4643,6 +4869,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## reverse charge
 **Tag:** industry
+
+**Alternative words:** self-accounting for vat, reverse vat, reverse tax, buyer's vat responsibility, zero-rated vat transaction, reverse charges
 
 **Description:** EU VAT regulation term. A mechanisms where buyer, not the seller, reports and pays the VAT, used in cross-border B2B sales. VAT is shown as 0% on invoices with a reverse charge note.
 
@@ -4665,6 +4893,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## roadmap
 **Tag:** industry
 
+**Alternative words:** blueprint, development outline, action plan, project timeline, strategy plan, roadmaps
+
 **Description:** A high-level overview of the software development process. Monta provides a Public Roadmap, displaying planned features, those in development, and those launched
 
 **Translations:**
@@ -4686,6 +4916,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## roaming
 **Tag:** industry
 
+**Alternative words:** cross-network charging, network-hopping, multi-network access, charging network interchange, interoperable charging, roamings
+
 **Description:** Enables EV-drivers to find, access and pay for charging across multiple public networks.
 
 **Translations:**
@@ -4706,6 +4938,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## sales tax
 **Tag:** industry
+
+**Alternative words:** vat, retail tax, purchase tax, consumption tax, goods and services tax, sales taxes
 
 **Description:** US-centric term - a tax  % imposed on the sale of goods and services at the point of purchase, paid by end-user.  In EU countries, the VAT (Value Added Tax) is the equivalent of the U.S. sales tax
 
@@ -4729,6 +4963,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## schedule
 **Tag:** product
 
+**Alternative words:** arrange, program, set up, timetable, plan, schedules
+
 **Description:** Verb. used as CTA for a planning feature, allowing adjustment of the charging timeslot.
 
 **Translations:**
@@ -4749,6 +4985,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## scheduled charging
 **Tag:** product
+
+**Alternative words:** timed charging, charge timing, preset charging, programmed charging, charging scheduling, scheduled chargings
 
 **Description:** Charge method: The ability to set a specific time or schedule for starting or completing the EV charging process
 
@@ -4771,6 +5009,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## self-healing
 **Tag:** industry
 
+**Alternative words:** auto-remediation, self-correcting, autonomous repair, self-repairing, automated recovery, self-healings
+
 **Description:** Adjective, self-healing refers to systems or software that can automatically detect, diagnose, and resolve issues without human intervention
 
 **Translations:**
@@ -4790,6 +5030,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## serial number
 **Tag:** industry
+
+**Alternative words:** device id, tracking number, device code, product id, identifier code, serial numbers
 
 **Description:** A unique identifier assigned to a charging device, used for tracking and management within a network.
 
@@ -4812,6 +5054,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## service provider
 **Tag:** industry
 
+**Alternative words:** service vendor, charging service provider, charging network provider, service supplier, charge point operator, service providers
+
 **Description:** Stakeholder, that provides charging services (monthly subscriptions), e.g. charge point operator.
 
 **Translations:**
@@ -4832,6 +5076,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## site
 **Tag:** industry
+
+**Alternative words:** charging facility, charging location, ev charging spot, charging station, charging point, sites
 
 **Description:** Refers to a charging site, often used synonymously. Use established translations for "charging site" when the source mentions "site* to reduce ambigiouty
 
@@ -4855,6 +5101,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## site owner
 **Tag:** industry
 
+**Alternative words:** charge point installer, property owner, premises owner, facility owner, location owner, site owners
+
 **Description:** An entity that has installed charge points within their premises, e.g. parking lot owner.
 
 **Translations:**
@@ -4875,6 +5123,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## smart charge
 **Tag:** industry
+
+**Alternative words:** eco-friendly charge, smart charging, intelligent charging, preference-based charging, strategic charge, smart charges
 
 **Description:** A verb describing a charging method based on user preferences, such as cost, renewable energy, and CO2 footprint, when the 'SmartCharge* feature is enabled.
 
@@ -4897,6 +5147,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## smart charging
 **Tag:** industry
 
+**Alternative words:** flexible charging, demand response charging, green charging, intelligent charging, dynamic charging, smart chargings
+
 **Description:** Noun. Feature enabling to charge EV, when energy is at its lowest price or is greenest. Non-translatable.
 
 **Translations:**
@@ -4917,6 +5169,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## solar charging 
 **Tag:** industry
+
+**Alternative words:** renewable energy charging, solar-based ev refuelling, solar energy charging, photovoltaic charging, sun-powered ev charging, solar chargings
 
 **Description:** B2C feature in mobile app, enables EV charging directly from solar panels, using real-time or forecasted production data. Helps maximise self-consumption, reduce grid reliance, lower energy costs, and minimise carbon footprint. Can be configured to operate only when surplus solar energy is available.
 
@@ -4939,6 +5193,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## solar surplus charging
 **Tag:** industry
 
+**Alternative words:** excess solar power charging, sun-powered surplus charging, pv surplus charging, photovoltaic overflow charging, renewable excess energy charging, solar surplus chargings
+
 **Description:** The process of using excess solar energy generated by a photovoltaic (PV) system to charge an electric vehicle (EV)
 
 **Translations:**
@@ -4959,6 +5215,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## sort code
 **Tag:** industry
+
+**Alternative words:** bank identifier code, bank branch identifier, banking code, bank office code, branch number, sort codes
 
 **Description:** A unique identifier of the individual branch or bank office where a bank account is held.
 
@@ -4981,6 +5239,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## spot price
 **Tag:** product
 
+**Alternative words:** market price, real-time price, spot rate, commodities price, current price, spot prices
+
 **Description:** Spot price defines a master price based on Nordpool data (leading power market in Europe), accounting for electricity price fluctuations. When setting up a price group, a master price is selected per kWh, minute, or spot data. Available only in markets with Nordpool access.
 
 **Translations:**
@@ -5001,6 +5261,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## start fee
 **Tag:** product
+
+**Alternative words:** charge onset fee, startup cost, initiation fee, commencement charge, beginning fee, start fees
 
 **Description:** Fee description (visible to users) applied when charging starts. A one-off fee at the beginning of the charge. Used in the price group context, with four fee types in total: starting fee, charging fee, minute fee, and idle fee
 
@@ -5023,6 +5285,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## start time
 **Tag:** product
 
+**Alternative words:** initiation time, beginning of charge session, onset time, charging start, commencement time, start times
+
 **Description:** Start time of a charge session, used in the "Schedule" feature, one of the charge methods (Charge now, SmartCharge, and Schedule)
 
 **Translations:**
@@ -5043,6 +5307,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## state of charge (SoC)
 **Tag:** industry
+
+**Alternative words:** battery charge level, battery life remaining, battery capacity percentage, battery charge state, charge status, state of charge (soc)s
 
 **Description:** It refers to the current battery charge level as a percentage of its total capacity.
 
@@ -5065,6 +5331,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## statement
 **Tag:** industry
 
+**Alternative words:** bill summary, expense overview, invoice breakdown, cost summary, billing report, statements
+
 **Description:** An invoice overview, a total overview of the parts that makes up the invoice for a certain period of time.
 
 **Translations:**
@@ -5085,6 +5353,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## sticker
 **Tag:** industry
+
+**Alternative words:** scan code label, barcode sticker, quick response code sticker, qr tag, qr label, stickers
 
 **Description:**  QR code, enables access to the charging service.
 
@@ -5107,6 +5377,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## support settings
 **Tag:** product
 
+**Alternative words:** assistance preferences, support configuration, help configurations, support preferences, help settings, support setting
+
 **Description:** Settings under Team settings in Portal. Support settings are mapped out in 3 sub-categories, i.e. Monta, installer and operator to differentiate which support falls under which actor.
 
 **Translations:**
@@ -5127,6 +5399,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## surplus energy
 **Tag:** industry
+
+**Alternative words:** extra energy, leftover electricity, unused power, excess power, spare energy, surplus energies
 
 **Description:** Excess electricity generated beyond immediate consumption needs, which can be stored, used for charging, or fed back into the grid.
 
@@ -5149,6 +5423,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## swipe
 **Tag:** product
 
+**Alternative words:** press, slide, select, tap, click, swipes
+
 **Description:** Verb, CTA for approving and enabling certain task in the consumer app.
 
 **Translations:**
@@ -5169,6 +5445,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## tariff
 **Tag:** industry
+
+**Alternative words:** rate, cost structure, schedule of charges, fee schedule, pricing plan, tariffs
 
 **Description:** See "Network tariff" for more details. Used both as stand-alone "tariff" and as "network tariff"
 
@@ -5191,6 +5469,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## tax ID
 **Tag:** industry
 
+**Alternative words:** vat registration number, vat id, irs number, taxpayer identification number, tin, tax ids
+
 **Description:** A Tax Identification in the US,  a unique number assigned by the Internal Revenue Service (IRS) to individuals and entities for tax reporting purposes. European equivalent is VAT number
 
 **Translations:**
@@ -5211,6 +5491,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## tax identification number 
 **Tag:** industry
+
+**Alternative words:** italian tax code, tin, codice fiscale, fiscal code, italian fiscal identification number, tax identification numbers
 
 **Description:** Italian billing compliance term, used in Italy-only for fiscal activities. No equlavent concepts in other languages, thus do a literal translation. 
 
@@ -5233,6 +5515,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## team
 **Tag:** brand
 
+**Alternative words:** crew, unit, group, department, squad, teams
+
 **Description:** Feature: A team manages charge points, members, prices, access, Wallet, and more. There are 4 team types: personal, private, professional, and operator.
 
 **Translations:**
@@ -5253,6 +5537,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## theme
 **Tag:** product
+
+**Alternative words:** custom theme, skinning, white-labeling, brand identity customization, branding feature, themes
 
 **Description:** Functionality, enabling partners to brand Monta's software services with their branding elements.
 
@@ -5275,6 +5561,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## transaction fee
 **Tag:** product
 
+**Alternative words:** service charge, processing fee, transaction cost, operation fee, commission fee, transaction fees
+
 **Description:** Monta retains 2 % of each transaction, occurring during a paid charge session.
 
 **Translations:**
@@ -5295,6 +5583,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## user
 **Tag:** product
+
+**Alternative words:** consumer, customer, participant, end-user, client, users
 
 **Description:** Concept - users in a general sense and encompasses all segments groups within b2c, b2b, b2p.
 
@@ -5317,6 +5607,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## user role
 **Tag:** product
 
+**Alternative words:** user profile, user authority, user position, user status, user level, user roles
+
 **Description:** Role of the user in a team in the portal (e.g. Member, Administrator, ..)
 
 **Translations:**
@@ -5337,6 +5629,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## wallet
 **Tag:** brand
+
+**Alternative words:** digital wallet, payment wallet, e-wallet, electronic purse, transaction hub, wallets
 
 **Description:** Monta's financial service feature, which facilitates transactions to and from bank accounts, payments, reimbursements etc.
 
@@ -5359,6 +5653,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## white label
 **Tag:** industry
 
+**Alternative words:** private label, brand license, resold solutions, rebranded services, oem (original equipment manufacturer), white labels
+
 **Description:** Service, where Monta resells tech solutions to another company. The buying company rebrands the service as their own. 
 
 **Translations:**
@@ -5380,6 +5676,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## wholesaler
 **Tag:** industry
 
+**Alternative words:** reseller, supplier, distributor, dealer, bulk seller, wholesalers
+
 **Description:** Entities that specialize in selling EV charge points in bulk or on a wholesale level.
 
 **Translations:**
@@ -5400,6 +5698,8 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 
 ## workplace charging
 **Tag:** industry
+
+**Alternative words:** employment location charging, office charging, business site charging, company charging facilities, job site charging, workplace chargings
 
 **Description:** Refers to charging accommodated at a work place
 
