@@ -8,7 +8,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  test:
+  test-python:
+    name: Test Python
     runs-on: ubuntu-latest
 
     steps:
@@ -33,3 +34,47 @@ jobs:
     - name: Run tests
       run: |
         python -m pytest python/test_glossary.py -v
+
+  test-typescript:
+    name: Test TypeScript
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      working-directory: ./typescript
+      run: npm ci
+
+    - name: Build
+      working-directory: ./typescript
+      run: npm run build
+
+    - name: Run tests
+      working-directory: ./typescript
+      run: npm test
+
+  test-kotlin:
+    name: Test Kotlin
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up JDK
+      uses: actions/setup-java@v4
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v3
+
+    - name: Run tests
+      working-directory: ./kotlin
+      run: gradle test
