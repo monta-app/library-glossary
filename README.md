@@ -9,15 +9,18 @@ glossary/
 ├── files/                      # Data files
 │   ├── inputs/
 │   │   ├── monta_raw_glossary.xlsx  # Master glossary (input)
-│   │   ├── amendments.json          # Custom amendments (optional)
+│   │   ├── amendments.json          # Term lifecycle changes (add/delete terms)
 │   │   ├── alternatives.json        # Alternative words (AI + manual)
+│   │   ├── plurals.json             # Auto-generated plural forms
 │   │   └── external_glossary.md     # Reference only (not imported)
 │   ├── outputs/
 │   │   ├── glossary.sqlite          # SQLite database (generated)
 │   │   └── glossary.md              # Markdown file (generated)
 │   └── test-fixtures.json           # Shared test data for all implementations
-├── import.py                   # Unified import script
-├── import.sh                   # Wrapper script (auto-activates venv)
+├── import.py                   # Main import script
+├── import.sh                   # Wrapper script (auto-activates venv, always runs with --amendments)
+├── generate_alternatives.py    # AI-powered alternatives generation (optional)
+├── generate_plurals.py         # Auto-generate plural forms
 ├── python/                     # Python package
 │   ├── monta_glossary/
 │   └── test_glossary.py        # Test suite with fixtures
@@ -49,160 +52,116 @@ pip install -r requirements.txt
 Place your master glossary file at `files/inputs/monta_raw_glossary.xlsx`, then:
 
 ```bash
-# Option 1: Use the wrapper script (automatically activates venv)
-./import.sh                        # Basic import (generates markdown automatically)
-./import.sh --amendments           # With custom amendments
-./import.sh --alternatives         # With AI-generated alternatives (requires OpenAI)
+# Recommended: Use the wrapper script (automatically activates venv and applies amendments)
+./import.sh                        # Standard import with amendments
+./import.sh --truncate-db          # Full clean rebuild
+./import.sh --skip-import          # Only reapply amendments/alternatives/plurals
 
-# Option 2: Activate venv manually
+# Alternative: Activate venv manually
 source .venv/bin/activate
-python import.py
-python import.py --amendments --alternatives
+python import.py --amendments      # With amendments (recommended)
+python import.py                   # Without amendments
 ```
 
 **Processing Pipeline:**
 
-Every import automatically runs:
-1. Import from Excel → Database
-2. Apply amendments (if `--amendments` flag)
-3. Apply alternatives from `alternatives.json`
-4. Generate AI alternatives (if `--alternatives` flag) → Save to `alternatives.json`
-5. Apply newly generated alternatives
-6. Generate `glossary.md` (always)
+Every import automatically runs these steps:
+1. **Import from Excel** → SQLite database (unless `--skip-import`)
+2. **Apply amendments** from `amendments.json` (if `--amendments` flag)
+3. **Apply alternatives** from `alternatives.json` (always - AI + manual)
+4. **Apply plurals** from `plurals.json` (always - auto-generated)
+5. **Generate markdown** → `glossary.md` (always)
 
-**⚠️ Note:** The `--alternatives` flag uses OpenAI to generate alternative terms. You must create a `.env` file with your OpenAI API key before using this option:
+**Important Notes:**
+- `./import.sh` **always runs with `--amendments`** by default for consistency
+- Alternatives and plurals are **always applied automatically** from JSON files
+- Use `--truncate-db` for a clean rebuild (clears database first)
+- To generate new AI alternatives: `python generate_alternatives.py` (see section 4)
+- To regenerate plurals: `python generate_plurals.py` (see section 5)
 
-```bash
-echo "OPENAI_API_KEY=sk-your-key-here" > .env
-```
+### 3. Amendments System
 
-### 3. Amendments System (Optional)
+The amendment system allows you to manage the **term lifecycle** after importing from Excel. Use amendments for structural changes like adding or removing terms.
 
-The amendment system allows you to make custom modifications to the glossary data after importing from Excel, without modifying the original Excel file. This is useful for:
+**What amendments are for:**
+- ✅ **Deleting redundant or obsolete terms**
+- ✅ **Adding new terms** not in the Excel file
+- ✅ **Updating term metadata** (description, tags, case_sensitive, etc.)
+- ✅ **Managing translations** for specific languages
 
-- **Merging duplicate terms** (e.g., merge "Chargers" into "charge point" as an alternative)
-- **Adding custom translations or alternatives** not in the Excel file
-- **Updating term descriptions or metadata** programmatically
-- **Deleting obsolete terms**
-- **Adding completely new terms** via code
+**What amendments are NOT for:**
+- ❌ **Adding/removing alternative words** → Use `alternatives.json` instead
+- ❌ **Managing plurals** → Auto-generated via `generate_plurals.py`
 
 **How it works:**
 
-1. Create `files/inputs/amendments.json` with your changes
-2. Run the import with `--amendments` flag
-3. Amendments are applied **after** Excel import, **before** alternatives generation
+1. Edit `files/inputs/amendments.json` with your term lifecycle changes
+2. Run the import (amendments are always applied by `./import.sh`)
+3. Amendments are applied **after** Excel import, **before** alternatives/plurals
 
-**Example Use Cases:**
-
-**1. Merge duplicate terms:**
+**Example: Delete redundant terms**
 ```json
 {
+  "version": "1.0",
+  "description": "Term lifecycle changes only. For alternatives, edit alternatives.json instead.",
   "amendments": [
     {
       "type": "delete_term",
       "term": "Chargers",
-      "comment": "Remove duplicate"
+      "comment": "Remove duplicate - consolidating into 'charge point'"
     },
     {
-      "type": "add_alternatives",
-      "term": "charge point",
-      "alternatives": ["Charger", "Chargers"],
-      "comment": "Add as alternatives instead"
+      "type": "delete_term",
+      "term": "charger",
+      "comment": "Consolidate into 'charge point'"
     }
   ]
 }
 ```
 
-**2. Update term metadata:**
+**Note:** After deleting terms, add them as alternatives in `alternatives.json`:
 ```json
 {
-  "type": "update_term",
-  "term": "charge point",
-  "changes": {
-    "description": "Updated description text",
-    "tags": "hardware, infrastructure",
-    "case_sensitive": false
+  "alternatives": {
+    "charge point": ["Charger", "Chargers", "charger", "chargers"]
   }
 }
 ```
 
-**3. Add translations:**
-```json
-{
-  "type": "add_translation",
-  "term": "charge point",
-  "translations": {
-    "es": "Punto de Carga",
-    "it": "Punto di Ricarica"
-  }
-}
-```
-
-**4. Add new term via code:**
+**Example: Add new term**
 ```json
 {
   "type": "add_term",
-  "term": "New Technical Term",
+  "term": "electric vehicle",
   "data": {
-    "description": "Description here",
-    "translations": {
-      "en": "New Technical Term",
-      "da": "Ny Teknisk Term"
-    },
-    "alternatives": ["NTT"]
-  }
+    "description": "Battery powered vehicle",
+    "case_sensitive": false,
+    "translatable": true,
+    "alternatives": []
+  },
+  "comment": "Add as canonical term (alternatives in alternatives.json)"
 }
 ```
 
-**5. Other operations:**
-```json
-{
-  "type": "remove_alternative",
-  "term": "charge point",
-  "alternative": "Unwanted Term"
-}
-```
-
-```json
-{
-  "type": "add_description",
-  "term": "charge point",
-  "descriptions": {
-    "nl": "Nederlandse beschrijving",
-    "en_US": "American English description"
-  }
-}
-```
-
-**Usage:**
-
-```bash
-# Apply amendments
-./import.sh --amendments
-
-# Apply amendments without re-importing Excel
-./import.sh --skip-import --amendments
-
-# Full pipeline with AI alternatives
-./import.sh --amendments --alternatives
-```
-
-**Amendment Types:**
-
-- `update_term` - Modify existing term metadata (description, tags, case_sensitive, translatable, forbidden)
-- `add_alternatives` - Add alternative words to existing term
-- `remove_alternative` - Remove specific alternative word
-- `add_translation` - Add/update translations for specific languages
-- `add_description` - Add language-specific descriptions (e.g., nl_description)
-- `add_term` - Create completely new term (not in Excel)
+**Supported Amendment Types:**
 - `delete_term` - Remove a term entirely
+- `add_term` - Create a new term (not in Excel)
+- `update_term` - Modify term metadata (description, tags, case_sensitive, translatable, forbidden)
+- `add_translation` - Add/update translations for specific languages
+- `add_description` - Add language-specific descriptions
+
+**Best Practices:**
+- ✅ Use amendments for **structural changes** (term lifecycle)
+- ✅ Use `alternatives.json` for **alternative words**
+- ✅ Use `generate_plurals.py` for **plural forms**
+- ✅ Keep amendments simple and focused
+- ✅ Add comments to explain why each amendment exists
 
 **Notes:**
-
-- Term matching is **case-insensitive** - "Charge Point", "charge point", and "CHARGE POINT" all match the same term
-- Amendments are **idempotent** - running multiple times produces the same result
-- Amendments are tracked in git for full audit history
-- Existing alternatives/translations are preserved when adding new ones
+- `./import.sh` always applies amendments automatically
+- Term matching is **case-insensitive**
+- Amendments are **idempotent** (safe to run multiple times)
+- Track amendments in git for audit history
 
 ### 4. Alternative Words System
 
@@ -210,27 +169,28 @@ The `alternatives.json` file stores alternative words/phrases for each term. Thi
 
 **How it works:**
 
-1. **Always applied**: Every import automatically loads alternatives from `alternatives.json` and adds them to the database
-2. **AI generation (optional)**: Use `--alternatives` flag to generate alternatives with OpenAI
-3. **Manual editing**: You can directly edit `alternatives.json` to add/modify alternatives
-4. **Version controlled**: Track all alternative words in git with full history
+1. **Always applied**: Every import automatically loads alternatives from `alternatives.json`
+2. **AI generation (optional)**: Use `generate_alternatives.py` to generate alternatives with OpenAI
+3. **Manual editing**: Directly edit `alternatives.json` to add/modify alternatives anytime
+4. **Alphabetically sorted**: Terms are sorted A-Z for easier maintenance
+5. **Version controlled**: Track all changes in git with full history
 
 **File format:**
 
 ```json
 {
   "version": "1.0",
-  "description": "Alternative words/phrases for glossary terms",
+  "description": "Alternative words/phrases for glossary terms. All term keys are normalized to lowercase.",
   "alternatives": {
     "charge point": [
-      "Charger",
-      "CP",
-      "Charging Station",
-      "Wall Box",
-      "EVSE"
+      "charger",
+      "cp",
+      "charging station",
+      "wall box",
+      "evse"
     ],
     "electric vehicle": [
-      "EV",
+      "ev",
       "e-car",
       "battery electric vehicle"
     ]
@@ -238,35 +198,136 @@ The `alternatives.json` file stores alternative words/phrases for each term. Thi
 }
 ```
 
+**Generating Alternatives with AI:**
+
+```bash
+# First, set up your OpenAI API key
+echo "OPENAI_API_KEY=sk-your-key-here" > .env
+
+# Generate alternatives for NEW terms only (skips existing)
+python generate_alternatives.py
+
+# Force regenerate ALL alternatives (overwrites existing)
+python generate_alternatives.py --force
+
+# Test with 10 terms first
+python generate_alternatives.py --limit 10
+
+# Force regenerate 10 terms
+python generate_alternatives.py --force --limit 10
+```
+
 **Workflow:**
 
 ```bash
-# Generate AI alternatives for all terms (one-time setup)
-./import.sh --alternatives
+# 1. Generate AI alternatives (one-time setup or when adding new terms)
+python generate_alternatives.py
 
-# Review and edit files/inputs/alternatives.json manually
-# Add more alternatives, remove bad ones, etc.
+# 2. Review and edit files/inputs/alternatives.json manually
+#    - Remove unwanted alternatives
+#    - Add manual alternatives
+#    - Fix any issues
 
-# Subsequent imports automatically use alternatives.json
+# 3. Commit to git
+git add files/inputs/alternatives.json
+git commit -m "Update alternatives"
+
+# 4. Subsequent imports automatically use alternatives.json
 ./import.sh
-
-# Generate alternatives for new terms only (skips existing)
-./import.sh --alternatives
-
-# Force regenerate all alternatives
-./import.sh --alternatives --force
-
-# Test AI on 10 terms first
-./import.sh --alternatives --limit 10
 ```
 
 **Benefits:**
 
+- **Separate concern**: AI generation is optional and separate from import
 - **Git-trackable**: See who added which alternatives and when
 - **Reviewable**: Review AI suggestions before committing
 - **Editable**: Manually refine or add alternatives anytime
 - **Reusable**: One source of truth used across all imports
-- **Incremental**: AI only processes terms without alternatives
+- **Incremental**: Without --force, AI only processes new terms
+- **Normalized**: All lowercase for consistent text matching
+
+### 5. Plurals System
+
+The `plurals.json` file contains auto-generated plural forms for all countable terms. Plurals are automatically applied as alternative words during import, enabling proper text normalization.
+
+**How it works:**
+
+1. **Auto-generated**: Use `generate_plurals.py` to create plural forms using the `inflect` library
+2. **Always applied**: Every import automatically loads plurals and adds them as alternatives
+3. **Lowercase keys**: All term keys are lowercase for consistency
+4. **Regenerate after changes**: Run `generate_plurals.py` when adding new terms
+
+**File format:**
+
+```json
+{
+  "version": "1.0",
+  "description": "Auto-generated plural forms for glossary terms",
+  "plurals": {
+    "charge point": {
+      "singular": "charge point",
+      "plural": "charge points"
+    },
+    "connector": {
+      "singular": "connector",
+      "plural": "connectors"
+    },
+    "vehicle": {
+      "singular": "vehicle",
+      "plural": "vehicles"
+    }
+  }
+}
+```
+
+**Generating Plurals:**
+
+```bash
+# Generate plurals for all terms (preserves manual edits by default)
+python generate_plurals.py
+
+# Force regenerate ALL plurals (overwrites everything)
+python generate_plurals.py --force
+
+# After generating, reimport to apply
+./import.sh --skip-import
+```
+
+**What gets pluralized:**
+
+✅ Countable nouns (charge point → charge points)
+✅ Multi-word terms (last word pluralized: API key → API keys)
+❌ Acronyms (CP, EVSE, API remain unchanged)
+❌ Proper nouns (Monta, Charge app)
+❌ Adjectives (charge, charging)
+
+**Workflow:**
+
+```bash
+# 1. Add new terms to Excel or via amendments
+./import.sh
+
+# 2. Generate plurals for new terms
+python generate_plurals.py
+
+# 3. Review plurals.json (remove incorrect plurals if needed)
+# Edit files/inputs/plurals.json manually
+
+# 4. Reimport to apply
+./import.sh --skip-import
+
+# 5. Commit to git
+git add files/inputs/plurals.json
+git commit -m "Update plurals"
+```
+
+**Benefits:**
+
+- **Automatic**: Smart pluralization using linguistic rules
+- **Consistent**: Same pluralization logic across all terms
+- **Maintainable**: Regenerate anytime new terms are added
+- **Reviewable**: Manual edits are preserved unless using `--force`
+- **Text normalization**: "chargers" automatically normalizes to "charge point"
 
 ## 📥 Data Source
 
@@ -277,125 +338,62 @@ Export this spreadsheet as Excel (`.xlsx`) and place it at `files/inputs/monta_r
 
 ## 📦 Integration Guide
 
-### Choose Your Integration Method
+### About This Project
 
-**Decision tree:**
-- 🏢 Multiple projects need glossary → **Git Submodule**
-- 🚀 Single project, auto updates → **Direct Git Install**
-- 🔧 Custom setup or offline → **Local Copy**
-- 💻 Development/testing → **Local Path Reference**
+**This project uses a vendored glossary library approach.** The complete glossary library (Python, Kotlin, and TypeScript implementations) is included directly in the `libs/glossary/` directory rather than as a git submodule or external dependency.
 
-### Method 1: Git Submodule (Recommended for Teams)
+**Why vendored?** After extensive testing with git submodules, we encountered deployment blockers with AWS OIDC permissions when using organizational reusable GitHub Actions workflows. Vendoring solved these issues while maintaining full compatibility with CI/CD pipelines.
 
-**Why:** Keep glossary in sync across projects, easy updates, single source of truth.
+**Trade-offs:**
+- ✅ **Works everywhere:** No authentication, no submodule complexity, no deployment issues
+- ✅ **Simple CI/CD:** Standard workflows work without modifications
+- ✅ **Reliable builds:** Docker, GitHub Actions, and local builds all work consistently
+- ⚠️ **Manual updates:** Library updates require manual copying (not automatic sync)
+- ⚠️ **Larger repo:** Adds ~500KB to repository size
 
-```bash
-# Add as submodule
-cd your-project
-git submodule add git@github.com:monta-app/library-glossary.git libs/glossary
-git submodule update --init --recursive
+### Vendored Library Structure
 
-# Install the package
-pip install -e libs/glossary/python  # Python
-npm install libs/glossary/typescript  # TypeScript
+```
+your-project/
+├── libs/glossary/          # Vendored glossary library
+│   ├── python/             # Python implementation
+│   │   └── monta_glossary/
+│   ├── kotlin/             # Kotlin implementation
+│   │   └── src/
+│   └── typescript/         # TypeScript implementation
+│       └── src/
+├── requirements.txt        # References vendored Python package
+└── Dockerfile              # Copies libs/ directory
 ```
 
-**Add to dependencies:**
-```txt
-# requirements.txt (Python)
--e libs/glossary/python
+### Using the Vendored Library
 
-# package.json (TypeScript)
+**Python:**
+```txt
+# requirements.txt
+-e libs/glossary/python
+```
+
+```bash
+# Install
+pip install -r requirements.txt
+```
+
+**TypeScript:**
+```json
+// package.json
 {
   "dependencies": {
     "@monta/glossary": "file:libs/glossary/typescript"
   }
 }
+```
 
-# build.gradle.kts (Kotlin)
+**Kotlin:**
+```kotlin
+// build.gradle.kts
 dependencies {
     implementation(files("libs/glossary/kotlin"))
-}
-```
-
-**Team workflow:**
-```bash
-# First time setup
-git clone your-project
-git submodule update --init --recursive
-pip install -r requirements.txt
-
-# Update glossary
-cd libs/glossary && git pull origin main && cd ../..
-git add libs/glossary
-git commit -m "Update glossary"
-
-# Team members sync
-git pull && git submodule update --remote
-```
-
-### Method 2: Direct Git Install
-
-**Why:** Simple, automatically gets latest version.
-
-```bash
-# Python
-pip install git+ssh://git@github.com/monta-app/library-glossary.git#subdirectory=python
-
-# TypeScript
-npm install git+ssh://git@github.com/monta-app/library-glossary.git#subdirectory=typescript
-```
-
-Add to dependencies:
-```txt
-# requirements.txt
-git+ssh://git@github.com/monta-app/library-glossary.git#subdirectory=python
-
-# package.json
-{
-  "dependencies": {
-    "@monta/glossary": "git+ssh://git@github.com/monta-app/library-glossary.git#subdirectory=typescript"
-  }
-}
-```
-
-### Method 3: Local Copy
-
-**Why:** Custom setups, offline access, or when you need just the database.
-
-```bash
-# Copy just the database
-cp /path/to/glossary/files/outputs/glossary.sqlite your-project/data/
-
-# Or copy entire package
-cp -r /path/to/glossary/python/monta_glossary your-project/libs/
-```
-
-### Method 4: Local Path Reference (Development)
-
-**Why:** Perfect for local development, changes reflected immediately.
-
-```bash
-# Python
-pip install -e /path/to/glossary/python
-
-# Or in requirements.txt
--e /path/to/glossary/python
-```
-
-```json
-// TypeScript package.json
-{
-  "dependencies": {
-    "@monta/glossary": "file:../path/to/glossary/typescript"
-  }
-}
-```
-
-```kotlin
-// Kotlin build.gradle.kts
-dependencies {
-    implementation(files("/path/to/glossary/kotlin"))
 }
 ```
 
@@ -403,9 +401,7 @@ dependencies {
 
 **GitHub Actions:**
 ```yaml
-- uses: actions/checkout@v3
-  with:
-    submodules: recursive  # For submodules
+- uses: actions/checkout@v5
 
 - name: Install dependencies
   run: pip install -r requirements.txt
@@ -415,12 +411,69 @@ dependencies {
 ```dockerfile
 FROM python:3.9
 WORKDIR /app
-COPY . .
-RUN git submodule update --init --recursive
-RUN pip install -r requirements.txt
+
+# Copy requirements and vendored library
+COPY requirements.txt .
+COPY libs/ libs/
+
+# Install Python dependencies (includes vendored glossary)
+RUN pip install --no-cache-dir -r requirements.txt
+
 # Copy database to container
 RUN cp libs/glossary/files/outputs/glossary.sqlite /app/data/
 ```
+
+### Updating the Vendored Library
+
+When the upstream glossary library is updated:
+
+```bash
+# 1. Copy updated files from the source repository
+cp -r /path/to/source/glossary/python libs/glossary/
+cp -r /path/to/source/glossary/kotlin libs/glossary/
+cp -r /path/to/source/glossary/typescript libs/glossary/
+
+# 2. Commit the changes
+git add libs/glossary/
+git commit -m "Update vendored glossary library"
+git push
+```
+
+### Alternative Integration Methods (For Other Projects)
+
+If you're starting a new project and want to integrate this glossary library, consider these options:
+
+**Method 1: Vendored Copy (Recommended - same as this project)**
+- Copy `libs/glossary/` directory into your project
+- Reference as local dependency in requirements.txt/package.json
+- ✅ Works with all CI/CD systems
+- ⚠️ Requires manual updates
+
+**Method 2: Direct Git Install**
+- Install directly from git repository
+- Automatically gets latest version
+- ⚠️ Requires git authentication in CI/CD
+
+```bash
+# Python
+pip install git+ssh://git@github.com/monta-app/library-glossary.git#subdirectory=python
+
+# TypeScript
+npm install git+ssh://git@github.com/monta-app/library-glossary.git#subdirectory=typescript
+```
+
+**Method 3: Git Submodule**
+- Keep glossary in sync across projects
+- ⚠️ Requires careful CI/CD configuration
+- ⚠️ May require AWS IAM trust policy updates for custom workflows
+
+```bash
+# Add as submodule
+git submodule add git@github.com:monta-app/library-glossary.git libs/glossary
+git submodule update --init --recursive
+```
+
+**For most projects, we recommend the vendored approach (Method 1) based on our experience with deployment reliability.**
 
 ## 📦 Using in Your Projects
 
@@ -555,10 +608,39 @@ This function:
 
 ## 🔄 Workflow
 
-1. **Update Excel**: Place new `download.xlsx` in `files/`
-2. **Run Import**: `./import.sh --amendments --alternatives`
-3. **Review**: Check `alternatives.json` for AI-generated alternatives
-4. **Distribute**: The `files/outputs/glossary.sqlite` and `glossary.md` files are generated automatically
+### Standard Update Workflow
+
+1. **Update Excel**: Place new `monta_raw_glossary.xlsx` in `files/inputs/`
+2. **Run Import**: `./import.sh` (or `./import.sh --truncate-db` for clean rebuild)
+3. **Generate Plurals** (if new terms added): `python generate_plurals.py`
+4. **Reimport** (to apply plurals): `./import.sh --skip-import`
+5. **Commit**: Files in `files/outputs/` are generated automatically
+
+### First-Time Setup or Adding AI Alternatives
+
+1. **Setup OpenAI**: `echo "OPENAI_API_KEY=sk-..." > .env`
+2. **Generate Alternatives**: `python generate_alternatives.py`
+3. **Review** `alternatives.json` and edit manually as needed
+4. **Import**: `./import.sh --truncate-db`
+5. **Commit**: `git add files/inputs/alternatives.json && git commit`
+
+### Quick Reference Commands
+
+```bash
+# Full clean rebuild
+./import.sh --truncate-db
+
+# Reapply alternatives/plurals without Excel reimport
+./import.sh --skip-import
+
+# Generate new AI alternatives (optional)
+python generate_alternatives.py --limit 10  # test first
+python generate_alternatives.py             # generate all
+
+# Regenerate plurals after adding terms
+python generate_plurals.py
+./import.sh --skip-import
+```
 
 ## 📚 Database Schema
 
@@ -582,7 +664,7 @@ This function:
 ### alternative_words
 - `id` (PRIMARY KEY)
 - `term_id` (FOREIGN KEY → terms.id)
-- `alternative` (TEXT) - Alternative word/phrase
+- `alternative` (TEXT) - Alternative word/phrase (from `alternatives.json` and `plurals.json`)
 
 ### additional_descriptions
 - `id` (PRIMARY KEY)
@@ -593,7 +675,7 @@ This function:
 
 ## 🔐 Environment Variables (Optional)
 
-The `--alternatives` flag uses OpenAI's GPT-4 API to automatically generate alternative words and saves them to `alternatives.json`. This feature is **optional** but highly recommended.
+The `generate_alternatives.py` script uses OpenAI's GPT-4 API to automatically generate alternative words and saves them to `alternatives.json`. This feature is **optional** but highly recommended.
 
 **To enable AI alternatives generation:**
 
@@ -604,20 +686,21 @@ The `--alternatives` flag uses OpenAI's GPT-4 API to automatically generate alte
 echo "OPENAI_API_KEY=sk-your-key-here" > .env
 ```
 
-3. Run import with `--alternatives` flag:
+3. Run the generation script:
 
 ```bash
-./import.sh --alternatives --limit 10  # Test with 10 terms first
-./import.sh --alternatives              # Generate for all terms
+python generate_alternatives.py --limit 10  # Test with 10 terms first
+python generate_alternatives.py              # Generate for all new terms
+python generate_alternatives.py --force      # Regenerate all terms
 ```
 
 **Cost:** ~$0.01-0.02 per term (about $5 for 250 terms). The script includes rate limiting to respect API quotas.
 
 **Note:**
-- Import and markdown generation work perfectly fine **without** OpenAI
-- AI-generated alternatives are saved to `alternatives.json` for review
+- Import works perfectly fine **without** OpenAI - just uses existing alternatives.json
+- AI-generated alternatives are saved to `alternatives.json` for review before committing
 - You can manually edit `alternatives.json` anytime
-- Future imports automatically use alternatives from `alternatives.json`
+- All imports automatically use alternatives from `alternatives.json`
 
 ## 🧪 Running Tests
 
@@ -667,7 +750,7 @@ pip install -r requirements.txt
 ./import.sh
 ```
 
-### 3. Add Alternative Words with AI (Optional)
+### 3. Generate Alternative Words with AI (Optional)
 
 Alternative words help with text normalization and search. This step uses OpenAI and is optional.
 
@@ -676,24 +759,37 @@ Alternative words help with text normalization and search. This step uses OpenAI
 echo "OPENAI_API_KEY=sk-your-key-here" > .env
 
 # 2. Test with a few terms to verify it works
-./import.sh --alternatives --limit 10
+python generate_alternatives.py --limit 10
 
-# 3. Generate for all terms (takes ~2 minutes for 250 terms)
-./import.sh --alternatives
+# 3. Generate for all new terms (takes ~2 minutes for 250 terms)
+python generate_alternatives.py
 
 # 4. Review and edit alternatives.json
 # Remove unwanted alternatives, add manual ones, etc.
 
-# 5. Future imports automatically use alternatives.json
+# 5. Commit the updated alternatives.json
+git add files/inputs/alternatives.json
+git commit -m "Update AI-generated alternatives"
+
+# 6. Future imports automatically use alternatives.json
 ./import.sh
 ```
 
 **Without OpenAI:** You can still use the glossary without AI. You can manually edit `alternatives.json` or use alternatives from Excel/amendments.
 
-### 4. Apply Amendments and Alternatives Only
+### 4. Regenerate Plurals After Adding Terms
 ```bash
-# Re-apply amendments/alternatives without re-importing Excel
-./import.sh --skip-import --amendments
+# Generate plurals for new terms
+python generate_plurals.py
+
+# Reimport to apply (skips Excel import)
+./import.sh --skip-import
+```
+
+### 5. Clean Rebuild
+```bash
+# Nuclear option: completely fresh rebuild
+./import.sh --truncate-db
 ```
 
 ## 🐛 Troubleshooting
@@ -712,17 +808,17 @@ pip install -r requirements.txt
 
 ### "OPENAI_API_KEY not found"
 
-This error only occurs if you use the `--alternatives` flag. To fix:
+This error only occurs if you use `generate_alternatives.py`. To fix:
 
 ```bash
 # Get your API key from https://platform.openai.com/api-keys
 echo "OPENAI_API_KEY=sk-your-key-here" > .env
 ```
 
-**Alternatively:** Skip the `--alternatives` flag if you don't need AI-generated alternative words:
+**Alternatively:** You don't need OpenAI for basic import - it only generates alternatives:
 
 ```bash
-./import.sh  # Works without OpenAI - markdown generated automatically
+./import.sh  # Works without OpenAI - uses existing alternatives.json
 ```
 
 ### Database file not found
@@ -755,10 +851,35 @@ Copyright © Monta
 
 ## 🤝 Contributing
 
-1. Update `files/inputs/monta_raw_glossary.xlsx` with new terms
-2. Run: `./import.sh --amendments --alternatives`
-3. Review and commit `alternatives.json` if changes look good
-4. Run tests in all packages
-5. Commit changes
+### Adding New Terms
+
+1. **Update Excel**: Add new terms to `files/inputs/monta_raw_glossary.xlsx`
+2. **Import**: Run `./import.sh --truncate-db`
+3. **Generate Plurals**: Run `python generate_plurals.py`
+4. **Generate AI Alternatives** (optional): Run `python generate_alternatives.py`
+5. **Review**: Check `alternatives.json` and `plurals.json` for accuracy
+6. **Reimport**: Run `./import.sh --skip-import` to apply changes
+7. **Test**: Run test suites in all three packages (Python, Kotlin, TypeScript)
+8. **Commit**:
+   ```bash
+   git add files/inputs/*.json files/outputs/*
+   git commit -m "Add new glossary terms"
+   ```
+
+### Making Amendments
+
+1. **Edit**: Update `files/inputs/amendments.json`
+2. **Import**: Run `./import.sh --truncate-db`
+3. **Test**: Verify changes work as expected
+4. **Commit**: Track amendments in git
+
+### Best Practices
+
+- ✅ Always use `./import.sh` (includes amendments automatically)
+- ✅ Regenerate plurals after adding new countable nouns
+- ✅ Review AI-generated alternatives before committing
+- ✅ Run all test suites before committing
+- ✅ Use `--truncate-db` for clean state after major changes
+- ✅ Keep `alternatives.json` sorted alphabetically
 
 For package-specific documentation, see the README files in `python/`, `kotlin/`, and `typescript/` directories.
