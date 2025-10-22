@@ -234,10 +234,22 @@
       "maximum charge level"
     ],
     "charge point": [
-      "charging port",
-      "charging pedestal",
+      "CP",
+      "Charger",
+      "Chargers",
+      "EVSE",
+      "Electric Vehicle Supply Equipment",
+      "charge stations",
+      "charger",
+      "chargers",
       "charging outlet",
-      "charging post"
+      "charging pedestal",
+      "charging point",
+      "charging port",
+      "charging post",
+      "charging station",
+      "charging unit",
+      "hardware"
     ],
     "charge point management system": [
       "ev charging network management software",
@@ -302,13 +314,6 @@
       "charging process",
       "charging cycle"
     ],
-    "charger": [
-      "charging station",
-      "evse (electric vehicle supply equipment)",
-      "charging dock",
-      "charging post",
-      "charging unit"
-    ],
     "charging": [
       "energizing",
       "refueling",
@@ -337,13 +342,6 @@
       "charging tariff",
       "charging price"
     ],
-    "charging point": [
-      "charging station",
-      "charge port",
-      "charging outlet",
-      "charging dock",
-      "ev charging station"
-    ],
     "charging rule": [
       "charging schedule",
       "charging protocol",
@@ -369,10 +367,6 @@
       "charge rate",
       "charging capacity",
       "power input rate"
-    ],
-    "charging station": [
-      "evse (electric vehicle supply equipment)",
-      "ev charging point"
     ],
     "chat": [
       "direct messaging",
@@ -422,13 +416,6 @@
       "expenditure group",
       "expense category",
       "price bracket"
-    ],
-    "cp": [
-      "evse (electric vehicle supply equipment)",
-      "ev charger",
-      "charging spot",
-      "charging station",
-      "charging post"
     ],
     "cpi": [
       "evse integration",
@@ -633,20 +620,6 @@
       "multisite company",
       "corporate entity"
     ],
-    "ev": [
-      "electric motor car",
-      "electric car",
-      "e-car",
-      "electric automobile",
-      "electric auto"
-    ],
-    "evse": [
-      "ev charging equipment",
-      "charge point",
-      "charging point",
-      "charging station",
-      "electric vehicle charging station"
-    ],
     "excise tax": [
       "duty",
       "indirect tax",
@@ -756,13 +729,6 @@
       "upgrade+",
       "premium extension",
       "enhancement+"
-    ],
-    "hardware": [
-      "charging station",
-      "evse (electric vehicle supply equipment)",
-      "charging equipment",
-      "charging unit",
-      "charge point"
     ],
     "hardware agnostic": [
       "hardware-neutral",
@@ -1495,7 +1461,6 @@
       "charging facility",
       "charging location",
       "ev charging spot",
-      "charging station",
       "charging point"
     ],
     "site owner": [
@@ -1742,6 +1707,14 @@
       "business site charging",
       "company charging facilities",
       "job site charging"
+    ],
+    "electric vehicle": [
+      "EV",
+      "e-car",
+      "electric auto",
+      "electric automobile",
+      "electric car",
+      "electric motor car"
     ]
   }
 }

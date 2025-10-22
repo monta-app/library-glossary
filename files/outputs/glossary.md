@@ -2101,7 +2101,7 @@ See also: RFID, Wallet, Team, Charge session.
 ## charge point
 **Tag:** industry
 
-**Alternative words:** Charger, Chargers, charger, chargers, charging point, hardware, EVSE, Electric Vehicle Supply Equipment, charging unit, charging post, charging pedestal, CP, charging station, charging port, charging outlet, charge points
+**Alternative words:** CP, Charger, Chargers, EVSE, Electric Vehicle Supply Equipment, charge stations, charger, chargers, charging outlet, charging pedestal, charging point, charging port, charging post, charging station, charging unit, hardware, charge points
 
 **Description:** Default term, electrical outlet that supplies electrical power for charging plug-in electric vehicles. In copy sometimes used as a charger, or charging station. In target locale translate into the default term - charge point.
 
@@ -3018,7 +3018,7 @@ See also: Charge power.
 ---
 
 ## electric vehicle
-**Alternative words:** EV, e-car, electric car
+**Alternative words:** EV, e-car, electric auto, electric automobile, electric car, electric motor car
 
 **Description:** Battery powered vehicle
 
@@ -5077,7 +5077,7 @@ Feature name (DNT). Lowercase in all locales. English only. Do not translate or 
 ## site
 **Tag:** industry
 
-**Alternative words:** charging facility, charging location, ev charging spot, charging station, charging point, sites
+**Alternative words:** charging facility, charging location, ev charging spot, charging point, sites
 
 **Description:** Refers to a charging site, often used synonymously. Use established translations for "charging site" when the source mentions "site* to reduce ambigiouty
 

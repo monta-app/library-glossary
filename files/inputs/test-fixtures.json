@@ -3,19 +3,19 @@
   "test_terms": [
     {
       "term": "charge point",
-      "alternative_words": ["charging station", "charger", "charging point"],
+      "alternative_words": ["charging station", "charger", "charging point", "charge points"],
       "case_sensitive": false,
       "description": "EV charging infrastructure"
     },
     {
       "term": "electric vehicle",
-      "alternative_words": ["EV", "e-car", "electric car"],
+      "alternative_words": ["EV", "e-car", "electric car", "electric vehicles"],
       "case_sensitive": false,
       "description": "Battery powered vehicle"
     },
     {
       "term": "API",
-      "alternative_words": ["api", "Api"],
+      "alternative_words": ["api", "Api", "APIs"],
       "case_sensitive": true,
       "description": "Application Programming Interface"
     }
@@ -92,6 +92,18 @@
       "description": "Should handle terms at sentence start",
       "input": "Charger is ready. The e-car arrived.",
       "expected": "charge point is ready. The electric vehicle arrived."
+    },
+    {
+      "name": "plural_normalization",
+      "description": "Should normalize plural forms to plural canonical term",
+      "input": "Multiple charge points are available",
+      "expected": "Multiple charge points are available"
+    },
+    {
+      "name": "plural_mixed",
+      "description": "Should normalize singular to singular and plural to plural",
+      "input": "The charger and chargers work well",
+      "expected": "The charge point and charge points work well"
     }
   ],
   "edge_cases": [
