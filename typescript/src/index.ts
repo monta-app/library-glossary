@@ -1,5 +1,6 @@
 import Database from 'better-sqlite3';
 import * as path from 'path';
+import * as fs from 'fs';
 
 /**
  * Represents a glossary term with all its metadata.
@@ -210,6 +211,19 @@ export class Glossary {
    */
   close(): void {
     this.db.close();
+  }
+
+  /**
+   * Get the Monta tone of voice guide content.
+   * @returns The full content of the tone of voice guide, or null if file not found
+   */
+  static getToneOfVoice(): string | null {
+    try {
+      const toneOfVoicePath = path.join(__dirname, '..', '..', '..', 'files', 'prompts', 'tone-of.voice.md');
+      return fs.readFileSync(toneOfVoicePath, 'utf-8');
+    } catch (error) {
+      return null;
+    }
   }
 }
 

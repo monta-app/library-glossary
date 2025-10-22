@@ -17,5 +17,6 @@ if [ ! -d ".venv" ]; then
 fi
 
 # Activate virtual environment and run import
+# Amendments, alternatives, and plurals are always applied automatically
 source .venv/bin/activate
 python import.py "$@"

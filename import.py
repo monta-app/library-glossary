@@ -3,8 +3,8 @@ Unified import script for Monta Glossary.
 
 This script handles:
 1. Importing data from Excel to SQLite database
-2. Generating alternative words using OpenAI (optional)
-3. Generating markdown file from database (optional)
+2. Applying amendments and alternatives
+3. Generating markdown file from database
 """
 
 import os
@@ -14,7 +14,6 @@ import json
 import argparse
 from openpyxl import load_workbook
 from dotenv import load_dotenv
-from openai import OpenAI
 
 # Add python package directory to path
 project_dir = os.path.dirname(os.path.abspath(__file__))
@@ -146,159 +145,6 @@ def import_from_excel(excel_path: str, db_path: str):
 # PART 2: GENERATE ALTERNATIVE WORDS (OPENAI)
 # ============================================================================
 
-def generate_alternatives_for_term(client: OpenAI, term: str, description: str, existing_alternatives: list) -> list:
-    """Use OpenAI to generate alternative words/phrases for a term."""
-    existing_text = ""
-    if existing_alternatives:
-        existing_text = f"\n\nExisting alternatives: {', '.join(existing_alternatives)}"
-
-    prompt = f"""Given the following glossary term from Monta (an EV charging platform), suggest 3-5 alternative words or phrases that could be used to refer to the same concept. These should be:
-- Synonyms or closely related terms
-- Common variations or abbreviations
-- Terms used in the same context
-- Industry-standard alternatives
-
-Term: {term}
-
-Description: {description[:300]}...{existing_text}
-
-Return ONLY a comma-separated list of alternatives, nothing else. Example format:
-alternative 1, alternative 2, alternative 3
-
-Alternatives:"""
-
-    try:
-        response = client.chat.completions.create(
-            model="gpt-4",
-            messages=[
-                {"role": "system", "content": "You are a technical writer specializing in EV charging terminology."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.7,
-            max_tokens=150
-        )
-
-        # Parse response
-        alternatives_text = response.choices[0].message.content.strip()
-
-        # Split by comma and clean up
-        new_alternatives = [alt.strip() for alt in alternatives_text.split(',')]
-        new_alternatives = [alt for alt in new_alternatives if alt and len(alt) > 1]
-
-        # Combine with existing, removing duplicates
-        all_alternatives = list(set(existing_alternatives + new_alternatives))
-
-        return all_alternatives
-
-    except Exception as e:
-        print(f"   ⚠️  Error generating alternatives: {e}")
-        return existing_alternatives
-
-
-def generate_alternatives(db_path: str, alternatives_path: str, limit: int = None, skip_existing: bool = True):
-    """Generate alternative words using AI and save to alternatives.json.
-
-    Args:
-        db_path: Path to SQLite database
-        alternatives_path: Path to alternatives.json file
-        limit: Limit number of terms to process (for testing)
-        skip_existing: Skip terms that already have alternatives in JSON
-
-    Returns:
-        Number of terms updated
-    """
-    # Load environment variables
-    load_dotenv()
-    api_key = os.getenv('OPENAI_API_KEY')
-
-    if not api_key:
-        print("❌ Error: OPENAI_API_KEY not found in .env file")
-        return 0
-
-    # Load existing alternatives.json
-    if os.path.exists(alternatives_path):
-        with open(alternatives_path, 'r', encoding='utf-8') as f:
-            alternatives_data = json.load(f)
-    else:
-        alternatives_data = {
-            "version": "1.0",
-            "description": "Alternative words/phrases for glossary terms. All term keys are normalized to lowercase for consistency.",
-            "alternatives": {}
-        }
-
-    existing_alternatives_json = alternatives_data.get('alternatives', {})
-
-    # Initialize OpenAI client
-    client = OpenAI(api_key=api_key)
-
-    # Initialize database
-    db = GlossaryDB(db_path)
-
-    # Get all terms
-    all_terms = db.get_all_terms()
-
-    if limit:
-        all_terms = all_terms[:limit]
-
-    print(f"🤖 Generating alternatives for {len(all_terms)} terms using OpenAI...")
-    print(f"   Results will be saved to: {alternatives_path}")
-
-    processed = 0
-    skipped = 0
-    updated = 0
-
-    for i, term_data in enumerate(all_terms, 1):
-        term_name = term_data['term']
-        description = term_data['description']
-
-        # Normalize term name to lowercase for JSON key
-        term_key = term_name.lower()
-
-        # Skip if already has alternatives in JSON and skip_existing is True
-        if skip_existing and term_key in existing_alternatives_json:
-            skipped += 1
-            if i % 50 == 0:
-                print(f"  [{i}/{len(all_terms)}] Processed {processed}, skipped {skipped}, updated {updated}...")
-            continue
-
-        if i % 10 == 0 or i == 1:
-            print(f"  [{i}/{len(all_terms)}] Generating for '{term_name}'...")
-
-        # Get existing alternatives from JSON (if any)
-        existing_alts = existing_alternatives_json.get(term_key, [])
-
-        # Generate alternatives
-        new_alternatives = generate_alternatives_for_term(
-            client, term_name, description, existing_alts
-        )
-
-        # Save to JSON if we have new alternatives
-        if len(new_alternatives) > len(existing_alts):
-            existing_alternatives_json[term_key] = new_alternatives
-            updated += 1
-
-        processed += 1
-
-        # Rate limiting
-        if processed < len(all_terms):
-            time.sleep(0.5)
-
-    db.close()
-
-    # Save updated alternatives.json
-    alternatives_data['alternatives'] = existing_alternatives_json
-    with open(alternatives_path, 'w', encoding='utf-8') as f:
-        json.dump(alternatives_data, f, indent=2, ensure_ascii=False)
-
-    print(f"\n✅ Alternative generation complete!")
-    print(f"   • Processed: {processed} terms")
-    print(f"   • Updated: {updated} terms")
-    print(f"   • Skipped: {skipped} terms")
-    print(f"   • Saved to: {alternatives_path}")
-
-    return updated
-
-
 def apply_alternatives_from_json(db_path: str, alternatives_path: str) -> dict:
     """Apply alternatives from alternatives.json to database.
 
@@ -309,6 +155,9 @@ def apply_alternatives_from_json(db_path: str, alternatives_path: str) -> dict:
     Returns:
         Dictionary with statistics
     """
+    import inflect
+    p = inflect.engine()
+
     if not os.path.exists(alternatives_path):
         print(f"⚠️  No alternatives file found at {alternatives_path}")
         return {'total': 0, 'applied': 0, 'skipped': 0}
@@ -358,7 +207,15 @@ def apply_alternatives_from_json(db_path: str, alternatives_path: str) -> dict:
         added = 0
         for alt in alternatives_list:
             if alt not in existing_alternatives:
-                db.insert_alternative_word(term_id, alt)
+                # Auto-detect if this alternative is a plural form
+                # Check the last word in multi-word terms
+                words = alt.split()
+                last_word = words[-1] if words else alt
+
+                # Use inflect to check if it's plural
+                is_plural_alt = p.singular_noun(last_word) is not False
+
+                db.insert_alternative_word(term_id, alt, is_plural=is_plural_alt)
                 added += 1
 
         if added > 0:
@@ -435,20 +292,23 @@ def apply_plurals_from_json(db_path: str, plurals_path: str) -> dict:
             stats['skipped'] += 1
             continue
 
+        # Update the term's plural_form column
+        db.update_term_plural(term_id, plural)
+
         # Get existing alternatives from database
         existing_alternatives = db.get_alternative_words(term_id)
 
         # Add both singular and plural as alternatives (if not already present)
         added = 0
 
-        # Add plural form as alternative
+        # Add plural form as alternative (marked as is_plural=True)
         if plural != term_name and plural not in existing_alternatives:
-            db.insert_alternative_word(term_id, plural)
+            db.insert_alternative_word(term_id, plural, is_plural=True)
             added += 1
 
         # Add singular form as alternative (useful if the canonical term is different)
         if singular != term_name and singular not in existing_alternatives:
-            db.insert_alternative_word(term_id, singular)
+            db.insert_alternative_word(term_id, singular, is_plural=False)
             added += 1
 
         if added > 0:
@@ -954,58 +814,26 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Basic import (imports Excel, applies amendments/alternatives, generates markdown)
+  # Standard import (Excel → amendments → alternatives → plurals → markdown)
   python import.py
 
-  # Import with amendments
-  python import.py --amendments
+  # Reapply amendments/alternatives/plurals without Excel reimport
+  python import.py --skip-import
 
-  # Generate AI alternatives (requires OpenAI API key)
-  python import.py --alternatives
+  # Full clean rebuild (clears database first)
+  python import.py --truncate-db
 
-  # Full pipeline with AI alternatives
-  python import.py --amendments --alternatives
-
-  # Test AI on 10 terms first
-  python import.py --alternatives --limit 10
-
-  # Force regenerate AI alternatives for all terms
-  python import.py --alternatives --force
-
-  # Apply amendments without re-importing Excel
-  python import.py --skip-import --amendments
+Note:
+  - Amendments, alternatives, and plurals are ALWAYS applied automatically
+  - To generate AI alternatives: python generate_alternatives.py
+  - To regenerate plurals: python generate_plurals.py
         """
-    )
-
-    parser.add_argument(
-        '--alternatives',
-        action='store_true',
-        help='Generate alternative words using OpenAI and save to alternatives.json (requires OPENAI_API_KEY in .env)'
-    )
-
-    parser.add_argument(
-        '--limit',
-        type=int,
-        metavar='N',
-        help='Limit number of terms for alternatives generation (for testing)'
-    )
-
-    parser.add_argument(
-        '--force',
-        action='store_true',
-        help='Force regenerate alternatives even for terms that already have them in alternatives.json'
     )
 
     parser.add_argument(
         '--skip-import',
         action='store_true',
-        help='Skip Excel import, only run processing pipeline'
-    )
-
-    parser.add_argument(
-        '--amendments',
-        action='store_true',
-        help='Apply amendments from amendments.json file'
+        help='Skip Excel import, only run processing pipeline (amendments/alternatives/plurals/markdown)'
     )
 
     parser.add_argument(
@@ -1057,13 +885,12 @@ Examples:
             print("Cannot skip import if database doesn't exist!")
             sys.exit(1)
 
-    # Step 2: Apply amendments (optional)
-    if args.amendments:
-        print("=" * 70)
-        apply_amendments(db_path, amendments_path)
-        print()
+    # Step 2: Apply amendments (always)
+    print("=" * 70)
+    apply_amendments(db_path, amendments_path)
+    print()
 
-    # Step 3: Apply alternatives from alternatives.json (always, if exists)
+    # Step 3: Apply alternatives from alternatives.json (always)
     print("=" * 70)
     apply_alternatives_from_json(db_path, alternatives_path)
     print()
@@ -1073,19 +900,7 @@ Examples:
     apply_plurals_from_json(db_path, plurals_path)
     print()
 
-    # Step 5: Generate alternatives with AI (optional)
-    if args.alternatives:
-        print("=" * 70)
-        skip_existing = not args.force
-        generate_alternatives(db_path, alternatives_path, limit=args.limit, skip_existing=skip_existing)
-        print()
-
-        # Apply the newly generated alternatives
-        print("=" * 70)
-        apply_alternatives_from_json(db_path, alternatives_path)
-        print()
-
-    # Step 6: Generate markdown (always)
+    # Step 5: Generate markdown (always)
     print("=" * 70)
     generate_markdown(md_path, db_path)
     print()
@@ -1101,10 +916,6 @@ Examples:
 
     print()
     print("💡 Next steps:")
-    if not args.amendments:
-        print("   • Run with --amendments to apply custom amendments")
-    if not args.alternatives:
-        print("   • Run with --alternatives to generate AI-powered alternative words")
     print("   • Edit files/inputs/alternatives.json to manually add/modify alternatives")
     print("   • Run python generate_plurals.py to regenerate plurals.json")
     print("   • Use the glossary in your Python/Kotlin/TypeScript projects")
