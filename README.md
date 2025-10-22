@@ -8,15 +8,20 @@ A multi-language repository for managing and accessing Monta's terminology gloss
 glossary/
 ├── files/                      # Data files
 │   ├── inputs/
-│   │   ├── monta_raw_glossary.xlsx  # Master glossary (input)
-│   │   ├── amendments.json          # Term lifecycle changes (add/delete terms)
-│   │   ├── alternatives.json        # Alternative words (AI + manual)
-│   │   ├── plurals.json             # Auto-generated plural forms
-│   │   └── external_glossary.md     # Reference only (not imported)
+│   │   ├── monta_raw_glossary.xlsx     # Master glossary (input)
+│   │   ├── amendments.json             # Term lifecycle changes (add/delete terms)
+│   │   ├── alternatives.json           # Alternative words (AI + manual)
+│   │   ├── plurals.json                # Auto-generated plural forms
+│   │   ├── monta-tone-of-voice.md      # Monta's tone of voice guide
+│   │   ├── test-fixtures.json          # Shared test data for all implementations
+│   │   └── external_glossary.md        # Reference only (not imported)
 │   ├── outputs/
-│   │   ├── glossary.sqlite          # SQLite database (generated)
-│   │   └── glossary.md              # Markdown file (generated)
-│   └── test-fixtures.json           # Shared test data for all implementations
+│   │   ├── glossary.sqlite             # SQLite database (generated)
+│   │   └── glossary.md                 # Markdown file (generated)
+│   └── prompts/
+│       ├── tone-of.voice.md            # Tone of voice playbook (accessible via getToneOfVoice())
+│       ├── support-agent.md            # Support agent prompt
+│       └── agent-general.md            # General agent prompt
 ├── import.py                   # Main import script
 ├── import.sh                   # Wrapper script (auto-activates venv, always runs with --amendments)
 ├── generate_alternatives.py    # AI-powered alternatives generation (optional)
