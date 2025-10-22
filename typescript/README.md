@@ -55,6 +55,10 @@ if (term && TermHelpers.hasTag(term, 'industry')) {
 const allTerms = glossary.getAll();
 console.log(`Total terms: ${glossary.count()}`);
 
+// Get tone of voice guide
+const toneOfVoice = Glossary.getToneOfVoice();
+console.log(`Tone of voice guide: ${toneOfVoice?.length} characters`);
+
 // Close when done
 glossary.close();
 ```
@@ -87,6 +91,9 @@ glossary.close();
 - `getLanguages(): string[]` - Get available language codes
 - `close(): void` - Close database connection
 
+**Static Methods:**
+- `Glossary.getToneOfVoice(): string | null` - Get Monta's tone of voice guide content
+
 ### Term Interface
 
 ```typescript
@@ -107,6 +114,23 @@ interface Term {
 
 - `hasTag(term: Term, tag: string): boolean` - Check if term has tag
 - `getTags(term: Term): string[]` - Get list of tags
+
+## Additional Resources
+
+### Tone of Voice Guide
+
+Access Monta's tone of voice playbook:
+
+```typescript
+import { Glossary } from '@monta/glossary';
+
+const toneOfVoice = Glossary.getToneOfVoice();
+if (toneOfVoice) {
+  console.log(toneOfVoice);
+}
+```
+
+This static method returns the full content of Monta's Tone of Voice Playbook, which provides guidance on writing style, brand values, and communication strategies.
 
 ## Building
 

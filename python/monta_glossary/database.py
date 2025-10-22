@@ -57,6 +57,7 @@ class GlossaryDB:
                 translatable BOOLEAN DEFAULT 1,
                 forbidden BOOLEAN DEFAULT 0,
                 tags TEXT,
+                plural_form TEXT,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
@@ -80,6 +81,7 @@ class GlossaryDB:
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 term_id INTEGER NOT NULL,
                 alternative TEXT NOT NULL,
+                is_plural BOOLEAN DEFAULT 0,
                 FOREIGN KEY (term_id) REFERENCES terms(id) ON DELETE CASCADE
             )
         """)
@@ -148,18 +150,34 @@ class GlossaryDB:
         """, (term_id, language_code, translation))
         self.conn.commit()
 
-    def insert_alternative_word(self, term_id: int, alternative: str):
+    def insert_alternative_word(self, term_id: int, alternative: str, is_plural: bool = False):
         """Insert an alternative word for a term.
 
         Args:
             term_id: The term ID
             alternative: The alternative word/phrase
+            is_plural: Whether this alternative is a plural form
         """
         cursor = self.conn.cursor()
         cursor.execute("""
-            INSERT INTO alternative_words (term_id, alternative)
-            VALUES (?, ?)
-        """, (term_id, alternative))
+            INSERT INTO alternative_words (term_id, alternative, is_plural)
+            VALUES (?, ?, ?)
+        """, (term_id, alternative, 1 if is_plural else 0))
+        self.conn.commit()
+
+    def update_term_plural(self, term_id: int, plural_form: str):
+        """Update the plural form for a term.
+
+        Args:
+            term_id: The term ID
+            plural_form: The plural form of the term
+        """
+        cursor = self.conn.cursor()
+        cursor.execute("""
+            UPDATE terms
+            SET plural_form = ?
+            WHERE id = ?
+        """, (plural_form, term_id))
         self.conn.commit()
 
     def insert_additional_description(self, term_id: int, language_code: str, description: str):
@@ -238,6 +256,24 @@ class GlossaryDB:
             WHERE term_id = ?
         """, (term_id,))
         return [row["alternative"] for row in cursor.fetchall()]
+
+    def get_alternative_words_with_metadata(self, term_id: int) -> List[Dict[str, Any]]:
+        """Get all alternative words for a term with metadata.
+
+        Args:
+            term_id: The term ID
+
+        Returns:
+            List of dictionaries with 'alternative' and 'is_plural' keys
+        """
+        cursor = self.conn.cursor()
+        cursor.execute("""
+            SELECT alternative, is_plural
+            FROM alternative_words
+            WHERE term_id = ?
+        """, (term_id,))
+        return [{"alternative": row["alternative"], "is_plural": bool(row["is_plural"])}
+                for row in cursor.fetchall()]
 
     def get_additional_descriptions(self, term_id: int) -> Dict[str, str]:
         """Get additional language-specific descriptions for a term.

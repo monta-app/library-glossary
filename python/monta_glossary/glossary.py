@@ -1,5 +1,6 @@
 """Main Glossary API for accessing terminology and translations."""
 
+import os
 from typing import Optional, List, Dict
 from dataclasses import dataclass
 from .database import GlossaryDB
@@ -16,6 +17,7 @@ class Term:
     translatable: bool
     forbidden: bool
     tags: Optional[str]
+    plural_form: Optional[str]
     translations: Dict[str, str]
     alternative_words: List[str]
     additional_descriptions: Dict[str, str]
@@ -110,6 +112,7 @@ class Glossary:
             translatable=bool(term_data["translatable"]),
             forbidden=bool(term_data["forbidden"]),
             tags=term_data["tags"],
+            plural_form=term_data.get("plural_form"),
             translations=self.db.get_translations(term_id),
             alternative_words=self.db.get_alternative_words(term_id),
             additional_descriptions=self.db.get_additional_descriptions(term_id),
@@ -206,6 +209,8 @@ class Glossary:
 
         This function finds all occurrences of terms (including their alternatives)
         and replaces them with the correct canonical term from the glossary.
+        If a plural alternative is matched, it will be replaced with the plural
+        form of the canonical term (if available).
 
         Args:
             text: The text to normalize
@@ -222,21 +227,62 @@ class Glossary:
         sorted_terms = sorted(terms, key=lambda t: len(t.term), reverse=True)
 
         for term in sorted_terms:
-            # Create a list of all variations (canonical + alternatives)
-            variations = [term.term] + term.alternative_words
+            # Get alternatives with metadata (including is_plural flag)
+            alternatives_with_metadata = self.db.get_alternative_words_with_metadata(term.id)
 
-            for variation in variations:
-                if not variation:
+            # Create a map of alternative -> is_plural
+            alternative_plural_map = {
+                alt["alternative"]: alt["is_plural"]
+                for alt in alternatives_with_metadata
+            }
+
+            # Process the canonical term first (always singular)
+            if term.term:
+                escaped_term = re.escape(term.term)
+                flags = 0 if term.case_sensitive else re.IGNORECASE
+                pattern = re.compile(rf"\b{escaped_term}\b", flags)
+                result = pattern.sub(term.term, result)
+
+            # Process alternatives
+            for alternative in term.alternative_words:
+                if not alternative:
                     continue
 
                 # Escape special regex characters
-                escaped_variation = re.escape(variation)
+                escaped_alternative = re.escape(alternative)
 
                 # Create regex with word boundaries
                 flags = 0 if term.case_sensitive else re.IGNORECASE
-                pattern = re.compile(rf"\b{escaped_variation}\b", flags)
+                pattern = re.compile(rf"\b{escaped_alternative}\b", flags)
 
-                # Replace the variation with the canonical term
-                result = pattern.sub(term.term, result)
+                # Determine replacement: if alternative is plural and we have a plural_form, use it
+                is_plural = alternative_plural_map.get(alternative, False)
+                if is_plural and term.plural_form:
+                    replacement = term.plural_form
+                else:
+                    replacement = term.term
+
+                # Replace the alternative with the appropriate form
+                result = pattern.sub(replacement, result)
 
         return result
+
+    @staticmethod
+    def get_tone_of_voice() -> Optional[str]:
+        """Get the Monta tone of voice guide content.
+
+        Returns:
+            The full content of the tone of voice guide, or None if file not found
+        """
+        # Get the path relative to this package
+        package_dir = os.path.dirname(os.path.abspath(__file__))
+        project_root = os.path.join(package_dir, "..", "..")
+        tone_of_voice_path = os.path.join(
+            project_root, "files", "prompts", "tone-of.voice.md"
+        )
+
+        try:
+            with open(tone_of_voice_path, "r", encoding="utf-8") as f:
+                return f.read()
+        except FileNotFoundError:
+            return None
