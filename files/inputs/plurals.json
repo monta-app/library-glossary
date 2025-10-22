@@ -306,10 +306,6 @@
       "singular": "charge session",
       "plural": "charge sessions"
     },
-    "charger": {
-      "singular": "charger",
-      "plural": "chargers"
-    },
     "charging": {
       "singular": "charging",
       "plural": "chargings"
@@ -326,10 +322,6 @@
       "singular": "charging fee",
       "plural": "charging fees"
     },
-    "charging point": {
-      "singular": "charging point",
-      "plural": "charging points"
-    },
     "charging rule": {
       "singular": "charging rule",
       "plural": "charging rules"
@@ -345,10 +337,6 @@
     "charging speed": {
       "singular": "charging speed",
       "plural": "charging speeds"
-    },
-    "charging station": {
-      "singular": "charging station",
-      "plural": "charging stations"
     },
     "chat": {
       "singular": "chat",
@@ -497,10 +485,6 @@
     "grid": {
       "singular": "grid",
       "plural": "grids"
-    },
-    "hardware": {
-      "singular": "hardware",
-      "plural": "hardwares"
     },
     "hardware agnostic": {
       "singular": "hardware agnostic",
