@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: library-glossary
+  description: A multi-language repository for managing and accessing Monta's terminology glossary with translations. This project provides packages for Python, Kotlin, and TypeScript/JavaScript to access terminology data from a centralized SQLite database.
+spec:
+  type: application
+  lifecycle: experimental
+  owner: frontier-engineering
+  system: cross-functional
