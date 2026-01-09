@@ -15,24 +15,6 @@ A TypeScript/JavaScript package for accessing Monta's terminology glossary with 
 
 ## Installation
 
-This package is published to **GitHub Packages** (not public npm). You need to authenticate before installing.
-
-### 1. Authenticate with GitHub Packages
-
-Create a `.npmrc` file in your project root or add to your `~/.npmrc`:
-
-```
-@monta-app:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken=YOUR_GITHUB_PERSONAL_ACCESS_TOKEN
-```
-
-**To create a Personal Access Token:**
-1. Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
-2. Generate new token with `read:packages` scope
-3. Copy the token and replace `YOUR_GITHUB_PERSONAL_ACCESS_TOKEN` above
-
-### 2. Install the package
-
 ```bash
 npm install @monta-app/glossary
 ```
@@ -42,6 +24,8 @@ Or with yarn:
 ```bash
 yarn add @monta-app/glossary
 ```
+
+> **Note:** This package is published to GitHub Packages. If this is your first time installing from GitHub Packages, you'll need to [authenticate first](#github-packages-authentication).
 
 ## Quick Start
 
@@ -275,44 +259,6 @@ if (term) {
 }
 ```
 
-## Data Source
-
-The glossary data is automatically updated from Monta's public API:
-- **Source**: `https://translate.monta.app/public/api/glossary`
-- **Update frequency**: Daily at 2 AM UTC (via GitHub Actions)
-- **Storage**: Bundled as static JSON file (`src/glossary-data.json`)
-- **No runtime API calls**: All data is pre-fetched and bundled with the package
-
-## Development
-
-### Building
-
-```bash
-npm install
-npm run build
-```
-
-This will compile TypeScript to JavaScript in the `dist/` directory.
-
-### Testing
-
-```bash
-npm test
-```
-
-## Project Structure
-
-```
-glossary/
-├── src/
-│   └── index.ts            # Main library code
-├── test/
-│   └── glossary.test.ts    # Test suite
-├── package.json
-├── tsconfig.json
-├── jest.config.js
-└── README.md               # This file
-```
 
 ## Common Use Cases
 
@@ -362,6 +308,24 @@ for (const term of forbiddenTerms) {
   }
 }
 ```
+
+## GitHub Packages Authentication
+
+This package is published to GitHub Packages (not public npm). First-time users need to authenticate:
+
+**Create a `.npmrc` file** in your project root or add to `~/.npmrc`:
+
+```
+@monta-app:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=YOUR_GITHUB_PERSONAL_ACCESS_TOKEN
+```
+
+**To create a Personal Access Token:**
+1. Go to [GitHub Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens)
+2. Generate new token (classic) with `read:packages` scope
+3. Replace `YOUR_GITHUB_PERSONAL_ACCESS_TOKEN` with your token
+
+After authentication, you can install the package normally with `npm install @monta-app/glossary`.
 
 ## License
 
