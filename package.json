@@ -1,6 +1,6 @@
 {
   "name": "@monta/glossary",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Monta terminology glossary with translations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
