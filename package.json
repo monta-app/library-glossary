@@ -1,5 +1,5 @@
 {
-  "name": "@monta/glossary",
+  "name": "@monta-app/glossary",
   "version": "2.0.4",
   "description": "Monta terminology glossary with translations",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
-    "@monta:registry": "https://npm.pkg.github.com"
+    "@monta-app:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "tsc",

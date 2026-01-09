@@ -16,19 +16,19 @@ A TypeScript/JavaScript package for accessing Monta's terminology glossary with 
 ## Installation
 
 ```bash
-npm install @monta/glossary
+npm install @monta-app/glossary
 ```
 
 Or with yarn:
 
 ```bash
-yarn add @monta/glossary
+yarn add @monta-app/glossary
 ```
 
 ## Quick Start
 
 ```typescript
-import { Glossary } from '@monta/glossary';
+import { Glossary } from '@monta-app/glossary';
 
 const glossary = new Glossary();
 
@@ -154,7 +154,7 @@ interface Term {
 Utility functions for working with terms.
 
 ```typescript
-import { TermHelpers } from '@monta/glossary';
+import { TermHelpers } from '@monta-app/glossary';
 
 // Check if term has a specific tag
 if (TermHelpers.hasTag(term, 'industry')) {
@@ -170,7 +170,7 @@ const tags = TermHelpers.getTags(term);
 ### Basic Term Lookup
 
 ```typescript
-import { Glossary } from '@monta/glossary';
+import { Glossary } from '@monta-app/glossary';
 
 const glossary = new Glossary();
 
@@ -240,7 +240,7 @@ for (const termName of terms) {
 ### Checking Term Tags
 
 ```typescript
-import { Glossary, TermHelpers } from '@monta/glossary';
+import { Glossary, TermHelpers } from '@monta-app/glossary';
 
 const glossary = new Glossary();
 const term = glossary.getTerm('charge point');
