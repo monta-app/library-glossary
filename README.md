@@ -1,6 +1,6 @@
 # Monta Glossary
 
-A TypeScript/JavaScript package for accessing Monta's terminology glossary with translations. The glossary is fetched from Monta's public API and provides a simple interface for working with EV charging terminology across multiple languages.
+A TypeScript/JavaScript package for accessing Monta's terminology glossary with translations. Data is automatically updated daily from Monta's API and bundled statically for instant, offline-ready access to EV charging terminology across multiple languages.
 
 ## Features
 
@@ -8,9 +8,10 @@ A TypeScript/JavaScript package for accessing Monta's terminology glossary with 
 - 🔍 **Search functionality** - Find terms by keyword or description
 - 🏷️ **Tag-based filtering** - Get terms by category (industry, product, etc.)
 - 📝 **Text normalization** - Replace alternative terms with canonical versions
-- ⚡ **Lazy loading** - Data is fetched only when needed
-- 🔄 **Caching** - API data is cached in memory for fast access
+- ⚡ **Zero runtime dependencies** - No API calls, all data bundled statically
+- 🔄 **Auto-updated** - GitHub Action updates data daily from API
 - 🔐 **Type-safe** - Full TypeScript support with comprehensive types
+- 🚀 **Instant access** - No async/await needed, synchronous API
 
 ## Installation
 
@@ -31,23 +32,23 @@ import { Glossary } from '@monta/glossary';
 
 const glossary = new Glossary();
 
-// Get a specific term
-const term = await glossary.getTerm('charging cable');
+// Get a specific term (synchronous - no await needed!)
+const term = glossary.getTerm('charging cable');
 if (term) {
   console.log(term.description);
   console.log(term.translations['da']); // Danish: ladekabel
 }
 
 // Search for terms
-const results = await glossary.search('charge');
+const results = glossary.search('charge');
 console.log(`Found ${results.length} results`);
 
 // Get terms by tag
-const productTerms = await glossary.getByTag('product');
+const productTerms = glossary.getByTag('product');
 
 // Normalize text (replace alternatives with canonical terms)
 const text = 'The e-car needs a charging wire';
-const normalized = await glossary.normalizeText(text);
+const normalized = glossary.normalizeText(text);
 // Output: "The EV needs a charging cable"
 ```
 
@@ -60,69 +61,69 @@ const normalized = await glossary.normalizeText(text);
 const glossary = new Glossary();
 ```
 
-No configuration needed - the glossary fetches data from Monta's public API.
+No configuration needed - the glossary loads from bundled static data.
 
 #### Methods
 
-All methods are asynchronous and return Promises.
+All methods are synchronous and return data immediately.
 
-##### `getTerm(termName: string): Promise<Term | null>`
+##### `getTerm(termName: string): Term | null`
 Get a specific term by name.
 
 ```typescript
-const term = await glossary.getTerm('charging cable');
+const term = glossary.getTerm('charging cable');
 ```
 
-##### `search(query: string): Promise<Term[]>`
+##### `search(query: string): Term[]`
 Search for terms matching a query in term names or descriptions.
 
 ```typescript
-const results = await glossary.search('charge');
+const results = glossary.search('charge');
 ```
 
-##### `getAll(): Promise<Term[]>`
+##### `getAll(): Term[]`
 Get all terms in the glossary.
 
 ```typescript
-const allTerms = await glossary.getAll();
+const allTerms = glossary.getAll();
 ```
 
-##### `getByTag(tag: string): Promise<Term[]>`
+##### `getByTag(tag: string): Term[]`
 Get all terms with a specific tag.
 
 ```typescript
-const industryTerms = await glossary.getByTag('industry');
+const industryTerms = glossary.getByTag('industry');
 ```
 
-##### `translate(termName: string, languageCode: string): Promise<string | null>`
+##### `translate(termName: string, languageCode: string): string | null`
 Quick translation lookup for a term.
 
 ```typescript
-const translation = await glossary.translate('charge key', 'da');
+const translation = glossary.translate('charge key', 'da');
 // Returns: "ladebrik"
 ```
 
-##### `count(): Promise<number>`
+##### `count(): number`
 Get the total number of terms in the glossary.
 
 ```typescript
-const total = await glossary.count();
+const total = glossary.count();
 ```
 
-##### `getLanguages(): Promise<string[]>`
+##### `getLanguages(): string[]`
 Get all available language codes.
 
 ```typescript
-const languages = await glossary.getLanguages();
+const languages = glossary.getLanguages();
 // Returns: ['da', 'de', 'en', 'es', ...]
 ```
 
-##### `normalizeText(text: string): Promise<string>`
+##### `normalizeText(text: string): string`
 Replace alternative terms with their canonical versions.
 
 ```typescript
 const text = 'The e-car needs a charging wire';
-const normalized = await glossary.normalizeText(text);
+const normalized = glossary.normalizeText(text);
 // Returns: "The EV needs a charging cable"
 ```
 
@@ -131,13 +132,6 @@ This method:
 - Respects word boundaries (won't replace partial matches)
 - Honors case sensitivity settings per term
 - Handles multiple occurrences
-
-##### `refresh(): Promise<void>`
-Refresh the glossary data from the API. Use this to get the latest data if the glossary has been updated.
-
-```typescript
-await glossary.refresh();
-```
 
 ### Term Interface
 
@@ -180,7 +174,7 @@ import { Glossary } from '@monta/glossary';
 
 const glossary = new Glossary();
 
-const term = await glossary.getTerm('EV');
+const term = glossary.getTerm('EV');
 if (term) {
   console.log(`${term.term}: ${term.description}`);
 
@@ -195,15 +189,15 @@ if (term) {
 
 ```typescript
 // Search for terms
-const chargeTerms = await glossary.search('charge');
+const chargeTerms = glossary.search('charge');
 
 // Filter by tag
-const productTerms = await glossary.getByTag('product');
-const industryTerms = await glossary.getByTag('industry');
+const productTerms = glossary.getByTag('product');
+const industryTerms = glossary.getByTag('industry');
 
 // Get all terms
-const allTerms = await glossary.getAll();
-console.log(`Total terms: ${await glossary.count()}`);
+const allTerms = glossary.getAll();
+console.log(`Total terms: ${glossary.count()}`);
 ```
 
 ### Text Normalization
@@ -211,7 +205,7 @@ console.log(`Total terms: ${await glossary.count()}`);
 ```typescript
 // Replace alternative terms with canonical ones
 const userInput = 'My e-car is connected to the charging station';
-const normalized = await glossary.normalizeText(userInput);
+const normalized = glossary.normalizeText(userInput);
 // Result: "My EV is connected to the charge point"
 
 // Useful for:
@@ -224,17 +218,17 @@ const normalized = await glossary.normalizeText(userInput);
 
 ```typescript
 // Quick translation
-const danishTerm = await glossary.translate('charging cable', 'da');
+const danishTerm = glossary.translate('charging cable', 'da');
 console.log(danishTerm); // "ladekabel"
 
 // Get all available languages
-const languages = await glossary.getLanguages();
+const languages = glossary.getLanguages();
 console.log(`Available in ${languages.length} languages`);
 
 // Translate multiple terms
 const terms = ['EV', 'charge point', 'charging cable'];
 for (const termName of terms) {
-  const term = await glossary.getTerm(termName);
+  const term = glossary.getTerm(termName);
   if (term) {
     console.log(`${termName}:`);
     console.log(`  Danish: ${term.translations['da']}`);
@@ -249,7 +243,7 @@ for (const termName of terms) {
 import { Glossary, TermHelpers } from '@monta/glossary';
 
 const glossary = new Glossary();
-const term = await glossary.getTerm('charge point');
+const term = glossary.getTerm('charge point');
 
 if (term) {
   // Check for specific tag
@@ -265,11 +259,11 @@ if (term) {
 
 ## Data Source
 
-The glossary data is fetched from Monta's public API:
-- **Endpoint**: `https://translate.monta.app/public/api/glossary`
-- **Format**: JSON
-- **Caching**: Data is cached in memory after first fetch
-- **Refresh**: Use `glossary.refresh()` to get the latest data
+The glossary data is automatically updated from Monta's public API:
+- **Source**: `https://translate.monta.app/public/api/glossary`
+- **Update frequency**: Daily at 2 AM UTC (via GitHub Actions)
+- **Storage**: Bundled as static JSON file (`src/glossary-data.json`)
+- **No runtime API calls**: All data is pre-fetched and bundled with the package
 
 ## Development
 
@@ -313,7 +307,7 @@ const glossary = new Glossary();
 const userMessage = 'My e-car won\'t connect to the charging station';
 
 // Normalize to use canonical terms
-const normalized = await glossary.normalizeText(userMessage);
+const normalized = glossary.normalizeText(userMessage);
 // "My EV won't connect to the charge point"
 ```
 
@@ -324,7 +318,7 @@ const glossary = new Glossary();
 const currentLang = 'da'; // User's language
 
 // Get all product terms in user's language
-const productTerms = await glossary.getByTag('product');
+const productTerms = glossary.getByTag('product');
 
 const localizedTerms = productTerms.map(term => ({
   english: term.term,
@@ -340,7 +334,7 @@ const glossary = new Glossary();
 
 // Check if content uses forbidden terms
 const content = 'Check out our new charging pole!';
-const forbiddenTerms = (await glossary.getAll())
+const forbiddenTerms = (glossary.getAll())
   .filter(t => t.forbidden);
 
 for (const term of forbiddenTerms) {

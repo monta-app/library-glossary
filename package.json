@@ -4,6 +4,13 @@
   "description": "Monta terminology glossary with translations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monta-app/library-glossary.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -19,6 +26,11 @@
   ],
   "author": "Monta",
   "license": "UNLICENSED",
+  "files": [
+    "dist/",
+    "src/glossary-data.json",
+    "README.md"
+  ],
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^29.5.0",

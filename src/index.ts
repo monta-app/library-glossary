@@ -1,3 +1,5 @@
+import glossaryData from './glossary-data.json';
+
 /**
  * Represents a glossary term with all its metadata.
  */
@@ -43,54 +45,29 @@ interface ApiResponse {
 
 /**
  * Main interface for accessing the Monta glossary.
+ * Data is loaded from a static JSON file that is updated via GitHub Actions.
  */
 export class Glossary {
-  private static API_URL = 'https://translate.monta.app/public/api/glossary';
   private static cachedTerms: Term[] | null = null;
-  private static fetchPromise: Promise<void> | null = null;
 
   /**
    * Initialize the glossary.
-   * Data will be fetched on first use and cached globally.
+   * Data is loaded synchronously from bundled static file.
    */
   constructor() {
-    // Data is fetched lazily on first use and shared across all instances
+    // Data is loaded on first access
   }
 
   /**
-   * Fetch and cache glossary data from the API.
-   * Uses a static cache shared across all Glossary instances.
+   * Load and cache glossary data from the bundled static file.
    */
-  private async ensureData(): Promise<void> {
-    // If already cached, return immediately
+  private ensureData(): void {
     if (Glossary.cachedTerms !== null) {
       return;
     }
 
-    // If a fetch is in progress, wait for it
-    if (Glossary.fetchPromise !== null) {
-      return Glossary.fetchPromise;
-    }
-
-    // Start fetching
-    Glossary.fetchPromise = (async () => {
-      try {
-        const response = await fetch(Glossary.API_URL);
-        if (!response.ok) {
-          throw new Error(`Failed to fetch glossary: ${response.statusText}`);
-        }
-
-        const data: ApiResponse = await response.json();
-        Glossary.cachedTerms = data.terms.map(apiTerm => this.transformApiTerm(apiTerm));
-      } catch (error) {
-        Glossary.fetchPromise = null; // Clear promise on error so retry is possible
-        throw new Error(`Failed to load glossary: ${error instanceof Error ? error.message : 'Unknown error'}`);
-      } finally {
-        Glossary.fetchPromise = null;
-      }
-    })();
-
-    return Glossary.fetchPromise;
+    const data = glossaryData as ApiResponse;
+    Glossary.cachedTerms = data.terms.map(apiTerm => this.transformApiTerm(apiTerm));
   }
 
   /**
@@ -120,16 +97,16 @@ export class Glossary {
   /**
    * Get a term by its name.
    */
-  async getTerm(termName: string): Promise<Term | null> {
-    await this.ensureData();
+  getTerm(termName: string): Term | null {
+    this.ensureData();
     return Glossary.cachedTerms!.find(t => t.term === termName) || null;
   }
 
   /**
    * Search for terms matching a query.
    */
-  async search(query: string): Promise<Term[]> {
-    await this.ensureData();
+  search(query: string): Term[] {
+    this.ensureData();
     const lowerQuery = query.toLowerCase();
     return Glossary.cachedTerms!.filter(
       t =>
@@ -141,40 +118,40 @@ export class Glossary {
   /**
    * Get all terms in the glossary.
    */
-  async getAll(): Promise<Term[]> {
-    await this.ensureData();
+  getAll(): Term[] {
+    this.ensureData();
     return [...Glossary.cachedTerms!];
   }
 
   /**
    * Get all terms with a specific tag.
    */
-  async getByTag(tag: string): Promise<Term[]> {
-    await this.ensureData();
+  getByTag(tag: string): Term[] {
+    this.ensureData();
     return Glossary.cachedTerms!.filter(t => t.tags && t.tags.includes(tag));
   }
 
   /**
    * Get translation for a term in a specific language.
    */
-  async translate(termName: string, languageCode: string): Promise<string | null> {
-    const term = await this.getTerm(termName);
+  translate(termName: string, languageCode: string): string | null {
+    const term = this.getTerm(termName);
     return term ? (term.translations[languageCode] || null) : null;
   }
 
   /**
    * Get total number of terms in the glossary.
    */
-  async count(): Promise<number> {
-    await this.ensureData();
+  count(): number {
+    this.ensureData();
     return Glossary.cachedTerms!.length;
   }
 
   /**
    * Get list of all available language codes.
    */
-  async getLanguages(): Promise<string[]> {
-    await this.ensureData();
+  getLanguages(): string[] {
+    this.ensureData();
     if (Glossary.cachedTerms!.length === 0) return [];
 
     const languages = new Set<string>();
@@ -192,8 +169,8 @@ export class Glossary {
    * @param text The text to normalize
    * @returns The normalized text with all terms replaced
    */
-  async normalizeText(text: string): Promise<string> {
-    await this.ensureData();
+  normalizeText(text: string): string {
+    this.ensureData();
     let result = text;
 
     // Sort by term length (longest first) to handle overlapping terms correctly
@@ -219,17 +196,6 @@ export class Glossary {
     }
 
     return result;
-  }
-
-  /**
-   * Refresh the glossary data from the API.
-   * Use this to get the latest data if the glossary has been updated.
-   * This clears the static cache and forces a new fetch.
-   */
-  async refresh(): Promise<void> {
-    Glossary.cachedTerms = null;
-    Glossary.fetchPromise = null;
-    await this.ensureData();
   }
 }
 

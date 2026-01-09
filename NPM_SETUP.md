@@ -1,71 +1,93 @@
-# NPM Setup and Publishing Guide
+# GitHub Packages Setup and Publishing Guide
 
-This guide walks you through setting up and publishing the `@monta/glossary` package to npm.
+This guide walks you through setting up and publishing the `@monta/glossary` package to GitHub Packages.
+
+## Why GitHub Packages?
+
+- ✅ **Private by default** - Perfect for organization-internal packages
+- ✅ **Integrated with GitHub** - Uses existing GitHub authentication
+- ✅ **No extra accounts** - No need for separate npm account
+- ✅ **Organization control** - Managed through GitHub organization settings
+- ✅ **Free for public repos** - No cost for open source packages
 
 ## Prerequisites
 
-1. **npm account**: Create one at [npmjs.com](https://www.npmjs.com/signup)
-2. **npm CLI**: Already installed with Node.js
-3. **Organization access**: You need access to the `@monta` organization on npm
+1. **GitHub account** with access to the `monta-app` organization
+2. **npm CLI** - Already installed with Node.js
+3. **Personal Access Token (PAT)** - For authentication
 
 ## One-Time Setup
 
-### 1. Login to npm
+### 1. Create a GitHub Personal Access Token
+
+1. Go to [GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)](https://github.com/settings/tokens)
+2. Click **"Generate new token (classic)"**
+3. Give it a descriptive name: `npm-publish-glossary`
+4. Set expiration (recommended: 90 days, then renew)
+5. Select scopes:
+   - ✅ `write:packages` - Upload packages
+   - ✅ `read:packages` - Download packages
+   - ✅ `delete:packages` - Delete package versions (optional)
+   - ✅ `repo` - Required for private repos
+6. Click **"Generate token"**
+7. **Copy the token immediately** (you won't see it again!)
+
+### 2. Configure npm to Use GitHub Packages
+
+Create/edit `~/.npmrc` (in your home directory):
 
 ```bash
-npm login
+# Open your global .npmrc
+nano ~/.npmrc
 ```
 
-Enter your npm credentials when prompted.
+Add these lines:
 
-### 2. Verify Login
+```
+@monta:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN_HERE
+```
+
+Replace `YOUR_GITHUB_TOKEN_HERE` with the token you created.
+
+**Security Note**: Keep this file private! It contains your authentication token.
+
+### 3. Verify Configuration
 
 ```bash
-npm whoami
+# Check your .npmrc
+cat ~/.npmrc
+
+# Test authentication
+npm whoami --registry=https://npm.pkg.github.com
 ```
 
-This should display your npm username.
+This should display your GitHub username.
 
-### 3. Check Organization Access
+## Publishing to GitHub Packages
 
-```bash
-npm org ls @monta
-```
-
-If you don't have access, request it from the organization admin.
-
-## Building the Package
-
-Before publishing, always build and test:
+### First Time Publishing
 
 ```bash
 # Install dependencies
 npm install
 
-# Build TypeScript to JavaScript
+# Build and test
 npm run build
-
-# Run tests
 npm test
 
-# Verify build output
-ls -la dist/
+# Publish to GitHub Packages
+npm publish
 ```
 
-You should see:
-- `dist/index.js` - Compiled JavaScript
-- `dist/index.d.ts` - TypeScript type definitions
+The `publishConfig` in `package.json` automatically directs the package to GitHub Packages:
 
-## Publishing to npm
-
-### First Time Publishing
-
-```bash
-# Make sure everything is committed
-git status
-
-# Publish to npm (public access for scoped package)
-npm publish --access public
+```json
+{
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
 ```
 
 ### Publishing Updates
@@ -87,236 +109,340 @@ npm publish --access public
    git push && git push --tags
    ```
 
-3. **Publish to npm**:
+3. **Publish to GitHub Packages**:
    ```bash
-   npm publish --access public
+   npm publish
    ```
 
-## Package Configuration
+## Installing the Package (For Consumers)
 
-The `package.json` is configured for npm publishing:
+### Setup for Consumers
 
-```json
-{
-  "name": "@monta/glossary",
-  "version": "1.0.0",
-  "main": "dist/index.js",          // Entry point for CommonJS
-  "types": "dist/index.d.ts",        // TypeScript types
-  "scripts": {
-    "prepublishOnly": "npm run build"  // Auto-build before publish
-  }
-}
+Anyone wanting to use your package needs to configure their npm:
+
+**Option 1: Project-level `.npmrc`** (Recommended)
+
+Create `.npmrc` in the project root:
+
+```
+@monta:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
 ```
 
-### What Gets Published
-
-The package includes:
-- ✅ `dist/` - Compiled JavaScript and type definitions
-- ✅ `package.json`
-- ✅ `README.md`
-- ❌ `src/` - Source TypeScript (not needed in published package)
-- ❌ `test/` - Tests (not needed in published package)
-- ❌ `node_modules/` - Dependencies (automatically excluded)
-
-To customize, add a `.npmignore` file or use the `files` field in package.json.
-
-## Verifying the Published Package
-
-After publishing, verify it's available:
+Then set the environment variable:
 
 ```bash
-# Check on npm registry
-npm view @monta/glossary
+# In .env (don't commit!)
+GITHUB_TOKEN=ghp_your_token_here
 
-# Install in a test project
+# Or export in shell
+export GITHUB_TOKEN=ghp_your_token_here
+```
+
+**Option 2: Global `.npmrc`**
+
+Add to `~/.npmrc`:
+
+```
+@monta:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=ghp_your_token_here
+```
+
+### Installing the Package
+
+```bash
+# Install
 npm install @monta/glossary
 
-# Test the package
-node -e "const { Glossary } = require('@monta/glossary'); console.log('Works!');"
+# Or with yarn
+yarn add @monta/glossary
 ```
 
-## Testing Before Publishing
+### Usage
 
-To test the package locally before publishing:
+```typescript
+import { Glossary } from '@monta/glossary';
+
+const glossary = new Glossary();
+const term = await glossary.getTerm('charging cable');
+```
+
+## Automated Publishing with GitHub Actions
+
+Create `.github/workflows/publish.yml`:
+
+```yaml
+name: Publish to GitHub Packages
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@monta'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - name: Publish to GitHub Packages
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+Now publishing is automatic when you push a tag:
 
 ```bash
-# Build the package
-npm run build
-
-# Create a tarball (simulates npm publish)
-npm pack
-
-# This creates: monta-glossary-1.0.0.tgz
-
-# Install in a test project
-cd /path/to/test-project
-npm install /path/to/glossary/monta-glossary-1.0.0.tgz
-
-# Or use npm link
-cd /path/to/glossary
-npm link
-cd /path/to/test-project
-npm link @monta/glossary
+npm version patch
+git push --tags
 ```
 
-## Publishing Workflow
+## Viewing Published Packages
 
-### Standard Release Process
+1. Go to your repository on GitHub
+2. Click on **"Packages"** in the right sidebar
+3. Or visit: https://github.com/orgs/monta-app/packages?repo_name=library-glossary
 
-1. **Make changes and test**:
-   ```bash
-   npm install
-   npm test
-   npm run build
-   ```
+## Package Visibility
 
-2. **Update version**:
-   ```bash
-   npm version patch  # or minor, or major
-   ```
+By default, packages inherit the repository's visibility:
+- **Public repo** → Public package
+- **Private repo** → Private package
 
-3. **Commit and push**:
-   ```bash
-   git push && git push --tags
-   ```
+To change package visibility:
+1. Go to the package page on GitHub
+2. Click **"Package settings"**
+3. Change visibility under **"Danger Zone"**
 
-4. **Publish to npm**:
-   ```bash
-   npm publish --access public
-   ```
+## Managing Access
 
-5. **Verify**:
-   ```bash
-   npm view @monta/glossary
-   ```
+### Organization Members
 
-### Quick Publish (for patches)
+All organization members with read access to the repo can install the package.
 
-```bash
-npm run build && npm version patch && git push --tags && npm publish --access public
+### External Users
+
+To allow external users:
+1. Go to the package settings
+2. Under **"Manage Actions access"**
+3. Add users or teams
+
+### CI/CD Access
+
+For GitHub Actions in other repos:
+
+```yaml
+- uses: actions/setup-node@v4
+  with:
+    node-version: '20'
+    registry-url: 'https://npm.pkg.github.com'
+    scope: '@monta'
+
+- name: Install dependencies
+  run: npm ci
+  env:
+    NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+
+The `GITHUB_TOKEN` is automatically provided by GitHub Actions.
 
 ## Versioning Guidelines
 
 Follow [Semantic Versioning](https://semver.org/):
 
 - **Patch** (1.0.X): Bug fixes, no API changes
-  - Example: Fix text normalization edge case
+  ```bash
+  npm version patch
+  ```
 
 - **Minor** (1.X.0): New features, backwards compatible
-  - Example: Add new `getTermById()` method
+  ```bash
+  npm version minor
+  ```
 
 - **Major** (X.0.0): Breaking changes
-  - Example: Change all methods from sync to async (like v1.0.0)
+  ```bash
+  npm version major
+  ```
+
+## Publishing Workflow
+
+### Standard Release Process
+
+```bash
+# 1. Make changes and test
+npm install
+npm test
+npm run build
+
+# 2. Update version
+npm version patch  # or minor, or major
+
+# 3. Push with tags
+git push && git push --tags
+
+# 4. Publish to GitHub Packages
+npm publish
+```
+
+### Quick Publish
+
+```bash
+npm run build && npm test && npm version patch && git push --tags && npm publish
+```
 
 ## Troubleshooting
 
-### "Package name taken"
+### "Unable to authenticate"
 
-If `@monta/glossary` is taken, options:
-1. Request access to the @monta organization
-2. Use a different scope: `@your-org/glossary`
-3. Use unscoped name: `monta-glossary`
-
-### "You must be logged in"
-
+**Solution**: Check your PAT in `~/.npmrc`:
 ```bash
-npm login
-npm whoami  # verify
+cat ~/.npmrc
+# Verify the token is correct and hasn't expired
 ```
 
-### "No permission to publish"
+### "Package name must match repository"
 
-You need to be added to the `@monta` organization:
-```bash
-npm org ls @monta  # check access
+**Solution**: Ensure package name matches the pattern:
+```json
+{
+  "name": "@monta/glossary"
+}
 ```
 
-Contact the organization admin to add you.
+The scope `@monta` must match your GitHub organization.
+
+### "403 Forbidden"
+
+**Possible causes**:
+1. Token doesn't have `write:packages` scope
+2. You don't have write access to the repository
+3. Token has expired
+
+**Solution**: Create a new PAT with correct scopes.
+
+### "Cannot find module '@monta/glossary'"
+
+**For consumers**: They need to configure `.npmrc`:
+
+```
+@monta:registry=https://npm.pkg.github.com
+```
 
 ### "prepublishOnly script failed"
 
-The build failed. Check for TypeScript errors:
+**Solution**: Fix build errors:
 ```bash
 npm run build
+# Fix any TypeScript errors
 ```
 
-Fix any compilation errors before publishing.
+## Comparing to Public npm
+
+| Feature | GitHub Packages | Public npm |
+|---------|----------------|------------|
+| **Privacy** | Private by default | Public by default |
+| **Authentication** | GitHub PAT | npm account |
+| **Cost** | Free for public repos | Free for public packages |
+| **Organization** | GitHub orgs | npm orgs (paid) |
+| **Discovery** | Limited to org | Global registry |
+| **Setup** | `.npmrc` config needed | Works out of the box |
 
 ## Best Practices
 
-1. ✅ **Always test before publishing**
+1. ✅ **Use environment variables for tokens**:
    ```bash
-   npm test
+   # In .npmrc
+   //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
    ```
 
-2. ✅ **Build before publishing** (automated via `prepublishOnly`)
+2. ✅ **Add .npmrc to .gitignore** (for project-level configs with tokens)
+
+3. ✅ **Rotate tokens regularly** (90-day expiration recommended)
+
+4. ✅ **Use GitHub Actions** for automated publishing
+
+5. ✅ **Document setup** in your README for package consumers
+
+6. ✅ **Version properly** with semantic versioning
+
+7. ✅ **Test before publishing**:
    ```bash
-   npm run build
+   npm run build && npm test
    ```
 
-3. ✅ **Update version appropriately**
-   ```bash
-   npm version patch/minor/major
-   ```
+## Example: Complete Setup for New Developer
 
-4. ✅ **Keep README updated** with latest examples
+As a new developer wanting to use `@monta/glossary`:
 
-5. ✅ **Tag releases in git**
-   ```bash
-   git tag -a v1.0.0 -m "Release v1.0.0"
-   git push --tags
-   ```
-
-6. ✅ **Test the published package** in a real project
-
-## Automated Publishing (CI/CD)
-
-To automate publishing with GitHub Actions:
-
-1. **Generate npm token**:
-   - Go to [npmjs.com/settings/tokens](https://www.npmjs.com/settings/tokens)
-   - Create "Automation" token
-   - Copy the token
-
-2. **Add to GitHub Secrets**:
-   - Go to your repo → Settings → Secrets
-   - Add secret: `NPM_TOKEN`
-
-3. **Create `.github/workflows/publish.yml`**:
-   ```yaml
-   name: Publish to npm
-
-   on:
-     push:
-       tags:
-         - 'v*'
-
-   jobs:
-     publish:
-       runs-on: ubuntu-latest
-       steps:
-         - uses: actions/checkout@v3
-         - uses: actions/setup-node@v3
-           with:
-             node-version: '20'
-             registry-url: 'https://registry.npmjs.org'
-         - run: npm install
-         - run: npm test
-         - run: npm run build
-         - run: npm publish --access public
-           env:
-             NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-   ```
-
-Now publishing is automatic when you push a tag:
 ```bash
-npm version patch
-git push --tags
+# 1. Create GitHub PAT with read:packages scope
+# (Follow steps above)
+
+# 2. Configure npm
+echo "@monta:registry=https://npm.pkg.github.com" >> ~/.npmrc
+echo "//npm.pkg.github.com/:_authToken=YOUR_TOKEN" >> ~/.npmrc
+
+# 3. Install in your project
+cd your-project
+npm install @monta/glossary
+
+# 4. Use it
+# See README.md for usage examples
 ```
+
+## Migrating from Public npm (Future)
+
+If you later want to publish to public npm:
+
+1. Update `package.json`:
+   ```json
+   {
+     "publishConfig": {
+       "registry": "https://registry.npmjs.org",
+       "access": "public"
+     }
+   }
+   ```
+
+2. Login to npm:
+   ```bash
+   npm login
+   ```
+
+3. Publish:
+   ```bash
+   npm publish
+   ```
+
+## Resources
+
+- [GitHub Packages Documentation](https://docs.github.com/en/packages)
+- [Working with npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)
+- [Managing PATs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+- [Package visibility](https://docs.github.com/en/packages/learn-github-packages/configuring-a-packages-access-control-and-visibility)
 
 ## Support
 
-- **npm docs**: [docs.npmjs.com](https://docs.npmjs.com/)
-- **Package page**: [npmjs.com/package/@monta/glossary](https://www.npmjs.com/package/@monta/glossary)
+- **Package page**: https://github.com/orgs/monta-app/packages?repo_name=library-glossary
 - **Issues**: Report bugs in the GitHub repository
+- **Help**: Ask in the #engineering Slack channel
