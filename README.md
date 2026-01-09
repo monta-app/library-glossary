@@ -307,30 +307,3 @@ for (const term of forbiddenTerms) {
     console.log(`Suggestion: Use alternatives like ${term.alternativeWords.join(', ')}`);
   }
 }
-```
-
-## GitHub Packages Authentication
-
-This package is published to GitHub Packages (not public npm). First-time users need to authenticate:
-
-**Create a `.npmrc` file** in your project root or add to `~/.npmrc`:
-
-```
-@monta-app:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken=YOUR_GITHUB_PERSONAL_ACCESS_TOKEN
-```
-
-**To create a Personal Access Token:**
-1. Go to [GitHub Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens)
-2. Generate new token (classic) with `read:packages` scope
-3. Replace `YOUR_GITHUB_PERSONAL_ACCESS_TOKEN` with your token
-
-After authentication, you can install the package normally with `npm install @monta-app/glossary`.
-
-## License
-
-Copyright © Monta
-
-## Contributing
-
-This package is maintained by the Monta team. For issues or feature requests, please contact the development team.
