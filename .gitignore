@@ -1,12 +1,16 @@
-*.pyc
-__pycache__/
-
+# IDE
 .idea/
-.venv/
-venv/
-*.egg-info/
+.vscode/
+
+# Dependencies
+node_modules/
+
+# Build output
 dist/
 build/
-.DS_Store
-.env
 
+# OS
+.DS_Store
+
+# Environment
+.env
