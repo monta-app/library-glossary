@@ -15,6 +15,24 @@ A TypeScript/JavaScript package for accessing Monta's terminology glossary with 
 
 ## Installation
 
+This package is published to **GitHub Packages** (not public npm). You need to authenticate before installing.
+
+### 1. Authenticate with GitHub Packages
+
+Create a `.npmrc` file in your project root or add to your `~/.npmrc`:
+
+```
+@monta-app:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=YOUR_GITHUB_PERSONAL_ACCESS_TOKEN
+```
+
+**To create a Personal Access Token:**
+1. Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
+2. Generate new token with `read:packages` scope
+3. Copy the token and replace `YOUR_GITHUB_PERSONAL_ACCESS_TOKEN` above
+
+### 2. Install the package
+
 ```bash
 npm install @monta-app/glossary
 ```
