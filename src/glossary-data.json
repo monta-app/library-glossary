@@ -3,7 +3,7 @@
     {
       "id": 224,
       "term": "AC",
-      "description": "Type of charge point with slower charging speeds, typically found in home, workplace, or public settings",
+      "description": "Description:\n Type of charge point providing slower charging speeds, typically used in home, workplace, or public locations. \n \n\n Usage rules:\n • Always write “AC” in uppercase.\n • Use in full expressions such as “AC charge point” for clarity.\n • Do not translate the acronym in localized content.\n • Avoid using “alternating current” unless in technical or educational documentation.\n • Acceptable in both UI and documentation when describing charger type or specifications.\n \n Platform: Hub, Charge\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -20,15 +20,15 @@
         },
         {
           "languageCode": "da",
-          "translation": "normalladning (AC)"
+          "translation": "AC"
         },
         {
           "languageCode": "de",
-          "translation": "Wechselstrom (AC)"
+          "translation": "AC"
         },
         {
           "languageCode": "fr",
-          "translation": "CA"
+          "translation": "AC"
         },
         {
           "languageCode": "no",
@@ -52,32 +52,36 @@
         },
         {
           "languageCode": "nl",
-          "translation": "wisselstroom (AC)"
+          "translation": "AC"
         },
         {
           "languageCode": "fr_CA",
           "translation": "CA"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "AC"
         }
       ],
       "alternatives": [
         {
-          "alternative": "AC Charging",
+          "alternative": "AC charging",
           "isPlural": false
         },
         {
-          "alternative": "AC Charge Point",
+          "alternative": "AC charge point",
           "isPlural": false
         },
         {
-          "alternative": "AC Station",
+          "alternative": "AC station",
           "isPlural": false
         },
         {
-          "alternative": "AC Power Supply",
+          "alternative": "AC power supply",
           "isPlural": false
         },
         {
-          "alternative": "Alternating Current",
+          "alternative": "alternating current",
           "isPlural": false
         }
       ],
@@ -86,46 +90,152 @@
     {
       "id": 47,
       "term": "account",
-      "description": "Refers to an account in the portal/app; not bank account",
+      "description": "Description: Refers to a user’s Monta account in the app or portal, containing personal, billing, and team-related data. Not related to financial or bank accounts.\n\nUsage rules:\n• Use lowercase in running text (“your account”).\n• Capitalize only when part of a UI label, menu item, or title (e.g., Account Settings, My Account).\n• Avoid ambiguous use, such as “bank account” or “user account,” unless necessary for clarity.\n• Use consistently across all Monta products to refer to the user’s Monta profile, not external systems.\n\nPlatform: Hub, Charge, Control\nAudience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "konto"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Konto"
+        },
+        {
+          "languageCode": "en",
+          "translation": "account"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "account"
+        },
+        {
+          "languageCode": "es",
+          "translation": "cuenta"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "konta"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "compte"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "compte"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cont"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "account"
+        },
+        {
+          "languageCode": "no",
+          "translation": "konto"
+        },
+        {
+          "languageCode": "it",
+          "translation": "account"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "konto"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 48,
-      "term": "additional fee",
-      "description": "Extra fees, a Team owner can apply to a price group, i.e. start fee, charging fee, minute fee & idle fee.",
+      "term": "Additional fee",
+      "description": "Description: An extra fee added to a price group by a Team Owner to adjust session pricing. Examples include start fee, charging fee, minute fee, and idle fee. Used to manage and fine-tune pricing behavior for charging sessions.\n\nUsage rules:\n• Use additional fee in lowercase in running text.\n• Do not abbreviate or shorten.\n• Avoid using interchangeably with price or tariff - these refer to separate pricing structures.\n• Use consistently when describing extra costs applied on top of a base rate in Hub.\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "tillægsgebyr"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Zusatzgebühr "
+        },
+        {
+          "languageCode": "en",
+          "translation": "additional fee"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "additional fee"
+        },
+        {
+          "languageCode": "es",
+          "translation": "tasa adicional"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "eykagjøld"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "frais supplémentaires"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "frais supplémentaires"
+        },
+        {
+          "languageCode": "it",
+          "translation": "costo supplementare"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "aanvullende kosten"
+        },
+        {
+          "languageCode": "no",
+          "translation": "tilleggsgebyr"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "taxă adițională"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "extra avgift"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 228,
-      "term": "Administrator",
-      "description": "Role access functionality for Business plan users in HUB, enabling to diversify access permissions for team members within an account. Admin account has a full access and full functionaltity available. ",
+      "term": "Admin",
+      "description": "Description: A user role in Monta Hub with full access to account management, permissions, and organizational configurations for Business plan users. \n\nUsage rules:\n• Capitalize Admin when referring to the specific user role (e.g., Admin role).\n• Use lowercase (admin) when referring to a person performing the role in running text.\n• Use consistently in Hub to describe users with full organizational access and control permissions.\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
-          "translation": "Administrator"
+          "translation": "Admin"
         },
         {
           "languageCode": "en_US",
-          "translation": "Administrator"
+          "translation": "Admin"
         },
         {
           "languageCode": "da",
@@ -141,11 +251,11 @@
         },
         {
           "languageCode": "no",
-          "translation": "Admin"
+          "translation": "Administrator"
         },
         {
           "languageCode": "ro",
-          "translation": "Admin"
+          "translation": "Administrator"
         },
         {
           "languageCode": "sv",
@@ -161,7 +271,15 @@
         },
         {
           "languageCode": "fr_CA",
-          "translation": "administrateur"
+          "translation": "Administrateur"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Umsitari"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Beheerder"
         }
       ],
       "alternatives": [
@@ -191,12 +309,12 @@
     {
       "id": 229,
       "term": "Advenir",
-      "description": "French government program aimed at expanding the nation's EV charging infrastructure. ",
+      "description": "Description: A French government incentive program that supports the installation and expansion of EV charging infrastructure across France. Advenir provides financial aid to promote the adoption of electric mobility.\n\nUsage rules:\n• Keep the name Advenir in French; do not translate or localize.\n• Always use Title Case (Advenir).\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -244,6 +362,10 @@
         },
         {
           "languageCode": "fr_CA",
+          "translation": "Advenir"
+        },
+        {
+          "languageCode": "fo_FO",
           "translation": "Advenir"
         }
       ],
@@ -274,12 +396,12 @@
     {
       "id": 225,
       "term": "AFIR ",
-      "description": "Acronym for Alternative Fuels Infrastructure Regulation (AFIR) . Source and target capitalization intact.",
+      "description": "Description: Acronym for Alternative Fuels Infrastructure Regulation, an EU regulation that establishes binding targets for the deployment of EV charging and refueling infrastructure across member states.\n\nUsage rules:\n• Always write in all caps: AFIR.\n• On first mention, spell out the full name followed by the acronym in parentheses - Alternative Fuels Infrastructure Regulation (AFIR).\n• Use the acronym alone (AFIR) after the first mention.\n• Do not pluralize or translate.\n• Use only in regulatory, compliance, or policy-related contexts relevant to EU infrastructure standards.\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -328,6 +450,10 @@
         {
           "languageCode": "fr_CA",
           "translation": "AFIR"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "AFIR"
         }
       ],
       "alternatives": [
@@ -357,38 +483,144 @@
     {
       "id": 49,
       "term": "alert",
-      "description": "A feature to provide operators and solution providers with a structured way to monitor and respond to important system or operational events. \nevent-driven notifications raised when conditions are met (e.g., device offline, error state, repeated failed charges). They’re the building blocks that surface issues to operators via our notification system and UI. Linked to the functionality \"Alert group\"",
+      "description": "Description: A system-generated notification that informs operators about important operational or device-related events, such as errors, outages, or failed charges. Alerts are automatically triggered when specific conditions or thresholds are met.\n\nUsage rules:\n• Use alert in lowercase in running text.\n• Capitalize only when part of a UI label, menu item, or title (e.g., Alert Settings, New Alert).\n• Do not use interchangeably with notification - alert refers to automated, event-driven system messages, while notification may include general updates or communications.\n• Use consistently in contexts describing system logic, monitoring, or operator responses.\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "advarsel"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Warnung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "alert"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "alert"
+        },
+        {
+          "languageCode": "es",
+          "translation": "alerta"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "ávaring"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "alerte"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "alerte"
+        },
+        {
+          "languageCode": "it",
+          "translation": "avvisi"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "waarschuwing"
+        },
+        {
+          "languageCode": "no",
+          "translation": "varsel"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "alertă"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "varning"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 50,
       "term": "alert group",
-      "description": "A feature for configuring notifications about critical incidents on charge points, charging sites, ensuring users are alerted about the incidents.",
+      "description": "Description: A configuration feature that allows users to organize and manage alerts for charge points, charging sites, or teams. Alert groups ensure that the appropriate people are notified when specific incidents or conditions occur.\n\nUsage rules:\n• Use alert group in lowercase in running text.\n• Capitalize when referring to the feature name or in UI contexts (e.g., Alert Groups, Create Alert Group).\n• Avoid using interchangeably with notification group or team alerts, alert group refers specifically to system-triggered operational events.\n• Use only in contexts describing monitoring, alert management, or incident response settings.\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "advarselsgruppe "
+        },
+        {
+          "languageCode": "de",
+          "translation": "Warngruppe"
+        },
+        {
+          "languageCode": "en",
+          "translation": "alert group"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "alert group"
+        },
+        {
+          "languageCode": "es",
+          "translation": "grupo de alertas"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "ávaringarbólkur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "groupe d’alertes"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "groupe d’alertes"
+        },
+        {
+          "languageCode": "it",
+          "translation": "gruppo di avvisi"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "waarschuwingsgroep"
+        },
+        {
+          "languageCode": "no",
+          "translation": "varslingsgruppe"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "grup de alerte"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "varningsgrupp"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 230,
       "term": "Alternative Fuels Infrastructure Regulation",
-      "description": "Refers to setting mandatory targets for EU countries to deploy infrastructure for alternative fuels, ensuring compatibility, user information, and payment options.",
+      "description": "Description: An EU regulation that sets mandatory targets for member states to deploy accessible and interoperable alternative fuel infrastructure, including EV charging and refuelling stations. It aims to support the transition to sustainable mobility across the EU.\n\nUsage rules:\n• Use the full name Alternative Fuels Infrastructure Regulation on first mention, followed by the acronym in parentheses - Alternative Fuels Infrastructure Regulation (AFIR).\n• Use AFIR alone in subsequent mentions.\n• Keep capitalization exactly as in the official title.\n• Do not translate or abbreviate further.\n• Use only in contexts related to compliance, infrastructure deployment, or EU regulatory standards.\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -437,6 +669,10 @@
         {
           "languageCode": "fr_CA",
           "translation": "Règlement sur le déploiement d’une infrastructure pour carburants alternatifs"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Reglugerð um undirstøðukervi fyri øðrvísi brennievnir"
         }
       ],
       "alternatives": [
@@ -471,7 +707,7 @@
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -520,6 +756,10 @@
         {
           "languageCode": "fr_CA",
           "translation": "API"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "API"
         }
       ],
       "alternatives": [
@@ -549,12 +789,12 @@
     {
       "id": 227,
       "term": "API key",
-      "description": "A unique identifier, that  serves as a \"password\" to validate the client's identity when making requests to the API.",
+      "description": "Description: A unique identifier used to authenticate and validate a client’s identity when sending requests to the Monta API. It ensures secure communication between systems and prevents unauthorized access.\n\nUsage rules:\n• Always lowercase “key.” Write as “API key” (not “API Key”).\n• Do not translate or localize the term “API.”\n• Use the singular form unless referring to multiple credentials.\n• Suitable for technical or developer-facing content only; avoid in consumer-facing copy.\n\nPlatform: Hub, Control\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -599,6 +839,14 @@
         {
           "languageCode": "fr_CA",
           "translation": "clé API"
+        },
+        {
+          "languageCode": "da",
+          "translation": "API-nøgle"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "API-lykil"
         }
       ],
       "alternatives": [
@@ -628,12 +876,12 @@
     {
       "id": 232,
       "term": "App clips",
-      "description": "Description:\nLightweight Apple experience that lets iOS drivers start a charge or complete a quick action in Monta Charge without installing the full app.\n\nUsage rules:\n- Use “App Clips” (Apple’s official term).\n- Translatable: Partial - FR “Extrait d’app”, FR_CA “Extrait d’appli”.\n- Keep capitalization: Both words capitalized.\n- Mention only when the experience differs from the full app.\n- Do not equate with Shortcuts, Widgets, or Instant Apps.\n- For Android, reference the equivalent “Instant Apps”.\n\nSurface: Charge app (consumer).\nAudience: EV drivers using iOS.\nTone: Technical-neutral.\nSee also: Instant Apps, Charge.",
+      "description": "Description: Lightweight Apple experience that lets iOS drivers start a charge or complete a quick action in Monta Charge without installing the full app.\n\nUsage rules:\n• Use “App Clips” (Apple’s official term).\n• Translatable: Partial - FR Extrait d’app, FR_CA Extrait d’appli.\n• Keep capitalization: Both words capitalized.\n• Mention only when the experience differs from the full app.\n• Do not equate with Shortcuts, Widgets, or Instant Apps.\n• For Android, reference the equivalent “Instant Apps.”\n\nPlatform: Charge\nAudience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -682,6 +930,10 @@
         {
           "languageCode": "fr_CA",
           "translation": "Extrait d'appli"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "App Clips"
         }
       ],
       "alternatives": [
@@ -711,12 +963,12 @@
     {
       "id": 231,
       "term": "App Store",
-      "description": "Apple's app marketplace for iOS, IpadOS. Source and target capitalization intact.",
+      "description": "Description: Apple’s digital marketplace for downloading and updating iOS and iPadOS applications, including the Monta Charge app.\n \n\n Usage rules:\n • Keep capitalization as “App Store.”\n • Do not translate or modify.\n • Use the definite article when referring to it (“on the App Store”).\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -765,6 +1017,10 @@
         {
           "languageCode": "fr_CA",
           "translation": "App Store"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "App Store"
         }
       ],
       "alternatives": [
@@ -794,25 +1050,78 @@
     {
       "id": 51,
       "term": "auto refill",
-      "description": "Label of a sub-header in Wallet > Refill section. It is an automatic top-up functionality in Wallet. Users can enable the auto-refill option and adjust what amount is being auto-refilled into the Wallet, when the balance is nearing zero.",
+      "description": "Description: Automatic top-up feature in the wallet > Refill section that adds funds when the balance reaches a defined threshold. Users can set the trigger amount and refill value.\n \n\n Usage rules:\n • Use lowercase.\n • Always written as “auto refill” (two words).\n • Use consistently with feature name in UI and documentation.\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "automatisk påfyldning"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Automatische Aufladung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "auto refill"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "auto refill"
+        },
+        {
+          "languageCode": "es",
+          "translation": "recarga automática "
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "sjálvvirkin áfylling"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "réapprovisionnement automatique"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "dépôt automatique"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ricarica automatica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "automatisch aanvullen"
+        },
+        {
+          "languageCode": "no",
+          "translation": "automatisk påfylling"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "realimentare automată"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "autopåfyllning"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 233,
-      "term": "Auto withdrawal",
-      "description": "Label of sub-header in Wallet > Withdraw section. Enables automatic monthly transfer of available funds to the user's bank account.",
+      "term": "auto withdrawal",
+      "description": "Description: Automatic monthly transfer feature in the wallet > Withdraw section that moves available funds to a linked bank account.\n \n\n Usage rules:\n • Capitalize only the first word in UI contexts (“Auto withdrawal”).\n • Keep phrasing consistent with the in-app label.\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -820,7 +1129,7 @@
         },
         {
           "languageCode": "en_US",
-          "translation": "Auto withdrawal"
+          "translation": "auto withdrawal"
         },
         {
           "languageCode": "da",
@@ -832,7 +1141,7 @@
         },
         {
           "languageCode": "fr",
-          "translation": "retrait automatique"
+          "translation": "transfert automatique"
         },
         {
           "languageCode": "no",
@@ -861,6 +1170,10 @@
         {
           "languageCode": "fr_CA",
           "translation": "retrait automatique"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "sjálvvirkið útgjald"
         }
       ],
       "alternatives": [
@@ -889,61 +1202,65 @@
     },
     {
       "id": 234,
-      "term": "AutoCharge",
-      "description": "Source and target capitalization intact.  B2C feature enabling automatic charging. ",
+      "term": "Autocharge",
+      "description": "Description: Monta feature that automatically starts a charging session when a registered EV is plugged into a compatible charge point.\n \n\n Usage rules:\n • Use sentence case for stand alone UI labels, beginning of the sentence. use lower case when in the running texts.\n • Avoid short form auto, as it implies “car”\n • Use only for describing this specific B2C feature.\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
-          "translation": "AutoCharge"
+          "translation": "Autocharge"
         },
         {
           "languageCode": "en_US",
-          "translation": "AutoCharge"
+          "translation": "Autocharge"
         },
         {
           "languageCode": "da",
-          "translation": "AutoCharge"
+          "translation": "Autocharge"
         },
         {
           "languageCode": "de",
-          "translation": "AutoCharge"
+          "translation": "Autocharge"
         },
         {
           "languageCode": "fr",
-          "translation": "AutoCharge"
+          "translation": "Autocharge"
         },
         {
           "languageCode": "no",
-          "translation": "AutoCharge"
+          "translation": "Autocharge"
         },
         {
           "languageCode": "ro",
-          "translation": "AutoCharge"
+          "translation": "Autocharge"
         },
         {
           "languageCode": "sv",
-          "translation": "AutoCharge"
+          "translation": "Autocharge"
         },
         {
           "languageCode": "es",
-          "translation": "AutoCharge"
+          "translation": "Autocharge"
         },
         {
           "languageCode": "it",
-          "translation": "Ricarica Automatica"
+          "translation": "Autocharge"
         },
         {
           "languageCode": "nl",
-          "translation": "AutoCharge"
+          "translation": "Autocharge"
         },
         {
           "languageCode": "fr_CA",
-          "translation": "AutoCharge"
+          "translation": "Autocharge"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Autocharge"
         }
       ],
       "alternatives": [
@@ -973,73 +1290,130 @@
     {
       "id": 52,
       "term": "automatic reading",
-      "description": "Remote process of automatically collecting data from an electricity meter, where consumption information is recorded and stored for remote access by the utility or service provider",
+      "description": "Description: Remote collection of data from an electricity meter, where consumption data is recorded and made accessible to the service provider for monitoring and reporting.\n \n\n Usage rules:\n • Use lowercase.\n • Prefer “automatic reading” over “auto reading.”\n • Avoid abbreviations or rephrasing.\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "automatisk aflæsning"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Automatische Zählerablesung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "automatic reading"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "automatic reading"
+        },
+        {
+          "languageCode": "es",
+          "translation": "lectura automática"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "sjálvvirkin avlestur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "relevé automatique"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "lecture automatique"
+        },
+        {
+          "languageCode": "it",
+          "translation": "lettura automatica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "automatisch uitlezen"
+        },
+        {
+          "languageCode": "no",
+          "translation": "automatisk avlesning"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "citire automată"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "automatisk avläsning"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 235,
-      "term": "AutoStart",
-      "description": "Source and target capitalization intact. Feature enables to start automatic charge, when EV gets plugged into to charge point that is set to be Private.",
+      "term": "Autostart",
+      "description": "Description: Feature that enables a charge to begin automatically when an EV is plugged into a private charge point configured for AutoStart. Used in private and closed networks.\n \n\n Usage rules:\n • Use sentence case for stand alone UI labels, beginning of the sentence. Use lower case when in the running texts.\n • Avoid short form auto, as it implies “car”\n • Use only for describing this specific B2C feature\n \n\n Platform: Charge, Hub\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
-          "translation": "AutoStart"
+          "translation": "Autostart"
         },
         {
           "languageCode": "en_US",
-          "translation": "AutoStart"
+          "translation": "Autostart"
         },
         {
           "languageCode": "da",
-          "translation": "AutoStart"
+          "translation": "Autostart"
         },
         {
           "languageCode": "de",
-          "translation": "AutoStart"
+          "translation": "Autostart"
         },
         {
           "languageCode": "fr",
-          "translation": "Démarrage automatique"
+          "translation": "Autostart"
         },
         {
           "languageCode": "no",
-          "translation": "AutoStart"
+          "translation": "Autostart"
         },
         {
           "languageCode": "ro",
-          "translation": "AutoStart"
+          "translation": "Autostart"
         },
         {
           "languageCode": "sv",
-          "translation": "AutoStart"
+          "translation": "Autostart"
         },
         {
           "languageCode": "es",
-          "translation": "Inicio automático"
+          "translation": "Autostart"
         },
         {
           "languageCode": "it",
-          "translation": "Avvio automatico"
+          "translation": "Autostart"
         },
         {
           "languageCode": "nl",
-          "translation": "AutoStart"
+          "translation": "Autostart"
         },
         {
           "languageCode": "fr_CA",
-          "translation": "AutoStart"
+          "translation": "Autostart"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Autostart"
         }
       ],
       "alternatives": [
@@ -1062,6 +1436,10 @@
         {
           "alternative": "Automatic Start",
           "isPlural": false
+        },
+        {
+          "alternative": "Auto Charging",
+          "isPlural": false
         }
       ],
       "additionalDescriptions": []
@@ -1069,135 +1447,264 @@
     {
       "id": 53,
       "term": "available",
-      "description": "Adj. refers to charge point status, is integrated and available for a charge",
+      "description": "Description: Status indicating that a charge point is online, connected, and ready for use.\n \n\n Usage rules:\n • Use lowercase in text.\n • In UI, display as “Available” (Title Case).\n • Use only for charge point availability, not for pricing or feature readiness.\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ledig"
+        },
+        {
+          "languageCode": "de",
+          "translation": "verfügbar"
+        },
+        {
+          "languageCode": "en",
+          "translation": "available"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "available"
+        },
+        {
+          "languageCode": "es",
+          "translation": "disponible"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "tøkt"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "disponible"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "disponible"
+        },
+        {
+          "languageCode": "it",
+          "translation": "disponibile"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "beschikbaar"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ledig"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "disponibil"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ledig"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 54,
       "term": "balance",
-      "description": "Noun. Available amount of money in the user's Wallet in consumer and business app.",
+      "description": "Description: The available amount of money in a user’s wallet within Monta, representing funds available for charging or withdrawals.\n \n\n Usage rules:\n • Use lowercase in text.\n • In UI, display as “Balance.”\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 236,
-      "term": "Basic",
-      "description": "Source and target capitalization intact. Subscription plan at Monta.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "brand",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
-          "languageCode": "en",
-          "translation": "Basic"
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "Basic"
-        },
-        {
           "languageCode": "da",
-          "translation": "Basic"
+          "translation": "saldo"
         },
         {
           "languageCode": "de",
-          "translation": "Basic"
+          "translation": "Saldo"
         },
         {
-          "languageCode": "fr",
-          "translation": "Basic"
+          "languageCode": "en",
+          "translation": "balance"
         },
         {
-          "languageCode": "no",
-          "translation": "Basic"
-        },
-        {
-          "languageCode": "ro",
-          "translation": "Basic"
-        },
-        {
-          "languageCode": "sv",
-          "translation": "Basic"
+          "languageCode": "en_US",
+          "translation": "balance"
         },
         {
           "languageCode": "es",
-          "translation": "Basic"
+          "translation": "saldo"
         },
         {
-          "languageCode": "it",
-          "translation": "Basic"
+          "languageCode": "fo_FO",
+          "translation": "salda"
         },
         {
-          "languageCode": "nl",
-          "translation": "Basic"
+          "languageCode": "fr",
+          "translation": "solde"
         },
         {
           "languageCode": "fr_CA",
-          "translation": "De base"
+          "translation": "solde"
+        },
+        {
+          "languageCode": "it",
+          "translation": "saldo"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "saldo"
+        },
+        {
+          "languageCode": "no",
+          "translation": "saldo"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "sold"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "saldo"
         }
       ],
-      "alternatives": [
-        {
-          "alternative": "Fundamental",
-          "isPlural": false
-        },
-        {
-          "alternative": "Standard",
-          "isPlural": false
-        },
-        {
-          "alternative": "Entry-Level",
-          "isPlural": false
-        },
-        {
-          "alternative": "Basic Plan",
-          "isPlural": false
-        },
-        {
-          "alternative": "Starter",
-          "isPlural": false
-        }
-      ],
+      "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 55,
       "term": "battery capacity",
-      "description": "amount of electrical energy a battery can store and deliver, typically measured in ampere-hours (Ah) or watt-hours (Wh). It indicates the total charge the battery can hold and release over time.",
+      "description": "Description: The total amount of electrical energy a battery can store and deliver, typically measured in ampere-hours (Ah) or watt-hours (Wh). It represents the battery’s total storage potential.\n \n\n Usage rules:\n • Use lowercase.\n • Prefer concise form (e.g., “battery capacity: 60 kWh”).\n • Use only in technical or informative contexts.\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "batterikapacitet"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Batteriekapazität"
+        },
+        {
+          "languageCode": "en",
+          "translation": "battery capacity"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "battery capacity"
+        },
+        {
+          "languageCode": "es",
+          "translation": "capacidad de la batería"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "battarístødd"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "capacité de la batterie"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "capacité de la batterie"
+        },
+        {
+          "languageCode": "it",
+          "translation": "capacità della batteria"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "batterijcapaciteit"
+        },
+        {
+          "languageCode": "no",
+          "translation": "batterikapasitet"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "capacitate baterie"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "batterikapacitet"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 56,
       "term": "battery level",
-      "description": "Label of a field that tells the current battery-% of an integrated car, i.e. \"Battery level: 78%\"",
+      "description": "Description: Field label showing the current battery percentage of an integrated vehicle, for example “Battery level: 78%.”\n \n\n Usage rules:\n • Use Title Case in UI (“Battery level”).\n • Always express value as a percentage.\n • Avoid synonyms like “charge level.”\n \n\n Platform: Charge, Hub\n Audience: B2C, B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "batteriniveau"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Batteriestand"
+        },
+        {
+          "languageCode": "en",
+          "translation": "battery level"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "battery level"
+        },
+        {
+          "languageCode": "es",
+          "translation": "nivel de batería"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "battarístøða"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "niveau de la batterie"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "niveau de la batterie"
+        },
+        {
+          "languageCode": "it",
+          "translation": "livello della batteria"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "batterijniveau"
+        },
+        {
+          "languageCode": "no",
+          "translation": "batterinivå"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "nivel baterie"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "batterinivå"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
