@@ -1711,38 +1711,210 @@
     {
       "id": 57,
       "term": "bilateral agreement",
-      "description": "Feature in Monta Hub allowing operators to create and manage price agreements and charge point access with EMSPs (Electric Mobility Service Providers), typically used in roaming scenarios.",
+      "description": "Description: Monta Hub feature allowing operators to define and manage price agreements and access terms with eMSPs (Electric Mobility Service Providers), primarily for roaming partnerships.\n \n\n Usage rules:\n • Use lowercase unless referring to the specific Hub feature.\n • Avoid abbreviation unless previously defined.\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "bilateral aftale"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Bilaterale Vereinbarung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "bilateral agreement"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "bilateral agreement"
+        },
+        {
+          "languageCode": "es",
+          "translation": "acuerdo bilateral"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "tvíparta sáttmáli"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "accord bilatéral"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "accord bilatéral"
+        },
+        {
+          "languageCode": "it",
+          "translation": "accordo bilaterale"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "bilaterale overeenkomst"
+        },
+        {
+          "languageCode": "no",
+          "translation": "bilateral avtale"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "acord bilateral"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "bilateralt avtal"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 251,
+      "term": "bulk import",
+      "description": "Description: Internal and operator-facing functionality that lets users create or update multiple assets or configurations in a single operation, instead of performing each action one by one.\n \n\n Usage rules:\n • Use as a noun (e.g. “run a bulk import,” “the Bulk Import flow”); avoid using it as a verb (“to bulk import”).\n • Keep it singular; avoid “Bulk Imports” — use “bulk import operations” or “bulk import jobs” if you need to express plurality.\n • Avoid using “Bulk Import” in B2C or driver-facing copy; it is intended for internal and operator contexts where technical, process-focused language is appropriate, while still staying clear and human. \n \n\n Platform: Hub, Control\n Audience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "masseimport"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Massenimport"
+        },
+        {
+          "languageCode": "en",
+          "translation": "bulk import"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "bulk import"
+        },
+        {
+          "languageCode": "es",
+          "translation": "importación masiva"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "massainnflutningur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "importation groupée"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "importation par lots"
+        },
+        {
+          "languageCode": "it",
+          "translation": "importazione massiva"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "massa-import"
+        },
+        {
+          "languageCode": "no",
+          "translation": "masseimport"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "import în masă"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "massimport"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 58,
       "term": "busy",
-      "description": "Adj. refers to the charge point state. Busy can entail various sub-states: blocked, scheduled, and charging.",
+      "description": "Description: Charge point status indicating that the hardware is currently in use or reserved. May include sub-states such as blocked, scheduled, or actively charging.\n \n\n Usage rules:\n • Use lowercase in text.\n • In UI, display as “Busy.”\n • Do not apply to people or teams.\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "optaget"
+        },
+        {
+          "languageCode": "de",
+          "translation": "belegt"
+        },
+        {
+          "languageCode": "en",
+          "translation": "busy"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "busy"
+        },
+        {
+          "languageCode": "es",
+          "translation": "ocupado"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "upptikin"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "occupé"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "occupée"
+        },
+        {
+          "languageCode": "it",
+          "translation": "occupato"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "niet beschikbaar"
+        },
+        {
+          "languageCode": "no",
+          "translation": "opptatt"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "ocupat"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "upptagen"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 242,
       "term": "California Pricing",
-      "description": "California Pricing is an OCPP-based method for a Charge Point Management System (CPMS) to communicate pricing (price per kWh, running cost, final cost, etc.) to the charge point in real time during a charging session. This allows the charger’s display to show the current price and accumulated cost to the EV driver, fulfilling the California regulatory mandate for transparent pricing. The term “California Pricing” comes from its origin in California regulations, but the concept has since gained wider usage beyond California as a best practice for real-time tariff display and cost calculation in EV charging. It is not simply a descriptive phrase, but the informal name of a specific technical solution (defined by an OCA whitepaper) to a industry-wide problem. Usage rule: When mentioning for the first time, always expand the abbreviation.",
+      "description": "escription:\n An OCPP-based method that enables a Charge Point Management System (CPMS) to communicate live pricing data, such as price per kWh, ongoing cost, and total cost, to a charge point during an active charging session. Originally developed to meet California’s transparency regulations, it is now widely adopted as a best-practice standard for real-time tariff display and cost calculation in EV charging.\n \n\n Usage rules:\n • Keep capitalization (“California Pricing”).\n • Use the full term on first mention and include a brief explanation if context is technical.\n • Do not translate or localize.\n • Use only when referring to the specific OCPP-based functionality, not as a general description of regional or geographic pricing.\n • Avoid abbreviating (e.g., “Cal Pricing”) or using as a generic label.\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -1791,6 +1963,10 @@
         {
           "languageCode": "fr_CA",
           "translation": "California Pricing (extension OCPP pour tarification en temps réel)"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Kaliforniskur prísur (California Pricing)"
         }
       ],
       "alternatives": [
@@ -1820,260 +1996,1170 @@
     {
       "id": 59,
       "term": "certified electronic mail",
-      "description": "Italian billing compliance term, used in Italy-only for  legal communication purposes. No equlavent concepts in other languages, thus do a literal translation. ",
+      "description": "Description: Italian billing compliance term used exclusively in Italy for legally recognized electronic communications between entities (geo-specific term). There is no equivalent in other locales; do descriptive translation. \n \n\n Usage rules:\n • Use lowercase.\n • Apply only in Italian market and legal or billing contexts.\n • Do not replace with “email” in other languages.\n \n\n Platform: Control\n Audience: B2B",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "certificeret elektronisk post"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Zertifizierte Elektronische Post"
+        },
+        {
+          "languageCode": "en",
+          "translation": "certified electronic mail"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "certified electronic mail"
+        },
+        {
+          "languageCode": "es",
+          "translation": "correo electrónico certificado"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "viðurkendur teldupostur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "PEC (posta elettronica certificata)"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "courrier électronique certifié"
+        },
+        {
+          "languageCode": "it",
+          "translation": "posta elettronica certificata"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "gecertificeerde email"
+        },
+        {
+          "languageCode": "no",
+          "translation": "sertifisert elektronisk post"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "poștă electronică certificată"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "certifierad elektronisk post"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 252,
+      "term": "Changelog",
+      "description": "Description: Monta’s record of shipped product updates, feature releases, accessed in HUB, under “What’s new” side panel label, hosted by Beamer. \n \n\n Usage rules:\n • Capitalize “Changelog” when referring to the UI label; use lowercase in generic references.\n \n\n Platform: Hub\n Audience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "Opdateringer"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Versionshinweise"
+        },
+        {
+          "languageCode": "en",
+          "translation": "Changelog"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Changelog"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Novedades"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Broytingarskrá"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Notes de version"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Notes de version"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Note di rilascio"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Versiegeschiedenis"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Oppdateringer"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Noutăți"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Uppdateringar"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 255,
+      "term": "charge (adj.)",
+      "description": "Description: Adjective. Used to describe a charging-related object, log, or record linked to a session or transaction. Examples: “charge log,” “charge ID,” “charge object.”\n \n\n Usage rules:\n • Always lowercase.\n • Use only as a descriptive modifier.\n • Avoid using where “charging” is the more natural form for localization.\n \n\n Platform: Hub, Control\n Audience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "lade-"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Lade-"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charge"
+        },
+        {
+          "languageCode": "es",
+          "translation": "de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løði"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laad-"
+        },
+        {
+          "languageCode": "no",
+          "translation": "lade-"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ladd-"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 254,
+      "term": "Charge (app)",
+      "description": "Description: Monta’s mobile app for EV drivers to find, start, schedule, and pay for charging sessions.\n \n\n Usage rules:\n • Reduce combination “Monta Charge” It is redundant and hardcoded for white label partners. \n • Do not translate, pluralize. Uninflected across all languages, treated as brand-like identifiers. \n • Use “charging app” only when referring to a generic category.\n \n\n Platform: Charge\n Audience: B2C",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "brand",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "Charge"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Charge"
+        },
+        {
+          "languageCode": "en",
+          "translation": "Charge"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Charge"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Charge"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Charge"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Charge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Charge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Charge"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Charge"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Charge"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Charge"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Charge"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 253,
+      "term": "charge (noun)",
+      "description": "Description: Noun. The event or session during which an EV is connected to a charge point and receives electricity until completion.\n \n\n Usage rules:\n • Use “charge” to describe the session event.\n • Do not use “charge” alone to mean fee or payment.\n • Keep lowercase except in proper nouns (e.g., Charge History).\n \n\n Platform: Charge\n Audience: B2C",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "opladning"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladevorgang"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charge"
+        },
+        {
+          "languageCode": "es",
+          "translation": "carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðing"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "lading"
+        },
+        {
+          "languageCode": "no",
+          "translation": "lading"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddning"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 60,
-      "term": "charge",
-      "description": "adjective (describing log, ID, object) ",
+      "term": "charge (verb)",
+      "description": "Description: Verb. To supply electricity to an EV using a charge point or compatible setup.\n \n\n Usage rules:\n • Use only for the energy transfer process, not payment.\n • In UI, use imperative form (“Charge now”).\n • In documentation, use infinitive (“to charge an EV”).\n • Lowercase unless at sentence start or part of a product name.\n \n\n Platform: Charge, Help Center\n Audience: B2C",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": false,
       "tags": "industry ",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 61,
-      "term": "charge amount",
-      "description": "Refers to amount of charged kWh during a charge session.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 62,
-      "term": "charge discount",
-      "description": "A in-product term for the feature - Charge Subscription - where users can apply a discount on charging. B2B feature in HUB. Not capitalized.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "oplade"
+        },
+        {
+          "languageCode": "de",
+          "translation": "laden"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charge"
+        },
+        {
+          "languageCode": "es",
+          "translation": "cargar"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løð"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "recharger"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "recharger"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ricaricare"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laden"
+        },
+        {
+          "languageCode": "no",
+          "translation": "lade"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "încărcare"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 63,
       "term": "charge history",
-      "description": "Label for the 'Charge History' header in the 'Me' section, showing charging logs with kWh, charge point name, and total price",
+      "description": "Description: A header label in the Me section of the Charge app that displays a user’s charging logs, including energy delivered (kWh), charge point name, and total cost.\n \n\n Usage rules:\n • Use Sentence Case (“Charge history), when referring to UI element, lower case, when in the running text. \n • Always use the plural form (“Charge History”), even when referring to a single entry.\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladehistorik"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladehistorie"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge history"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charge history"
+        },
+        {
+          "languageCode": "es",
+          "translation": "historial de cargas"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "farnar løðingar"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "historique des recharges"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Historique des recharges"
+        },
+        {
+          "languageCode": "it",
+          "translation": "cronologia delle ricariche"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadgeschiedenis"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladehistorikk"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "istoricul încărcărilor"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningshistorik"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 64,
       "term": "charge key",
-      "description": "Description:\nPhysical device (RFID card or fob) used to identify a user or team and authorize charging on compatible charge points.\n\nUsage rules:\n- Use “charge key” in consumer-facing and support content.\n- Use “RFID card” or “RFID tag” in technical or integration documentation.\n- Lowercase in running text unless part of a label (“Charge Key Settings”).\n- Distinguish from payment or access keys; this is an authentication device.\n\nSurface: Charge app (setup), Hub (management), Help Center.\nAudience: Drivers, operators, installers, support, partners.\nTone: Supportive-technical.\nSee also: RFID, Wallet, Team, Charge session.",
+      "description": "Description: A physical device (RFID card or fob) used to identify a user or team and authorize charging on compatible charge points.\n \n\n Usage rules:\n • Use “charge key” in consumer-facing and support content.\n • Use “RFID card” or “RFID tag” in technical, integration, or API documentation.\n • Lowercase in running text unless used in a UI label (e.g., “Charge Key Settings”).\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladebrik"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladekarte"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge key"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charge key"
+        },
+        {
+          "languageCode": "es",
+          "translation": "tarjeta de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðispjaldur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "carte de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "carte de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "tessera di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadpas"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladebrikke"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "card de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddbricka"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 65,
       "term": "charge limit",
-      "description": "The maximum level to which an electric vehicle's battery is charged during a charging session.",
+      "description": "Description: The maximum battery level to which an electric vehicle (EV) is charged during a session, usually defined by the user or the vehicle’s system.\n \n\n Usage rules:\n • Always lowercase (“charge limit”).\n • Use “charge limit” in text and labels.\n • Express as a percentage (%) in UI when shown numerically.\n \n\n Platform: Charge, Hub\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladegrænse"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladelimit"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge limit"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charge limit"
+        },
+        {
+          "languageCode": "es",
+          "translation": "límite de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðimark"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "limite de charge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "limite de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "limite di carica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadcapaciteit"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladegrense"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "limita de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningsgräns"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 66,
       "term": "charge point",
-      "description": "Default term, electrical outlet that supplies electrical power for charging plug-in electric vehicles. In copy sometimes used as a charger, or charging station. In target locale translate into the default term - charge point.",
+      "description": "Description: Default term for an electrical outlet or station that supplies power for charging plug-in electric vehicles (EVs). Sometimes referred to as a charger or charging station in copy.\n \n\n Usage rules:\n • Always use “charge point” as the default term across Monta content.\n • Translate into the standard local equivalent for EV infrastructure in localized versions.\n • Avoid overusing “charger” or “station” unless required for clarity or local context.\n \n\n Platform: Hub, Charge, Control\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladestander"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladestation"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge point"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charger"
+        },
+        {
+          "languageCode": "es",
+          "translation": "punto de recarga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðistøð"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "borne de recharge default term / borne - only in space-constrained contexts"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "borne de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "punto di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadpaal"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladepunkt"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "stație de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddpunkt"
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "charging station",
+          "isPlural": false
+        },
+        {
+          "alternative": "charger",
+          "isPlural": false
+        },
+        {
+          "alternative": "charging pole",
+          "isPlural": false
+        },
+        {
+          "alternative": "charging point",
+          "isPlural": false
+        },
+        {
+          "alternative": "charge station",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
       "id": 67,
       "term": "charge point management system",
-      "description": "Description:\nSoftware platform used by operators to monitor, manage, and optimize EV charging infrastructure. Handles connectivity, pricing, access, reporting, and system integrations.\n\nUsage rules:\n- Use “charge point management system” in full for general copy.\n- Use “CPMS” only in technical docs after introducing the full term once.\n- Avoid “CSMS”; Monta standardizes on “CPMS.”\n- When referring to Monta’s platform, use “Monta Hub.”\n\nSurface: Docs, Partner integrations, Marketing.\nAudience: Operators, enterprises, developers.\nTone: Technical-formal.\nSee also: Hub, Charge point, Operator.",
+      "description": "Description: Software platform used by operators to monitor, manage, and optimize EV charging infrastructure, including connectivity, pricing, access, reporting, and integrations.\n \n\n Usage rules:\n • Use the full term “charge point management system” in general or product-facing copy.\n • Introduce abbreviation “CPMS” in technical documentation after first mention.\n • Do not use “CSMS.”\n • When referring to Monta’s system, use “Monta Hub.”\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "styresystem til ladestandere"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Managementsystem für Ladestationen"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge point management system"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charge station management system"
+        },
+        {
+          "languageCode": "es",
+          "translation": "sistema de gestión de puntos de recarga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "stýrisskipan til løðistøðir"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "système de gestion des bornes de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "système de gestion de borne de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "sistema di gestione dei punti di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadpaalbeheersysteem"
+        },
+        {
+          "languageCode": "no",
+          "translation": "styresystem for ladepunkter"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "sistemul de gestionare al stației de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningslösning för elbilar"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 68,
       "term": "charge point operator",
-      "description": "A charge point operator (CPO) is an entity that owns, operates, and maintains charging stations for electric vehicles (EVs). Operators at Monta are considered as Partners. many functionalities are designed to support their needs.",
+      "description": "Description: Entity that owns, operates, and maintains EV charge points or networks. In Monta’s ecosystem, operators are classified as Partners, with dedicated features supporting their operations.\n \n\n Usage rules:\n • Use lowercase (“charge point operator”) unless abbreviated.\n • Reduce usage of abbrev., unless well-established. Introduce the abbreviation “CPO” on first mention, then use consistently thereafter.\n • Keep consistent with industry usage and avoid shortening to “operator” alone.\n \n\n Platform: Hub, Control, Charge\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladeoperatør"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladestationsbetreiber"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge point operator"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charger operator"
+        },
+        {
+          "languageCode": "es",
+          "translation": "operador de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðistøðarveitari"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "opérateur de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "opérateur d’infrastructure de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "operatore di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadoperator"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladeoperatør"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "operator stație de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddoperatör"
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": [
         {
           "languageCode": "en_US",
           "description": "end-to-end solution provider"
+        },
+        {
+          "languageCode": "da",
+          "description": ""
         }
       ]
     },
     {
       "id": 69,
       "term": "charge point settings",
-      "description": "Title of charge point settings in the 'Charge' app.",
+      "description": "Description: Settings section in the Charge app for configuring individual charge point details and behavior.\n \n\n Usage rules:\n • When refererring to UI label, stand alone title, use sentence case (“Charge point settings”) in the source, use title case for en_US.\n • Maintain capitalization consistency with other Charge app section titles.\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "indstillinger for ladestander"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Einstellungen der Ladestation"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge point settings"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charger settings"
+        },
+        {
+          "languageCode": "es",
+          "translation": "configuración del punto de recarga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "uppsetan av løðistøð"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "paramètres de la borne de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "paramètres de la borne de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "impostazioni del punto di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadpaalinstellingen"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladepunktsinnstillinger"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "setări stație de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddpunktsinställningar"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 70,
       "term": "charge point subscription",
-      "description": "An add-on service for private charge point maintenance. Targeted for private CP owners and facilitated typically by charge point operators, and installers.",
+      "description": "Description: Add-on service for maintaining private charge points, typically provided by operators or installers. Used mainly for private ownership models.\n \n\n Usage rules:\n • Use lowercase (“charge point subscription”).\n • Do not abbreviate or shorten.\n • Refer only to the defined operator product offering, not to general Monta subscription models.\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladestanderabonnement"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladestationsabonnement"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge point subscription"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charger subscription"
+        },
+        {
+          "languageCode": "es",
+          "translation": "suscripción al punto de recarga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðistøðarhald"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "abonnement pour borne de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "abonnement de borne"
+        },
+        {
+          "languageCode": "it",
+          "translation": "abbonamento al punto di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadpaalabonnement"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Ladepunktinnstillinger"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "abonament stații de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddpunktsabonnemang"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 71,
       "term": "charge power",
-      "description": "Description:\nAmount of electrical power delivered from the charge point to the EV at a given moment, measured in kilowatts (kW).\n\nUsage rules:\n- Use “charge power” for live or measured performance (telemetry, dashboards, analytics).\n- Do not confuse with energy (kWh, total consumed).\n- Format units as lowercase “kW” with a non-breaking space before the value (e.g., “11 kW”).\n- In user-facing copy, prefer “charging speed” when describing perceived performance.\n\nSurface: Hub dashboards, Charge session data, Technical docs.\nAudience: Operators, installers, data teams.\nTone: Technical-precise.\nSee also: Charging speed, kW, Load balancing.",
+      "description": "Description: Amount of electrical power delivered from the charge point to the EV at a given moment, measured in kilowatts (kW).\n \n\n Usage rules:\n • Use for live or measured performance data (telemetry, dashboards, analytics).\n • Do not confuse with “charged energy” (kWh).\n • Format units as lowercase “kW” with a non-breaking space (e.g., “11 kW”).\n • Use “charging speed” in consumer-facing or simplified copy.\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladeeffekt"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladeleistung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge power"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charge power"
+        },
+        {
+          "languageCode": "es",
+          "translation": "potencia de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðimegi"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "puissance de charge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "puissance de charge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "potenza di carica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadvermogen"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladeeffekt"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "putere de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddeffekt"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 72,
       "term": "charge price",
-      "description": "Price accumulated during a charge session. It relates to member price, price per kWH, price per min.",
+      "description": "Description: The total price accumulated during a charging session, including components such as price per kWh, per minute, or membership rates.\n \n\n Usage rules:\n • Always lowercase (“charge price”).\n • Do not shorten to “price” when referring to session cost.\n • Differentiate clearly from configuration or tariff setup prices in Hub.\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 73,
-      "term": "charge profile",
-      "description": "Source and target capitalization intact. Business app feature (in Portal), enabling users to set up pre-set charge sessions, based either on SmartCharge preferences or preferred schedules. These can be applied for fleet and private charge sessions.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "product",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 74,
-      "term": "charge rate",
-      "description": "Refers to the completed charging performance of an EV, linked to \"charging stability,\" often represented as a percentage (e.g., 98% success rate, surpassing the industry standard of 85%)",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "brand",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladepris"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladepreis"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge price"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charge price"
+        },
+        {
+          "languageCode": "es",
+          "translation": "precio de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðiprísur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "prix de la recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "prix de la recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "prezzo della ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadprijs"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladepris"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "tarif încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningspris"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 75,
       "term": "charge session",
-      "description": "The timespan in which an EV is being charged.",
+      "description": "Description: The duration in which an EV is connected to a charge point and receiving power until the session ends.\n \n\n Usage rules:\n • Always lowercase (“charge session”).\n • Prefer “charge session” over “charge” alone for clarity in UI and documentation.\n • Maintain consistency across reports, app logs, and analytics dashboards.\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladesession"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladevorgang"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge session"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging session"
+        },
+        {
+          "languageCode": "es",
+          "translation": "sesión de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðing"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "session de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "session de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "sessione di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadsessie"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladeøkt"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "sesiune de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningssession"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
-      "id": 76,
-      "term": "charger",
-      "description": "Charger (charge point): \"Charger\" refers to \"charge point.\" \nWhile these terms may be used interchangeably in the source copy, ALWAYS use the target language translation for \"Charge Point\" when translating.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 243,
+      "id": 256,
       "term": "Chargers",
-      "description": "Description:\nUI label on the Charge app home screen linking to the list or map of available charging locations.\n\nUsage rules:\n- Always Title Case: “Chargers.”\n- Use plural only.\n- Do not replace with “Charge points,” “Stations,” or “Sites.”\n- Keep label to one word.\n\nSurface: Charge app (Home screen).\nAudience: EV drivers.\nTone: Product-neutral.\nSee also: Charge point, Charging site.",
+      "description": "Description: UI label on the Charge app home screen linking to the list or map of available charging locations.\n \n\n Usage rules:\n • Always use Title Case (“Chargers”).\n • Always plural, never singular.\n • Do not replace with “Charge points,” “Stations,” or “Sites.”\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
-        {
-          "languageCode": "en",
-          "translation": "Chargers"
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "Chargers"
-        },
         {
           "languageCode": "da",
           "translation": "Ladere"
@@ -2083,8 +3169,36 @@
           "translation": "Ladestationen"
         },
         {
+          "languageCode": "en",
+          "translation": "Chargers"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Chargers"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Cargadores"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Løðarar"
+        },
+        {
           "languageCode": "fr",
           "translation": "Bornes"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Bornes"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Punti di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Laadpalen"
         },
         {
           "languageCode": "no",
@@ -2097,35 +3211,11 @@
         {
           "languageCode": "sv",
           "translation": "Laddare"
-        },
-        {
-          "languageCode": "es",
-          "translation": "Cargadores"
-        },
-        {
-          "languageCode": "it",
-          "translation": "Punti di ricarica"
-        },
-        {
-          "languageCode": "nl",
-          "translation": "Laadpalen"
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "Bornes"
         }
       ],
       "alternatives": [
         {
-          "alternative": "Plugs",
-          "isPlural": false
-        },
-        {
-          "alternative": "Connectors",
-          "isPlural": false
-        },
-        {
-          "alternative": "Outlets",
+          "alternative": "Ports",
           "isPlural": false
         },
         {
@@ -2133,242 +3223,1226 @@
           "isPlural": false
         },
         {
-          "alternative": "Ports",
+          "alternative": "Outlets",
+          "isPlural": false
+        },
+        {
+          "alternative": "Connectors",
+          "isPlural": false
+        },
+        {
+          "alternative": "Plugs",
           "isPlural": false
         }
       ],
       "additionalDescriptions": []
     },
     {
-      "id": 77,
-      "term": "charging",
-      "description": "adjective (describing process, states or attribute to the process",
+      "id": 258,
+      "term": "charging (adj)",
+      "description": "Description: Adjective. Describes states, processes, or attributes related to an ongoing charge. Examples: “charging session,” “charging port,” “charging time.”\n \n\n Usage rules:\n • Always lowercase (“charging”).\n • Use only as a modifier (adjective).\n • Avoid redundancy when the context already implies charging (e.g., “charging session” → not “EV charging session”).\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": false,
-      "tags": "industry ",
-      "pluralForm": null,
-      "translations": [],
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "lade-"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Lade-"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging"
+        },
+        {
+          "languageCode": "es",
+          "translation": "de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðing"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laad-"
+        },
+        {
+          "languageCode": "no",
+          "translation": "lade-"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ladd-"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 257,
+      "term": "charging (noun)",
+      "description": "Description: Noun. The act or process of supplying electricity to an EV battery via a charge point.\n \n\n Usage rules:\n • Always lowercase (“charging”).\n • Use for general or conceptual process descriptions.\n • Do not confuse with “charge” (noun), which refers to a specific session or transaction.\n • Avoid when referring to a single event — use “charge session” instead.\n \n\n Platform: Charge, Help Center\n Audience: B2B and B2C",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "opladning"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Laden"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging"
+        },
+        {
+          "languageCode": "es",
+          "translation": "carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðir"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "la recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laden"
+        },
+        {
+          "languageCode": "no",
+          "translation": "lading"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddning"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 78,
       "term": "charging app",
-      "description": "Description:\nGeneric term for mobile apps that allow EV drivers to find, start, schedule, or pay for charging sessions.\n\nUsage rules:\n- Use “charging app” only when referring to the general category of EV charging software.\n- Never use in UI; use “Charge” when referring to Monta’s product.\n- Keep lowercase in running text.\n- In marketing or educational content, may be used comparatively (e.g., “Unlike other charging apps…”).\n\nSurface: Marketing, SEO content, documentation.\nAudience: EV drivers, operators.\nTone: Neutral-informative.\nSee also: Charge, Hub.",
+      "description": "Description: Generic term for mobile applications that enable EV drivers to find, start, schedule, and pay for charging sessions.\n \n\n Usage rules:\n • Use “charging app” only when referring to the category of EV charging applications.\n • Never use in UI, use “Monta Charge” when referring specifically to Monta’s product.\n • Keep lowercase in running text.\n • May be used in comparative or educational contexts (e.g., “Unlike other charging apps…”).\n \n\n Platform: Marketing, SEO content, Documentation\n Audience: B2C and B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladeapp"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Lade-App"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging app"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging app"
+        },
+        {
+          "languageCode": "es",
+          "translation": "aplicación de recarga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðiapp"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "application de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "application de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "app di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadapp"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladeapp"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "aplicație de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningsapp"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 79,
       "term": "charging cable",
-      "description": "Description:\nA cable that connects an electric vehicle to a charge point to deliver electricity for charging.\n\nUsage rules:\n- Use “charging cable” in documentation, help content, and marketing.\n- Use short form “Cable” in UI only when context makes the meaning clear.\n- Do not abbreviate (avoid “EV cable” or “CP cable”).\n- Differentiate from connector (plug end) and charge point (hardware unit).\n\nSurface: Help Center, Docs, Installer workflows.\nAudience: EV drivers, installers, support staff.\nTone: Technical-neutral.\nSee also: Connector, Charge point.",
+      "description": "Description: A cable that connects an electric vehicle to a charge point to transfer electricity for charging.\n \n\n Usage rules:\n • Use “charging cable” in documentation, help content, and marketing materials.\n • In UI, use the short form “Cable” when context is clear.\n • Do not abbreviate (avoid “EV cable” or “CP cable”).\n • Differentiate clearly from connector (plug) and charge point (hardware).\n \n\n Platform: Hub, Charge\n Audience: B2C and B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladekabel"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladekabel"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging cable"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging cable"
+        },
+        {
+          "languageCode": "es",
+          "translation": "cable de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðikaðal"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "câble de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "câble de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "cavo di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadkabel"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladekabel"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cablu de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddkabel"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 259,
+      "term": "charging discount",
+      "description": "Description: A feature within the Charge Subscription plan that allows users to apply a discount to charging sessions.\n \n\n Usage rules:\n • Avoid “charge” as it can indicate “fee”\n • Use only when describing product features or subscription benefits.\n • Do not use as a synonym for pricing or promotions.\n \n\n Platform: Hub\n Audience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "laderabat"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Laderabatt"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging discount"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging discount"
+        },
+        {
+          "languageCode": "es",
+          "translation": "descuento en la carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðiavsláttur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "remise de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "rabais sur la recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "sconto sulla ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadkorting"
+        },
+        {
+          "languageCode": "no",
+          "translation": "lade-rabat"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "discount la Încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningsrabatt"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 80,
       "term": "charging fee",
-      "description": "Fee type (visible to the user) A one-off fee to be applied after a specified time of charging. e.g. One-time fee of DKK 50,00 is added after the first 60 min. of charging",
+      "description": "Description: A fee type applied during a charging session after a specified time threshold, e.g., DKK 50,00 added after 60 minutes of charging.\n \n\n Usage rules:\n • Always lowercase (“charging fee”).\n • Use in documentation or UI where the fee condition is defined.\n • Always specify timing or application condition.\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladegebyr"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladegebühr"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging fee"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging fee"
+        },
+        {
+          "languageCode": "es",
+          "translation": "tasa de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðigjald"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "frais de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "frais de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "costo di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadkosten"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladeavgift"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "taxă de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddavgift"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
-      "id": 81,
-      "term": "charging point",
-      "description": "Monta's default term is charge point and please use the corresponding translation, despite a synonym of charge point is used in the copy.",
+      "id": 260,
+      "term": "charging power",
+      "description": "Description: The instantaneous rate at which electrical energy is transferred or used during charging. Expressed in kilowatts (kW).  \n \n\n Usage rules: \n • Preferred terms: “power,” “charging power.” Avoid using “charging speed” in technical UI; reserve it only for consumer-friendly copy if needed. \n \n\n Platform: Hub, Charge, Control\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladeeffekt"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladeleistung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging power"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging power"
+        },
+        {
+          "languageCode": "es",
+          "translation": "potencia de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðimegi"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "puissance de charge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "puissance de charge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "potenza di carica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadvermogen"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladeeffekt"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "putere de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningseffekt"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
-      "id": 82,
+      "id": 261,
       "term": "charging rule",
-      "description": "Charge schedule settings in the 'Charge' app allow users to pre-define charging schedules when private users plug in their cable into their own charge point. Automates  repetitive scheduling tasks for home charging car owners. ",
+      "description": "Description: Feature in the Charge app allowing users to pre-define charge schedules when plugging into a private charge point, automating repetitive home-charging actions.\n \n\n Usage rules:\n • Always lowercase (“charging rule”).\n • Mention only in relation to the scheduling functionality within the app.\n • Do not use as a synonym for “policy” or “restriction.”\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "laderegel"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Laderegel"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging rule"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging rule"
+        },
+        {
+          "languageCode": "es",
+          "translation": "regla de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðiregla"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "règle de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "règle de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "regola di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadregel"
+        },
+        {
+          "languageCode": "no",
+          "translation": "laderegel"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "regulă de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningsregel"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 83,
       "term": "charging schedule",
-      "description": "A plan for charging an EV that lets owners customize charge times for efficiency and cost-effectiveness. In the Charge app, this is managed through the 'Schedule' feature, where users pre-set a charging time window.",
+      "description": "Description: Plan that defines when an EV should start or stop charging, enabling users to optimize for energy cost or grid demand. Managed via the Schedule feature in the Charge app.\n \n\n Usage rules:\n • Always lowercase (“charging schedule”).\n • Prefer “Schedule” when referring to the UI feature name.\n • Use the full phrase in documentation or support contexts for clarity.\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladeplan"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladeplan"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging schedule"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging schedule"
+        },
+        {
+          "languageCode": "es",
+          "translation": "programación de cargas"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðiætlan"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "programmation de recharge "
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "période de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "programma di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadschema"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladeplan"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "programare încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningsschema"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 84,
       "term": "charging site",
-      "description": "A location where EVs charge, equipped with infrastructure and typically containing multiple charging units",
+      "description": "Description: A physical location containing one or more charge points and the necessary infrastructure for EV charging.\n \n\n Usage rules:\n • Always lowercase (“charging site”).\n • Use consistently in B2B or operator-facing contexts instead of “station.”\n • Avoid “charging station” unless required for third-party integration documentation.\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladelokation"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Standort"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging site"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging site"
+        },
+        {
+          "languageCode": "es",
+          "translation": "estación de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðistaður"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "site de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "site site de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "stazione di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadlocatie"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladelokation"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "locație de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddplats"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 85,
       "term": "charging speed",
-      "description": "Description:\nRate at which an EV battery gains energy during charging, expressed as power (kW) or duration.\n\nUsage rules:\n- Use “charging speed” in consumer or marketing contexts (e.g., “fast charging”).\n- Use “charge power (kW)” for technical data.\n- Do not confuse charging speed (rate) with charging time (duration).\n- Keep lowercase except in headers or feature names.\n\nSurface: Marketing, Charge app, Help Center, Docs.\nAudience: EV drivers, operators, support.\nTone: Informative-consumer.\nSee also: Charge power.",
+      "description": "Description: The rate at which an EV battery gains energy during charging, expressed as power (kW) or estimated time to charge.\n \n\n Usage rules:\n • Always lowercase (“charging speed”).\n • Use in consumer or marketing contexts.\n • Use “charge power (kW)” for technical accuracy or live telemetry data.\n • Do not confuse with “charging time” (duration).\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 86,
-      "term": "charging station",
-      "description": "A charging station is a site with one or more charging points where EVs can be recharged. It includes chargers, communication systems for payment and monitoring, and may be publicly or privately accessible. Used in CPI Tool, Hardware Portal. ",
-      "caseSensitive": false,
-      "translatable": false,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladehastighed"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladegeschwindigkeit"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging speed"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging speed"
+        },
+        {
+          "languageCode": "es",
+          "translation": "velocidad de carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðiferð"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "vitesse de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "vitesse de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "velocità di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadsnelheid"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladehastighet"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "viteza de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningshastighet"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 87,
       "term": "chat",
-      "description": "Label for the communication function with support or the charge point owner. 'Chat' can be used as a verb, noun, or adjective",
+      "description": "Description: Label for the communication feature within Monta used to exchange messages between users, charge point owners, or Monta Support. “Chat” can refer to both the in-app messaging tool and its associated action (to chat).\n \n\n Usage rules:\n • Always capitalize (“Chat”) when referring to the product feature or UI label.\n • Use lowercase (“chat”) when referring to the action (e.g., “chat with support”).\n • Use consistently across Charge for user-to-user and support communication.\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "chat"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Chat"
+        },
+        {
+          "languageCode": "en",
+          "translation": "chat"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "chat"
+        },
+        {
+          "languageCode": "es",
+          "translation": "chat"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "kjatt"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "chat"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "clavardage"
+        },
+        {
+          "languageCode": "it",
+          "translation": "chat"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "chat"
+        },
+        {
+          "languageCode": "no",
+          "translation": "chat"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "chat"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "chatt"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 88,
       "term": "client secret",
-      "description": "A secret key known only to the client and server, used to authenticate the client in OAuth or similar authentication protocols, linked to API.",
+      "description": "Description: A private key used in Monta’s API authentication (OAuth 2.0). It identifies and authenticates a client application (such as a partner integration) to the Monta API securely, ensuring only authorized systems can access protected data.\n \n\n Usage rules:\n • Always lowercase (“client secret”).\n • Use only in technical and developer documentation.\n • Use alongside related terms like “client ID” and “API key.”\n \n\n Platform: HUB\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "client secret"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Client-Geheimnis"
+        },
+        {
+          "languageCode": "en",
+          "translation": "client secret"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "client secret"
+        },
+        {
+          "languageCode": "es",
+          "translation": "secreto del cliente"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "kundaloyndarlykil"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "secret client"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "secret client"
+        },
+        {
+          "languageCode": "it",
+          "translation": "segreto client"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "cliëntgeheim"
+        },
+        {
+          "languageCode": "no",
+          "translation": "klienthemmelighet"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "secret client"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "klienthemlighet"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 89,
       "term": "company car",
-      "description": "A vehicle provided by en employer. In the Monta context, user can obtain a company car agreement, where work-related charges get reimbursed via Monta Wallet financial service.",
+      "description": "Description: A vehicle provided by an employer for business or mixed (business and personal) use. In Monta, Company Car agreements link employees’ charging sessions to their employer’s Monta Wallet. Work-related charges are automatically reimbursed, and wallet reconciliation is managed through the Company Car reimbursement flow.\n \n\n Usage rules:\n • Use lowercase (“company car”) in text.\n • Use only in fleet or reimbursement-related contexts.\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "firmabilFirmenwagen"
+        },
+        {
+          "languageCode": "de",
+          "translation": ""
+        },
+        {
+          "languageCode": "en",
+          "translation": "company car"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "company car"
+        },
+        {
+          "languageCode": "es",
+          "translation": "coche de empresa"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "virkisbilur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "voiture d’entreprise"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "voiture d’entreprise"
+        },
+        {
+          "languageCode": "it",
+          "translation": "auto aziendale"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "bedrijfsauto"
+        },
+        {
+          "languageCode": "no",
+          "translation": "firmabil"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "autovehicul companie"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "firmabil"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 90,
       "term": "company registration number ",
-      "description": "A central business ID that identifies a legal entity in official, commercial, and legal contexts within the EU",
+      "description": "Description: A legal business identifier assigned to a company in its country of registration. In Monta, this number is required for business account setup, billing, and regulatory compliance within the EU and UK.\n \n\n Usage rules:\n • Use lowercase (“company registration number”).\n • Do not abbreviate (avoid “CRN”).\n • Use in forms, billing flows, and verification processes.\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "CVR-nummer"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Handelsregisternummer"
+        },
+        {
+          "languageCode": "en",
+          "translation": "company registration number "
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "employer identification number"
+        },
+        {
+          "languageCode": "es",
+          "translation": "número de identificación fiscal"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "virkistal"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "numéro SIREN"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "numéro d’entreprise du registre (UE)"
+        },
+        {
+          "languageCode": "it",
+          "translation": "numero di iscrizione al registro delle imprese"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "KVK-nummer"
+        },
+        {
+          "languageCode": "no",
+          "translation": "organisasjonsnummer"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cod unic de înregistrare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "organisationsnummer"
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "",
+          "isPlural": false
+        },
+        {
+          "alternative": "",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
       "id": 91,
       "term": "connect",
-      "description": "Verb. Used when EV is being connected to Monta software or plug-in with a charge point",
+      "description": "Description: Verb used when a charge point or external system establishes a link with Monta software, either via OCPP (Open Charge Point Protocol), Partner API, or physical plug-in connection by a driver.\n \n\n Usage rules:\n • Always lowercase (“connect”).\n • Use as a verb in product copy (e.g., “Connect a charge point to Monta”).\n • Avoid as a noun (do not use “connection” unless describing a network state).\n \n\n Platform: Hub, Control\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "forbinde"
+        },
+        {
+          "languageCode": "de",
+          "translation": "verbinden"
+        },
+        {
+          "languageCode": "en",
+          "translation": "connect"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "connect"
+        },
+        {
+          "languageCode": "es",
+          "translation": "conectar"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "sambinda"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "connecter"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "connecter"
+        },
+        {
+          "languageCode": "it",
+          "translation": "connettere"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "verbinden"
+        },
+        {
+          "languageCode": "no",
+          "translation": "koble til"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "conectare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ansluta"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 92,
       "term": "connector",
-      "description": "Connectors at each cable end compatible with the EV port and power outlet, e.g. CHAdeMO, Type 2, CCS, Type 1, etc.",
+      "description": "Description: The physical interface (socket or cable end) that connects the electric vehicle (EV) to the charge point. Supported connector types in Monta include Type 2, CCS, Type 1, CHAdeMO, and others. Each connector is tracked individually for status, pricing, and reporting in Monta Hub.\n \n\n Usage rules:\n • Always lowercase (“connector”) in running text.\n • Use singular or plural as context requires.\n • Distinguish clearly from “cable” (the wire) and “port” (the vehicle inlet).\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladestik"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Stecker"
+        },
+        {
+          "languageCode": "en",
+          "translation": "connector"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "connector"
+        },
+        {
+          "languageCode": "es",
+          "translation": "conector"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "stikk"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "connecteur"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "connecteur"
+        },
+        {
+          "languageCode": "it",
+          "translation": "connettore"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "connector"
+        },
+        {
+          "languageCode": "no",
+          "translation": "kontakt"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "conector"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddkontakt"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 93,
       "term": "cost group",
-      "description": "A price group type that defines the real cost for the team of a given charge. They represent what the team actually pays for the electricity or charging service, as opposed to what they charge to users. This functionality is a data tracking tool, not a payment system, used to monitor the actual electricity cost of operating charge point.",
+      "description": "Description: Defines the actual cost of electricity for an operator or team. A cost group represents what the operator pays (the “cost price”) rather than what is charged to end users (the “sale price”). Cost groups are used for internal reporting, budgeting, and profitability analysis - not for payments or transactions.\n \n\n Usage rules:\n • Always lowercase (“cost group”), unless used as UI label: “Cost Group”\n • Use only in pricing or operator cost contexts.\n • Do not confuse with “pricing group” or “tariff.”\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "omkostningsgruppe"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Kostengruppe"
+        },
+        {
+          "languageCode": "en",
+          "translation": "cost group"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "cost group"
+        },
+        {
+          "languageCode": "es",
+          "translation": "grupo de costes"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "prísbólkur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "groupe de coûts"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "groupe de coûts"
+        },
+        {
+          "languageCode": "it",
+          "translation": "gruppo di costo"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "kostengroep"
+        },
+        {
+          "languageCode": "no",
+          "translation": "kostnadsgruppe"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "grup de costuri"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "kostnadsgrupp"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 237,
       "term": "CP",
-      "description": "Charge Point (CP): Industry acronym for a charge point. Opt for the full term \"charge point\" or \"charger\" for EN-US",
+      "description": "Description: Acronym for Charge Point - the hardware device providing EV charging. In Monta documentation, “charge point” is preferred for clarity, especially in English. Each charge point can have multiple connectors and be linked to teams, sites, or operators.\n \n\n Usage rules:\n • . Use “CP” only after introducing the full term (“Charge Point (CP)”).\n • Use only in technical documentation or developer contexts.\n • Prefer “charge point” over “CP” in UI, marketing, or consumer-facing content.\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -2384,7 +4458,7 @@
         },
         {
           "languageCode": "de",
-          "translation": "B2B: Ladestation; B2C: Wallbox"
+          "translation": "Ladestation"
         },
         {
           "languageCode": "fr",
@@ -2417,6 +4491,10 @@
         {
           "languageCode": "fr_CA",
           "translation": "borne de recharge"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "CP"
         }
       ],
       "alternatives": [
@@ -2446,12 +4524,12 @@
     {
       "id": 238,
       "term": "CPI",
-      "description": "Acronym for Charge Point Integration, enabling communication and data exchange between charging stations and central management systems or external platforms.",
+      "description": "Description: An acronym for Charge Point Integration, which enables communication and data exchange between charging stations and central management systems or external platforms. It supports data flow, status updates, and control signals across connected systems.\n\nUsage rules:\nAlways capitalize the acronym “CPI.”\nSpell out “Charge Point Integration (CPI)” on first mention in documentation or long-form content.\nUse only in technical or integration-related contexts; avoid in high-level customer-facing copy.\nDo not use as a replacement for specific protocols or standards (e.g., OCPP) when those are meant.\n\nPlatform: Hub, Control\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -2463,7 +4541,7 @@
         },
         {
           "languageCode": "da",
-          "translation": "ladestanderintegration"
+          "translation": "CPI"
         },
         {
           "languageCode": "de",
@@ -2471,11 +4549,11 @@
         },
         {
           "languageCode": "fr",
-          "translation": "intégration de borne de recharge"
+          "translation": "CPI"
         },
         {
           "languageCode": "no",
-          "translation": " ladepunktsintegrasjon"
+          "translation": "CPI"
         },
         {
           "languageCode": "ro",
@@ -2483,7 +4561,7 @@
         },
         {
           "languageCode": "sv",
-          "translation": "laddpunktsintegration"
+          "translation": "CPI"
         },
         {
           "languageCode": "es",
@@ -2499,7 +4577,11 @@
         },
         {
           "languageCode": "fr_CA",
-          "translation": "intégration de borne de recharge"
+          "translation": "CPI"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "CPI"
         }
       ],
       "alternatives": [
@@ -2529,12 +4611,12 @@
     {
       "id": 239,
       "term": "CPMS",
-      "description": "Acronym for Charge Point Management System, e.g. HUB.",
+      "description": "Description: Acronym for Charge Point Management System. In Monta’s context, this refers to Monta Hub, the central platform used by operators and partners to manage charge points, sites, users, pricing, and operational workflows.\n \n\n Usage rules:\n • Always capitalize “CPMS.”\n • Spell out “Charge Point Management System (CPMS)” on first mention.\n • Prefer “Monta Hub” when referring to Monta’s own CPMS, but it can be used to describe comparable systems.\n • Do not shorten to “management system.”\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -2583,6 +4665,10 @@
         {
           "languageCode": "fr_CA",
           "translation": "Système de gestion des bornes de recharge"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "stýrisskipan til løðistøðir"
         }
       ],
       "alternatives": [
@@ -2612,12 +4698,12 @@
     {
       "id": 240,
       "term": "CPO",
-      "description": "Abbrev for charge charge point operator, an entity responsible for the operation, maintenance, and technical management of charge points and sites.",
+      "description": "Description: Abbreviation for Charge Point Operator, the entity responsible for operating, maintaining, and managing EV charge points or sites. In Monta, CPOs use Monta Hub to manage their network, set pricing, monitor uptime, and integrate with payment systems.\n \n\n Usage rules:\n • Always capitalize when referring to this role or partner type.\n • Introduce abbreviation “CPO” in parentheses after first mention and use consistently thereafter.\n • Avoid using “operator” alone when referring to this entity.\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -2665,6 +4751,10 @@
         },
         {
           "languageCode": "fr_CA",
+          "translation": "CPO"
+        },
+        {
+          "languageCode": "fo_FO",
           "translation": "CPO"
         }
       ],
@@ -2695,38 +4785,144 @@
     {
       "id": 94,
       "term": "credit",
-      "description": "Non-withdrawable funds added to a Team Wallet, used for Monta transactions (charges, fees, purchases). Teams earn credits through referrals, promo codes, or PowerBank",
+      "description": "Description: Non-withdrawable funds stored in a team wallet, used to pay for Monta-related transactions such as charging sessions, subscriptions, or fees. Credits can be earned through referrals, promotions, or PowerBank participation and are tracked separately from withdrawable wallet balances.\n \n\n Usage rules:\n • Use lowercase “credit” in running text.\n • Use plural “credits” when referring to multiple units.\n • Do not confuse with “wallet balance” or “withdrawable funds.”\n • Use only when referring to non-withdrawable wallet funds.\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "kreditter"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Guthaben"
+        },
+        {
+          "languageCode": "en",
+          "translation": "credit"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "credit"
+        },
+        {
+          "languageCode": "es",
+          "translation": "crédito"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "áogn"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "crédit"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "crédit"
+        },
+        {
+          "languageCode": "it",
+          "translation": "credito"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "krediet"
+        },
+        {
+          "languageCode": "no",
+          "translation": "kreditt"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "credit"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "kredit"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 95,
       "term": "credit note",
-      "description": "A document issued to correct or reduce the amount of a previously issued invoice, often due to returns, discounts, or billing errors. It indicates a credit in favor of the buyer.",
+      "description": "Description: A financial document issued to correct or reduce the amount of a previously issued invoice, typically due to returns, adjustments, or billing errors. In Monta, credit notes appear in the Finance section of Hub and are automatically linked to the original invoice.\n \n\n Usage rules:\n • Use lowercase “credit note” in running text.\n • Use plural “credit notes” for multiple documents.\n • Do not shorten to “note” alone.\n • Use only in billing and finance contexts.\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "kreditnota"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Stornorechnung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "credit note"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "credit note"
+        },
+        {
+          "languageCode": "es",
+          "translation": "nota de crédito"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "áognarseðil"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "avoir"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "note de crédit"
+        },
+        {
+          "languageCode": "it",
+          "translation": "nota di credito"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "creditnota"
+        },
+        {
+          "languageCode": "no",
+          "translation": "kreditnota"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "notă de credit"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "kreditfaktura"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 241,
       "term": "CT clamp",
-      "description": "Current transformer clamp is an electrical device used to measure the current flowing through a conductor without having to make direct contact with the electrical circuit. Used in power monitoring, energy metering, and electrical diagnostics.",
+      "description": "Description: A Current Transformer (CT) clamp is a device used to measure electrical current flowing through a conductor without direct contact. In Monta, CT clamps are used in Smart Meter and Load Balancing setups to provide real-time current measurements from a site’s main fuse or solar installation. These readings help Monta’s CPI service optimize charging based on available power.\n \n\n Usage rules:\n • Spell out on first mention: “Current Transformer (CT) clamp.”\n • Use abbreviation “CT clamp” thereafter.\n • Keep “CT” capitalized as it is a technical abbreviation.\n • Use only in technical or installer-facing documentation.\n \n\n Platform: Control, Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "translations": [
         {
           "languageCode": "en",
@@ -2746,7 +4942,7 @@
         },
         {
           "languageCode": "fr",
-          "translation": "pince CT"
+          "translation": "pince ampèremétrique"
         },
         {
           "languageCode": "no",
@@ -2775,6 +4971,10 @@
         {
           "languageCode": "fr_CA",
           "translation": "pince ampèremétrique"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "streymsensorur"
         }
       ],
       "alternatives": [
@@ -2804,44 +5004,198 @@
     {
       "id": 96,
       "term": "current",
-      "description": "The flow of electric charge used to power or charge an electric vehicle, typically delivered as either alternating current (AC) or direct current (DC), depending on the charging infrastructure.",
+      "description": "Description: The flow of electric charge that powers an EV during charging. Monta supports both Alternating Current (AC) and Direct Current (DC) charging, depending on the charge point hardware and configuration. Current type affects charging speed and connector compatibility.\n \n\n Usage rules:\n • Use lowercase “current” in running text.\n • Use “AC” and “DC” in uppercase when referring to current types.\n • Avoid using in isolation in UI; specify type where relevant (e.g., “AC current”).\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": [
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "strøm"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Strom"
+        },
+        {
+          "languageCode": "en",
+          "translation": "current"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "current"
+        },
+        {
+          "languageCode": "es",
+          "translation": "corriente"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "streymur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "courant"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "courant"
+        },
+        {
+          "languageCode": "it",
+          "translation": "corrente"
+        },
         {
           "languageCode": "nl",
-          "description": "Stroom"
+          "translation": "stroom"
+        },
+        {
+          "languageCode": "no",
+          "translation": "strøm"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "curent"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ström"
         }
-      ]
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
     },
     {
       "id": 97,
       "term": "custom subscription",
-      "description": "Feature. A monthly subscription plan that charge point operators offer to their clients, including services such as operation, maintenance, leasing, and repair of charge points. End-users pay a monthly fee via Monta to the operator or service provider",
+      "description": "Description: A feature in Monta Hub that allows charge point operators or service providers to create tailored subscription plans for their clients. These plans can include services such as charge point operation, maintenance, leasing, software access, or tax refund management. End users are billed monthly through Monta, and payments are handled via the Wallet and Subscriptions modules.\n \n\n Usage rules:\n • Use lowercase in running text unless appearing as a feature name or UI label.\n • Avoid shortening to “subscription” when referring to custom plans.\n • Use only in Hub contexts related to service management.\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "brugerdefineret abonnement"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Benutzerdefiniertes Abonnement"
+        },
+        {
+          "languageCode": "en",
+          "translation": "custom subscription"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "custom subscription"
+        },
+        {
+          "languageCode": "es",
+          "translation": "suscripción personalizada"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "tillagað hald"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "abonnement personnalisé"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "abonnement personnalisé"
+        },
+        {
+          "languageCode": "it",
+          "translation": "abbonamento personalizzato"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "aangepast abonnement"
+        },
+        {
+          "languageCode": "no",
+          "translation": "brukerdefinert abonnement"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "abonament personalizat"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "anpassat abonnemang"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 98,
       "term": "customer success manager",
-      "description": "A dedicated support agent, ensuring new users are properly onboarded and succeeding with the Monta software.",
+      "description": "Description: A Monta specialist responsible for onboarding new business users, ensuring successful adoption of Monta’s platform, and supporting long-term account growth. Customer Success Managers (CSMs) proactively assist partners (CPOs, installers, or enterprises) to achieve operational success and maximize value from Monta Hub and related services.\n \n\n Usage rules:\n • Use lowercase in running text; capitalize when referring to a specific title (e.g., “Your Customer Success Manager will contact you”).\n • Introduce abbreviation “CSM” after first mention and use consistently.\n • Use only for Monta internal and partner-facing roles.\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "brand",
-      "pluralForm": null,
-      "translations": [],
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "customer success manager"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Customer Success Manager"
+        },
+        {
+          "languageCode": "en",
+          "translation": "customer success manager"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "customer success manager"
+        },
+        {
+          "languageCode": "es",
+          "translation": "director de satisfacción del cliente"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "customer success manager"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "responsable de réussite client"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "gestionnaire de la réussite client"
+        },
+        {
+          "languageCode": "it",
+          "translation": "responsabile di customer success"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "customer success manager"
+        },
+        {
+          "languageCode": "no",
+          "translation": "customer success manager"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "customer success manager"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "kundhanteringsansvarig"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
