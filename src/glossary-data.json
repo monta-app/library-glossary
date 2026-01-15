@@ -543,7 +543,12 @@
           "translation": "varning"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "alarm",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -6689,6 +6694,85 @@
       "pluralForm": null,
       "translations": [],
       "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 262,
+      "term": "Monta AI",
+      "description": "Description: Monta AI is Monta’s AI-powered functionality that helps users create, summarize, or understand content and workflows across Monta products. Use it when referring to Monta’s built-in AI features, not AI in general.\n\nUsage rules:\n\nUse Monta AI with both words capitalized.\n\nDo not pluralize the name (avoid “Monta AIs”); use “Monta AI features” if needed.\n\nUse “AI” alone only after “Monta AI” has been introduced in the same piece of content.\n\nAvoid using “bot,” “chatbot,” or “assistant” as substitutes unless that is the exact UI label.\n\nPlatform: Hub, Charge, Control\n\nAudience: B2B and B2C",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "brand",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "Monta AI"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Monta AI"
+        },
+        {
+          "languageCode": "en",
+          "translation": "Monta AI"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Monta AI"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Monta AI"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Monta AI"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Monta AI"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Monta AI"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Monta AI"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Monta AI"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Monta AI"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Monta AI"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Monta AI"
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "MontaAI",
+          "isPlural": false
+        },
+        {
+          "alternative": "Monta agent",
+          "isPlural": false
+        },
+        {
+          "alternative": "",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
