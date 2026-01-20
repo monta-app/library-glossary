@@ -11703,13 +11703,66 @@
     {
       "id": 160,
       "term": "operator ",
-      "description": "Businesses selling, installing, and setting up charge points for themselves or their clients.",
+      "description": "Description: An organization or individual managing public or private EV charging through Monta, including deployment, pricing, maintenance, and analytics. Uses Hub for billing, automation, and operations.\n \n\n Usage rules:\n • Use sentence case in the running text and when used as UI stand-alone. \n • Distinguish from “installer,” “manufacturer,” and “CPO” if roles differ locally.\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "operatør"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Betreiber"
+        },
+        {
+          "languageCode": "en",
+          "translation": "operator "
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "operator "
+        },
+        {
+          "languageCode": "es",
+          "translation": "operador"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "veitari"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "opérateur"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "opérateur"
+        },
+        {
+          "languageCode": "it",
+          "translation": "operatore"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "exploitant"
+        },
+        {
+          "languageCode": "no",
+          "translation": "operatør"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "operator"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "operatör"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
@@ -11780,223 +11833,926 @@
       "additionalDescriptions": []
     },
     {
+      "id": 266,
+      "term": "order",
+      "description": "Description: An order created by a business user when purchasing services through the Monta Shop in Hub.\n\nUsage rules:\n• Capitalize only at the start of a sentence or when referring to a UI label (e.g., Shop order details).\n• Use “place a shop order” for the action; avoid “make a purchase” or “submit an order.”\n• Use only for orders placed through Hub, not for consumer purchases in Charge.\n\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": " ordre"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Bestellung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "order"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "order"
+        },
+        {
+          "languageCode": "es",
+          "translation": "pedido"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "ordre"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "commande"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "commande"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ordine"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "bestelling"
+        },
+        {
+          "languageCode": "no",
+          "translation": "bestilling"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "comandă"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "order"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 30,
       "term": "P2P",
-      "description": "Facilitate direct charging transactions, when one private individual (the seller) allows another (the buyer) to charge an EV at their charge point, and payment is made directly from the buyer to the seller using the Monta platform. Used in invoiced.",
+      "description": "escription: Peer-to-peer interactions or data flows between users or devices without an intermediary service. In Monta, used for shared access, localized coordination, or direct device communication when supported.\n \n\n Usage rules:\n • Write “P2P” in all caps; spell out on first mention if needed.\n \n\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "peer-to-peer"
+        },
+        {
+          "languageCode": "de",
+          "translation": "peer-to-peer"
+        },
+        {
+          "languageCode": "en",
+          "translation": "P2P"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "peer-to-peer"
+        },
+        {
+          "languageCode": "es",
+          "translation": "peer-to-peer"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "javnlíka-til-javnlíka"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "pair à pair"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "peer-to-peer"
+        },
+        {
+          "languageCode": "it",
+          "translation": "peer-to-peer"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "peer-to-peer"
+        },
+        {
+          "languageCode": "no",
+          "translation": "peer-to-peer"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "peer-to-peer"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "peer-to-peer"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 162,
       "term": "pair",
-      "description": " Verb, to link or connect a charge key (such as an RFID card) with a charge point or user account in a platform, allowing the key to be recognized and authorized for charging sessions.",
-      "caseSensitive": false,
-      "translatable": false,
-      "forbidden": false,
-      "tags": "product",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 163,
-      "term": "parent team",
-      "description": "Functionality in Hub. Tied to Nested Teams. It is a hosting Team of a Nested Team. Source and target capitalization intact.",
+      "description": " Description: The setup step that links a charge point to a Monta account or team so it can communicate with Monta for control, monitoring, and transactions.\n \n\n Usage rules:\n • Use sentence case; in UI, match the exact label (“Pair”).\n • Use “pair a charge point” for the action; avoid “bind” or “connect” if it causes ambiguity.\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "tilføj"
+        },
+        {
+          "languageCode": "de",
+          "translation": "koppeln"
+        },
+        {
+          "languageCode": "en",
+          "translation": "pair"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "pair"
+        },
+        {
+          "languageCode": "es",
+          "translation": "emparejar"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "para"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "associer"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "associer"
+        },
+        {
+          "languageCode": "it",
+          "translation": "connetti"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "koppelen"
+        },
+        {
+          "languageCode": "no",
+          "translation": "koble"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "asocia"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "anslut"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 267,
+      "term": "parent team",
+      "description": "Description: The top-level team in a nested structure that controls shared resources, permissions, and financial settings inherited by child teams.\n \n\n Usage rules:\n • Use sentence case in running text and in UI labels.\n \n\n Platform: Hub\n Audience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "overordnet team"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Übergeordnetes Team"
+        },
+        {
+          "languageCode": "en",
+          "translation": "parent team"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "parent team"
+        },
+        {
+          "languageCode": "es",
+          "translation": "equipo principal"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "upphavstoymi"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "groupe principal"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "équipe principale"
+        },
+        {
+          "languageCode": "it",
+          "translation": "team principali"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "hoofdteam"
+        },
+        {
+          "languageCode": "no",
+          "translation": "overordnet team"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "grup principal"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "överordnat team"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 164,
       "term": "passcode",
-      "description": "4-digit authentication code required upon handling payments via Monta Wallet. EU + UK requirement in the payment law.",
+      "description": "Description: A four number code used to authenticate actions such as joining a team, confirming payments, or unlocking restricted features.\n \n\n Usage rules:\n • Use sentence case (“passcode”) in running text and in UI labels.\n • Use for one-time or short-lived codes; for persistent credentials use “password.”\n • Do not abbreviate; avoid “PIN” unless explicitly the device term.\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "pinkode"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Zugangscode"
+        },
+        {
+          "languageCode": "en",
+          "translation": "passcode"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "passcode"
+        },
+        {
+          "languageCode": "es",
+          "translation": "código de acceso"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "loynital"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "code de sécurité"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "code d’accès"
+        },
+        {
+          "languageCode": "it",
+          "translation": "PIN"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "pincode"
+        },
+        {
+          "languageCode": "no",
+          "translation": "pinkode"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cod de acces"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "pinkod"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 165,
       "term": "password",
-      "description": "A standard term for a password used to log into Monta systems.",
+      "description": "Description: A confidential credential used to sign in to a Monta account, protecting user data and access. Supports enterprise authentication (e.g., SSO, MFA) where enabled.\n \n\n Usage rules:\n • Use sentence case in running text and in UI labels.\n • Use for persistent login credentials; not for one-time passcodes.\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "adgangskode"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Passwort"
+        },
+        {
+          "languageCode": "en",
+          "translation": "password"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "password"
+        },
+        {
+          "languageCode": "es",
+          "translation": "contraseña"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "loyniorð"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "mot de passe"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "mot de passe"
+        },
+        {
+          "languageCode": "it",
+          "translation": "password"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "wachtwoord"
+        },
+        {
+          "languageCode": "no",
+          "translation": "passord"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "parolă"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "lösenord"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 166,
       "term": "payment",
-      "description": "Label of 'Payment' button in Hub. It provides an overview of Wallet balance, transactions & invoices, as well as enables deposit, and withdrawal of funds.",
+      "description": "Description: The financial transaction process covering charging sessions, subscriptions, and Marketplace purchases. Payments can use stored methods (cards, Wallet) or third-party providers.\n \n\n Usage rules:\n • Use sentence case (“payment”) in running text and in UI.\n • Distinguish from “payout” (funds sent to a bank) and “invoice” (document).\n • Do not use as a synonym for “pricing” or “tariff.”\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 167,
-      "term": "payment method",
-      "description": "Label of subheader in the Wallet, i.e. credit card, RFID, MobilePay, Vipps.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "betaling"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Zahlung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "payment"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "payment"
+        },
+        {
+          "languageCode": "es",
+          "translation": "pago"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "gjald"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "paiement"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "paiement"
+        },
+        {
+          "languageCode": "it",
+          "translation": "pagamento"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "betaling"
+        },
+        {
+          "languageCode": "no",
+          "translation": "betaling"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "plată"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "betalning"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 168,
       "term": "payment terminal",
-      "description": "A payment terminal is a device used to process electronic payments from customers.",
+      "description": "Description: A physical device integrated with Monta that lets drivers pay on-site with a card. Supported integrations include hardware and cloud-based terminals (e.g., Payter, CCV) for public charging.\n \n\n Usage rules:\n • Use sentence title in running text and in UI labels.\n • Use for on-site card acceptance; not for in-app payments.\n \n\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "betalingsterminal"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Zahlungsterminal"
+        },
+        {
+          "languageCode": "en",
+          "translation": "payment terminal"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "payment terminal"
+        },
+        {
+          "languageCode": "es",
+          "translation": "terminal de pago"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "gjaldsterminalur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "terminal de paiement"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "terminal de paiement"
+        },
+        {
+          "languageCode": "it",
+          "translation": "terminale di pagamento"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "betalingsterminal"
+        },
+        {
+          "languageCode": "no",
+          "translation": "betalingsterminal"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "terminal de plată"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "betalterminal"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 169,
       "term": "peak hours",
-      "description": "The timeframe, in which many users want to charge.",
+      "description": "Description: Time window with the highest electricity demand and typically the highest grid/tariff prices. Monta uses peak-hour data to shift charging to off-peak windows, reducing costs and easing grid load.\n \n\n Usage rules:\n • Used in plural and describes a time window.\n \n\n Platform: Hub, Charge, Control\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "spidstimer"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Stoßzeiten"
+        },
+        {
+          "languageCode": "en",
+          "translation": "peak hours"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "peak hours"
+        },
+        {
+          "languageCode": "es",
+          "translation": "horas pico"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "meldurtíð"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "heures de pointe"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "heures de pointe"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ore di punta"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "piekuren"
+        },
+        {
+          "languageCode": "no",
+          "translation": "rushtid"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "ore de vârf"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "högtrafiktimmar"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 170,
       "term": "personal tax number",
-      "description": "Established taxation term applied in b2c context.  Unique identifier assigned to individuals by a government’s tax authority, used for managing tax-related activities. ",
+      "description": "Description: A government-issued tax identifier collected for billing, payouts, and compliance when users or operators receive income through Monta. \n \n\n Usage rules:\n • Do not abbreviate generically; use country-specific terms only when required (e.g., “TIN,” “VAT number”).\n • Request only where payouts or tax reporting are involved.\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "CPR-nummer"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Steuer-ID"
+        },
+        {
+          "languageCode": "en",
+          "translation": "personal tax number"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "social security number"
+        },
+        {
+          "languageCode": "es",
+          "translation": "número de identificación fiscal"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "P-tal"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "numéro fiscal"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "numéro d’assurance sociale"
+        },
+        {
+          "languageCode": "it",
+          "translation": "codice fiscale"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "burgerservicenummer"
+        },
+        {
+          "languageCode": "no",
+          "translation": "skattenummer"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cod numeric personal"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "personnummer"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 31,
       "term": "Plug&Charge",
-      "description": "Feature enables instant charging upon cable connection, as an alternative to RFID and app authentication, for Monta-operated Charge Points.",
+      "description": "Description: Automated charging where an EV authenticates and starts by being plugged in, no app (Charge) or RFID required. Supported for ISO 15118–compatible vehicles and charge points connected to Monta.\n \n\n Usage rules:\n • Write exactly “Plug&Charge”; avoid variants like “Plug and Charge”.\n • Use only when ISO 15118 is supported and enabled; otherwise describe standard authentication.\n • Distinguish from RFID/NFC and Instant App flows.\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "brand",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "Plug&Charge"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Plug&Charge"
+        },
+        {
+          "languageCode": "en",
+          "translation": "Plug&Charge"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Plug&Charge"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Plug&Charge"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Plug&Charge"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Plug&Charge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Plug&Charge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Plug&Charge"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Plug&Charge"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Plug&Charge"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Plug&Charge"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Plug&Charge"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 32,
       "term": "PowerBank",
-      "description": "Grid service feature that connects charging points to the grid system, allowing Monta to pause and resume charging based on the grid’s imbalance at any given moment.",
+      "description": "Description: Monta’s grid service that temporarily pauses charging during grid stress to support stability. Participants earn financial rewards or Monta credits for providing flexibility.\n \n\n Usage rules:\n • Capitalize “PowerBank” exactly; do not translate the name, no dot modify the term.\n • Uninflected across all languages, treated as brand-like identifiers. \n \n\n Platform: Charge, Hub\n Audience: B2B and B2C (shared",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "brand",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "PowerBank"
+        },
+        {
+          "languageCode": "de",
+          "translation": "PowerBank"
+        },
+        {
+          "languageCode": "en",
+          "translation": "PowerBank"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "PowerBank"
+        },
+        {
+          "languageCode": "es",
+          "translation": "PowerBank"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "PowerBank"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "PowerBank"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "PowerBank"
+        },
+        {
+          "languageCode": "it",
+          "translation": "PowerBank"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "PowerBank"
+        },
+        {
+          "languageCode": "no",
+          "translation": "PowerBank"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "PowerBank"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "PowerBank"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 171,
       "term": "price group",
-      "description": "A price configuration setting enabling to set-up end-user price, containing marging, add ons. etc.",
+      "description": "Description: A predefined pricing configuration applied to one or more charge points or teams, defining kWh rates, time-based fees, and member pricing for consistent billing.\n \n\n Usage rules:\n • Distinguish from “master price” (base rate) and “member price” (internal rate).\n • Document stacking/priority rules when multiple prices apply.\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 172,
-      "term": "private charge point",
-      "description": "Charge point access rights: Only team members linked to a private charge point can access it and apply pricing. Public charge points are accessible via roaming",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "product",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 173,
-      "term": "private team",
-      "description": "Team type for private home users and partners, created in Hub, allowing the owner to invite multiple home users",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "product",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 33,
-      "term": "Pro",
-      "description": "Subscription plan, targetting smaller sites that need to manage multiple charge points. Source and target capitalization intact.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "brand",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "prisgruppe"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Preisgruppe"
+        },
+        {
+          "languageCode": "en",
+          "translation": "price group"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "price group"
+        },
+        {
+          "languageCode": "es",
+          "translation": "grupo de precios"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "prísbólkur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "groupe de prix"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "groupe tarifaire"
+        },
+        {
+          "languageCode": "it",
+          "translation": "configura gruppo prezzi"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "prijsgroep"
+        },
+        {
+          "languageCode": "no",
+          "translation": "prisgruppe"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "grup tarifar"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "prisgrupp"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 174,
       "term": "production forecast",
-      "description": "A prediction of how much electricity a solar panel system will generate over a specific period, based on system specifications and local weather conditions",
+      "description": "Description: The projected amount of energy expected to be generated (e.g., from solar) used to align smart charging with peak renewable output. \n \n\n Usage rules:\n • Use for predicted generation; do not use for consumption (“load forecast”).\n • Specify time window and source (e.g., PV forecast) when relevant.\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "production forecast"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Erzeugungsprognose"
+        },
+        {
+          "languageCode": "en",
+          "translation": "production forecast"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "production forecast"
+        },
+        {
+          "languageCode": "es",
+          "translation": "pronóstico de producción"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "framleiðsluforsøgn"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "prévision de production"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "prévision de production"
+        },
+        {
+          "languageCode": "it",
+          "translation": "previsione di produzione"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "productievoorspelling"
+        },
+        {
+          "languageCode": "no",
+          "translation": "produksjonsprognose"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "previziune de producție"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "produktionsprognos"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": [
         {
@@ -12006,436 +12762,2061 @@
       ]
     },
     {
-      "id": 34,
-      "term": "Professional ",
-      "description": "A type of Team (feature), designed to cater  a variety of B2B needs, such as  Housing association, Parking, Hotel, and Company.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "brand",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 175,
-      "term": "professional team",
-      "description": "Team type for housing associations and businesses",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "product",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
       "id": 176,
       "term": "promotion code",
-      "description": "A code that gives the user a discount on a charge. This will be stored in user's Wallet.",
+      "description": "Description: A time-limited or usage-based code that applies discounts to subscriptions, charging sessions, or Marketplace purchases in Monta.\n \n\n Usage rules:\n • Distinguish from “referral code” and “invite link.”\n \n\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "kampagnekode"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Promocode"
+        },
+        {
+          "languageCode": "en",
+          "translation": "promotion code"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "promotion code"
+        },
+        {
+          "languageCode": "es",
+          "translation": "código promocional"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "átakskota"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "code promotionnel"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "code promotionnel"
+        },
+        {
+          "languageCode": "it",
+          "translation": "codice promozionale"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "kortingscode"
+        },
+        {
+          "languageCode": "no",
+          "translation": "promokode"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cod promoțional"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "kampanjkod"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
-      "id": 177,
-      "term": "public charge point",
-      "description": "Publicly available charge point.",
+      "id": 268,
+      "term": "public link",
+      "description": "Description: A shareable, view-only web link to specific data in Hub (e.g., dashboards, site or charge point details) that does not require the viewer to log in; can be password-protected. Used to surface live insights externally without granting Hub access. \n \n\n Usage rules:\n • Use “public link” in running text; capitalize only when it matches a UI label or title (“Public Link”). Plural: “public links.” Use the article “a public link.” Avoid abbreviations. \n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "offentligt link"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Öffentlicher Link"
+        },
+        {
+          "languageCode": "en",
+          "translation": "public link"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "public link"
+        },
+        {
+          "languageCode": "es",
+          "translation": "enlace público"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "alment leinki"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "lien public"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "lien public"
+        },
+        {
+          "languageCode": "it",
+          "translation": "link pubblico"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "openbare link"
+        },
+        {
+          "languageCode": "no",
+          "translation": "offentlig lenke"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "linkul public"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "offentlig länk"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 178,
       "term": "public price",
-      "description": "Public price is applied to publicly available charge points. There are 4 price groups in total, i.e. member, public, reimbursed, and cost price group.  A price group is comprised of a master price (set per minute, kWh or spot price) and additional fees ( minute, stat, charging, idle fee)",
+      "description": "Description: The standard charging rate shown to all users on a public charge point. There are 4 price groups in total, i.e. member, public, reimbursed, and cost price group. A price group is comprised of a master price (set per minute, kWh or spot price) and additional fees ( minute, start, charging, idle fee).\n \n\n Usage rules:\n • Distinguish from “member price” and “master price.”\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "offentlig pris"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Öffentlicher Preis"
+        },
+        {
+          "languageCode": "en",
+          "translation": "public price"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "public price"
+        },
+        {
+          "languageCode": "es",
+          "translation": "precio público"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "almennur prísur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "prix public"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "prix public"
+        },
+        {
+          "languageCode": "it",
+          "translation": "prezzo pubblico"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "openbare prijs"
+        },
+        {
+          "languageCode": "no",
+          "translation": "offentlig pris"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "preț public"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "offentligt pris"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 179,
       "term": "reboot",
-      "description": "Verb, to shut down and restoring power to a charge point, either manually or remotely, to restart it. Can be used as verb and noun.",
+      "description": "Description: Restarting a charge point locally or remotely to restore normal operation after an error or update. Operators can trigger reboots via Hub/OCPP tools.\n \n\n Usage rules:\n • Verb - use for device restart actions; not for application restarts.\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "genstarte"
+        },
+        {
+          "languageCode": "de",
+          "translation": "neustart"
+        },
+        {
+          "languageCode": "en",
+          "translation": "reboot"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "reboot"
+        },
+        {
+          "languageCode": "es",
+          "translation": "reiniciar"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "endurstarta"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "redémarrer"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "redémarrer"
+        },
+        {
+          "languageCode": "it",
+          "translation": "riavviare"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "herstarten"
+        },
+        {
+          "languageCode": "no",
+          "translation": "omstart"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "reporni"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "starta om"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 180,
       "term": "recipient code ",
-      "description": "Italian billing compliance term, used in Italy-only to identify the recipient of an e-Invoice). No equlavent concepts in other languages, thus do a literal translation. ",
+      "description": "Description: Italian billing compliance. A unique identifier used to route payments or invoices to the correct entity or team in financial workflows, ensuring attribution to the intended wallet or account.\n \n\n Usage rules:\n • geo-specific term. For non-italian languages use a descriptive translation. Do not replace with the nearest local equivalent. \n • Do not confuse with “promotion code” or “referral code.”\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "modtagerkode"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Empfänger-Code"
+        },
+        {
+          "languageCode": "en",
+          "translation": "recipient code "
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "recipient code "
+        },
+        {
+          "languageCode": "es",
+          "translation": "código del destinatario"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "móttakarakota"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "code destinataire"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "code destinataire"
+        },
+        {
+          "languageCode": "it",
+          "translation": "codice destinatario"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "ontvangstcode"
+        },
+        {
+          "languageCode": "no",
+          "translation": "mottakerkode"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cod destinatar"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "mottagarkod"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 36,
       "term": "Refer & Earn",
-      "description": "Subheader title of referal label in 'Me' section in the mobile app. Enabling discount when a new user is being referred to Monta by an existing user. Source and target capitalization intact.",
+      "description": "Description: Referral program that rewards users for inviting others. Credits or incentives are granted when the invitee activates or completes a qualifying action (e.g., first charge).\n \n\n Usage:\n • UI label, use exact spelling and capitalization\n \n\n Platform: Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "brand",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "Henvis og tjen"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Empfehlen & Verdienen"
+        },
+        {
+          "languageCode": "en",
+          "translation": "Refer & Earn"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Refer & Earn"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Invita a un amigo"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Bjóða við og fá"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Parrainez et gagnez"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Parrainez et gagnez"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Invita un amico"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Verwijs en Verdien"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Verv & tjen"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Recomandă și câștigă"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Värva & tjäna"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 181,
       "term": "referral",
-      "description": "Used in the context of Referal feature, where an existing user can invite a new member and receive a charging balance of certain amount",
+      "description": "Description: A tracked invitation linking a referrer and invitee within Monta to attribute rewards and growth.\n \n\n Usage rules:\n • Distinguish from “promotion code” and “invite link.”\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "henvisning"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Empfehlung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "referral"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "referral"
+        },
+        {
+          "languageCode": "es",
+          "translation": "referencia"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "ávísing"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "parrainage"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "référence"
+        },
+        {
+          "languageCode": "it",
+          "translation": "invito"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "verwijzing"
+        },
+        {
+          "languageCode": "no",
+          "translation": "henvisning"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "recomandare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "värvning"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 182,
       "term": "refill",
-      "description": "Verb. Top off a Wallet. Sometimes used also \"charge\", make sure to distinguish between monetary and electricity charge.",
+      "description": "escription: verb, adding funds to a wallet or team balance to cover charging, subscriptions, or automated payouts.\n \n\n Usage rules:\n • Use “refill” for adding funds; use “withdrawal” for moving funds out.\n • Do not use as a synonym for “top-up” if UI uses “Refill.”\n \n\n Platform: Hub\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "fyld op"
+        },
+        {
+          "languageCode": "de",
+          "translation": "auffüllen"
+        },
+        {
+          "languageCode": "en",
+          "translation": "refill"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "refill"
+        },
+        {
+          "languageCode": "es",
+          "translation": "recargar"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "fyll á"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "recharger"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "ajouter des fonds"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ricaricare"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "aanvullen"
+        },
+        {
+          "languageCode": "no",
+          "translation": "påfyll"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "realimentare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "realimentare"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 183,
       "term": "reimbursement",
-      "description": "A feature, allowing employers to reimburse their employees for charge sessions. Variations Home Reimbursement ( b2c, Charge mobile app) Employer Reimbursement (b2b, Hub web app)  Replacement of the legacy feature name \"Sponsored Charging\".",
+      "description": "Description: Automated compensation feature for electricity costs incurred when employees or users charge at home. A feature, allowing employers to reimburse their employees for charge sessions. Variations: Home reimbursement ( B2C, Charge) Employer reimbursement B2B, HUB). Replacement of the legacy feature name \"Sponsored Charging\".\n \n\n Usage rules:\n • Do not use legacy term and its deviations: sponsored charging, to sponsor, sponsoring, etc. \n • Distinguish from “payout” (funds to bank) and “refund” (error correction).\n \n\n Platform: Hub, Charge\n Audience: B2B, B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "firmabetalt opladning"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Rückerstattungen"
+        },
+        {
+          "languageCode": "en",
+          "translation": "reimbursement"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "reimbursement"
+        },
+        {
+          "languageCode": "es",
+          "translation": "reembolso"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "afturbering"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "remboursement"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "remboursement"
+        },
+        {
+          "languageCode": "it",
+          "translation": "rimborso"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "vergoeding"
+        },
+        {
+          "languageCode": "no",
+          "translation": "hjemmeladningsrefusjon"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "rambursare încărcare acasă"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "återbetalning"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 184,
       "term": "reimbursement price",
-      "description": "A money amount per kWh that users' employee receives, as reimbursement for their electricity use when charging at home.",
+      "description": "Description: The per-kWh rate used to calculate how much an employee is compensated for home and work charging sessions. Configured by the company or fleet manager in Hub.\n \n\n Usage rules:\n • State currency, taxes, and effective dates.\n • Distinguish from “public price,” “member price,” and “master price.”\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "refusionspris"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Rückerstattungswert"
+        },
+        {
+          "languageCode": "en",
+          "translation": "reimbursement price"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "reimbursement price"
+        },
+        {
+          "languageCode": "es",
+          "translation": "precio de reembolso"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "afturberingarprísur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "prix remboursé"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "remboursement"
+        },
+        {
+          "languageCode": "it",
+          "translation": "prezzo di rimborso"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "vergoedingsprijs"
+        },
+        {
+          "languageCode": "no",
+          "translation": "refusjonspris"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "tarif rambursat"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ersättningspris"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 185,
       "term": "reliability",
-      "description": "Measurement of how consistent, error-free operation of a charge point or network is, i.e. measured by uptime and availability. A key quality metric in the EV industry used to assess infrastructure performance",
-      "caseSensitive": false,
-      "translatable": false,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 186,
-      "term": "residental charging",
-      "description": "Type of charging, accommodated in a residential area.",
+      "description": "Description: The operational stability and uptime of Monta and connected charge points, reflected in successful session rates and consistent service. Used to assess performance and availability across networks.\n \n\n Usage rules:\n • Pair with concrete KPIs (uptime %, success rate, MTTR).\n • Distinguish platform reliability from hardware reliability when relevant.\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "driftstabilitet"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Zuverlässigkeit"
+        },
+        {
+          "languageCode": "en",
+          "translation": "reliability"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "reliability"
+        },
+        {
+          "languageCode": "es",
+          "translation": "fiabilidad"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "støðufesti"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "fiabilité"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "fiabilité"
+        },
+        {
+          "languageCode": "it",
+          "translation": "affidabilità"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "betrouwbaarheid"
+        },
+        {
+          "languageCode": "no",
+          "translation": "pålitelighet"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "fiabilitate"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "tillförlitlighet"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 269,
+      "term": "reversal of deposit",
+      "description": "Description: A financial action that cancels or refunds a previously applied deposit/prepayment on an invoice, fully or partially. It reverses the original deposit transaction and restores the outstanding invoice balance.\n \n\n Usage rules:\n • Preferred term: Deposit reversal. Use sentence case in running text.\n • Distinguish from refund (returns money without necessarily referencing the original deposit allocation), credit note (reduces invoice value), and chargeback (cardholder-initiated dispute).\n \n\n Platform: Hub",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "tilbageførsel af indbetaling"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Guthaben Rückzahlung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "reversal of deposit"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "reversal of deposit"
+        },
+        {
+          "languageCode": "es",
+          "translation": "anulación de un ingreso"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "øvut gjaldsskylda"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "contrepassation du dépôt"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "contrepassation du dépôt"
+        },
+        {
+          "languageCode": "it",
+          "translation": "storno del versamento"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "terugboeking van storting"
+        },
+        {
+          "languageCode": "no",
+          "translation": "tilbakeføring av innskudd"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "stornarea depunerii"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "återföring av insättning"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 187,
       "term": "reverse charge",
-      "description": "EU VAT regulation term. A mechanisms where buyer, not the seller, reports and pays the VAT, used in cross-border B2B sales. VAT is shown as 0% on invoices with a reverse charge note.",
-      "caseSensitive": false,
-      "translatable": false,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": [
-        {
-          "languageCode": "nl",
-          "description": "stație de încărcare"
-        }
-      ]
-    },
-    {
-      "id": 35,
-      "term": "RFID",
-      "description": "See \"Charge key\" term, synonyms. Source and target capitalization intact.",
+      "description": "Description: EU VAT regulation term. A mechanisms where buyer, not the seller, reports and pays the VAT, used in cross-border B2B sales. VAT is shown as 0% on invoices with a reverse charge note.\n \n\n Usage rules:\n • Geo-specific term, used in invoices and receipts. \n • For non-EU locales, do descriptive translation. Do not use nearest local concept. \n \n\n Platform: Hub,\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "omvendt betalingspligt"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Umkehr der Steuerschuldnerschaft"
+        },
+        {
+          "languageCode": "en",
+          "translation": "reverse charge"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "no tax charged (EU reverse charge rule)"
+        },
+        {
+          "languageCode": "es",
+          "translation": "inversión del sujeto pasivo"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "øvut gjaldsskylda"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "autoliquidation"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "taxe au preneur"
+        },
+        {
+          "languageCode": "it",
+          "translation": "inversione contabile"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "BTW verlegd"
+        },
+        {
+          "languageCode": "no",
+          "translation": "omvendt avgiftsplikt"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "taxare inversă"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "omvänd betalningsskyldighet"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
-      "id": 188,
-      "term": "roadmap",
-      "description": "A high-level overview of the software development process. Monta provides a Public Roadmap, displaying planned features, those in development, and those launched",
+      "id": 35,
+      "term": "RFID",
+      "description": "Description: Radio-Frequency Identification used to start/stop sessions with charge keys or cards for secure, offline-compatible authentication. Supported across private and public chargers.\n \n\n Usage rules:\n • Write “RFID” in all caps.\n • Distinguish from NFC and Plug&Charge flows.\n \n\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "RFID-kort"
+        },
+        {
+          "languageCode": "de",
+          "translation": "RFID-Karte"
+        },
+        {
+          "languageCode": "en",
+          "translation": "RFID"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "RFID"
+        },
+        {
+          "languageCode": "es",
+          "translation": "carjeta RFID"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "RFID"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "carte RFID"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "carte RFID"
+        },
+        {
+          "languageCode": "it",
+          "translation": "carta RFID"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "RFID-kaart"
+        },
+        {
+          "languageCode": "no",
+          "translation": "RFID-kort"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "card RFID"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "RFID-kort"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 189,
       "term": "roaming",
-      "description": "Enables EV-drivers to find, access and pay for charging across multiple public networks.",
+      "description": "Description: A feature that allows Monta users to charge their EVs on third-party networks connected through roaming agreements. Roaming enables cross-network access by exchanging session, pricing, and payment data between Monta and external platforms via standardized protocols such as OCPI or direct partnerships.\n \n\n Usage rules:\n • Use lowercase “roaming” in running text.\n • Capitalize only when part of a feature name or heading (e.g., “Roaming settings” in Hub).\n • Use only in contexts involving cross-network charging, OCPI integrations, or interoperability.\n • Do not use interchangeably with “partner network” or “integration.”\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "roaming"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Roaming"
+        },
+        {
+          "languageCode": "en",
+          "translation": "roaming"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "roaming"
+        },
+        {
+          "languageCode": "es",
+          "translation": "roaming"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "reiking"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "itinérance"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "itinérance"
+        },
+        {
+          "languageCode": "it",
+          "translation": "roaming"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "roaming"
+        },
+        {
+          "languageCode": "no",
+          "translation": "roaming"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "roaming"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "roaming"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 190,
       "term": "sales tax",
-      "description": "US-centric term - a tax  % imposed on the sale of goods and services at the point of purchase, paid by end-user.  In EU countries, the VAT (Value Added Tax) is the equivalent of the U.S. sales tax\n",
+      "description": "Description: A US-specific consumption tax applied at the point of sale on goods and services, paid by the end user. In EU and other markets, the analogous concept is VAT (Value Added Tax); use the local legal term per jurisdiction.\n \n\n \n\n Usage rules:\n • Use “VAT” where VAT is the legal standard; do not mix “sales tax” and “VAT” in the same context.\n • In US-centric flows, “sales tax” may appear in source copy; in translations, map to the correct local term via glossary (e.g., “VAT”).\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "moms"
+        },
+        {
+          "languageCode": "de",
+          "translation": "USt"
+        },
+        {
+          "languageCode": "en",
+          "translation": "sales tax"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "sales tax"
+        },
+        {
+          "languageCode": "es",
+          "translation": "IVA"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "meirvirðisgjald"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "TVA"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "taxes de vente"
+        },
+        {
+          "languageCode": "it",
+          "translation": "IVA"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "BTW"
+        },
+        {
+          "languageCode": "no",
+          "translation": "MVA"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "TVA"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "moms"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 191,
       "term": "schedule",
-      "description": "Verb. used as CTA for a planning feature, allowing adjustment of the charging timeslot.",
+      "description": "Description: A predefined plan to start or stop a charging session at a specific time. Helps users target off-peak pricing and optimize energy use.\n \n\n Usage rules:\n \n\n • Verb: use “to schedule” ; avoid synonyms such as “plan” or “set.”\n • Not a synonym for “forecast” (prediction) or “booking” (reservation).\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "planlægge"
+        },
+        {
+          "languageCode": "de",
+          "translation": "planen"
+        },
+        {
+          "languageCode": "en",
+          "translation": "schedule"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "schedule"
+        },
+        {
+          "languageCode": "es",
+          "translation": "programar"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "planleggja"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "planifier"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "planifier"
+        },
+        {
+          "languageCode": "it",
+          "translation": "pianificare"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "plannen"
+        },
+        {
+          "languageCode": "no",
+          "translation": "planlegge"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "programează"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "schemalägg"
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "plan",
+          "isPlural": false
+        },
+        {
+          "alternative": "set",
+          "isPlural": false
+        },
+        {
+          "alternative": "booking",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
       "id": 192,
       "term": "scheduled charging",
-      "description": "Charge method: The ability to set a specific time or schedule for starting or completing the EV charging process",
+      "description": "Description: A feature that automatically begins charging at a set time—typically during off-peak hours—to reduce cost and balance grid load.\n \n\n Usage rules:\n • Distinguish from “smart charging” features driven by price signals.\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "planlagt opladning"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Geplante Ladung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "scheduled charging"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "scheduled charging"
+        },
+        {
+          "languageCode": "es",
+          "translation": "carga programada"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "planløgd løðing"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "recharge programmée"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "recharge planifiée"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ricarica programmata"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "geplande laadsessie"
+        },
+        {
+          "languageCode": "no",
+          "translation": "planlagt ladeøkt"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "încărcare programată"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "schemalagd laddning"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 270,
+      "term": "self-billing",
+      "description": "Description: A financial and accounting process where the buyer — rather than the seller — issues the invoice for goods or services received.\n This method is often used in recurring or automated business relationships where transactions happen frequently (for example, between Monta and its partners or charge point operators).\n \n\n Usage rules:\n • Write with a hyphen as “self-billing”; lowercase in running text unless starting a sentence or used in a UI label.\n • Use as a noun or adjective: “self-billing is enabled,” “self-billing invoice.”\n • Pluralize as “self-billing agreements,” not “self-billings.”\n \n\n Platform: Hub, Control\n Audience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "selvfakturering"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Gutschriftverfahre"
+        },
+        {
+          "languageCode": "en",
+          "translation": "self-billing"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "self-billing"
+        },
+        {
+          "languageCode": "es",
+          "translation": "autofacturación"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "sjálvavrokna"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "autofacturation"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "autofacturation"
+        },
+        {
+          "languageCode": "it",
+          "translation": "autofatturazione"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "zelffacturering"
+        },
+        {
+          "languageCode": "no",
+          "translation": "selvfakturering"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "autofacturare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "självfakturering"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 271,
+      "term": "self-billing invoice",
+      "description": "Description: An invoice generated by Monta on a partner’s behalf under a self-billing agreement, based on system-logged transactions (e.g., charge sessions, fees, energy refunds). Used for payouts and partner accounting records.\n \n\n Usage rules:\n • Write with a hyphen: “self-billing invoice”\n • Treat as a countable noun: “a self-billing invoice”; plural “self-billing invoices.”\n • Do not abbreviate (avoid “SBI”)\n \n\n Platform: Hub, Control\n Audience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "selvfaktureret faktura"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Gutschrift (Selbstfakturierung)"
+        },
+        {
+          "languageCode": "en",
+          "translation": "self-billing invoice"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "self-billing invoice"
+        },
+        {
+          "languageCode": "es",
+          "translation": "factura en autofacturación"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "sjálvskriva rokning"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "facture d’autofacturation"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "facture en autofacturation"
+        },
+        {
+          "languageCode": "it",
+          "translation": "fattura in autofatturazione"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Factuur uitgereikt door afnemer (self-billing)"
+        },
+        {
+          "languageCode": "no",
+          "translation": "selvfaktura"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "factură de autofacturare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "självfaktura"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 193,
       "term": "self-healing",
-      "description": "Adjective, self-healing refers to systems or software that can automatically detect, diagnose, and resolve issues without human intervention",
+      "description": "Description: Automated recovery that detects, diagnoses, and resolves common charge point or communication issues without manual intervention. Improves stability by reducing downtime.\n \n\n Usage rules:\n • Used both as noun and adjective\n \n\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "selvhelende"
+        },
+        {
+          "languageCode": "de",
+          "translation": "selbstheilend"
+        },
+        {
+          "languageCode": "en",
+          "translation": "self-healing"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "self-healing"
+        },
+        {
+          "languageCode": "es",
+          "translation": "autorreparación"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "sjálvgrøðandi"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "auto-réparation"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "autoréparation"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ripristino automatico"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "zelfherstellend"
+        },
+        {
+          "languageCode": "no",
+          "translation": "selvhelbrendende"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "auto-reparare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "self-healing"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 37,
       "term": "SEPA Direct Debit",
-      "description": "A pan-European direct debit system that allows merchants and businesses to collect Euro-denominated payments from accounts in the 36 SEPA (Single Euro Payments Area) countries. Source and target capitalization intact.",
+      "description": "Description: A European payment method that allows Monta to automatically collect payments from a user’s or company’s bank account within the SEPA zone. Used for secure, recurring payments such as subscriptions and wallet refills.\n \n\n Usage rules:\n • Write exactly “SEPA Direct Debit”; do not alter capitalization or abbreviate.\n • Not a payout method.\n • For non-EU locales, use a descriptive local equivalent; if space allows, add a brief explainer (e.g., “pan-European bank debit”).\n \n\n Platform: Hub: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "SEPA Direct Debit"
+        },
+        {
+          "languageCode": "de",
+          "translation": "SEPA-Lastschrift"
+        },
+        {
+          "languageCode": "en",
+          "translation": "SEPA Direct Debit"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "SEPA Direct Debit"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Adeudo directo SEPA"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "SEPA Direct Debit"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Prélèvement SEPA"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Prélèvement automatique européen (SEPA)"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Addebito diretto SEPA"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "SEPA-incasso"
+        },
+        {
+          "languageCode": "no",
+          "translation": "SEPA-avtalegiro"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Debitare directă SEPA"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "SEPA Direct Debit"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 194,
       "term": "serial number",
-      "description": "A unique identifier assigned to a charging device, used for tracking and management within a network.",
+      "description": "Description: The unique hardware identifier assigned to a charge point or connected device. Used by Monta to verify authenticity, pair devices, and track unit performance.\n \n\n Usage rules:\n • Do not confuse with “Meter ID,” “IMEI,” or “device ID.”\n • Keep formatting exactly as on the device/label; avoid truncation in copy. If space is limited, use “serial no”\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "serienummer"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Seriennummer"
+        },
+        {
+          "languageCode": "en",
+          "translation": "serial number"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "serial number"
+        },
+        {
+          "languageCode": "es",
+          "translation": "número de serie"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "seriunummar"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "numéro de série"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "numéro de série"
+        },
+        {
+          "languageCode": "it",
+          "translation": "numero di serie"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "serienummer"
+        },
+        {
+          "languageCode": "no",
+          "translation": "serienummer"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "număr de serie"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "serienummer"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 195,
       "term": "service provider",
-      "description": "Stakeholder, that provides charging services (monthly subscriptions), e.g. charge point operator.",
+      "description": "Description: An organization delivering operational or technical services in the Monta ecosystem (e.g., installation, maintenance, roaming, payments). Can include CPOs, eMSPs, and vetted third-party vendors.\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "serviceudbyder"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Dienstleister"
+        },
+        {
+          "languageCode": "en",
+          "translation": "service provider"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "service provider"
+        },
+        {
+          "languageCode": "es",
+          "translation": "proveedor de servicios"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "veitari"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "fournisseur de service"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "fournisseur de services"
+        },
+        {
+          "languageCode": "it",
+          "translation": "fornitore di servizi"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "dienstverlener"
+        },
+        {
+          "languageCode": "no",
+          "translation": "tjenestetilbyder"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "furnizor de servicii"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "tjänsteleverantör"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 39,
       "term": "Shop",
-      "description": "Shop feature, where Monta branded charge keys, RDIF, stickers are purchased.",
+      "description": "Description: The in-product area where users can purchase subscriptions, charge point services, or partner offerings. \n \n\n Usage rules:\n • Use the exact UI label (“Shop”) when referring to the module\n • Capitalize “Shop” only as a proper module name; avoid generic use.\n \n\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "brand",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "Shop"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Shop"
+        },
+        {
+          "languageCode": "en",
+          "translation": "Shop"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Shop"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Tienda"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Handil"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Boutique"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Boutique"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Negozio"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Shop"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Shop"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Magazin"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Butik"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 40,
       "term": "Single Sign-On",
-      "description": "Single Sign-On. SSO is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems.",
+      "description": "Description: An authentication method allowing users to access Monta with existing corporate or third-party credentials. \n \n\n Usage rules:\n • On first mention, write “Single Sign-On (SSO)”; use “SSO” thereafter.\n • Distinguish from MFA (additional factor) and from password-based login.\n \n\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "Single Sign-On"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Single Sign-On"
+        },
+        {
+          "languageCode": "en",
+          "translation": "Single Sign-On"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Single Sign-On"
+        },
+        {
+          "languageCode": "es",
+          "translation": "inicio de sesión único"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "sameind innritan"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "authentification unique"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "authentification unique"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Single Sign-On"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Single Sign-On"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Single Sign-On"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Single Sign-On"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Samlad inloggning"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 196,
       "term": "site",
-      "description": "Refers to a charging site, often used synonymously. Use established translations for \"charging site\" when the source mentions \"site* to reduce ambigiouty",
+      "description": "Description: A physical location containing one or more charge points managed together in Hub. Acts as the main unit for configuring pricing, access, load management, and reporting.\n \n\n Usage rules:\n • Distinguish “site” (location entity) from “team” (organizational entity).\n • Not a synonym for “installation” (the activity).\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 197,
-      "term": "site owner",
-      "description": "An entity that has installed charge points within their premises, e.g. parking lot owner.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "lokation"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Standort"
+        },
+        {
+          "languageCode": "en",
+          "translation": "site"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "site"
+        },
+        {
+          "languageCode": "es",
+          "translation": "estación"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðipláss"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "station de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "site"
+        },
+        {
+          "languageCode": "it",
+          "translation": "stazione"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "locatie"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladested"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "locație"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddplats"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 198,
       "term": "smart charge",
-      "description": "A verb describing a charging method based on user preferences, such as cost, renewable energy, and CO2 footprint, when the 'SmartCharge* feature is enabled.",
+      "description": "Description: An optimized charging session managed by Monta’s intelligent scheduling that adjusts start time and charging power to reduce cost and environmental impact. Factors include energy prices, grid signals, and renewable availability.\n \n\n Usag",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "smartlade"
+        },
+        {
+          "languageCode": "de",
+          "translation": "intelligent laden"
+        },
+        {
+          "languageCode": "en",
+          "translation": "smart charge"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "smart charge"
+        },
+        {
+          "languageCode": "es",
+          "translation": "cargar inteligentemente"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "snildløða"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "recharger intelligemment"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "recharge intelligente"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ricaricare in modo intelligente"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "slim laden"
+        },
+        {
+          "languageCode": "no",
+          "translation": "smartlade"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "încărcare inteligentă"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "smartladda"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 199,
       "term": "smart charging",
-      "description": "Noun. Feature enabling to charge EV, when energy is at its lowest price or is greenest. Non-translatable.",
+      "description": "Description: Data-driven feature that controls when and how vehicles charge based on grid load, energy prices, and user preferences. Ensures efficient, affordable, and sustainable energy use across sites.\n \n\n Usage rules:\n • Distinguish from “scheduled charging” (time-based only).\n • Do not change spelling, e.g. SmartCharge, Smart charging. and do not introduce synonyms, e.g. intelligent charging.\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "intelligent opladning"
+        },
+        {
+          "languageCode": "de",
+          "translation": "intelligentes Laden"
+        },
+        {
+          "languageCode": "en",
+          "translation": "smart charging"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "smart charging"
+        },
+        {
+          "languageCode": "es",
+          "translation": "carga inteligente"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "snildløðing"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "recharge intelligente"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "recharge intelligente"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ricarica intelligente"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "slim laden"
+        },
+        {
+          "languageCode": "no",
+          "translation": "smart lading"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "încărcare inteligentă"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "smart laddning"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 200,
       "term": "solar charging ",
-      "description": "B2C feature in mobile app, enables EV charging directly from solar panels, using real-time or forecasted production data. Helps maximise self-consumption, reduce grid reliance, lower energy costs, and minimise carbon footprint. Can be configured to operate only when surplus solar energy is available.",
+      "description": "Description: B2C feature in Charge, enables EV charging directly from solar panels, using real-time or forecasted production data. Helps maximise self-consumption, reduce grid reliance, lower energy costs, and minimise carbon footprint. Can be configured to operate only when surplus solar energy is available.\n \n\n Usage rules:\n • Distinguish from “solar surplus charging” (surplus-only logic).\n • Use exact label and not modify it, e.g. SolarCharge, solar charge\n \n\n Platform: Charge\n Audience:B2C",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "solopladning"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Solarladen"
+        },
+        {
+          "languageCode": "en",
+          "translation": "solar charging "
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "solar charging "
+        },
+        {
+          "languageCode": "es",
+          "translation": "carga solar"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "sólarløðing"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "recharge solaire"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "recharge solaire"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ricarica solare"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "zonneladen"
+        },
+        {
+          "languageCode": "no",
+          "translation": "sollading"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Încărcare solară"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "solladdning"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 201,
       "term": "solar surplus charging",
-      "description": "The process of using excess solar energy generated by a photovoltaic (PV) system to charge an electric vehicle (EV)",
+      "description": "Description: A solar mode where charging starts only when excess solar production is available, minimizing imported grid energy. Supports energy autonomy and cost control.\n \n\n Usage rules:\n • Distinguish from generic “solar charging.”\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "opladning med soloverskud"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Laden mit Solarüberschuss"
+        },
+        {
+          "languageCode": "en",
+          "translation": "solar surplus charging"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "solar surplus charging"
+        },
+        {
+          "languageCode": "es",
+          "translation": "carga con excedente solar"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "avlopssólarløðing"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "recharge à partir du surplus solaire"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "recharge solaire avec surplus"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ricarica con surplus solare"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "opladen met zonne-energie overschot"
+        },
+        {
+          "languageCode": "no",
+          "translation": "lading med solenergioverskudd"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "încărcare cu surplus solar"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddning med solenergiöverskott"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": [
         {
@@ -12447,169 +14828,858 @@
     {
       "id": 202,
       "term": "sort code",
-      "description": "A unique identifier of the individual branch or bank office where a bank account is held.",
+      "description": "Description: A six-digit bank code used in the UK and Ireland to identify a specific bank and branch for an account. Used by Monta to validate bank details for withdrawals or direct debits in these markets.\n \n\n Usage rules:\n • Use only in UK/IE in source; apply corresponding local term to represent the same concept across the languages. \n • Never use in plural \n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "reg. nr."
+        },
+        {
+          "languageCode": "de",
+          "translation": "Bankleitzahl"
+        },
+        {
+          "languageCode": "en",
+          "translation": "sort code"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "sort code"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Sort Code"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "sort code (bretskt bankakennital)"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "code guichet"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "numéro de routage"
+        },
+        {
+          "languageCode": "it",
+          "translation": "codice SORT"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "sorteercode"
+        },
+        {
+          "languageCode": "no",
+          "translation": "IBAN"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Cod SWIFT"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "clearingnummer"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 203,
       "term": "spot price",
-      "description": "Spot price defines a master price based on Nordpool data (leading power market in Europe), accounting for electricity price fluctuations. When setting up a price group, a master price is selected per kWh, minute, or spot data. Available only in markets with Nordpool access.",
+      "description": "Description: Real-time electricity price per kWh from market data (e.g., Nord Pool) used to calculate dynamic charging costs and shift usage to cheaper hours. Available only in supported markets.\n \n\n Usage rules:\n • Distinguish from fixed price and member price tariffs.\n • In Price groups, use as the master price option when selecting “spot price.”\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "spotpris"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Spotpreis"
+        },
+        {
+          "languageCode": "en",
+          "translation": "spot price"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "spot price"
+        },
+        {
+          "languageCode": "es",
+          "translation": "precio spot"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "spot-prísur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "prix spot"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "prix au comptant"
+        },
+        {
+          "languageCode": "it",
+          "translation": "prezzo spot"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "spotprijs"
+        },
+        {
+          "languageCode": "no",
+          "translation": "spotpris"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "preț spot"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "spotpris"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 38,
       "term": "SSO",
-      "description": "Single sign-on. SSO is an authentication scheme that allows a user to log in with a single ID to any of several related, yet independent, software systems.",
+      "description": "Description: An authentication method allowing users to access Monta with existing organizational or third-party credentials. \n \n\n Usage rules:\n • On first mention write “Single Sign-On (SSO)”; use “SSO” thereafter.\n • Distinguish from MFA (additional factor) and password login.\n \n\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "SSO"
+        },
+        {
+          "languageCode": "de",
+          "translation": "SSO"
+        },
+        {
+          "languageCode": "en",
+          "translation": "SSO"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "SSO"
+        },
+        {
+          "languageCode": "es",
+          "translation": "SSO"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "SSO"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "SSO"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "AU"
+        },
+        {
+          "languageCode": "it",
+          "translation": "SSO"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "SSO"
+        },
+        {
+          "languageCode": "no",
+          "translation": "SSO"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "SSO"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "SSO"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 204,
       "term": "start fee",
-      "description": "Fee description (visible to users) applied when charging starts. A one-off fee at the beginning of the charge. Used in the price group context, with four fee types in total: starting fee, charging fee, minute fee, and idle fee",
+      "description": "Description: A fixed cost applied at the initiation of a charging session. Operators configure start fees within pricing to cover connection or transaction costs.\n \n\n Usage rules:\n • Distinguish from per-kWh, per-minute, or idle fees.\n • Used in the price group context, along 4 fee types in total: starting fee, charging fee, minute fee, and idle fee. \n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "startgebyr"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Startgebühr"
+        },
+        {
+          "languageCode": "en",
+          "translation": "start fee"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "starting fee"
+        },
+        {
+          "languageCode": "es",
+          "translation": "cargo de inicio"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "byrjanargjald"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "frais de départ"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "frais de départ"
+        },
+        {
+          "languageCode": "it",
+          "translation": "costo iniziale"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "opstartkosten"
+        },
+        {
+          "languageCode": "no",
+          "translation": "startavgift"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "taxă de pornire"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "startavgift"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 205,
       "term": "start time",
-      "description": "Start time of a charge session, used in the \"Schedule\" feature, one of the charge methods (Charge now, SmartCharge, and Schedule)",
+      "description": "Description: The exact moment a charging session begins or is scheduled to begin. Used for reporting, smart scheduling, and billing calculations.\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "starttidspunkt"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Startzeit"
+        },
+        {
+          "languageCode": "en",
+          "translation": "start time"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "start time"
+        },
+        {
+          "languageCode": "es",
+          "translation": "hora de inicio"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "byrjanartíð"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "heure de début"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "heure de début"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ora di inizio"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "starttijd"
+        },
+        {
+          "languageCode": "no",
+          "translation": "starttid"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "ora de începere"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "starttid"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 206,
-      "term": "state of charge (SoC)",
-      "description": "It refers to the current battery charge level as a percentage of its total capacity.",
+      "term": "state of charge",
+      "description": "Description: The current EV battery level expressed as a percentage of total capacity. Monta uses SoC to inform smart charging, session insights, and energy forecasting.\n \n\n Usage rules:\n • On first mention write “State of Charge (SoC)”; use “SoC” thereafter.\n • Use as a percentage (e.g., 20%, 80%); avoid kWh unless explicitly measured.\n • Distinguish from “target SoC” (desired level) and “range.”\n • Do not estimate SoC without a verified data source.\n \n\n Platform: Charge, Hub, Control\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladetilstand"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladezustand"
+        },
+        {
+          "languageCode": "en",
+          "translation": "state of charge"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "state of charge"
+        },
+        {
+          "languageCode": "es",
+          "translation": "estado de la carga"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "løðistøða (SoC)"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "état de charge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "état de charge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "stato della ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadstatus"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladetilstand"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "starea Încărcării"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningsstatus"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 207,
       "term": "statement",
-      "description": "An invoice overview, a total overview of the parts that makes up the invoice for a certain period of time.",
+      "description": "Description: A financial summary in Monta that consolidates transactions, earnings, and withdrawals for a defined period. Used by operators and team owners for accounting and reconciliation.\n \n\n Usage rules:\n • Distinguish from “invoice” (bill) and “receipt” (proof of payment).\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "opgørelse"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Abrechnungsübersicht"
+        },
+        {
+          "languageCode": "en",
+          "translation": "statement"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "statement"
+        },
+        {
+          "languageCode": "es",
+          "translation": "extracto"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "uppgerð"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "relevé"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "relevé"
+        },
+        {
+          "languageCode": "it",
+          "translation": "estratto"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "factuuroverzicht"
+        },
+        {
+          "languageCode": "no",
+          "translation": "fakturaoversikt"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "situație facturi"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "utdrag"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 41,
       "term": "StationID",
-      "description": "A unique identifier for a specific charge station. A technical term, used in technical and software documentations. 3rd party term Advenir",
+      "description": "Description: The unique identifier assigned by Monta to a charge point for consistent tracking, reporting, and integrations. Used across hardware mappings, APIs, and operator networks.\n \n\n Usage rules:\n • Do not confuse with “serial number” (hardware) or “Meter ID.”\n • Do not modify, it’s a technical term. \n • Source and target intact, do not translate. \n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 42,
-      "term": "Stay in charge",
-      "description": "Monthly newsletter's title",
-      "caseSensitive": false,
-      "translatable": false,
-      "forbidden": false,
-      "tags": "brand",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "StationID"
+        },
+        {
+          "languageCode": "de",
+          "translation": "StationID"
+        },
+        {
+          "languageCode": "en",
+          "translation": "StationID"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "StationID"
+        },
+        {
+          "languageCode": "es",
+          "translation": "StationID"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "StationID"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "StationID"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "StationID"
+        },
+        {
+          "languageCode": "it",
+          "translation": "StationID"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "StationID"
+        },
+        {
+          "languageCode": "no",
+          "translation": "StationID"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "StationID"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "StationID"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 208,
       "term": "sticker",
-      "description": " QR code, enables access to the charging service.",
+      "description": "Description: A physical label with a QR code on a charge point that lets drivers identify the device and start a session via Charge. May include charge point ID, operator logo, and quick-start steps.\n \n\n Usage rules:\n • Distinguish from “RFID card/key” and “Payment Terminal.”\n \n\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "sticker"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Sticker"
+        },
+        {
+          "languageCode": "en",
+          "translation": "sticker"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "sticker"
+        },
+        {
+          "languageCode": "es",
+          "translation": "sticker"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "heftimerki"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "sticker"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "autocollant"
+        },
+        {
+          "languageCode": "it",
+          "translation": "sticker"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "sticker"
+        },
+        {
+          "languageCode": "no",
+          "translation": "klistremerke"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "autocolant"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "sticker"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 272,
+      "term": "sub-account",
+      "description": "Description: A sub-account is an operational account within an organization’s main account. It acts as an independent unit with its own users, teams, sites, and charging stations while remaining linked through the organization’s umbrella structure.\n \n\n Usage rules:\n • Use “sub-account” in running text (lowercase, with hyphen). Capitalize only when it appears as a UI label, menu item, or title. \n • Preferred article and plural: “a sub-account”; “sub-accounts.” Follow sentence case in body copy; use  \n \n\n Platform: Hub, Control \n Audience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "underkonto"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Unterkonto"
+        },
+        {
+          "languageCode": "en",
+          "translation": "sub-account"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "sub-account"
+        },
+        {
+          "languageCode": "es",
+          "translation": "subcuenta"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "undirkonta"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "sous-compte"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "sous-compte"
+        },
+        {
+          "languageCode": "it",
+          "translation": "account secondario"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "subaccount"
+        },
+        {
+          "languageCode": "no",
+          "translation": "underkonto"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "subcont"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "underkonto"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 209,
       "term": "support settings",
-      "description": "Settings under Team settings in Portal. Support settings are mapped out in 3 sub-categories, i.e. Monta, installer and operator to differentiate which support falls under which actor.",
+      "description": "Description: Hub configurations that define how support is handled for a team, site, or partner (contacts, escalation, and system integrations). Streamlines routing and resolution.\n \n\n Usage rules:\n • Distinguish from “roles” (permissions) and “status page” (service health).\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "supportindstillinger"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Support-Einstellungen"
+        },
+        {
+          "languageCode": "en",
+          "translation": "support settings"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "support settings"
+        },
+        {
+          "languageCode": "es",
+          "translation": "ajustes de soporte"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "hjálparstillingar"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "hjálparstillingar"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "paramètres de soutien"
+        },
+        {
+          "languageCode": "it",
+          "translation": "impostazioni di supporto"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "ondersteuningsinstellingen"
+        },
+        {
+          "languageCode": "no",
+          "translation": "støtteinstillinger"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "setări asistență"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "supportinställningar"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 43,
       "term": "Supporter",
-      "description": "Role access functionality for Business plan users in HUB, enabling to diversify access permissions for team members within an account. Supporter  role  is dedicated to the support team and handles end-users queries, troubleshooting issues with charge points.",
+      "description": "Description: A member role with permissions to assist users, monitor charge points, and handle inquiries with limited administration rights. \n \n\n Usage rules:\n • Distinguish from “Manager” and “Owner” roles.\n \n\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "Supporter"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Support-Mitarbeiter"
+        },
+        {
+          "languageCode": "en",
+          "translation": "Supporter"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Supporter"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Miembro de Soporte"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "kundatænasta"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Assistant"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "assistant"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Membro di supporto"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Supporter"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Supporter"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Supporter"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Supportgivare"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 210,
       "term": "surplus energy",
-      "description": "Excess electricity generated beyond immediate consumption needs, which can be stored, used for charging, or fed back into the grid.",
+      "description": "Description: Excess electricity—typically from on-site renewables—not immediately consumed. Used by solar surplus charging to power EVs, reducing grid import and waste.\n \n\n Usage rules:\n • Distinguish from “solar charging” (general) and “export” (to grid).\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "overskudsstrøm"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Überschussstrom"
+        },
+        {
+          "languageCode": "en",
+          "translation": "surplus energy"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "surplus energy"
+        },
+        {
+          "languageCode": "es",
+          "translation": "electricidad excedente"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "avlopsorka"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "énergie excédentaire"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "surplus d’énergie"
+        },
+        {
+          "languageCode": "it",
+          "translation": "elettricità in eccesso"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "overtollige elektriciteit"
+        },
+        {
+          "languageCode": "no",
+          "translation": "overskuddstrøm"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "electricitate excedentară"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "överskottsel"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": [
         {
@@ -12621,52 +15691,264 @@
     {
       "id": 211,
       "term": "swipe",
-      "description": "Verb, CTA for approving and enabling certain task in the consumer app.",
+      "description": "Description: CTA in Charge that lets a user start or stop a charging session by swiping to confirm. \n \n\n Usage rules:\n • Use “swipe to start/stop” for action copy; avoid synonyms like “slide.”\n • Do not use for Hub actions.\n \n\n Platform: Charge\n Audience: B2C",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "swipe"
+        },
+        {
+          "languageCode": "de",
+          "translation": "wische"
+        },
+        {
+          "languageCode": "en",
+          "translation": "swipe"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "swipe"
+        },
+        {
+          "languageCode": "es",
+          "translation": "aceptar"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "swipe"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "balayer"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "glisser"
+        },
+        {
+          "languageCode": "it",
+          "translation": "scorrere"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "swipe"
+        },
+        {
+          "languageCode": "no",
+          "translation": "sveip"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "glisare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "svajpa"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 212,
       "term": "tariff",
-      "description": "See \"Network tariff\" for more details. Used both as stand-alone \"tariff\" and as \"network tariff\"",
+      "description": "Description: A structured pricing model that defines how charging costs are calculated (e.g., per kWh, per minute, idle or start fees). In Monta, tariffs can be fixed, spot-based (dynamic), or customized for specific user groups.\n \n\n Usage rules:\n • Distinguish from “price group” (configuration entity) and “master price” (base rate).\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "tariff"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Tarif"
+        },
+        {
+          "languageCode": "en",
+          "translation": "tariff"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "tariff"
+        },
+        {
+          "languageCode": "es",
+          "translation": "tarifa"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "gjald"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "tarif"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "tarif"
+        },
+        {
+          "languageCode": "it",
+          "translation": "tariffa"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "tarief"
+        },
+        {
+          "languageCode": "no",
+          "translation": "tariff"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "tarif"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "elnätsavgift"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 213,
       "term": "tax ID",
-      "description": "A Tax Identification in the US,  a unique number assigned by the Internal Revenue Service (IRS) to individuals and entities for tax reporting purposes. European equivalent is VAT number",
+      "description": "Description: US-centric, a tax authority identifier for individuals or businesses used for tax reporting purposes. European equivalent is VAT number.\n \n\n Usage rules:\n • On first mention, you may write “Tax Identification Number (Tax ID)” where needed.\n • Use country-specific names only when required (e.g., VAT number).\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "momsnr."
+        },
+        {
+          "languageCode": "de",
+          "translation": "USt-IdNr."
+        },
+        {
+          "languageCode": "en",
+          "translation": "tax ID"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "tax ID"
+        },
+        {
+          "languageCode": "es",
+          "translation": "N.º de IVA"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "V-tal"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "numéro de TVA"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "NE"
+        },
+        {
+          "languageCode": "it",
+          "translation": "P.IVA"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "BTW-nummer"
+        },
+        {
+          "languageCode": "no",
+          "translation": "MVA-nr."
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cod TVA"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "momsnr"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 214,
       "term": "tax identification number ",
-      "description": "Italian billing compliance term, used in Italy-only for fiscal activities. No equlavent concepts in other languages, thus do a literal translation. ",
+      "description": "Description: An Italian tax identifier used exclusively for invoicing and fiscal reporting in Italy. In practice this is Codice Fiscale for individuals and Partita IVA for businesses.\n \n\n Usage rules:\n • In Italian-market UIs, use the legal terms Codice Fiscale (individual) and Partita IVA (business); do not invent alternative labels.\n • Do not confuse with non-Italian “Tax ID”. The term has no direct equivalent in other languages and should be translated literally in localized interfaces to maintain regulatory accuracy.\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "skatteidentifikationsnummer"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Steueridentifikationsnummer"
+        },
+        {
+          "languageCode": "en",
+          "translation": "tax identification number"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "tax identification number"
+        },
+        {
+          "languageCode": "es",
+          "translation": "número de identificación fiscal"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "skattakennital"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "numéro d'identification fiscale"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "numéro d'identification fiscale"
+        },
+        {
+          "languageCode": "it",
+          "translation": "codice fiscale"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "fiscaal identificatienummer"
+        },
+        {
+          "languageCode": "no",
+          "translation": "skatteidentifikasjonsnummer"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cod de identificare fiscală"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "skatteidentifikationsnummer"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": [
         {
@@ -12678,91 +15960,726 @@
     {
       "id": 215,
       "term": "team",
-      "description": "Feature: A team manages charge points, members, prices, access, Wallet, and more. There are 4 team types: personal, private, professional, and operator.",
+      "description": "Description: A shared organizational unit that groups users under common wallets, sites, and permissions to manage charge points, access, pricing, and reporting. 4 team types: personal, private, professional, and operator.\n \n\n Usage rules:\n • Use sentence case in running text and stand-alone UI labels. All other case, use lower case. \n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "brand",
-      "pluralForm": null,
-      "translations": [],
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "team"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Team"
+        },
+        {
+          "languageCode": "en",
+          "translation": "team"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "team"
+        },
+        {
+          "languageCode": "es",
+          "translation": "equipo"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "toymi"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "groupe"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "équipe"
+        },
+        {
+          "languageCode": "it",
+          "translation": "team"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "team"
+        },
+        {
+          "languageCode": "no",
+          "translation": "team"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "grup"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "team"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 273,
+      "term": "team owner",
+      "description": "Description: An owner of a shared organizational unit that groups users under common wallets, sites, and permissions to manage charge points, access, pricing, and reporting. 4 team types: personal, private, professional, and operator.\n \n\n Usage rules:\n • Use sentence case in running text and stand-alone UI labels. All other case, use lower case. \n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "teamejer"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Teameigentümer"
+        },
+        {
+          "languageCode": "en",
+          "translation": "team owner"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "team owner"
+        },
+        {
+          "languageCode": "es",
+          "translation": "propietario de equipo"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "tyomieigar"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "propriétaire du groupe"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "propriétaire de l'équipe"
+        },
+        {
+          "languageCode": "it",
+          "translation": "proprietario del team"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "team-eigenaar"
+        },
+        {
+          "languageCode": "no",
+          "translation": "teameier"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "administratorul echipei"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "teamägare"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 274,
+      "term": "temporary hold",
+      "description": "Description: A temporary reservation of funds on a customer’s payment card to confirm sufficient balance before the final charge amount is captured. Used during charging to validate payment; the hold is released or adjusted when the final amount is settled.  \n \n\n Usage rules:\n • Use lowercase: “temporary hold.” Acceptable variants in parentheses on first mention: “temporary hold (authorization hold or pre-authorization).”\n • Prefer “temporary hold” in customer-facing copy; use “authorization hold” in technical or payment settings.\n • Hyphenate “pre-authorization”; avoid “preauth,” “preauth hold,” or “deposit.”\n • Do not call it a “charge,” “payment,” or “fee.” If clarity is needed, use “not a charge” in explanatory text.\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "midlertidig beløbsreservation"
+        },
+        {
+          "languageCode": "de",
+          "translation": "vorübergehende Karten­reservierung"
+        },
+        {
+          "languageCode": "en",
+          "translation": "temporary hold"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "temporary hold"
+        },
+        {
+          "languageCode": "es",
+          "translation": "retención temporal"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "fyribils gjaldsbílegging"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "empreinte bancaire"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "empreinte de carte"
+        },
+        {
+          "languageCode": "it",
+          "translation": "blocco temporaneo"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "tijdelijke kaartreservering"
+        },
+        {
+          "languageCode": "no",
+          "translation": "midlertidig beløpsreservasjon"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "blocare temporară a sumei"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "tillfällig kortreservation"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 275,
+      "term": "Terms and Conditions",
+      "description": "Description: The legally binding agreement that defines how users may access and use Monta’s products and services (Hub, Charge, Control), including rights, obligations, and limitations. \n \n\n Usage rules:\n • Capitalize as a proper document title: “Terms and Conditions.”\n • In running text, use the definite article: “the Terms and Conditions.”\n • Do not abbreviate (avoid “T&Cs,” “T&C”).\n • Singular reference preferred (“The Terms and Conditions apply”); avoid treating it as a countable noun.\n • Do not use as a catch-all for policies; prefer “Privacy Policy,” “Cookie Policy,” or “Service Agreement” when those are meant.\n \n\n Platform: Hub, Charge, Control\n Audience: B2B and B2C",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "Vilkår og betingelser"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Allgemeine Geschäftsbedingungen"
+        },
+        {
+          "languageCode": "en",
+          "translation": "Terms and Conditions"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Terms and Conditions"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Términos y condiciones"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Treytir og ásetingar"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Conditions d’utilisation"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Conditions d’utilisation"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Termini e condizioni"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Algemene Voorwaarden"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Vilkår og betingelser"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Termeni și condiții"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Allmänna villkor"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 216,
       "term": "theme",
-      "description": "Functionality, enabling partners to brand Monta's software services with their branding elements.",
+      "description": "Description: The configurable visual style (e.g., colors, typography accents) applied in Charge or Hub to align with brand guidelines and improve usability.\n \n\n Usage rules:\n • Do not imply functional changes; theme affects appearance only.\n • Keep terminology consistent with design system tokens.\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "tema"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Thema"
+        },
+        {
+          "languageCode": "en",
+          "translation": "theme"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "theme"
+        },
+        {
+          "languageCode": "es",
+          "translation": "tema"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "tema"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "thème"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "thème"
+        },
+        {
+          "languageCode": "it",
+          "translation": "tema"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "thema"
+        },
+        {
+          "languageCode": "no",
+          "translation": "tema"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "temă"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "tema"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 217,
       "term": "transaction fee",
-      "description": "Monta retains 2 % of each transaction, occurring during a paid charge session.",
+      "description": "Description: A per-transaction cost applied to charging sessions or financial operations processed through Monta. Covers payment handling, processing, and platform service costs for operators and teams.\n \n\n Usage rules:\n • Distinguish from “start fee,” “idle fee,” and “service fee.”\n • Do not imply percentage vs fixed amount without stating it.\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "transaktionsgebyr"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Transaktionsgebühr"
+        },
+        {
+          "languageCode": "en",
+          "translation": "transaction fee"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "transaction fee"
+        },
+        {
+          "languageCode": "es",
+          "translation": "tasa por transacción"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "flytingargjald"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "frais de transaction"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "frais de transaction"
+        },
+        {
+          "languageCode": "it",
+          "translation": "costo della transazione"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "transactiekosten"
+        },
+        {
+          "languageCode": "no",
+          "translation": "transaksjonsavgift"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "taxă tranzacție"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "transaktionsavgift"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 218,
       "term": "user",
-      "description": "Concept - users in a general sense and encompasses all segments groups within b2c, b2b, b2p.",
+      "description": "Description: An individual with a Monta account. Users can manage charging, access charge points, join teams, and handle payments based on assigned permissions.\n \n\n Usage rules:\n • Distinguish “user” (person) from “Member/Manager/Owner” (roles).\n • Avoid using “driver” unless specifically referring to B2C usage in Charge.\n • Us",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "bruger"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Nutzer"
+        },
+        {
+          "languageCode": "en",
+          "translation": "user"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "user"
+        },
+        {
+          "languageCode": "es",
+          "translation": "usuario"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "brúkari"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "utilisateur"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "utilisateur"
+        },
+        {
+          "languageCode": "it",
+          "translation": "utente"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "gebruiker"
+        },
+        {
+          "languageCode": "no",
+          "translation": "bruker"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "utilizator"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "användare"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 219,
       "term": "user role",
-      "description": "Role of the user in a team in the portal (e.g. Member, Administrator, ..)",
+      "description": "Description: The permission level assigned to a user within a team or organization (e.g., Owner, Manager, Member, Supporter). Determines allowed actions across sites, wallets, and charge points.\n \n\n Usage rules:\n • Do not invent new role names; use the approved set.\n \n\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "brugerrolle"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Nutzerrolle"
+        },
+        {
+          "languageCode": "en",
+          "translation": "user role"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "user role"
+        },
+        {
+          "languageCode": "es",
+          "translation": "rol de usuario"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "brúkaraleiklutur"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "rôle de l’utilisateur"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "rôle d’utilisateur"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ruolo dell'utente"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "gebruikersrol"
+        },
+        {
+          "languageCode": "no",
+          "translation": "brukerrollec"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "rol utilizator"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "användarroll"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 276,
+      "term": "VAT (%)",
+      "description": "Description: a percentage tax rate applied to the price of goods or services and shown on Monta invoices. It is relevant for EU transactions, including cross-border sales; in a U.S. context, the rough equivalent concept is “sales tax.”\n \n\n Usage rules:\n • Use “VAT” where it is the legal standard; do not mix with “sales tax” (U.S. concept).\n • Follow localization and fiscalization rules for wording, rounding, and export formats.\n \n\n Platform: Hub\n Audience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "moms"
+        },
+        {
+          "languageCode": "de",
+          "translation": "USt"
+        },
+        {
+          "languageCode": "en",
+          "translation": "VAT"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "sales tax"
+        },
+        {
+          "languageCode": "es",
+          "translation": "IVA"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "meirvirðisgjald"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "TVA"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "taxe de vente"
+        },
+        {
+          "languageCode": "it",
+          "translation": "IVA"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "BTW"
+        },
+        {
+          "languageCode": "no",
+          "translation": "MVA"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "TVA"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "moms"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 44,
-      "term": "VAT",
-      "description": "A VAT identification number (or VAT number) identifies a business registered for VAT, used for cross-border trade within the EU and internationally. Format - country code + numeric/alphanumeric ID",
+      "term": "VAT (code)",
+      "description": "Description: A unique code assigned for businesses registered for Value Added Tax, used to identify taxable entities in EU and international trade. Typically formatted as an ISO country code (e.g., DK, DE, FR) followed by a numeric or alphanumeric sequence per local rules.\n \n\n Usage rules:\n • Use the country-specific format and validate where possible (e.g., EU VIES); do not alter spacing or punctuation from the official input.\n • Do not confuse with the VAT rate or generic “Tax ID.”\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "momsnr."
+        },
+        {
+          "languageCode": "de",
+          "translation": "USt-IdNr."
+        },
+        {
+          "languageCode": "en",
+          "translation": "VAT"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Tax ID"
+        },
+        {
+          "languageCode": "es",
+          "translation": "N.º de IVA"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "V-tal"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "numéro de TVA"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "NE"
+        },
+        {
+          "languageCode": "it",
+          "translation": "P.IVA"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "BTW-nummer"
+        },
+        {
+          "languageCode": "no",
+          "translation": "MVA-nr."
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cod TVA"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "momsnr"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 45,
       "term": "VAT export ",
-      "description": "EU VAT regulation term, applied in use cases, where 0% VAT rate is applied. Zero-rated VAT must be reported appropriately in transactions.",
+      "description": "Description: EU VAT term for transactions taxed at 0% (zero-rated) due to export rules. Although no VAT is charged, the sale must be shown on the invoice with the correct legal reference and included in VAT reports/exports.\n \n\n Usage rules:\n • Outside the EU, use a descriptive local equivalent; if required, add “zero-rated sales tax (EU VAT rules apply)” as an explanatory note.\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "VAT export"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ausfuhrlieferung (0 % MwSt)"
+        },
+        {
+          "languageCode": "en",
+          "translation": "VAT export"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "zero-rated sales tax (EU VAT rules apply)"
+        },
+        {
+          "languageCode": "es",
+          "translation": "exportación exenta de IVA"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "MVG-frítøka við útflutningi"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "MVG-frítøka við útflutningi"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "taxe de vente à taux zéro (règles de la TVA de l’UE applicables)"
+        },
+        {
+          "languageCode": "it",
+          "translation": "operazioni non imponibili"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "uitvoerlevering (0 % btw)"
+        },
+        {
+          "languageCode": "no",
+          "translation": "MVA-fritak ved eksport"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "export scutit de TVA"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "momsfri export"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": [
         {
@@ -12774,65 +16691,198 @@
     {
       "id": 46,
       "term": "VIN",
-      "description": "Refers to the Vehicle Identification Number (VIN), a unique code that identifies a vehicle and provides details about its manufacturing. \"VIN\" is globally standardized and commonly used across languages. For clarity in long-form content, it can be spelled out with local translation",
+      "description": "Description: A globally standardized unique code that identifies an individual vehicle and encodes manufacturer and build details (e.g., make, model, year, origin).\n \n\n Usage rules:\n • Write “VIN” in all caps; on first mention in long-form/regulatory text, use “Vehicle Identification Number (VIN).”\n • \"VIN\" is globally standardized and commonly used across languages. For clarity in long-form content, it can be spelled out with local translation\n \n\n \n\n Platform: Hub\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "stelnummer"
+        },
+        {
+          "languageCode": "de",
+          "translation": "FIN"
+        },
+        {
+          "languageCode": "en",
+          "translation": "VIN"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "VIN"
+        },
+        {
+          "languageCode": "es",
+          "translation": "VIN"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "skrokknummar"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "numéro VIN"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "code VIN"
+        },
+        {
+          "languageCode": "it",
+          "translation": "numero di identificazione del veicolo"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "voertuigidentificatienummer"
+        },
+        {
+          "languageCode": "no",
+          "translation": "chassisnummer"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "VIN"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "VIN"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 220,
       "term": "wallet",
-      "description": "Monta's financial service feature, which facilitates transactions to and from bank accounts, payments, reimbursements etc.",
+      "description": "Description: Monta’s internal digital payment account for storing, managing, and transferring funds. Supports deposits, withdrawals, reimbursements, and automated payments for charging and subscriptions.\n \n\n Usage rules:\n • Use sentence case only in stand-alone UI labels and in the start of sentence, otherwise - lower case. \n • Use “refill” for adding funds and “withdrawal” for moving funds out; avoid generic “top-up” if the UI uses “Refill.”\n • Avoid using “wallet” as a synonym for balance or invoice.\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "brand",
-      "pluralForm": null,
-      "translations": [],
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "wallet"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Wallet"
+        },
+        {
+          "languageCode": "en",
+          "translation": "wallet"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "wallet"
+        },
+        {
+          "languageCode": "es",
+          "translation": "wallet"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "mappa"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "wallet"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "portefeuille"
+        },
+        {
+          "languageCode": "it",
+          "translation": "portafoglio"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "wallet"
+        },
+        {
+          "languageCode": "no",
+          "translation": "wallet"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "wallet"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "wallet"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
     {
       "id": 221,
       "term": "white label",
-      "description": "Service, where Monta resells tech solutions to another company. The buying company rebrands the service as their own. ",
+      "description": "Description: Monta’s branding capability that lets partners run the platform under their own brand (logos, colors, custom domain), so end users see the partner’s identity across login, Hub, and user-facing links. \n \n\n Usage rules:\n • Scope is branding and domains; it does not change core functionality, legal entities, or data ownership.\n \n\n Platform: Hub, Charge\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 222,
-      "term": "wholesaler",
-      "description": "Entities that specialize in selling EV charge points in bulk or on a wholesale level.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 223,
-      "term": "workplace charging",
-      "description": "Refers to charging accommodated at a work place",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": null,
-      "translations": [],
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "white label"
+        },
+        {
+          "languageCode": "de",
+          "translation": "White-Label"
+        },
+        {
+          "languageCode": "en",
+          "translation": "white label"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "white label"
+        },
+        {
+          "languageCode": "es",
+          "translation": "marca blanca"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "hvítmerkt loysn"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "marque blanche"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "marque blanche"
+        },
+        {
+          "languageCode": "it",
+          "translation": "white label"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "white label"
+        },
+        {
+          "languageCode": "no",
+          "translation": "white label"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "white label"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "white label"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     }
