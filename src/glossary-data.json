@@ -2457,7 +2457,24 @@
           "translation": "laddningshistorik"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "charging history",
+          "isPlural": false
+        },
+        {
+          "alternative": "session history",
+          "isPlural": false
+        },
+        {
+          "alternative": "charge log",
+          "isPlural": false
+        },
+        {
+          "alternative": "charging log",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -2523,7 +2540,16 @@
           "translation": "laddbricka"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "charge card",
+          "isPlural": false
+        },
+        {
+          "alternative": "charging card",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -3152,7 +3178,12 @@
           "translation": "laddningssession"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "charging session",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -3639,6 +3670,19 @@
       "additionalDescriptions": []
     },
     {
+      "id": 277,
+      "term": "charging point /test",
+      "description": "",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": true,
+      "tags": "",
+      "pluralForm": "",
+      "translations": [],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 260,
       "term": "charging power",
       "description": "Description: The instantaneous rate at which electrical energy is transferred or used during charging. Expressed in kilowatts (kW).  \n \n\n Usage rules: \n • Preferred terms: “power,” “charging power.” Avoid using “charging speed” in technical UI; reserve it only for consumer-friendly copy if needed. \n \n\n Platform: Hub, Charge, Control\n Audience: B2B and B2C",
@@ -3899,8 +3943,30 @@
           "translation": "laddplats"
         }
       ],
-      "alternatives": [],
-      "additionalDescriptions": []
+      "alternatives": [
+        {
+          "alternative": "charging station",
+          "isPlural": false
+        },
+        {
+          "alternative": "charge site",
+          "isPlural": false
+        },
+        {
+          "alternative": "charging location",
+          "isPlural": false
+        },
+        {
+          "alternative": "charging hub",
+          "isPlural": false
+        }
+      ],
+      "additionalDescriptions": [
+        {
+          "languageCode": "da",
+          "description": ""
+        }
+      ]
     },
     {
       "id": 85,
@@ -6685,6 +6751,18 @@
         },
         {
           "alternative": "charging amount",
+          "isPlural": false
+        },
+        {
+          "alternative": "energy quantity",
+          "isPlural": false
+        },
+        {
+          "alternative": "charging amount",
+          "isPlural": false
+        },
+        {
+          "alternative": "kWh amount",
           "isPlural": false
         }
       ],
@@ -10232,7 +10310,20 @@
           "translation": "medlemsavgift"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "membership fee",
+          "isPlural": false
+        },
+        {
+          "alternative": "user fee",
+          "isPlural": false
+        },
+        {
+          "alternative": "member cost",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -12687,7 +12778,24 @@
           "translation": "prisgrupp"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "pricing group",
+          "isPlural": false
+        },
+        {
+          "alternative": "price tier",
+          "isPlural": false
+        },
+        {
+          "alternative": "tariff group",
+          "isPlural": false
+        },
+        {
+          "alternative": "rate group",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -14685,7 +14793,28 @@
           "translation": "smart laddning"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "intelligent charging",
+          "isPlural": false
+        },
+        {
+          "alternative": "scheduled charging",
+          "isPlural": false
+        },
+        {
+          "alternative": "optimized charging",
+          "isPlural": false
+        },
+        {
+          "alternative": "smart charge",
+          "isPlural": false
+        },
+        {
+          "alternative": "smartcharge",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
