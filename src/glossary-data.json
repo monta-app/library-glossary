@@ -1115,7 +1115,12 @@
           "translation": "autopåfyllning"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "automatic top-up",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -1578,7 +1583,16 @@
           "translation": "saldo"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "wallet balance",
+          "isPlural": false
+        },
+        {
+          "alternative": "available funds",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -2615,7 +2629,12 @@
           "translation": "laddningsgräns"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "battery charge limit",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -3112,7 +3131,20 @@
           "translation": "laddningspris"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "charging fee",
+          "isPlural": false
+        },
+        {
+          "alternative": "session cost",
+          "isPlural": false
+        },
+        {
+          "alternative": "",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -3534,7 +3566,12 @@
           "translation": "laddkabel"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "charge cable",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -3666,7 +3703,16 @@
           "translation": "laddavgift"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "charge price",
+          "isPlural": false
+        },
+        {
+          "alternative": "session cost",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -3745,7 +3791,12 @@
           "translation": "laddningseffekt"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "charge power",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -3811,7 +3862,16 @@
           "translation": "laddningsregel"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "charging automation",
+          "isPlural": false
+        },
+        {
+          "alternative": "charge rule",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -3877,7 +3937,12 @@
           "translation": "laddningsschema"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "charge schedule",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -4436,7 +4501,16 @@
           "translation": "laddkontakt"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "plug",
+          "isPlural": false
+        },
+        {
+          "alternative": "charging plug",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -5747,7 +5821,16 @@
           "translation": "fördröjd start"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "scheduled start",
+          "isPlural": false
+        },
+        {
+          "alternative": "",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -6393,7 +6476,16 @@
           "translation": "elpris"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "electricity costs",
+          "isPlural": false
+        },
+        {
+          "alternative": "grid price",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -7496,7 +7588,12 @@
           "translation": "fast pris"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "flat rate",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -8297,7 +8394,16 @@
           "translation": "hemmaladdare"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "home charge point",
+          "isPlural": false
+        },
+        {
+          "alternative": "residential charger",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -8363,7 +8469,12 @@
           "translation": "hemmaladdning"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "residential charging",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -8835,7 +8946,12 @@
           "translation": "blockeringsavgift"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "parking fee",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -9641,7 +9757,12 @@
           "translation": "kWh-pris"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "energy price",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -9912,6 +10033,14 @@
         },
         {
           "alternative": "master account",
+          "isPlural": false
+        },
+        {
+          "alternative": "primary account",
+          "isPlural": false
+        },
+        {
+          "alternative": "parent account",
           "isPlural": false
         }
       ],
@@ -13394,6 +13523,77 @@
           "translation": "realimentare"
         }
       ],
+      "alternatives": [
+        {
+          "alternative": "top-up",
+          "isPlural": false
+        }
+      ],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 278,
+      "term": "reimburse",
+      "description": "Description: To repay a user or customer for an eligible amount they have already paid, such as a charging session or fee.\n\nUsage rules:\n\nUse as a verb in active voice.\n\nDo not capitalize unless it starts a sentence.\n\nDo not use as a noun; use “reimbursement” for the process or result.\n\nUse only when returning money that has already been paid, not for credits or discounts.\n\nPlatform: Hub, Charge\nAudience: B2B and B2C",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "refundere"
+        },
+        {
+          "languageCode": "de",
+          "translation": "erstatten"
+        },
+        {
+          "languageCode": "en",
+          "translation": "reimburse"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "reimburse"
+        },
+        {
+          "languageCode": "es",
+          "translation": "reembolsar "
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "endurrinda"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "rembourser"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "rembourser"
+        },
+        {
+          "languageCode": "it",
+          "translation": "rimborsare"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "vergoeden  "
+        },
+        {
+          "languageCode": "no",
+          "translation": "refundere "
+        },
+        {
+          "languageCode": "ro",
+          "translation": "rambursa"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "återbetala"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
@@ -13429,7 +13629,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "afturbering"
+          "translation": "endurrindan"
         },
         {
           "languageCode": "fr",
@@ -13495,7 +13695,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "afturberingarprísur"
+          "translation": "endurindanarprísur"
         },
         {
           "languageCode": "fr",
@@ -15809,7 +16009,12 @@
           "translation": "överskottsel"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "surplus power",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": [
         {
           "languageCode": "nl",
@@ -16281,7 +16486,16 @@
           "translation": "tillfällig kortreservation"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "pre-authorization",
+          "isPlural": false
+        },
+        {
+          "alternative": "auth hold",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
