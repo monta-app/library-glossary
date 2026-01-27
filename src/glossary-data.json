@@ -677,7 +677,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "Reglugerð um undirstøðukervi fyri øðrvísi brennievnir"
+          "translation": "Regulgerð um undirstøðukervi fyri alternativ brennievnir"
         }
       ],
       "alternatives": [
@@ -1627,7 +1627,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "battarístødd"
+          "translation": "battaríkapasitetur"
         },
         {
           "languageCode": "fr",
@@ -3713,19 +3713,6 @@
           "isPlural": false
         }
       ],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 277,
-      "term": "charging point /test",
-      "description": "",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": true,
-      "tags": "",
-      "pluralForm": "",
-      "translations": [],
-      "alternatives": [],
       "additionalDescriptions": []
     },
     {
@@ -7359,7 +7346,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "minutsgjald"
+          "translation": "minuttgjald"
         },
         {
           "languageCode": "fr",
@@ -8363,7 +8350,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "heimaløðari"
+          "translation": " heimløðistøð"
         },
         {
           "languageCode": "fr",
@@ -8915,7 +8902,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "tómgongdargjald"
+          "translation": "tomgangsgjald"
         },
         {
           "languageCode": "fr",
@@ -9594,7 +9581,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "fakturi"
+          "translation": "rokning"
         },
         {
           "languageCode": "fr",
@@ -10685,7 +10672,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "málara neyvleiki"
+          "translation": "málaraneyvleiki"
         },
         {
           "languageCode": "fr",
@@ -11226,7 +11213,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "net yvirlitsskíggi"
+          "translation": "network overview dashboard "
         },
         {
           "languageCode": "fr",
@@ -12216,7 +12203,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "para"
+          "translation": "tilknýt"
         },
         {
           "languageCode": "fr",
@@ -13030,7 +13017,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "átakskota"
+          "translation": "tilboðskota"
         },
         {
           "languageCode": "fr",
@@ -13228,7 +13215,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "endurstarta"
+          "translation": "endurbyrja"
         },
         {
           "languageCode": "fr",
@@ -14157,7 +14144,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "planleggja"
+          "translation": "skráseta"
         },
         {
           "languageCode": "fr",
@@ -14236,7 +14223,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "planløgd løðing"
+          "translation": "skrásett løðing"
         },
         {
           "languageCode": "fr",
@@ -14566,7 +14553,7 @@
         },
         {
           "languageCode": "fo_FO",
-          "translation": "seriunummar"
+          "translation": "raðnummar"
         },
         {
           "languageCode": "fr",
