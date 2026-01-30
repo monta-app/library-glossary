@@ -16552,6 +16552,19 @@
       "additionalDescriptions": []
     },
     {
+      "id": 283,
+      "term": "test",
+      "description": "",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "",
+      "pluralForm": "",
+      "translations": [],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 216,
       "term": "theme",
       "description": "Description: The configurable visual style (e.g., colors, typography accents) applied in Charge or Hub to align with brand guidelines and improve usability.\n \n\n Usage rules:\n • Do not imply functional changes; theme affects appearance only.\n • Keep terminology consistent with design system tokens.\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
