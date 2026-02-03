@@ -12301,7 +12301,12 @@
         }
       ],
       "alternatives": [],
-      "additionalDescriptions": []
+      "additionalDescriptions": [
+        {
+          "languageCode": "fr",
+          "description": "When “team” is omitted in UI labels or charts, translate the hierarchy concept as “niveau supérieur"
+        }
+      ]
     },
     {
       "id": 164,
