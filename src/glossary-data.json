@@ -16557,51 +16557,25 @@
       "additionalDescriptions": []
     },
     {
-      "id": 283,
+      "id": 285,
       "term": "test",
-      "description": "",
-      "caseSensitive": false,
+      "description": "test",
+      "caseSensitive": true,
       "translatable": true,
       "forbidden": false,
-      "tags": "",
-      "pluralForm": "",
-      "translations": [],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 284,
-      "term": "testing",
-      "description": "also testing",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "support, industry",
-      "pluralForm": "",
+      "tags": "industry",
+      "pluralForm": "tests",
       "translations": [
         {
           "languageCode": "da",
-          "translation": "testing"
-        },
-        {
-          "languageCode": "de",
-          "translation": "testing"
-        },
-        {
-          "languageCode": "en",
-          "translation": "testing"
+          "translation": "test"
         }
       ],
-      "alternatives": [
-        {
-          "alternative": "",
-          "isPlural": false
-        }
-      ],
+      "alternatives": [],
       "additionalDescriptions": [
         {
           "languageCode": "da",
-          "description": "testing"
+          "description": "test"
         }
       ]
     },
