@@ -5958,6 +5958,72 @@
       ]
     },
     {
+      "id": 286,
+      "term": "Driver Support",
+      "description": "A Monta feature that enables charge point operators to offer a dedicated support channel to drivers experiencing issues with charging sessions, charge points, or their accounts. Support can be handled directly by Monta or delegated to the operator.\n\nUsage rules:\n• Always write \"Driver Support\" with capital D and S when referring to the feature by name.\n• Use lowercase (\"driver support\") only when describing the concept generically, not the Monta feature.\n• Do not abbreviate.\n• Do not confuse with general Monta customer support — this refers specifically to the operator-configured support channel available to drivers within the Monta app.\n• Acceptable in both UI labels and documentation.\n\nPlatform: Hub, Charge\nAudience: B2B and B2C",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "brand",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "Driver Support"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Driver Support"
+        },
+        {
+          "languageCode": "da",
+          "translation": "Driver Support"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Driver Support"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Driver Support"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Fahrer-Support"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Driver Support"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Assistance conducteur"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Assistance conducteur"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Soporte al conductor"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Supporto conducenti"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Suport șoferi"
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "Driver Support"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 245,
       "term": "DSO",
       "description": "Description: Abbreviation for Distribution System Operator. See distribution system operator (DSO) for the full definition.\n ",
