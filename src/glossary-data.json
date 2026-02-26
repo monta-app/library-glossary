@@ -59,7 +59,7 @@
           "translation": "CA"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "AC"
         }
       ],
@@ -118,7 +118,7 @@
           "translation": "cuenta"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "konta"
         },
         {
@@ -184,7 +184,7 @@
           "translation": "tasa adicional"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "eykagjøld"
         },
         {
@@ -274,7 +274,7 @@
           "translation": "Administrateur"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Umsitari"
         },
         {
@@ -365,7 +365,7 @@
           "translation": "Advenir"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Advenir"
         }
       ],
@@ -452,7 +452,7 @@
           "translation": "AFIR"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "AFIR"
         }
       ],
@@ -511,7 +511,7 @@
           "translation": "alerta"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "ávaring"
         },
         {
@@ -582,7 +582,7 @@
           "translation": "grupo de alertas"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "ávaringarbólkur"
         },
         {
@@ -676,7 +676,7 @@
           "translation": "Règlement sur le déploiement d’une infrastructure pour carburants alternatifs"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Regulgerð um undirstøðukervi fyri alternativ brennievnir"
         }
       ],
@@ -763,7 +763,7 @@
           "translation": "API"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "API"
         }
       ],
@@ -850,7 +850,7 @@
           "translation": "API-nøgle"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "API-lykil"
         }
       ],
@@ -937,7 +937,7 @@
           "translation": "Extrait d'appli"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "App Clips"
         }
       ],
@@ -1024,7 +1024,7 @@
           "translation": "App Store"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "App Store"
         }
       ],
@@ -1083,7 +1083,7 @@
           "translation": "recarga automática "
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "sjálvvirkin áfylling"
         },
         {
@@ -1182,7 +1182,7 @@
           "translation": "retrait automatique"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "sjálvvirkið útgjald"
         }
       ],
@@ -1269,7 +1269,7 @@
           "translation": "Autocharge"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Autocharge"
         }
       ],
@@ -1328,7 +1328,7 @@
           "translation": "lectura automática"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "sjálvvirkin avlestur"
         },
         {
@@ -1422,7 +1422,7 @@
           "translation": "Autostart"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Autostart"
         }
       ],
@@ -1485,7 +1485,7 @@
           "translation": "disponible"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "tøkt"
         },
         {
@@ -1551,7 +1551,7 @@
           "translation": "saldo"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "salda"
         },
         {
@@ -1626,7 +1626,7 @@
           "translation": "capacidad de la batería"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "battaríkapasitetur"
         },
         {
@@ -1692,7 +1692,7 @@
           "translation": "nivel de batería"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "battarístøða"
         },
         {
@@ -1758,7 +1758,7 @@
           "translation": "acuerdo bilateral"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "tvíparta sáttmáli"
         },
         {
@@ -1824,7 +1824,7 @@
           "translation": "importación masiva"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "massainnflutningur"
         },
         {
@@ -1890,7 +1890,7 @@
           "translation": "ocupado"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "upptikin"
         },
         {
@@ -1984,7 +1984,7 @@
           "translation": "California Pricing (extension OCPP pour tarification en temps réel)"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Kaliforniskur prísur (California Pricing)"
         }
       ],
@@ -2043,7 +2043,7 @@
           "translation": "correo electrónico certificado"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "viðurkendur teldupostur"
         },
         {
@@ -2109,7 +2109,7 @@
           "translation": "Novedades"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Broytingarskrá"
         },
         {
@@ -2175,7 +2175,7 @@
           "translation": "de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løði"
         },
         {
@@ -2241,7 +2241,7 @@
           "translation": "Charge"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Charge"
         },
         {
@@ -2307,7 +2307,7 @@
           "translation": "carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðing"
         },
         {
@@ -2373,7 +2373,7 @@
           "translation": "cargar"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løð"
         },
         {
@@ -2439,7 +2439,7 @@
           "translation": "historial de cargas"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "farnar løðingar"
         },
         {
@@ -2522,7 +2522,7 @@
           "translation": "tarjeta de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðispjaldur"
         },
         {
@@ -2597,7 +2597,7 @@
           "translation": "límite de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðimark"
         },
         {
@@ -2668,7 +2668,7 @@
           "translation": "punto de recarga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðistøð"
         },
         {
@@ -2755,7 +2755,7 @@
           "translation": "sistema de gestión de puntos de recarga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "stýrisskipan til løðistøðir"
         },
         {
@@ -2821,7 +2821,7 @@
           "translation": "operador de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðistøðarveitari"
         },
         {
@@ -2901,7 +2901,7 @@
           "translation": "configuración del punto de recarga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "uppsetan av løðistøð"
         },
         {
@@ -2967,7 +2967,7 @@
           "translation": "suscripción al punto de recarga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðistøðarhald"
         },
         {
@@ -3033,7 +3033,7 @@
           "translation": "potencia de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðimegi"
         },
         {
@@ -3099,7 +3099,7 @@
           "translation": "precio de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðiprísur"
         },
         {
@@ -3178,7 +3178,7 @@
           "translation": "sesión de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðing"
         },
         {
@@ -3249,7 +3249,7 @@
           "translation": "Cargadores"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Løðarar"
         },
         {
@@ -3336,7 +3336,7 @@
           "translation": "de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðing"
         },
         {
@@ -3402,7 +3402,7 @@
           "translation": "carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðir"
         },
         {
@@ -3468,7 +3468,7 @@
           "translation": "aplicación de recarga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðiapp"
         },
         {
@@ -3534,7 +3534,7 @@
           "translation": "cable de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðikaðal"
         },
         {
@@ -3605,7 +3605,7 @@
           "translation": "descuento en la carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðiavsláttur"
         },
         {
@@ -3671,7 +3671,7 @@
           "translation": "tasa de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðigjald"
         },
         {
@@ -3746,7 +3746,7 @@
           "translation": "potencia de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðimegi"
         },
         {
@@ -3817,7 +3817,7 @@
           "translation": "regla de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðiregla"
         },
         {
@@ -3892,7 +3892,7 @@
           "translation": "programación de cargas"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðiætlan"
         },
         {
@@ -3963,7 +3963,7 @@
           "translation": "estación de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðistaður"
         },
         {
@@ -4051,7 +4051,7 @@
           "translation": "velocidad de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðiferð"
         },
         {
@@ -4117,7 +4117,7 @@
           "translation": "chat"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "kjatt"
         },
         {
@@ -4183,7 +4183,7 @@
           "translation": "secreto del cliente"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "kundaloyndarlykil"
         },
         {
@@ -4249,7 +4249,7 @@
           "translation": "coche de empresa"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "virkisbilur"
         },
         {
@@ -4315,7 +4315,7 @@
           "translation": "número de identificación fiscal"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "virkistal"
         },
         {
@@ -4390,7 +4390,7 @@
           "translation": "conectar"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "sambinda"
         },
         {
@@ -4456,7 +4456,7 @@
           "translation": "conector"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "stikk"
         },
         {
@@ -4531,7 +4531,7 @@
           "translation": "grupo de costes"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "prísbólkur"
         },
         {
@@ -4625,7 +4625,7 @@
           "translation": "borne de recharge"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "CP"
         }
       ],
@@ -4712,7 +4712,7 @@
           "translation": "CPI"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "CPI"
         }
       ],
@@ -4799,7 +4799,7 @@
           "translation": "Système de gestion des bornes de recharge"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "stýrisskipan til løðistøðir"
         }
       ],
@@ -4886,7 +4886,7 @@
           "translation": "CPO"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "CPO"
         }
       ],
@@ -4945,7 +4945,7 @@
           "translation": "crédito"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "áogn"
         },
         {
@@ -5011,7 +5011,7 @@
           "translation": "nota de crédito"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "áognarseðil"
         },
         {
@@ -5105,7 +5105,7 @@
           "translation": "pince ampèremétrique"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "streymsensorur"
         }
       ],
@@ -5164,7 +5164,7 @@
           "translation": "corriente"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "streymur"
         },
         {
@@ -5230,7 +5230,7 @@
           "translation": "suscripción personalizada"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "tillagað hald"
         },
         {
@@ -5296,7 +5296,7 @@
           "translation": "director de satisfacción del cliente"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "customer success manager"
         },
         {
@@ -5390,7 +5390,7 @@
           "translation": "Flux de données"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Dátuleiðir"
         }
       ],
@@ -5477,7 +5477,7 @@
           "translation": "Entrepôt de données partenaires"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Dátugoymsla"
         }
       ],
@@ -5564,7 +5564,7 @@
           "translation": "Données+"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Data+"
         }
       ],
@@ -5651,7 +5651,7 @@
           "translation": "CC"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "DC"
         }
       ],
@@ -5710,7 +5710,7 @@
           "translation": "hiperenlace"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "djúpt leinki"
         },
         {
@@ -5776,7 +5776,7 @@
           "translation": "inicio retrasado"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "seinka byrjan"
         },
         {
@@ -5851,7 +5851,7 @@
           "translation": "depósito"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "inngjalding"
         },
         {
@@ -5917,7 +5917,7 @@
           "translation": "operador del sistema de distribución"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "distributiónsfelag"
         },
         {
@@ -6016,7 +6016,7 @@
           "translation": "Suport șoferi"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Driver Support"
         }
       ],
@@ -6082,7 +6082,7 @@
           "translation": "GRD"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "DSO"
         }
       ],
@@ -6146,7 +6146,7 @@
           "translation": "balanceo de carga dinámico"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "smidlig lastarjavnvág"
         },
         {
@@ -6212,7 +6212,7 @@
           "translation": "precio dinámico"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "skiftandi prísur"
         },
         {
@@ -6278,7 +6278,7 @@
           "translation": "proveedor de servicios de movilidad eléctrica"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "e-flytføristænastuveitari"
         },
         {
@@ -6344,7 +6344,7 @@
           "translation": "CIF/NIF"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "EIN (US skattanummar til vinnu)"
         },
         {
@@ -6431,7 +6431,7 @@
           "translation": "costes de la electricidad"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "streymkostnaður"
         },
         {
@@ -6497,7 +6497,7 @@
           "translation": "precio de la electricidad"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "streymprísur"
         },
         {
@@ -6572,7 +6572,7 @@
           "translation": "reembolso del impuesto eléctrico"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "afturbering av elavgjaldi"
         },
         {
@@ -6638,7 +6638,7 @@
           "translation": "reembolso del impuesto eléctrico"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "afturbering av elavgjaldi"
         },
         {
@@ -6704,7 +6704,7 @@
           "translation": "EMSP"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "EMSP"
         },
         {
@@ -6791,7 +6791,7 @@
           "translation": "hora de finalización"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "endatíð"
         },
         {
@@ -6857,7 +6857,7 @@
           "translation": "energía cargada"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "laddingarmongd"
         },
         {
@@ -6944,7 +6944,7 @@
           "translation": "VE"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "elbilur"
         },
         {
@@ -7010,7 +7010,7 @@
           "translation": "EVSE"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "EVSE"
         },
         {
@@ -7081,7 +7081,7 @@
           "translation": "impuesto especial"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "punktavgjald"
         },
         {
@@ -7147,7 +7147,7 @@
           "translation": "a prueba de fallos"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "trygdarútbúnaður"
         },
         {
@@ -7213,7 +7213,7 @@
           "translation": "precio justo/precio adecuado"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "rímiligur prísur"
         },
         {
@@ -7279,7 +7279,7 @@
           "translation": "precio de reserva"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "støðisprísur"
         },
         {
@@ -7345,7 +7345,7 @@
           "translation": "tasa"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "gjald"
         },
         {
@@ -7411,7 +7411,7 @@
           "translation": "tasa por minuto"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "minuttgjald"
         },
         {
@@ -7477,7 +7477,7 @@
           "translation": "Finance+"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Finance+"
         },
         {
@@ -7543,7 +7543,7 @@
           "translation": "firmware"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "firmware"
         },
         {
@@ -7609,7 +7609,7 @@
           "translation": "precio fijo"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "fastur prísur"
         },
         {
@@ -7680,7 +7680,7 @@
           "translation": "flota"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "floti"
         },
         {
@@ -7746,7 +7746,7 @@
           "translation": "previsiones"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "forsøgn"
         },
         {
@@ -7812,7 +7812,7 @@
           "translation": "fondos"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "peningur"
         },
         {
@@ -7878,7 +7878,7 @@
           "translation": "protección de fusibles"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "sikkringarvernd"
         },
         {
@@ -7944,7 +7944,7 @@
           "translation": "periodo de cortesía"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "umburðartíð"
         },
         {
@@ -8010,7 +8010,7 @@
           "translation": "red eléctrica"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "elnet"
         },
         {
@@ -8076,7 +8076,7 @@
           "translation": "Growth+"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Growth+"
         },
         {
@@ -8142,7 +8142,7 @@
           "translation": "hardware"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "hardware"
         },
         {
@@ -8208,7 +8208,7 @@
           "translation": "independiente de hardware"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "óheft av hardware"
         },
         {
@@ -8274,7 +8274,7 @@
           "translation": "fabricante de cargadores"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "hardware framleiðari"
         },
         {
@@ -8340,7 +8340,7 @@
           "translation": "Centro de ayuda"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Hjálparmiðstøð"
         },
         {
@@ -8415,7 +8415,7 @@
           "translation": "cargador doméstico"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": " heimløðistøð"
         },
         {
@@ -8490,7 +8490,7 @@
           "translation": "carga en casa"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "heimaløðing"
         },
         {
@@ -8561,7 +8561,7 @@
           "translation": "energía en casa"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "heimaorka"
         },
         {
@@ -8632,7 +8632,7 @@
           "translation": "complejo residencial"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "bústaðarfelag"
         },
         {
@@ -8698,7 +8698,7 @@
           "translation": "Hub"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Hub"
         },
         {
@@ -8764,7 +8764,7 @@
           "translation": "Hypercare"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Hypercare"
         },
         {
@@ -8830,7 +8830,7 @@
           "translation": "IBAN"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "IBAN"
         },
         {
@@ -8896,7 +8896,7 @@
           "translation": "vehículo térmico"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "brennievnisbilur"
         },
         {
@@ -8967,7 +8967,7 @@
           "translation": "tasa por inactividad"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "tomgangsgjald"
         },
         {
@@ -9038,7 +9038,7 @@
           "translation": "tiempo de inactividad"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "tíð í tómgongd"
         },
         {
@@ -9104,7 +9104,7 @@
           "translation": "In-Between Charges"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "In-Between Charges"
         },
         {
@@ -9175,7 +9175,7 @@
           "translation": "incidencia"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "tilburður"
         },
         {
@@ -9250,7 +9250,7 @@
           "translation": "indicadores"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "innlit"
         },
         {
@@ -9316,7 +9316,7 @@
           "translation": "instalación"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "innlegging"
         },
         {
@@ -9382,7 +9382,7 @@
           "translation": "instalador"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "innleggjari"
         },
         {
@@ -9448,7 +9448,7 @@
           "translation": "trabajo del instalador"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "innleggjarauppgáva"
         },
         {
@@ -9514,7 +9514,7 @@
           "translation": "Instant App"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Instant App"
         },
         {
@@ -9580,7 +9580,7 @@
           "translation": "integración"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "integratión"
         },
         {
@@ -9646,7 +9646,7 @@
           "translation": "factura"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "rokning"
         },
         {
@@ -9712,7 +9712,7 @@
           "translation": "código de inscripción"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "limakota"
         },
         {
@@ -9778,7 +9778,7 @@
           "translation": "precio del kWh"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "kWt prísur"
         },
         {
@@ -9849,7 +9849,7 @@
           "translation": "balanceo de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "lastarjavnvág"
         },
         {
@@ -9915,7 +9915,7 @@
           "translation": "balanceo de carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "lastarstýring"
         },
         {
@@ -9981,7 +9981,7 @@
           "translation": "Made to Move"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Made to Move"
         },
         {
@@ -10047,7 +10047,7 @@
           "translation": "cuenta principal"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "høvuðskonta"
         },
         {
@@ -10130,7 +10130,7 @@
           "translation": "mapa"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "kort"
         },
         {
@@ -10196,7 +10196,7 @@
           "translation": "marketplace"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "marketplace"
         },
         {
@@ -10262,7 +10262,7 @@
           "translation": "precio maestro"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "grundprísur"
         },
         {
@@ -10328,7 +10328,7 @@
           "translation": "Perfil"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Vangi"
         },
         {
@@ -10394,7 +10394,7 @@
           "translation": "miembro"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "limur"
         },
         {
@@ -10460,7 +10460,7 @@
           "translation": "cuota para miembros"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "limagjald"
         },
         {
@@ -10509,6 +10509,72 @@
       "additionalDescriptions": []
     },
     {
+      "id": 287,
+      "term": "member group",
+      "description": "Description: A configuration feature that allows team administrators to organize members into groups with shared settings, including role, pricing, permissions, and cost allocation. Changes to a group's settings automatically propagate to all assigned members.\n\nUsage rules:\n• Use \"member group\" in lowercase in running text.\n• Capitalize when referring to the feature name or in UI contexts (e.g., Member Groups, Create Member Group).\n• Do not confuse with \"member role\" (an individual's permission level) or \"member price group\" (a pricing configuration).\n• A member can belong to at most one member group at a time.\n• Use only in contexts describing team member organization and bulk settings management.\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "member group"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "member group"
+        },
+        {
+          "languageCode": "da",
+          "translation": "medlemsgruppe"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Mitgliedsgruppe"
+        },
+        {
+          "languageCode": "no",
+          "translation": "medlemsgruppe"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "medlemsgrupp"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "groupe de membres"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "groupe de membres"
+        },
+        {
+          "languageCode": "es",
+          "translation": "grupo de miembros"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "ledengroep"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "grup de membri"
+        },
+        {
+          "languageCode": "it",
+          "translation": "gruppo di membri"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "limabólkur"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 148,
       "term": "member price",
       "description": "escription: The internal charging rate applied to team members on shared or company-managed charge points. Typically lower than public rates.\n \n\n Usage rules:\n • Use sentence case in running text; capitalize only in UI labels.\n • Distinguish from “member fee” (additional cost) and “master price.”\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
@@ -10539,7 +10605,7 @@
           "translation": "precio para miembros"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "limaprísur"
         },
         {
@@ -10605,7 +10671,7 @@
           "translation": "grupo de precios para miembros"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "limaprísbólkur"
         },
         {
@@ -10671,7 +10737,7 @@
           "translation": "rol de miembro"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "limaleiklutur"
         },
         {
@@ -10737,7 +10803,7 @@
           "translation": "precisión de medición"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "málaraneyvleiki"
         },
         {
@@ -10803,7 +10869,7 @@
           "translation": "ID del contador eléctrico"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "málara ID"
         },
         {
@@ -10869,7 +10935,7 @@
           "translation": "lectura de medidor"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "málara avlestur"
         },
         {
@@ -10935,7 +11001,7 @@
           "translation": "MID"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "MID"
         },
         {
@@ -11001,7 +11067,7 @@
           "translation": "Monta AI"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Monta AI"
         },
         {
@@ -11080,7 +11146,7 @@
           "translation": "Monta Control"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Monta Control"
         },
         {
@@ -11146,7 +11212,7 @@
           "translation": "programación nativa"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "innbygd løðiætlan"
         },
         {
@@ -11212,7 +11278,7 @@
           "translation": "equipo anidado"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "undirtoymi"
         },
         {
@@ -11278,7 +11344,7 @@
           "translation": "panel de control – operaciones de red"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "network overview dashboard "
         },
         {
@@ -11344,7 +11410,7 @@
           "translation": "tarifa de red"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "netgjald"
         },
         {
@@ -11410,7 +11476,7 @@
           "translation": "NFC"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "NFC"
         },
         {
@@ -11476,7 +11542,7 @@
           "translation": "Agente NOC"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "NOC Agent"
         },
         {
@@ -11542,7 +11608,7 @@
           "translation": "OCPI"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "OCPI"
         },
         {
@@ -11608,7 +11674,7 @@
           "translation": "tarifa OCPI"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "OCPI-gjald"
         },
         {
@@ -11674,7 +11740,7 @@
           "translation": "OCPP"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "OCPP"
         },
         {
@@ -11740,7 +11806,7 @@
           "translation": "Kit de herramientas de OCPP"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "OCPP Toolkit"
         },
         {
@@ -11806,7 +11872,7 @@
           "translation": "OICP"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "OICP"
         },
         {
@@ -11872,7 +11938,7 @@
           "translation": "in situ"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "á staðnum"
         },
         {
@@ -11938,7 +12004,7 @@
           "translation": "Protocolo abierto de punto de recarga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Open Charge Point Protocol"
         },
         {
@@ -12004,7 +12070,7 @@
           "translation": "operador"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "veitari"
         },
         {
@@ -12070,7 +12136,7 @@
           "translation": "equipo operador"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "veitaratoymi"
         },
         {
@@ -12136,7 +12202,7 @@
           "translation": "pedido"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "ordre"
         },
         {
@@ -12202,7 +12268,7 @@
           "translation": "peer-to-peer"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "javnlíka-til-javnlíka"
         },
         {
@@ -12268,7 +12334,7 @@
           "translation": "emparejar"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "tilknýt"
         },
         {
@@ -12334,7 +12400,7 @@
           "translation": "equipo principal"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "upphavstoymi"
         },
         {
@@ -12405,7 +12471,7 @@
           "translation": "código de acceso"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "loynital"
         },
         {
@@ -12471,7 +12537,7 @@
           "translation": "contraseña"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "loyniorð"
         },
         {
@@ -12537,7 +12603,7 @@
           "translation": "pago"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "gjald"
         },
         {
@@ -12603,7 +12669,7 @@
           "translation": "terminal de pago"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "gjaldsterminalur"
         },
         {
@@ -12669,7 +12735,7 @@
           "translation": "horas pico"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "meldurtíð"
         },
         {
@@ -12735,7 +12801,7 @@
           "translation": "número de identificación fiscal"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "P-tal"
         },
         {
@@ -12801,7 +12867,7 @@
           "translation": "Plug&Charge"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Plug&Charge"
         },
         {
@@ -12867,7 +12933,7 @@
           "translation": "PowerBank"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "PowerBank"
         },
         {
@@ -12933,7 +12999,7 @@
           "translation": "grupo de precios"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "prísbólkur"
         },
         {
@@ -13016,7 +13082,7 @@
           "translation": "pronóstico de producción"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "framleiðsluforsøgn"
         },
         {
@@ -13087,7 +13153,7 @@
           "translation": "código promocional"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "tilboðskota"
         },
         {
@@ -13153,7 +13219,7 @@
           "translation": "enlace público"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "alment leinki"
         },
         {
@@ -13219,7 +13285,7 @@
           "translation": "precio público"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "almennur prísur"
         },
         {
@@ -13285,7 +13351,7 @@
           "translation": "reiniciar"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "endurbyrja"
         },
         {
@@ -13351,7 +13417,7 @@
           "translation": "código del destinatario"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "móttakarakota"
         },
         {
@@ -13417,7 +13483,7 @@
           "translation": "Invita a un amigo"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Bjóða við og fá"
         },
         {
@@ -13483,7 +13549,7 @@
           "translation": "referencia"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "ávísing"
         },
         {
@@ -13549,7 +13615,7 @@
           "translation": "recargar"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "fyll á"
         },
         {
@@ -13620,7 +13686,7 @@
           "translation": "reembolsar "
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "endurrinda"
         },
         {
@@ -13686,7 +13752,7 @@
           "translation": "reembolso"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "endurrindan"
         },
         {
@@ -13752,7 +13818,7 @@
           "translation": "precio de reembolso"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "endurindanarprísur"
         },
         {
@@ -13818,7 +13884,7 @@
           "translation": "fiabilidad"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "støðufesti"
         },
         {
@@ -13884,7 +13950,7 @@
           "translation": "anulación de un ingreso"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "øvut gjaldsskylda"
         },
         {
@@ -13950,7 +14016,7 @@
           "translation": "inversión del sujeto pasivo"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "øvut gjaldsskylda"
         },
         {
@@ -14016,7 +14082,7 @@
           "translation": "carjeta RFID"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "RFID"
         },
         {
@@ -14082,7 +14148,7 @@
           "translation": "roaming"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "reiking"
         },
         {
@@ -14148,7 +14214,7 @@
           "translation": "IVA"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "meirvirðisgjald"
         },
         {
@@ -14214,7 +14280,7 @@
           "translation": "programar"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "skráseta"
         },
         {
@@ -14293,7 +14359,7 @@
           "translation": "carga programada"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "skrásett løðing"
         },
         {
@@ -14359,7 +14425,7 @@
           "translation": "autofacturación"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "sjálvavrokna"
         },
         {
@@ -14425,7 +14491,7 @@
           "translation": "factura en autofacturación"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "sjálvskriva rokning"
         },
         {
@@ -14491,7 +14557,7 @@
           "translation": "autorreparación"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "sjálvgrøðandi"
         },
         {
@@ -14557,7 +14623,7 @@
           "translation": "Adeudo directo SEPA"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "SEPA Direct Debit"
         },
         {
@@ -14623,7 +14689,7 @@
           "translation": "número de serie"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "raðnummar"
         },
         {
@@ -14689,7 +14755,7 @@
           "translation": "proveedor de servicios"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "veitari"
         },
         {
@@ -14755,7 +14821,7 @@
           "translation": "Tienda"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Handil"
         },
         {
@@ -14821,7 +14887,7 @@
           "translation": "inicio de sesión único"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "sameind innritan"
         },
         {
@@ -14887,7 +14953,7 @@
           "translation": "estación"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðipláss"
         },
         {
@@ -14953,7 +15019,7 @@
           "translation": "cargar inteligentemente"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "snildløða"
         },
         {
@@ -15019,7 +15085,7 @@
           "translation": "carga inteligente"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "snildløðing"
         },
         {
@@ -15106,7 +15172,7 @@
           "translation": "carga solar"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "sólarløðing"
         },
         {
@@ -15172,7 +15238,7 @@
           "translation": "carga con excedente solar"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "avlopssólarløðing"
         },
         {
@@ -15243,7 +15309,7 @@
           "translation": "Sort Code"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "sort code (bretskt bankakennital)"
         },
         {
@@ -15309,7 +15375,7 @@
           "translation": "precio spot"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "spot-prísur"
         },
         {
@@ -15375,7 +15441,7 @@
           "translation": "SSO"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "SSO"
         },
         {
@@ -15441,7 +15507,7 @@
           "translation": "cargo de inicio"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "byrjanargjald"
         },
         {
@@ -15507,7 +15573,7 @@
           "translation": "hora de inicio"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "byrjanartíð"
         },
         {
@@ -15573,7 +15639,7 @@
           "translation": "estado de la carga"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "løðistøða (SoC)"
         },
         {
@@ -15639,7 +15705,7 @@
           "translation": "extracto"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "uppgerð"
         },
         {
@@ -15705,7 +15771,7 @@
           "translation": "StationID"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "StationID"
         },
         {
@@ -15771,7 +15837,7 @@
           "translation": "sticker"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "heftimerki"
         },
         {
@@ -15837,7 +15903,7 @@
           "translation": "subcuenta"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "undirkonta"
         },
         {
@@ -15903,7 +15969,7 @@
           "translation": "ajustes de soporte"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "hjálparstillingar"
         },
         {
@@ -15969,7 +16035,7 @@
           "translation": "Miembro de Soporte"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "kundatænasta"
         },
         {
@@ -16035,7 +16101,7 @@
           "translation": "electricidad excedente"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "avlopsorka"
         },
         {
@@ -16111,7 +16177,7 @@
           "translation": "aceptar"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "swipe"
         },
         {
@@ -16177,7 +16243,7 @@
           "translation": "tarifa"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "gjald"
         },
         {
@@ -16243,7 +16309,7 @@
           "translation": "N.º de IVA"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "V-tal"
         },
         {
@@ -16309,7 +16375,7 @@
           "translation": "número de identificación fiscal"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "skattakennital"
         },
         {
@@ -16380,7 +16446,7 @@
           "translation": "equipo"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "toymi"
         },
         {
@@ -16446,7 +16512,7 @@
           "translation": "propietario de equipo"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "tyomieigar"
         },
         {
@@ -16512,7 +16578,7 @@
           "translation": "retención temporal"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "fyribils gjaldsbílegging"
         },
         {
@@ -16587,7 +16653,7 @@
           "translation": "Términos y condiciones"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "Treytir og ásetingar"
         },
         {
@@ -16676,7 +16742,7 @@
           "translation": "tema"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "tema"
         },
         {
@@ -16742,7 +16808,7 @@
           "translation": "tasa por transacción"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "flytingargjald"
         },
         {
@@ -16808,7 +16874,7 @@
           "translation": "usuario"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "brúkari"
         },
         {
@@ -16874,7 +16940,7 @@
           "translation": "rol de usuario"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "brúkaraleiklutur"
         },
         {
@@ -16940,7 +17006,7 @@
           "translation": "IVA"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "meirvirðisgjald"
         },
         {
@@ -17006,7 +17072,7 @@
           "translation": "N.º de IVA"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "V-tal"
         },
         {
@@ -17072,7 +17138,7 @@
           "translation": "exportación exenta de IVA"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "MVG-frítøka við útflutningi"
         },
         {
@@ -17143,7 +17209,7 @@
           "translation": "VIN"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "skrokknummar"
         },
         {
@@ -17209,7 +17275,7 @@
           "translation": "wallet"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "mappa"
         },
         {
@@ -17275,7 +17341,7 @@
           "translation": "marca blanca"
         },
         {
-          "languageCode": "fo_FO",
+          "languageCode": "fo",
           "translation": "hvítmerkt loysn"
         },
         {
