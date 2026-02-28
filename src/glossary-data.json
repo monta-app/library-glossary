@@ -16844,6 +16844,72 @@
       "additionalDescriptions": []
     },
     {
+      "id": 288,
+      "term": "uptime",
+      "description": "The percentage of time a charge point is operational and available to start a charging session, excluding periods when it is offline, in a fault state, or otherwise unavailable. Used as a key reliability and performance metric across charge point networks.\n\nUsage rules:\n• Always write in lowercase (\"uptime\") unless at the start of a sentence.\n• Express as a percentage when citing a specific value (e.g. \"98% uptime\").\n• Do not use interchangeably with \"availability\" — uptime refers specifically to operational readiness, not booking or reservation availability.\n• Pair with a time period when referencing performance (e.g. \"monthly uptime\", \"uptime over the last 30 days\").\n• Acceptable in both operator-facing UI and documentation.\n\nPlatform: Hub, Control\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "oppetid"
+        },
+        {
+          "languageCode": "de",
+          "translation": "betriebszeit"
+        },
+        {
+          "languageCode": "en",
+          "translation": "uptime"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "uptime"
+        },
+        {
+          "languageCode": "es",
+          "translation": "tiempo de actividad"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "uppetíð"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "taux de disponibilité"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "temps de fonctionnement"
+        },
+        {
+          "languageCode": "it",
+          "translation": "tempo di attività"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "uptime"
+        },
+        {
+          "languageCode": "no",
+          "translation": "oppetid"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "timp de funcționare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "drifttid"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 218,
       "term": "user",
       "description": "Description: An individual with a Monta account. Users can manage charging, access charge points, join teams, and handle payments based on assigned permissions.\n \n\n Usage rules:\n • Distinguish “user” (person) from “Member/Manager/Owner” (roles).\n • Avoid using “driver” unless specifically referring to B2C usage in Charge.\n • Us",
