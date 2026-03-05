@@ -9748,6 +9748,72 @@
       "additionalDescriptions": []
     },
     {
+      "id": 289,
+      "term": "kWh",
+      "description": "Kilowatt-hour — the standard SI unit of energy used across the Monta platform to express the amount of electricity delivered, consumed, or metered during a charging session.\n\nUsage rules:\n• Always write \"kWh\" with lowercase k, uppercase W, and lowercase h — this is the correct SI notation.\n• Never write as KWH, KWh, kwh, Kwh, kWH or any other variant.\n• Do not translate — kWh is the internationally accepted notation in all supported languages, except Faroese where the correct form is kWt (kilowatt-tími).\n• Use in numeric expressions with a space before the unit: \"10.5 kWh\", not \"10.5kWh\".\n• Do not pluralise — \"kWh\" is both singular and plural.\n\nPlatform: Hub, Charge, Control\nAudience: B2B and B2C",
+      "caseSensitive": true,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "kWh"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "kWh"
+        },
+        {
+          "languageCode": "da",
+          "translation": "kWh"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "kWh"
+        },
+        {
+          "languageCode": "no",
+          "translation": "kWh"
+        },
+        {
+          "languageCode": "de",
+          "translation": "kWh"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "kWh"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "kWh"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "kWh"
+        },
+        {
+          "languageCode": "es",
+          "translation": "kWh"
+        },
+        {
+          "languageCode": "it",
+          "translation": "kWh"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "kWh"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "kWt"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 141,
       "term": "kWh price",
       "description": "Description: The electricity cost per kilowatt-hour applied to a charging session. Defined in a pricing group or tariff and may be fixed, dynamic, or spot-based.\n \n\n Usage rules:\n • Use sentence case (“kWh price”) in running text; capitalize only in UI labels.\n • Distinguish from time-based pricing (per minute) and fees.\n • Do not abbreviate or use as a product name.\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
