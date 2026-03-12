@@ -8310,6 +8310,72 @@
       "additionalDescriptions": []
     },
     {
+      "id": 290,
+      "term": "Help",
+      "description": "Short-form brand name for Monta's self-service knowledge base, Help Centre. Used in navigation labels, menu items, and compact UI contexts where the full name \"Help Centre\" does not fit.\n\nUsage rules:\n• Always capitalise: \"Help\"\n• Use only in UI navigation contexts (e.g. tab labels, menu items, footer links)\n• Do not use as a synonym for \"Support\" or as a standalone verb\n• When space allows, prefer the full form \"Help Centre\"\n\nPlatform: Hub, Charge, Control\nAudience: B2B and B2C",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "brand",
+      "pluralForm": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "Help"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Help"
+        },
+        {
+          "languageCode": "da",
+          "translation": "Help"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Help"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Help"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Help"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Help"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Help"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Help"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Help"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Help"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Help"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Help"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 8,
       "term": "Help Centre",
       "description": "Description: Monta’s self-service knowledge base with product guides, troubleshooting articles, and instructional videos. Enables users to resolve issues and learn features across Monta products.\n \n\n Usage rules:\n • Use the exact spelling “Help Centre” in the source (not “Help Center”); capitalize both words.\n • Use for knowledge base and support content; avoid using as a synonym for “Support” or “Status page.”\n • Use the exact label in links and buttons.\n • Do not abbreviate.\n \n\n Platform: Hub, Charge, Control\n Audience: B2B and B2C (shared)",
@@ -12306,7 +12372,7 @@
     {
       "id": 30,
       "term": "P2P",
-      "description": "escription: Peer-to-peer interactions or data flows between users or devices without an intermediary service. In Monta, used for shared access, localized coordination, or direct device communication when supported.\n \n\n Usage rules:\n • Write “P2P” in all caps; spell out on first mention if needed.\n \n\n \n\n Platform: Hub, Control\n Audience: B2B",
+      "description": "Description: Peer-to-peer interactions or data flows between users or devices without an intermediary service. In Monta, used for shared access, localized coordination, or direct device communication when supported.\n \n\n Usage rules:\n • Write “P2P” in all caps; spell out on first mention if needed.\n \n\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -12335,7 +12401,7 @@
         },
         {
           "languageCode": "fo",
-          "translation": "javnlíka-til-javnlíka"
+          "translation": "gestaløðing"
         },
         {
           "languageCode": "fr",
