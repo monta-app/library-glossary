@@ -9748,6 +9748,19 @@
       "additionalDescriptions": []
     },
     {
+      "id": 291,
+      "term": "invoicing",
+      "description": "Description:\n Monta Hub feature that generates, manages, and distributes invoices for charging sessions and services — enabling operators to bill end-customers, team members, or third-party clients under their own brand.\n\n Usage rules:\n • Use \"invoicing\" as a noun for the feature; \"invoice\" for the document.\n • Covers invoice generation, branded billing, consolidated billing, and fiscal compliance.\n\n Platform: Hub\n Audience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": "invoices",
+      "translations": [],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 139,
       "term": "join code",
       "description": "Description: A unique code used to invite users to join a specific team in Monta. Entering the code grants access to the team’s charge points, wallets, and shared settings without manual admin approval (when enabled).\n \n\n Usage rules:\n • Write in sentence case (“join code”) in running text; capitalize to match exact UI labels (“Join code”).\n • Use “a join code” with the indefinite article; pluralize as “join codes.”\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
@@ -10018,12 +10031,12 @@
     },
     {
       "id": 143,
-      "term": "load management ",
+      "term": "load management",
       "description": "Description: Monta’s broader strategy to optimize energy distribution across charge points, buildings, and grid connections. Includes load balancing, dynamic power control, and integrations with smart meters and solar.\n \n\n Usage rules:\n • Use sentence case in running text; capitalize only in UI labels.\n • Use when describing site-wide or multi-site optimization.\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "industry",
+      "tags": "product",
       "pluralForm": "",
       "translations": [
         {
@@ -13041,7 +13054,7 @@
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "brand",
+      "tags": "product",
       "pluralForm": "",
       "translations": [
         {
@@ -15193,7 +15206,7 @@
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "industry",
+      "tags": "product",
       "pluralForm": "",
       "translations": [
         {
@@ -15409,6 +15422,19 @@
           "description": "Opladen met zonne-energie overschot"
         }
       ]
+    },
+    {
+      "id": 292,
+      "term": "SolarCharge",
+      "description": "Description:\n Monta feature that integrates solar PV production data with EV charging, allowing operators and home users to prioritise charging when solar surplus is available — reducing grid consumption and energy costs.\n\n Usage rules:\n • Always write as one word: SolarCharge (capital S, capital C).\n • Covers PV inverter integration, surplus charging triggers, and home energy optimisation.\n\n Platform: Hub, Charge\n Audience: B2B and B2C",
+      "caseSensitive": true,
+      "translatable": false,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [],
+      "alternatives": [],
+      "additionalDescriptions": []
     },
     {
       "id": 202,
