@@ -3148,77 +3148,6 @@
       "additionalDescriptions": []
     },
     {
-      "id": 75,
-      "term": "charge session",
-      "description": "Description: The duration in which an EV is connected to a charge point and receiving power until the session ends.\n \n\n Usage rules:\n • Always lowercase (“charge session”).\n • Prefer “charge session” over “charge” alone for clarity in UI and documentation.\n • Maintain consistency across reports, app logs, and analytics dashboards.\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": "",
-      "translations": [
-        {
-          "languageCode": "da",
-          "translation": "ladesession"
-        },
-        {
-          "languageCode": "de",
-          "translation": "Ladevorgang"
-        },
-        {
-          "languageCode": "en",
-          "translation": "charge session"
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "charging session"
-        },
-        {
-          "languageCode": "es",
-          "translation": "sesión de carga"
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðing"
-        },
-        {
-          "languageCode": "fr",
-          "translation": "session de recharge"
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "session de recharge"
-        },
-        {
-          "languageCode": "it",
-          "translation": "sessione di ricarica"
-        },
-        {
-          "languageCode": "nl",
-          "translation": "laadsessie"
-        },
-        {
-          "languageCode": "no",
-          "translation": "ladeøkt"
-        },
-        {
-          "languageCode": "ro",
-          "translation": "sesiune de încărcare"
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddningssession"
-        }
-      ],
-      "alternatives": [
-        {
-          "alternative": "charging session",
-          "isPlural": false
-        }
-      ],
-      "additionalDescriptions": []
-    },
-    {
       "id": 256,
       "term": "Chargers",
       "description": "Description: UI label on the Charge app home screen linking to the list or map of available charging locations.\n \n\n Usage rules:\n • Always use Title Case (“Chargers”).\n • Always plural, never singular.\n • Do not replace with “Charge points,” “Stations,” or “Sites.”\n \n\n Platform: Charge\n Audience: B2C",
@@ -3927,6 +3856,77 @@
       "alternatives": [
         {
           "alternative": "charge schedule",
+          "isPlural": false
+        }
+      ],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 75,
+      "term": "charging session",
+      "description": "Description: The duration in which an EV is connected to a charge point and receiving power until the session ends.\n \n\n Usage rules:\n • Always lowercase (“charge session”).\n • Prefer “charge session” over “charge” alone for clarity in UI and documentation.\n • Maintain consistency across reports, app logs, and analytics dashboards.\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladesession"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladevorgang"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging session"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging session"
+        },
+        {
+          "languageCode": "es",
+          "translation": "sesión de carga"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðing"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "session de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "session de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "sessione di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadsessie"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladeøkt"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "sesiune de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddningssession"
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "charging session",
           "isPlural": false
         }
       ],
