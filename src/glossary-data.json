@@ -12982,6 +12982,72 @@
       "additionalDescriptions": []
     },
     {
+      "id": 293,
+      "term": "plan",
+      "description": "A predefined template or product offering created by operators in Monta Hub. Outlines services, pricing structure, billing frequency, and included features. Acts as a reusable blueprint that can be applied to multiple customers. Once applied to a team, charge point, or sub-account, it becomes an active Subscription.\n\nUsage rules:\n• Distinguish from Subscription: a Plan is the template; a Subscription is the active instance.\n• In UI labels, use \"Plans\" as the tab title — not \"Subscriptions\".\n• Do not use \"plan\" and \"subscription\" interchangeably.\n\nPlatform: Hub\nAudience: B2B\nSource: https://monta.com/en/help-center/create-a-subscription-plan/ (2026-04-28)",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "plan"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "plan"
+        },
+        {
+          "languageCode": "da",
+          "translation": "plan"
+        },
+        {
+          "languageCode": "de",
+          "translation": "plan"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "forfait"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "forfait"
+        },
+        {
+          "languageCode": "no",
+          "translation": "plan"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "plan"
+        },
+        {
+          "languageCode": "es",
+          "translation": "plan"
+        },
+        {
+          "languageCode": "it",
+          "translation": "piano"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "plan"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "plan"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "ætlan"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 31,
       "term": "Plug&Charge",
       "description": "Description: Automated charging where an EV authenticates and starts by being plugged in, no app (Charge) or RFID required. Supported for ISO 15118–compatible vehicles and charge points connected to Monta.\n \n\n Usage rules:\n • Write exactly “Plug&Charge”; avoid variants like “Plug and Charge”.\n • Use only when ISO 15118 is supported and enabled; otherwise describe standard authentication.\n • Distinguish from RFID/NFC and Instant App flows.\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C (shared)",
@@ -16091,6 +16157,72 @@
         {
           "languageCode": "sv",
           "translation": "underkonto"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 294,
+      "term": "Subscription",
+      "description": "The active instance of a Plan, created when a Plan is applied to a customer's team, charge point, or sub-account. Represents the contractual relationship between the operator and the customer — tracking billing details, renewals, and lifecycle (start, cancellation, edits). Distinct from a Plan, which is the reusable template.\n\nUsage rules:\n• Use \"Subscription\" for the active customer contract — not for the Plan template.\n• In UI labels, use \"Subscriptions\" as the tab title — not \"Plans\".\n• Do not use \"subscription\" and \"plan\" interchangeably.\n\nPlatform: Hub\nAudience: B2B\nSource: https://monta.com/en/help-center/create-a-subscription-plan/ (2026-04-28)",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "subscription"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "subscription"
+        },
+        {
+          "languageCode": "da",
+          "translation": "abonnement"
+        },
+        {
+          "languageCode": "de",
+          "translation": "abonnement"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "abonnement"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "abonnement"
+        },
+        {
+          "languageCode": "no",
+          "translation": "abonnement"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "abonnemang"
+        },
+        {
+          "languageCode": "es",
+          "translation": "suscripción"
+        },
+        {
+          "languageCode": "it",
+          "translation": "abbonamento"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "abonnement"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "abonament"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "hald"
         }
       ],
       "alternatives": [],
