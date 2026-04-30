@@ -2639,7 +2639,7 @@
     },
     {
       "id": 66,
-      "term": "charge point",
+      "term": "charge point - will be deprecated",
       "description": "Description: Default term for an electrical outlet or station that supplies power for charging plug-in electric vehicles (EVs). Sometimes referred to as a charger or charging station in copy.\n \n\n Usage rules:\n • Always use “charge point” as the default term across Monta content.\n • Translate into the standard local equivalent for EV infrastructure in localized versions.\n • Avoid overusing “charger” or “station” unless required for clarity or local context.\n \n\n Platform: Hub, Charge, Control\n Audience: B2B and B2C",
       "caseSensitive": false,
       "translatable": true,
@@ -2871,72 +2871,6 @@
       ]
     },
     {
-      "id": 69,
-      "term": "charge point settings",
-      "description": "Description: Settings section in the Charge app for configuring individual charge point details and behavior.\n \n\n Usage rules:\n • When refererring to UI label, stand alone title, use sentence case (“Charge point settings”) in the source, use title case for en_US.\n • Maintain capitalization consistency with other Charge app section titles.\n \n\n Platform: Charge\n Audience: B2C",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "product",
-      "pluralForm": "",
-      "translations": [
-        {
-          "languageCode": "da",
-          "translation": "indstillinger for ladestander"
-        },
-        {
-          "languageCode": "de",
-          "translation": "Einstellungen der Ladestation"
-        },
-        {
-          "languageCode": "en",
-          "translation": "charge point settings"
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "charger settings"
-        },
-        {
-          "languageCode": "es",
-          "translation": "configuración del punto de recarga"
-        },
-        {
-          "languageCode": "fo",
-          "translation": "uppsetan av løðistøð"
-        },
-        {
-          "languageCode": "fr",
-          "translation": "paramètres de la borne de recharge"
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "paramètres de la borne de recharge"
-        },
-        {
-          "languageCode": "it",
-          "translation": "impostazioni del punto di ricarica"
-        },
-        {
-          "languageCode": "nl",
-          "translation": "laadpaalinstellingen"
-        },
-        {
-          "languageCode": "no",
-          "translation": "ladepunktsinnstillinger"
-        },
-        {
-          "languageCode": "ro",
-          "translation": "setări stație de încărcare"
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddpunktsinställningar"
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
       "id": 70,
       "term": "charge point subscription",
       "description": "Description: Add-on service for maintaining private charge points, typically provided by operators or installers. Used mainly for private ownership models.\n \n\n Usage rules:\n • Use lowercase (“charge point subscription”).\n • Do not abbreviate or shorten.\n • Refer only to the defined operator product offering, not to general Monta subscription models.\n \n\n Platform: Charge\n Audience: B2C",
@@ -3142,6 +3076,101 @@
         },
         {
           "alternative": "",
+          "isPlural": false
+        }
+      ],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 297,
+      "term": "charger",
+      "description": "Description: The outlet-level unit that delivers power to one electric vehicle at a time. The primary driver-facing term for EV charging hardware in the Charge mobile app.\n \n\n Usage rules:\n • Use \"charger\" as the default term in all driver-facing (B2C) copy in the Charge mobile app.\n • Do not use in B2B monorepo frontends (Hub, Control, Installer, portals) — use \"EVSE\" instead.\n • Lowercase in running text (\"plug into a charger\"); capitalise only when used as a standalone UI label.\n • \"Charge point\" is a recognised synonym and may appear in B2C context, but \"charger\" is the preferred primary term.\n \n\n Platform: Charge (mobile app)\n Audience: B2C (drivers)",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product, b2c",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladepunkt"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladepunkt"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charger"
+        },
+        {
+          "languageCode": "en_CA",
+          "translation": "charger"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charger"
+        },
+        {
+          "languageCode": "es",
+          "translation": "punto de recarga"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðistøð"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "point de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "point de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "punto di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadpunt"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladepunkt"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "punct de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddpunkt"
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "charging station",
+          "isPlural": false
+        },
+        {
+          "alternative": "station",
+          "isPlural": false
+        },
+        {
+          "alternative": "charging pole",
+          "isPlural": false
+        },
+        {
+          "alternative": "charging point",
+          "isPlural": false
+        },
+        {
+          "alternative": "charge station",
+          "isPlural": false
+        },
+        {
+          "alternative": "charge point",
           "isPlural": false
         }
       ],
@@ -4084,6 +4113,93 @@
         }
       ],
       "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 298,
+      "term": "charging station",
+      "description": "Description: The hardware-level unit at a site that hosts one or more EVSEs. The physical enclosure or device that supplies charging infrastructure — a single charging station may have multiple outlets (EVSEs), each serving one vehicle at a time.\n \n\n Usage rules:\n • Use in all B2B monorepo frontends (Hub, Control, Installer, portals).\n • Do not use in the Charge mobile app (B2C) — hardware level is not exposed to drivers; use \"charger\" instead.\n • A charging station contains one or more EVSEs. Do not use as a synonym for EVSE.\n • Replaces ambiguous use of \"charge point\" at the hardware level.\n • Example: a HYC400 with two outlets = one charging station with two EVSEs.\n \n\n Platform: Hub, Control, Installer, portals\n Audience: B2B (operators, installers)",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry, b2b",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "ladestander"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladestation"
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging station"
+        },
+        {
+          "languageCode": "en_CA",
+          "translation": "charging station"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging station"
+        },
+        {
+          "languageCode": "es",
+          "translation": "unidad de carga"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðistøð"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "borne de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "borne de recharge"
+        },
+        {
+          "languageCode": "it",
+          "translation": "colonnina di ricarica"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadpaal"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladestasjon"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "stație de încărcare"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddstation"
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "charging pole",
+          "isPlural": false
+        },
+        {
+          "alternative": "charging point",
+          "isPlural": false
+        },
+        {
+          "alternative": "charge point",
+          "isPlural": false
+        },
+        {
+          "alternative": "charge station",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -6982,11 +7098,11 @@
     {
       "id": 2,
       "term": "EVSE",
-      "description": "Description: Electric Vehicle Supply Equipment (EVSE): the physical charging hardware that controls and meters energy delivery and communicates with Monta via OCPP. In Monta, “EVSE” refers to the connected charging equipment managed as a charge point in Hub and Control.\n \n\n Usage rules:\n • Always capitalize the abbreviation “EVSE”; do not use periods.\n • Use in technical contexts (integrations, OCPP settings, installation guides). Avoid in driver-facing copy—prefer “charger” or “charge point.”\n • In UI for operators/installers, prefer “charge point”; reserve “EVSE” only where required by standards, API fields, or technical logs.\n \n\n \n\n Platform: Hub, Control\n Audience: B2B",
+      "description": "Electric Vehicle Supply Equipment — the B2B canonical term for a single outlet/connector on a charging unit. Refers to the hardware that controls and meters energy delivery and communicates via OCPP.\n\nUsage rules:\n• Primary term for operator-facing copy at outlet/connector level (Hub, Control, dashboards, portal).\n• Always capitalize; do not use periods.\n• Do not use: \"charge point\" or \"charging point\" when referring to a single outlet in B2B copy — use EVSE.\n• Do not use in driver-facing (B2C) copy — use \"charger\" instead.\n• For the full hardware box/unit, use \"charging station\" (not EVSE).\n\nPlatform: Hub, Control\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "industry",
+      "tags": "industry, b2b",
       "pluralForm": "",
       "translations": [
         {
@@ -6999,6 +7115,10 @@
         },
         {
           "languageCode": "en",
+          "translation": "EVSE"
+        },
+        {
+          "languageCode": "en_CA",
           "translation": "EVSE"
         },
         {
@@ -7043,12 +7163,7 @@
         }
       ],
       "alternatives": [],
-      "additionalDescriptions": [
-        {
-          "languageCode": "nl",
-          "description": "Echipament de încărcare"
-        }
-      ]
+      "additionalDescriptions": []
     },
     {
       "id": 111,
@@ -8511,6 +8626,10 @@
         {
           "languageCode": "sv",
           "translation": "hemmaladdare"
+        },
+        {
+          "languageCode": "en_CA",
+          "translation": "home charger"
         }
       ],
       "alternatives": [
