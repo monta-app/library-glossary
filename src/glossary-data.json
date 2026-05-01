@@ -3964,90 +3964,15 @@
     {
       "id": 84,
       "term": "charging site",
-      "description": "Description: A physical location containing one or more charge points and the necessary infrastructure for EV charging.\n \n\n Usage rules:\n • Always lowercase (“charging site”).\n • Use consistently in B2B or operator-facing contexts instead of “station.”\n • Avoid “charging station” unless required for third-party integration documentation.\n \n\n Platform: Hub, Control\n Audience: B2B",
+      "description": "Deprecated — use 'location' instead.",
       "caseSensitive": false,
       "translatable": true,
-      "forbidden": false,
+      "forbidden": true,
       "tags": "industry",
       "pluralForm": "",
-      "translations": [
-        {
-          "languageCode": "da",
-          "translation": "ladelokation"
-        },
-        {
-          "languageCode": "de",
-          "translation": "Standort"
-        },
-        {
-          "languageCode": "en",
-          "translation": "charging site"
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "charging site"
-        },
-        {
-          "languageCode": "es",
-          "translation": "estación de carga"
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðistaður"
-        },
-        {
-          "languageCode": "fr",
-          "translation": "site de recharge"
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "site site de recharge"
-        },
-        {
-          "languageCode": "it",
-          "translation": "stazione di ricarica"
-        },
-        {
-          "languageCode": "nl",
-          "translation": "laadlocatie"
-        },
-        {
-          "languageCode": "no",
-          "translation": "ladelokation"
-        },
-        {
-          "languageCode": "ro",
-          "translation": "locație de încărcare"
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddplats"
-        }
-      ],
-      "alternatives": [
-        {
-          "alternative": "charging station",
-          "isPlural": false
-        },
-        {
-          "alternative": "charge site",
-          "isPlural": false
-        },
-        {
-          "alternative": "charging location",
-          "isPlural": false
-        },
-        {
-          "alternative": "charging hub",
-          "isPlural": false
-        }
-      ],
-      "additionalDescriptions": [
-        {
-          "languageCode": "da",
-          "description": ""
-        }
-      ]
+      "translations": [],
+      "alternatives": [],
+      "additionalDescriptions": []
     },
     {
       "id": 85,
@@ -10215,6 +10140,81 @@
       "additionalDescriptions": []
     },
     {
+      "id": 299,
+      "term": "location",
+      "description": "The top-level entity in the charging hierarchy, representing a geographic grouping of one or more charging stations and their EVSEs. Corresponds to the Location object in OCPI 2.3, defined as a group of EVSEs that belong together geographically or spatially.\n\nUsage rules:\n• Capitalise as a UI label (\"Location\"); lowercase in running text (\"the location has three charging stations\").\n• Replaces \"site\" and \"charging site\" across all operator-facing contexts.\n• The three-level hierarchy is: location > charging station > EVSE.\n\nPlatform: Hub, Control\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "location"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "location"
+        },
+        {
+          "languageCode": "da",
+          "translation": "lokation"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Standort"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "locatie"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "station de recharge"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "station de recharge"
+        },
+        {
+          "languageCode": "es",
+          "translation": "estación de recarga"
+        },
+        {
+          "languageCode": "it",
+          "translation": "stazione di ricarica"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "locație"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddlokation"
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladelokasjon"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðistaður"
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "site",
+          "isPlural": false
+        },
+        {
+          "alternative": "charging site",
+          "isPlural": false
+        }
+      ],
+      "additionalDescriptions": []
+    },
+    {
       "id": 17,
       "term": "Made to Move",
       "description": "Description: Monta’s brand slogan expressing the mission to power the transition to sustainable mobility. Used in brand campaigns and high-level messaging.\n \n\n Usage rules:\n • Capitalize each word exactly as “Made to Move.”\n • Use only in marketing or brand contexts; not as product UI text.\n • Do not translate.\n • Avoid using as a generic tagline in technical documentation.\n ",
@@ -15255,66 +15255,13 @@
     {
       "id": 196,
       "term": "site",
-      "description": "Description: A physical location containing one or more charge points managed together in Hub. Acts as the main unit for configuring pricing, access, load management, and reporting.\n \n\n Usage rules:\n • Distinguish “site” (location entity) from “team” (organizational entity).\n • Not a synonym for “installation” (the activity).\n \n\n Platform: Hub\n Audience: B2B",
+      "description": "Deprecated — use 'location' instead.",
       "caseSensitive": false,
       "translatable": true,
-      "forbidden": false,
+      "forbidden": true,
       "tags": "industry",
       "pluralForm": "",
-      "translations": [
-        {
-          "languageCode": "da",
-          "translation": "lokation"
-        },
-        {
-          "languageCode": "de",
-          "translation": "Standort"
-        },
-        {
-          "languageCode": "en",
-          "translation": "site"
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "site"
-        },
-        {
-          "languageCode": "es",
-          "translation": "estación"
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðipláss"
-        },
-        {
-          "languageCode": "fr",
-          "translation": "station de recharge"
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "site"
-        },
-        {
-          "languageCode": "it",
-          "translation": "stazione"
-        },
-        {
-          "languageCode": "nl",
-          "translation": "locatie"
-        },
-        {
-          "languageCode": "no",
-          "translation": "ladested"
-        },
-        {
-          "languageCode": "ro",
-          "translation": "locație"
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddplats"
-        }
-      ],
+      "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
     },
