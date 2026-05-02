@@ -2638,93 +2638,6 @@
       "additionalDescriptions": []
     },
     {
-      "id": 66,
-      "term": "charge point - will be deprecated",
-      "description": "Description: Default term for an electrical outlet or station that supplies power for charging plug-in electric vehicles (EVs). Sometimes referred to as a charger or charging station in copy.\n \n\n Usage rules:\n • Always use “charge point” as the default term across Monta content.\n • Translate into the standard local equivalent for EV infrastructure in localized versions.\n • Avoid overusing “charger” or “station” unless required for clarity or local context.\n \n\n Platform: Hub, Charge, Control\n Audience: B2B and B2C",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": "",
-      "translations": [
-        {
-          "languageCode": "da",
-          "translation": "ladestander"
-        },
-        {
-          "languageCode": "de",
-          "translation": "Ladestation"
-        },
-        {
-          "languageCode": "en",
-          "translation": "charge point"
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "charger"
-        },
-        {
-          "languageCode": "es",
-          "translation": "punto de recarga"
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðistøð"
-        },
-        {
-          "languageCode": "fr",
-          "translation": "borne de recharge default term / borne - only in space-constrained contexts"
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "borne de recharge"
-        },
-        {
-          "languageCode": "it",
-          "translation": "punto di ricarica"
-        },
-        {
-          "languageCode": "nl",
-          "translation": "laadpaal"
-        },
-        {
-          "languageCode": "no",
-          "translation": "ladepunkt"
-        },
-        {
-          "languageCode": "ro",
-          "translation": "stație de încărcare"
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddpunkt"
-        }
-      ],
-      "alternatives": [
-        {
-          "alternative": "charging station",
-          "isPlural": false
-        },
-        {
-          "alternative": "charger",
-          "isPlural": false
-        },
-        {
-          "alternative": "charging pole",
-          "isPlural": false
-        },
-        {
-          "alternative": "charging point",
-          "isPlural": false
-        },
-        {
-          "alternative": "charge station",
-          "isPlural": false
-        }
-      ],
-      "additionalDescriptions": []
-    },
-    {
       "id": 67,
       "term": "charge point management system",
       "description": "Description: Software platform used by operators to monitor, manage, and optimize EV charging infrastructure, including connectivity, pricing, access, reporting, and integrations.\n \n\n Usage rules:\n • Use the full term “charge point management system” in general or product-facing copy.\n • Introduce abbreviation “CPMS” in technical documentation after first mention.\n • Do not use “CSMS.”\n • When referring to Monta’s system, use “Monta Hub.”\n \n\n Platform: Hub\n Audience: B2B",
@@ -2869,72 +2782,6 @@
           "description": ""
         }
       ]
-    },
-    {
-      "id": 70,
-      "term": "charge point subscription",
-      "description": "Description: Add-on service for maintaining private charge points, typically provided by operators or installers. Used mainly for private ownership models.\n \n\n Usage rules:\n • Use lowercase (“charge point subscription”).\n • Do not abbreviate or shorten.\n • Refer only to the defined operator product offering, not to general Monta subscription models.\n \n\n Platform: Charge\n Audience: B2C",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "product",
-      "pluralForm": "",
-      "translations": [
-        {
-          "languageCode": "da",
-          "translation": "ladestanderabonnement"
-        },
-        {
-          "languageCode": "de",
-          "translation": "Ladestationsabonnement"
-        },
-        {
-          "languageCode": "en",
-          "translation": "charge point subscription"
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "charger subscription"
-        },
-        {
-          "languageCode": "es",
-          "translation": "suscripción al punto de recarga"
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðistøðarhald"
-        },
-        {
-          "languageCode": "fr",
-          "translation": "abonnement pour borne de recharge"
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "abonnement de borne"
-        },
-        {
-          "languageCode": "it",
-          "translation": "abbonamento al punto di ricarica"
-        },
-        {
-          "languageCode": "nl",
-          "translation": "laadpaalabonnement"
-        },
-        {
-          "languageCode": "no",
-          "translation": "Ladepunktinnstillinger"
-        },
-        {
-          "languageCode": "ro",
-          "translation": "abonament stații de încărcare"
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddpunktsabonnemang"
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
     },
     {
       "id": 71,
@@ -3084,7 +2931,7 @@
     {
       "id": 297,
       "term": "charger",
-      "description": "Description: The outlet-level unit that delivers power to one electric vehicle at a time. The primary driver-facing term for EV charging hardware in the Charge mobile app.\n \n\n Usage rules:\n • Use \"charger\" as the default term in all driver-facing (B2C) copy in the Charge mobile app.\n • Do not use in B2B monorepo frontends (Hub, Control, Installer, portals) — use \"EVSE\" instead.\n • Lowercase in running text (\"plug into a charger\"); capitalise only when used as a standalone UI label.\n • \"Charge point\" is a recognised synonym and may appear in B2C context, but \"charger\" is the preferred primary term.\n \n\n Platform: Charge (mobile app)\n Audience: B2C (drivers)",
+      "description": "The outlet-level unit that delivers power to one electric vehicle at a time. The primary driver-facing term for EV charging hardware in the Charge mobile app.\n\nUsage rules:\n• Use \"charger\" as the default term in all driver-facing (B2C) copy in the Charge mobile app.\n• Do not use in B2B frontends (Hub, Control, Installer, portals) — use \"EVSE\" for outlet level, \"charging station\" for the full unit.\n• Do not use: EVSE, charging station, charge point.\n• Lowercase in running text (\"plug into a charger\"); capitalise only when used as a standalone UI label.\n\nPlatform: Charge (mobile app)\nAudience: B2C (drivers)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -3092,15 +2939,11 @@
       "pluralForm": "",
       "translations": [
         {
-          "languageCode": "da",
-          "translation": "ladepunkt"
-        },
-        {
-          "languageCode": "de",
-          "translation": "Ladepunkt"
-        },
-        {
           "languageCode": "en",
+          "translation": "charger"
+        },
+        {
+          "languageCode": "en_US",
           "translation": "charger"
         },
         {
@@ -3108,8 +2951,12 @@
           "translation": "charger"
         },
         {
-          "languageCode": "en_US",
-          "translation": "charger"
+          "languageCode": "da",
+          "translation": "ladepunkt"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladepunkt"
         },
         {
           "languageCode": "es",
@@ -3174,6 +3021,68 @@
           "isPlural": false
         }
       ],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 70,
+      "term": "charger subscription",
+      "description": "B2C product feature name for the add-on service that maintains a private charger, typically provided by operators or installers.\n\nUsage rules:\n• Use lowercase (\"charger subscription\").\n• Do not abbreviate or shorten.\n• Use consistently across the Charge app, help center, and all driver-facing content.\n• Do not use \"charge point subscription\" — deprecated.\n\nPlatform: Charge\nAudience: B2C",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": "",
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "charger subscription"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charger subscription"
+        },
+        {
+          "languageCode": "da",
+          "translation": "laderabonnement"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Laderabonnement"
+        },
+        {
+          "languageCode": "es",
+          "translation": "suscripción de cargador"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "abonnement de borne"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "abonnement de borne"
+        },
+        {
+          "languageCode": "it",
+          "translation": "abbonamento caricatore"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadpaalabonnement"
+        },
+        {
+          "languageCode": "no",
+          "translation": "laderabonnement"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "abonament încărcător"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddarabonnemang"
+        }
+      ],
+      "alternatives": [],
       "additionalDescriptions": []
     },
     {
@@ -3959,19 +3868,6 @@
           "isPlural": false
         }
       ],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 84,
-      "term": "charging site",
-      "description": "Deprecated — use 'location' instead.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": true,
-      "tags": "industry",
-      "pluralForm": "",
-      "translations": [],
-      "alternatives": [],
       "additionalDescriptions": []
     },
     {
@@ -6717,7 +6613,7 @@
     {
       "id": 250,
       "term": "EMSP",
-      "description": "Description: An eMobility Service Provider (eMSP) is a company or platform that gives EV drivers access to public and private charge points across multiple networks through a single app, card, or account. In Monta’s context, Monta acts as an eMSP by enabling users to discover, start, and pay for charging sessions across Monta-connected and external (roaming) networks via the Monta App.\n \n\n Usage x rules:\n • Always capitalize “eMSP.”\n • Spell out “eMobility Service Provider (eMSP)” on first mention.\n • Use only in contexts related to roaming, interoperability, or cross-network charging.\n • Avoid using “service provider” alone when referring to this entity.\n • In UI or partner documentation, clearly distinguish eMSP from “CPO.”\n \n\n Platform: Charge, Hub\n Audience: B2B and B2C",
+      "description": "An e-Mobility Service Provider (eMSP) is a company or platform that gives EV drivers access to public and private charge points across multiple networks through a single app, card, or account.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -7023,7 +6919,7 @@
     {
       "id": 2,
       "term": "EVSE",
-      "description": "Electric Vehicle Supply Equipment — the B2B canonical term for a single outlet/connector on a charging unit. Refers to the hardware that controls and meters energy delivery and communicates via OCPP.\n\nUsage rules:\n• Primary term for operator-facing copy at outlet/connector level (Hub, Control, dashboards, portal).\n• Always capitalize; do not use periods.\n• Do not use: \"charge point\" or \"charging point\" when referring to a single outlet in B2B copy — use EVSE.\n• Do not use in driver-facing (B2C) copy — use \"charger\" instead.\n• For the full hardware box/unit, use \"charging station\" (not EVSE).\n\nPlatform: Hub, Control\nAudience: B2B",
+      "description": "Electric Vehicle Supply Equipment — the B2B term for a single charging unit that manages one charging session at a time. One EVSE may have multiple connectors (sockets or cable ends), but only one EV can be actively charged per EVSE at once. Refers to the hardware that controls and meters energy delivery and communicates via OCPP.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -11844,7 +11740,7 @@
     {
       "id": 24,
       "term": "OCPI",
-      "description": "Description: Open Charge Point Interface used for interoperability between charging networks. Monta uses OCPI for roaming, session sharing, and pricing synchronization.\n \n\n Usage rules:\n • Write “OCPI” in all caps; spell out on first mention if needed.\n • Use for eMSP/CPO roaming data exchange; not for charger-to-backend control.\n \n\n \n\n Platform: Hub, Control\n Audience: B2B",
+      "description": "Open Charge Point Interface — the industry-standard protocol for interoperability between EV charging networks. OCPI enables CPOs and eMSPs to exchange data on Locations (charge point availability and status), Tokens (driver authorization), Sessions (live session data), CDRs (completed session billing records), and Tariffs (pricing). Monta uses OCPI for roaming, session sharing, and pricing synchronization. Not to be confused with OCPP, which governs charger-to-backend communication.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -14450,7 +14346,7 @@
     {
       "id": 189,
       "term": "roaming",
-      "description": "Description: A feature that allows Monta users to charge their EVs on third-party networks connected through roaming agreements. Roaming enables cross-network access by exchanging session, pricing, and payment data between Monta and external platforms via standardized protocols such as OCPI or direct partnerships.\n \n\n Usage rules:\n • Use lowercase “roaming” in running text.\n • Capitalize only when part of a feature name or heading (e.g., “Roaming settings” in Hub).\n • Use only in contexts involving cross-network charging, OCPI integrations, or interoperability.\n • Do not use interchangeably with “partner network” or “integration.”\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C",
+      "description": "An industry-standard capability enabling EV drivers to charge on third-party networks through interoperability agreements. Roaming relies on standardized protocols (primarily OCPI) to exchange data on driver authorization, sessions, pricing, and payment between a CPO and an eMSP. Monta supports roaming as both a CPO and eMSP.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -15249,19 +15145,6 @@
           "translation": "Samlad inloggning"
         }
       ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 196,
-      "term": "site",
-      "description": "Deprecated — use 'location' instead.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": true,
-      "tags": "industry",
-      "pluralForm": "",
-      "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
     },
@@ -17131,6 +17014,85 @@
         }
       ],
       "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 300,
+      "term": "Token",
+      "description": "A unique identifier used by an eMSP to authorize an EV driver on a charging network. CPOs receive token lists from eMSPs via OCPI and use them for local authorization without a real-time callback. Token types per OCPI 2.2.1: RFID (physical card or key fob), APP_USER (app-generated ID), AD_HOC_USER (one-time ID), and EMAID (ISO 15118 Plug&Charge vehicle identifier). B2C equivalent in Monta copy: \"charge key\" or \"RFID card\".",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "en_CA",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "da",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "no",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "es",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Token"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Token"
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "RFID token",
+          "isPlural": false
+        },
+        {
+          "alternative": "access token",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
