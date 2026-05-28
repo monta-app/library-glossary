@@ -1,30 +1,82 @@
 name: Update Glossary Data
 
 on:
-  # Run daily at 2 AM UTC
+  # Hourly backup to the `backups` branch — no branch protection needed
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 * * * *'
 
-  # Allow manual trigger
+  # Manual trigger — also runs the publish job if PAT is configured
   workflow_dispatch:
-
-  # Run on push to main (for testing)
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/workflows/update-glossary.yml'
+    inputs:
+      publish:
+        description: 'Bump version and publish to main (requires GLOSSARY_PAT secret)'
+        type: boolean
+        default: false
 
 jobs:
-  update:
-    runs-on: linux-arm64
+  # ── Hourly backup ────────────────────────────────────────────────────────────
+  # Pushes latest glossary JSON to the `backups` branch.
+  # This branch has no protection rules so GITHUB_TOKEN can push directly.
+  # Keeps a rolling snapshot: restore any hour's data by checking out this branch.
+  backup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout backups branch
+        uses: actions/checkout@v4
+        with:
+          ref: backups
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # If the branch doesn't exist yet, create it from main
+          fetch-depth: 0
+
+      - name: Fetch glossary data from API
+        run: |
+          echo "Fetching from https://translate.monta.app/public/api/glossary"
+          curl -f https://translate.monta.app/public/api/glossary -o glossary-data.json
+
+          # Pretty-print
+          node -e "
+            const fs = require('fs');
+            const data = JSON.parse(fs.readFileSync('glossary-data.json', 'utf8'));
+            fs.writeFileSync('glossary-data.json', JSON.stringify(data, null, 2));
+            console.log('Terms:', data.terms ? data.terms.length : 'n/a');
+          "
+
+      - name: Commit and push to backups branch
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add glossary-data.json
+
+          if git diff --cached --quiet; then
+            echo "No changes — glossary is unchanged since last snapshot."
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+            TERMS=$(node -e "console.log(JSON.parse(require('fs').readFileSync('glossary-data.json','utf8')).terms.length)")
+            git commit -m "snapshot: ${TIMESTAMP} (${TERMS} terms)"
+            git push origin backups
+            echo "✅ Snapshot saved: ${TIMESTAMP}"
+          fi
+
+  # ── Publish to main + npm ────────────────────────────────────────────────────
+  # Bumps the package version, updates src/glossary-data.json on main, creates a
+  # GitHub release. Requires the GLOSSARY_PAT secret (a PAT with repo:write that
+  # is exempt from branch protection on main).
+  # Only runs on manual dispatch with publish=true.
+  publish:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' && inputs.publish == true
     permissions:
       contents: write
 
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GLOSSARY_PAT }}
 
       - uses: actions/setup-node@v4
         with:
@@ -32,55 +84,39 @@ jobs:
 
       - name: Fetch glossary data from API
         run: |
-          echo "Fetching glossary data from https://translate.monta.app/public/api/glossary"
+          echo "Fetching from https://translate.monta.app/public/api/glossary"
           curl -f https://translate.monta.app/public/api/glossary -o src/glossary-data.json
-
-          # Pretty print the JSON
-          node -e "const fs = require('fs'); const data = JSON.parse(fs.readFileSync('src/glossary-data.json', 'utf8')); fs.writeFileSync('src/glossary-data.json', JSON.stringify(data, null, 2));"
-
-          echo "✅ Successfully fetched $(node -e "console.log(JSON.parse(require('fs').readFileSync('src/glossary-data.json', 'utf8')).terms.length)") terms"
+          node -e "const fs = require('fs'); const d = JSON.parse(fs.readFileSync('src/glossary-data.json','utf8')); fs.writeFileSync('src/glossary-data.json', JSON.stringify(d, null, 2)); console.log('Terms:', d.terms.length)"
 
       - name: Check for changes
         id: check_changes
         run: |
           if git diff --quiet src/glossary-data.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "No changes in glossary data"
+            echo "No changes."
           else
             echo "changed=true" >> $GITHUB_OUTPUT
-            echo "Changes detected in glossary data"
-
-            # Show diff stats
-            echo "Changes:"
             git diff --stat src/glossary-data.json
           fi
 
       - name: Configure git
         if: steps.check_changes.outputs.changed == 'true'
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit changes
-        if: steps.check_changes.outputs.changed == 'true'
-        run: |
-          git add src/glossary-data.json
-          git commit -m "Update glossary data from API
-
-          Automated update from https://translate.monta.app/public/api/glossary
-
-          🤖 Generated by GitHub Actions"
-
-      - name: Bump version (patch)
+      - name: Commit and bump version
         if: steps.check_changes.outputs.changed == 'true'
         id: version
         run: |
+          git add src/glossary-data.json
+          git commit -m "Update glossary data from API"
           npm version patch -m "chore: update glossary data to v%s"
           NEW_VERSION=$(node -p "require('./package.json').version")
           echo "version=$NEW_VERSION" >> $GITHUB_OUTPUT
           echo "New version: $NEW_VERSION"
 
-      - name: Push changes and tag
+      - name: Push to main
         if: steps.check_changes.outputs.changed == 'true'
         run: |
           git push origin main
@@ -89,18 +125,9 @@ jobs:
       - name: Create GitHub Release
         if: steps.check_changes.outputs.changed == 'true'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GLOSSARY_PAT }}
         run: |
+          TERMS=$(node -e "console.log(JSON.parse(require('fs').readFileSync('src/glossary-data.json','utf8')).terms.length)")
           gh release create "v${{ steps.version.outputs.version }}" \
             --title "v${{ steps.version.outputs.version }}" \
-            --notes "Automated glossary data update from API
-
-          **Changes:**
-          - Updated glossary data from https://translate.monta.app/public/api/glossary
-          - Total terms: $(node -e "console.log(JSON.parse(require('fs').readFileSync('src/glossary-data.json', 'utf8')).terms.length)")
-
-          This release was automatically generated when the glossary data changed."
-
-      - name: No changes
-        if: steps.check_changes.outputs.changed == 'false'
-        run: echo "✅ Glossary data is up to date, no changes to commit"
+            --notes "Glossary data updated — ${TERMS} terms."
