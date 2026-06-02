@@ -17,9 +17,8 @@ jobs:
   # ── Hourly backup ────────────────────────────────────────────────────────────
   # Pushes latest glossary JSON to the `backups` branch.
   # This branch has no protection rules so GITHUB_TOKEN can push directly.
-  # Keeps a rolling snapshot: restore any hour's data by checking out this branch.
   backup:
-    runs-on: ubuntu-latest
+    runs-on: linux-arm64
     permissions:
       contents: write
 
@@ -66,9 +65,8 @@ jobs:
   # Bumps the package version, updates src/glossary-data.json on main, creates a
   # GitHub release. Requires the GLOSSARY_PAT secret (a PAT with repo:write that
   # is exempt from branch protection on main).
-  # Only runs on manual dispatch with publish=true.
   publish:
-    runs-on: ubuntu-latest
+    runs-on: linux-arm64
     if: github.event_name == 'workflow_dispatch' && inputs.publish == true
     permissions:
       contents: write
