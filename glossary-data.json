@@ -13966,8 +13966,8 @@
         },
         {
           "languageCode": "is",
-          "translation": "undirteymi",
-          "grammarNotes": "N | acc sg: undirteymi | nom pl: undirteymi"
+          "translation": "undiraðgangur",
+          "grammarNotes": "M | acc sg: undiraðgang | nom pl: undiraðgangar"
         }
       ],
       "alternatives": [],
@@ -14901,8 +14901,8 @@
         },
         {
           "languageCode": "is",
-          "translation": "rekstraraðilar",
-          "grammarNotes": "M | acc sg: rekstraraðila | nom pl: rekstraraðilar"
+          "translation": "rekstraraðgangur",
+          "grammarNotes": "M | acc sg: rekstraraðgang | nom pl: rekstraraðgangar"
         }
       ],
       "alternatives": [],
@@ -15241,8 +15241,8 @@
         },
         {
           "languageCode": "is",
-          "translation": "aðalteymi",
-          "grammarNotes": "N | acc sg: aðalteymi | nom pl: aðalteymi"
+          "translation": "aðalaðgangur",
+          "grammarNotes": "M | acc sg: aðalaðgang | nom pl: aðalaðgangar"
         }
       ],
       "alternatives": [],
@@ -20655,8 +20655,8 @@
         },
         {
           "languageCode": "is",
-          "translation": "teymi",
-          "grammarNotes": "N | acc sg: teymi | nom pl: teymi"
+          "translation": "aðgangur",
+          "grammarNotes": "M | acc sg: aðgang | nom pl: aðgangar"
         }
       ],
       "alternatives": [],
@@ -20740,8 +20740,8 @@
         },
         {
           "languageCode": "is",
-          "translation": "rétthafi teymis",
-          "grammarNotes": "M | acc sg: rétthafa teymis | nom pl: rétthafar teyma"
+          "translation": "rétthafi aðgangs",
+          "grammarNotes": "M | acc sg: rétthafa aðgangs | nom pl: rétthafar aðganga"
         }
       ],
       "alternatives": [],
