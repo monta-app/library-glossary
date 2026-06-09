@@ -2838,28 +2838,8 @@
       "usageRules": "Lowercase in running text unless used in a UI label (e.g., “Charge Key Settings”).",
       "translations": [
         {
-          "languageCode": "en",
-          "translation": "charge key",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "da",
           "translation": "ladebrik",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddbricka",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "ladebrikke",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "tarjeta de carga",
           "grammarNotes": null
         },
         {
@@ -2868,8 +2848,23 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "tessera di ricarica",
+          "languageCode": "en",
+          "translation": "charge key",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charge key",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "tarjeta de carga",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðispjaldur",
           "grammarNotes": null
         },
         {
@@ -2883,18 +2878,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
-          "translation": "charge key",
-          "grammarNotes": null
+          "languageCode": "is",
+          "translation": "ON lykill",
+          "grammarNotes": "M | acc sg: ON lykill| nom pl: ON lyklar"
         },
         {
-          "languageCode": "ro",
-          "translation": "card de încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðispjaldur",
+          "languageCode": "it",
+          "translation": "tessera di ricarica",
           "grammarNotes": null
         },
         {
@@ -2903,9 +2893,19 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "is",
-          "translation": "hleðslulykill",
-          "grammarNotes": "M | acc sg: hleðslulykil | nom pl: hleðslulyklar"
+          "languageCode": "no",
+          "translation": "ladebrikke",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "card de încărcare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddbricka",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
