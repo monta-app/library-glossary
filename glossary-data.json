@@ -3008,33 +3008,8 @@
       "usageRules": "Use lowercase in running text ('charge point'). Capitalize only the first word as a UI label ('Charge point'). Preferred B2C term (Charge app) for charging hardware; use 'charging station' in B2B frontends.",
       "translations": [
         {
-          "languageCode": "is",
-          "translation": "hleðslustöð",
-          "grammarNotes": "F | acc sg: hleðlustöðina | nom pl: hleðlustöðvar"
-        },
-        {
-          "languageCode": "en",
-          "translation": "charge point",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "da",
           "translation": "ladestander",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddpunkt",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "ladepunkt",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "punto de recarga",
           "grammarNotes": null
         },
         {
@@ -3043,8 +3018,23 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "punto di ricarica",
+          "languageCode": "en",
+          "translation": "charge point",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charger",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "punto de recarga",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðistikk",
           "grammarNotes": null
         },
         {
@@ -3058,8 +3048,23 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
-          "translation": "charger",
+          "languageCode": "is",
+          "translation": "hleðslustöð",
+          "grammarNotes": "F | acc sg: hleðlustöðina | nom pl: hleðlustöðvar"
+        },
+        {
+          "languageCode": "it",
+          "translation": "punto di ricarica",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadpaal",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladepunkt",
           "grammarNotes": null
         },
         {
@@ -3068,13 +3073,8 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "løðistøð",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "laadpaal",
+          "languageCode": "sv",
+          "translation": "laddpunkt",
           "grammarNotes": null
         }
       ],
