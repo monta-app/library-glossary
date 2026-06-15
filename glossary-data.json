@@ -6144,6 +6144,11 @@
           "grammarNotes": null
         },
         {
+          "languageCode": "en_CA",
+          "translation": "dashboards",
+          "grammarNotes": null
+        },
+        {
           "languageCode": "en_US",
           "translation": "dashboards",
           "grammarNotes": null
@@ -6155,7 +6160,7 @@
         },
         {
           "languageCode": "fo",
-          "translation": "dashboards",
+          "translation": "yvirlitsskíggi",
           "grammarNotes": null
         },
         {
@@ -6195,11 +6200,6 @@
         },
         {
           "languageCode": "sv",
-          "translation": "dashboards",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_CA",
           "translation": "dashboards",
           "grammarNotes": null
         }
@@ -18989,9 +18989,19 @@
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
+      "pluralForm": "",
       "usageRules": "Sentence case only: \"Split billing\" — never capitalise both words B2B-only term — use only in operator-facing contexts (Hub) In B2C (driver-facing) copy, this feature surfaces as \"personal contribution\" — do not use \"split billing\" in the driver app or any driver-facing communication Do not use as a synonym for general cost-sharing or invoicing",
       "translations": [
+        {
+          "languageCode": "da",
+          "translation": "Delt fakturering",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Geteilte Abrechnung",
+          "grammarNotes": null
+        },
         {
           "languageCode": "en",
           "translation": "Split billing",
@@ -19003,28 +19013,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "da",
-          "translation": "Delt fakturering",
+          "languageCode": "es",
+          "translation": "Facturación dividida",
           "grammarNotes": null
         },
         {
-          "languageCode": "sv",
-          "translation": "Delad fakturering",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "Delt fakturering",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Geteilte Abrechnung",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "Gesplitste facturering",
+          "languageCode": "fo",
+          "translation": "deil gjald",
           "grammarNotes": null
         },
         {
@@ -19038,13 +19033,18 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "es",
-          "translation": "Facturación dividida",
+          "languageCode": "it",
+          "translation": "Fatturazione suddivisa",
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "Fatturazione suddivisa",
+          "languageCode": "nl",
+          "translation": "Gesplitste facturering",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "Delt fakturering",
           "grammarNotes": null
         },
         {
@@ -19053,8 +19053,8 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "Deild roknskapur",
+          "languageCode": "sv",
+          "translation": "Delad fakturering",
           "grammarNotes": null
         }
       ],
