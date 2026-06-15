@@ -2668,28 +2668,8 @@
       "usageRules": "Use only for the energy transfer process, not payment. In UI, use imperative form (“Charge now”). In documentation, use infinitive (“to charge an EV”). Lowercase unless at sentence start or part of a product name.",
       "translations": [
         {
-          "languageCode": "en",
-          "translation": "charge",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "da",
           "translation": "oplade",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "lade",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "cargar",
           "grammarNotes": null
         },
         {
@@ -2698,8 +2678,23 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "ricaricare",
+          "languageCode": "en",
+          "translation": "charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "cargar",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løð",
           "grammarNotes": null
         },
         {
@@ -2713,18 +2708,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
-          "translation": "charge",
+          "languageCode": "is",
+          "translation": "hlaða",
           "grammarNotes": null
         },
         {
-          "languageCode": "ro",
-          "translation": "încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løð",
+          "languageCode": "it",
+          "translation": "ricaricare",
           "grammarNotes": null
         },
         {
@@ -2733,8 +2723,18 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "is",
-          "translation": "hlaða",
+          "languageCode": "no",
+          "translation": "lade",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "încărcare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ladda",
           "grammarNotes": null
         }
       ],
@@ -3039,7 +3039,7 @@
         },
         {
           "languageCode": "fr",
-          "translation": "borne de recharge default term / borne - only in space-constrained contexts",
+          "translation": "borne de recharge",
           "grammarNotes": null
         },
         {
@@ -4574,7 +4574,7 @@
         },
         {
           "languageCode": "es",
-          "translation": "unidad de carga",
+          "translation": "estación de carga",
           "grammarNotes": null
         },
         {
@@ -4591,6 +4591,11 @@
           "languageCode": "fr_CA",
           "translation": "borne de recharge",
           "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "hleðslustöð",
+          "grammarNotes": "F | acc sg: hleðslustöðina | nom pl: hleðslustöðvar"
         },
         {
           "languageCode": "it",
@@ -4616,11 +4621,6 @@
           "languageCode": "sv",
           "translation": "laddstation",
           "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "hleðslustöð",
-          "grammarNotes": "F | acc sg: hleðslustöðina | nom pl: hleðslustöðvar"
         }
       ],
       "alternatives": [
