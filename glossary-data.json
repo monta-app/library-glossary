@@ -12247,84 +12247,84 @@
     },
     {
       "id": 265,
-      "term": "main account",
-      "description": "Description: A main account is the top-level organizational account that owns and governs one or more sub-accounts. It defines global policies for access, financial ownership, and shared configuration across all linked accounts.",
+      "term": "main operator",
+      "description": "The top-level business entity that owns and governs one or more Sub-operators. Defines global policies for access, financial ownership, and configuration across all linked sub-operators.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use “main account” in running text (lowercase, no hyphen). Capitalize only when used as a UI label, menu item, or title. Preferred article and plural: “a main account”; “main accounts.” Pair with “sub-account” when describing hierarchy; avoid “parent/child,” “tenant,” “workspace,” or “org account.”",
+      "usageRules": "No hyphen: \"main operator\". Lowercase in running text (\"a main operator\", \"the main operator\"). Capitalise only as a standalone UI label (\"Main operator\"). Do not use \"main account\".",
       "translations": [
         {
           "languageCode": "en",
-          "translation": "main account",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "da",
-          "translation": "hovedkonto",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "huvudkonto",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "hovedkonto",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "cuenta principal",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Hauptkonto",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "account principale",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "compte principal",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "compte principal",
+          "translation": "main operator",
           "grammarNotes": null
         },
         {
           "languageCode": "en_US",
-          "translation": "main account",
+          "translation": "main operator",
           "grammarNotes": null
         },
         {
-          "languageCode": "ro",
-          "translation": "cont principal",
+          "languageCode": "da",
+          "translation": "hovedoperatør",
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "høvuðskonta",
+          "languageCode": "sv",
+          "translation": "huvudoperatör",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "hovedoperatør",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Hauptoperator",
           "grammarNotes": null
         },
         {
           "languageCode": "nl",
-          "translation": "hoofdaccount",
+          "translation": "hoofdoperator",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "opérateur principal",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "opérateur principal",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "operador principal",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "operatore principale",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "operator principal",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "høvuðsveitari",
           "grammarNotes": null
         },
         {
           "languageCode": "is",
-          "translation": "aðalreikningur",
-          "grammarNotes": "M | acc sg: aðalreikning | nom pl: aðalreikningar"
+          "translation": "aðalrekstraraðili",
+          "grammarNotes": "M | acc sg: aðalrekstraraðila | nom pl: aðalrekstraraðilar"
         }
       ],
       "alternatives": [],
@@ -19884,84 +19884,84 @@
     },
     {
       "id": 272,
-      "term": "sub-account",
-      "description": "Description: A sub-account is an operational account within an organization’s main account. It acts as an independent unit with its own users, teams, sites, and charging stations while remaining linked through the organization’s umbrella structure.",
+      "term": "sub-operator",
+      "description": "A separate business entity that operates under a Main operator. Each sub-operator is fully independent with its own accounts, members, EVSEs, and financial setup, while remaining linked to the Main operator's umbrella structure.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use “sub-account” in running text (lowercase, with hyphen). Capitalize only when it appears as a UI label, menu item, or title. Preferred article and plural: “a sub-account”; “sub-accounts.” Follow sentence case in body copy; use",
+      "usageRules": "Always hyphenated: \"sub-operator\". Lowercase in running text (\"a sub-operator\", \"the sub-operator\"). Capitalise only as a standalone UI label (\"Sub-operator\"). Do not use \"sub-account\".",
       "translations": [
         {
           "languageCode": "en",
-          "translation": "sub-account",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "da",
-          "translation": "underkonto",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "underkonto",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "underkonto",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "subcuenta",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Unterkonto",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "account secondario",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "sous-compte",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "sous-compte",
+          "translation": "sub-operator",
           "grammarNotes": null
         },
         {
           "languageCode": "en_US",
-          "translation": "sub-account",
+          "translation": "sub-operator",
           "grammarNotes": null
         },
         {
-          "languageCode": "ro",
-          "translation": "subcont",
+          "languageCode": "da",
+          "translation": "underoperatør",
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "undirkonta",
+          "languageCode": "sv",
+          "translation": "underoperatör",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "underoperatør",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Sub-Operator",
           "grammarNotes": null
         },
         {
           "languageCode": "nl",
-          "translation": "subaccount",
+          "translation": "sub-operator",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "sous-opérateur",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "sous-opérateur",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "sub-operador",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "sub-operatore",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "sub-operator",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "undirveitari",
           "grammarNotes": null
         },
         {
           "languageCode": "is",
-          "translation": "undirreikningur",
-          "grammarNotes": "M | acc sg: undirreikning | nom pl: undirreikningar"
+          "translation": "undirrekstraraðili",
+          "grammarNotes": "M | acc sg: undirrekstraraðila | nom pl: undirrekstraraðilar"
         }
       ],
       "alternatives": [],
