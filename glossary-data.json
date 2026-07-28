@@ -20580,7 +20580,7 @@
     {
       "id": 215,
       "term": "team",
-      "description": "Description: A shared organizational unit that groups users under common wallets, sites, and permissions to manage charge points, access, pricing, and reporting. 4 team types: personal, private, professional, and operator.",
+      "description": "**Previously the canonical product label for this entity across all product surfaces. This term will soon be deprecated and replaced with \"Account.\"**\n\nA shared organizational unit within an Operator that groups users under common wallets, locations, and permissions to manage EVSEs, access, pricing, and reporting. ",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -20589,22 +20589,22 @@
       "usageRules": "Use sentence case in running text and stand-alone UI labels. All other case, use lower case.",
       "translations": [
         {
-          "languageCode": "en",
-          "translation": "team",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "da",
           "translation": "team",
           "grammarNotes": null
         },
         {
-          "languageCode": "sv",
+          "languageCode": "de",
+          "translation": "Team",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en",
           "translation": "team",
           "grammarNotes": null
         },
         {
-          "languageCode": "no",
+          "languageCode": "en_US",
           "translation": "team",
           "grammarNotes": null
         },
@@ -20614,13 +20614,8 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "de",
-          "translation": "Team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "team",
+          "languageCode": "fo",
+          "translation": "toymi",
           "grammarNotes": null
         },
         {
@@ -20634,7 +20629,22 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
+          "languageCode": "is",
+          "translation": "aðgangur",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "team",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "team",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
           "translation": "team",
           "grammarNotes": null
         },
@@ -20644,19 +20654,9 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "toymi",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
+          "languageCode": "sv",
           "translation": "team",
           "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "aðgangur",
-          "grammarNotes": "M | acc sg: aðgang | nom pl: aðgangar"
         }
       ],
       "alternatives": [],
