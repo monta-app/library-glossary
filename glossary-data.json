@@ -86,18 +86,23 @@
       "additionalDescriptions": []
     },
     {
-      "id": 47,
+      "id": 308,
       "term": "account",
-      "description": "Description: Refers to a user’s Monta account in the app or portal, containing personal, billing, and team-related data. Not related to financial or bank accounts.",
+      "description": "The organizational unit within an Operator that groups members, EVSEs, wallet, and settings under one entity. Formerly displayed as \"Team\" across all product surfaces.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": "",
-      "usageRules": "Use lowercase in running text (\"your account\"). Capitalize only the first word in UI labels, menu items, or titles (e.g., Account settings, My account). Avoid \"my account\" as a standalone heading — use the UI label exactly as shown.",
+      "pluralForm": null,
+      "usageRules": "Always lowercase in running text (\"create an account\", \"invite members to your account\"). Capitalise only as a standalone UI label or heading (\"Accounts\", \"Account settings\"). Do not use \"team\" to refer to this entity in new copy — \"account\" is the canonical term. Do not confuse with \"profile\" (personal user identity) or \"operator\" (the parent business entity).",
       "translations": [
         {
           "languageCode": "en",
+          "translation": "account",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
           "translation": "account",
           "grammarNotes": null
         },
@@ -117,17 +122,12 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "es",
-          "translation": "cuenta",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "de",
           "translation": "Konto",
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
+          "languageCode": "nl",
           "translation": "account",
           "grammarNotes": null
         },
@@ -142,7 +142,12 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
+          "languageCode": "es",
+          "translation": "cuenta",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
           "translation": "account",
           "grammarNotes": null
         },
@@ -157,14 +162,9 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "nl",
-          "translation": "account",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "is",
           "translation": "aðgangur",
-          "grammarNotes": "M | acc sg: aðgang | nom pl: aðgangar"
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -16204,6 +16204,91 @@
           "description": "Productievoorspelling"
         }
       ]
+    },
+    {
+      "id": 47,
+      "term": "profile",
+      "description": "The personal identity and settings area for an individual Monta user. Contains personal details, notification preferences, connected charge keys, and default charging settings.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": "",
+      "usageRules": "Capitalise \"Profile\" when referring to the product section (e.g., \"go to your Profile\"). Use lowercase in running text where it is a common noun (\"update your profile details\"). Do not use \"account\" to refer to personal user identity — use \"Profile\" instead.",
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "profile",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "profile",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "profil",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "profil",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "profil",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Profil",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "profiel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "profil",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "profil",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "perfil",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "profilo",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "profil",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "profil",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "prófíll",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
     },
     {
       "id": 176,
