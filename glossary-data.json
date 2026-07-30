@@ -13982,7 +13982,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text and in UI labels. Use “parent team” to describe hierarchy. Do not use for ad-hoc groups; use “team” instead.",
+      "usageRules": "Use 'nested account' to describe a child account in a hierarchy. Do not use 'nested team'.",
       "translations": [
         {
           "languageCode": "en",
@@ -21005,13 +21005,13 @@
     {
       "id": 215,
       "term": "team",
-      "description": "**Previously the canonical product label for this entity across all product surfaces. This term will soon be deprecated and replaced with \"Account.\"**\n\nA shared organizational unit within an Operator that groups users under common wallets, locations, and permissions to manage EVSEs, access, pricing, and reporting. ",
+      "description": "Deprecated term — use 'account' instead. The Hub organizational unit was renamed from 'team' to 'account' in summer 2026.",
       "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
+      "translatable": false,
+      "forbidden": true,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text and stand-alone UI labels. All other case, use lower case.",
+      "usageRules": "",
       "translations": [
         {
           "languageCode": "da",
