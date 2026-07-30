@@ -12331,6 +12331,20 @@
       "additionalDescriptions": []
     },
     {
+      "id": 312,
+      "term": "main account",
+      "description": "LEGACY FORBIDDEN: use \"main operator\" instead. Do not use in any Hub UI copy.",
+      "caseSensitive": false,
+      "translatable": false,
+      "forbidden": true,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 265,
       "term": "main operator",
       "description": "The top-level business entity that owns and governs one or more Sub-operators. Defines global policies for access, financial ownership, and configuration across all linked sub-operators.",
@@ -20219,6 +20233,20 @@
           "grammarNotes": "M | acc sg: límmiða | nom pl: límmiðar"
         }
       ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 311,
+      "term": "sub-account",
+      "description": "LEGACY FORBIDDEN: use \"sub-operator\" instead. Do not use in any Hub UI copy.",
+      "caseSensitive": false,
+      "translatable": false,
+      "forbidden": true,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
     },
