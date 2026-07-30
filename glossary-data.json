@@ -4452,6 +4452,91 @@
       "additionalDescriptions": []
     },
     {
+      "id": 84,
+      "term": "charging site",
+      "description": "LEGACY FORBIDDEN: do not use \"charging site\" to refer to a charging location.\n\nReplaced by: \"location\" in all Hub, Control, and operator product copy.",
+      "caseSensitive": false,
+      "translatable": false,
+      "forbidden": true,
+      "tags": "product",
+      "pluralForm": "",
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "charging site",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging site",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "ladested",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddplats",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladested",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ladestandort",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadsite",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "site de recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "site de recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "sitio de carga",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "sito di ricarica",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "site de incarcare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðistað",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "hleðslustaðsetning",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 85,
       "term": "charging speed",
       "description": "Description: The rate at which an EV battery gains energy during charging, expressed as power (kW) or estimated time to charge.",
@@ -18779,6 +18864,91 @@
         {
           "languageCode": "sv",
           "translation": "Samlad inloggning",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 196,
+      "term": "site",
+      "description": "LEGACY FORBIDDEN: do not use \"site\" to refer to a charging location in any operator-facing context.\n\nReplaced by: \"location\" in all Hub, Control, and operator product copy.\n\nExceptions (not forbidden):\n• on-site (compound adjective meaning at the premises)\n• website (digital context)\n• Energy Site (the energy management product feature name)",
+      "caseSensitive": false,
+      "translatable": false,
+      "forbidden": true,
+      "tags": "product",
+      "pluralForm": "",
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "site",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "site",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "sted",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "plats",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "sted",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Standort",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "site",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "site",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "site",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "sitio",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "sito",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "site",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "stað",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "staðsetning",
           "grammarNotes": null
         }
       ],
