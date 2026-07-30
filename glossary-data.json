@@ -13890,8 +13890,8 @@
     },
     {
       "id": 156,
-      "term": "nested team",
-      "description": "Description: A team that operates under another team and inherits defined resources or settings (e.g., permissions, wallets). Supports multi-brand, franchise, or enterprise hierarchies.",
+      "term": "nested account",
+      "description": "An account that operates under another account and inherits defined resources or settings (e.g., permissions, wallets). Supports multi-brand, franchise, or enterprise hierarchies.\n\nUsage rules:\n• Use sentence case in running text and in UI labels.\n• Use \"parent account\" to describe hierarchy.\n• Do not use for ad-hoc groups; use \"account\" instead.\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -13901,67 +13901,67 @@
       "translations": [
         {
           "languageCode": "en",
-          "translation": "nested team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "da",
-          "translation": "indlejret team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "underordnat team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "innebygd team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "equipo anidado",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Verschachteltes Team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "team integrato",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "groupe imbriqué",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "équipe imbriquée",
+          "translation": "nested account",
           "grammarNotes": null
         },
         {
           "languageCode": "en_US",
-          "translation": "nested team",
+          "translation": "nested account",
           "grammarNotes": null
         },
         {
-          "languageCode": "ro",
-          "translation": "grup integrat",
+          "languageCode": "da",
+          "translation": "indlejret konto",
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "undirtoymi",
+          "languageCode": "sv",
+          "translation": "underordnat konto",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "innebygd konto",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Verschachteltes Konto",
           "grammarNotes": null
         },
         {
           "languageCode": "nl",
-          "translation": "gastteam",
+          "translation": "genest account",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "compte imbriqué",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "compte imbriqué",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "cuenta anidada",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "account integrato",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cont integrat",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "undirkonta",
           "grammarNotes": null
         },
         {
@@ -15165,8 +15165,8 @@
     },
     {
       "id": 267,
-      "term": "parent team",
-      "description": "Description: The top-level team in a nested structure that controls shared resources, permissions, and financial settings inherited by child teams.",
+      "term": "parent account",
+      "description": "The top-level account in a nested structure that controls shared resources, permissions, and financial settings inherited by nested accounts.\n\nUsage rules:\n• Use sentence case in running text and in UI labels.\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -15176,67 +15176,67 @@
       "translations": [
         {
           "languageCode": "en",
-          "translation": "parent team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "da",
-          "translation": "overordnet team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "överordnat team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "overordnet team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "equipo principal",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Übergeordnetes Team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "team principali",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "groupe principal",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "équipe principale",
+          "translation": "parent account",
           "grammarNotes": null
         },
         {
           "languageCode": "en_US",
-          "translation": "parent team",
+          "translation": "parent account",
           "grammarNotes": null
         },
         {
-          "languageCode": "ro",
-          "translation": "grup principal",
+          "languageCode": "da",
+          "translation": "overordnet konto",
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "upphavstoymi",
+          "languageCode": "sv",
+          "translation": "överordnat konto",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "overordnet konto",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Übergeordnetes Konto",
           "grammarNotes": null
         },
         {
           "languageCode": "nl",
-          "translation": "hoofdteam",
+          "translation": "hoofdaccount",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "compte principal",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "compte principal",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "cuenta principal",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "account principale",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cont principal",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "upphavstkonta",
           "grammarNotes": null
         },
         {
@@ -17242,6 +17242,91 @@
           "languageCode": "is",
           "translation": "endurgreiðsluverð",
           "grammarNotes": "N | acc sg: endurgreiðsluverð | nom pl: endurgreiðsluverð"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 309,
+      "term": "Release channel",
+      "description": "Release channel is a Hub feature that controls how quickly new Monta features become available in an operator's account. Operators choose a release track — Early Access, Standard, or Self-managed — to set the default rollout pace, override individual features on or off for the whole organisation, and trial a feature on their own login via \"Try myself\" before rolling it out to everyone.\n\nUsage rules:\n• Write as \"Release channel\" (sentence case); do not use title case (\"Release Channel\")\n• Use \"release track\" for the specific option chosen (Early Access, Standard, Self-managed); reserve \"release channel\" for the feature or overall concept\n• Do not use as a synonym for \"release track\"\n• Fully rolled-out features leave the page automatically and are no longer manageable here\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Release channel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "Release channel",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
