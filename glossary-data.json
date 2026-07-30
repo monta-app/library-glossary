@@ -17333,6 +17333,91 @@
       "additionalDescriptions": []
     },
     {
+      "id": 310,
+      "term": "Release track",
+      "description": "The specific rollout pace an operator has selected within the Release channel feature — Early Access, Standard, or Self-managed. Each track determines which features are enabled by default.\n\nUsage rules:\n• Write as \"Release track\" (sentence case); do not use title case (\"Release Track\")\n• Use \"release channel\" when referring to the overall feature/page; use \"release track\" for the selected option\n• Do not use as a synonym for \"release channel\"\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Release track",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "Release track",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 185,
       "term": "reliability",
       "description": "Description: The operational stability and uptime of Monta and connected charge points, reflected in successful session rates and consistent service. Used to assess performance and availability across networks.",
