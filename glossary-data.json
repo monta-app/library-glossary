@@ -1127,6 +1127,20 @@
       "additionalDescriptions": []
     },
     {
+      "id": 318,
+      "term": "Ausgehendes Roaming",
+      "description": "LEGACY FORBIDDEN: use Outbound Roaming instead. Retired German translation — keep in English.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": true,
+      "tags": null,
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 51,
       "term": "auto refill",
       "description": "Description: Automatic top-up feature in the wallet > Refill section that adds funds when the balance reaches a defined threshold. Users can set the trigger amount and refill value.",
@@ -7535,6 +7549,20 @@
       "additionalDescriptions": []
     },
     {
+      "id": 317,
+      "term": "Eingehendes Roaming",
+      "description": "LEGACY FORBIDDEN: use Inbound Roaming instead. Retired German translation — keep in English.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": true,
+      "tags": null,
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 106,
       "term": "electricity costs",
       "description": "General term, indicating electricity costs. Applied for pricing setting.",
@@ -11036,6 +11064,26 @@
       "additionalDescriptions": []
     },
     {
+      "id": 313,
+      "term": "Inbound Roaming",
+      "description": "A roaming session in which a driver from an external eMSP uses a CPO's charging station. The CPO hosts the session and receives payment; the external eMSP handles authorization and billing for their driver.\n\nUsage rules:\n• Always capitalize both words as a UI label: \"Inbound Roaming\"\n• Do not use \"Eingehendes Roaming\" in German — keep the English term\n• Use to describe traffic flowing into a CPO's network from external network users\n\nPlatform: Hub, Control\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "de",
+          "translation": "Inbound-Roaming",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 133,
       "term": "incident",
       "description": "Description: A reported operational issue or failure within Monta systems or connected services (e.g., charge point error, API disruption, user-side fault). Incidents are tracked and resolved through support and engineering workflows.",
@@ -12424,6 +12472,26 @@
           "languageCode": "is",
           "translation": "aðalrekstraraðili",
           "grammarNotes": "M | acc sg: aðalrekstraraðila | nom pl: aðalrekstraraðilar"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 315,
+      "term": "Managed Roaming",
+      "description": "The default Monta roaming configuration where the platform manages all partner connections, applies a standard platform fee, and provides consolidated invoicing. Operators do not negotiate bilateral commercial agreements directly.\n\nUsage rules:\n• Always capitalize both words as a UI label: \"Managed Roaming\"\n• Do not use \"Verwaltetes Roaming\" in German — keep the English term\n• Contrast with Self-Managed Roaming when explaining roaming configuration options\n\nPlatform: Hub, Control\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "de",
+          "translation": "Managed-Roaming",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -15087,6 +15155,26 @@
           "languageCode": "is",
           "translation": "pöntun",
           "grammarNotes": "F | acc sg: pöntun | nom pl: pantanir"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 314,
+      "term": "Outbound Roaming",
+      "description": "A roaming session in which a Monta eMSP's driver uses a third-party CPO's charging station. The eMSP authorizes the session on the external network; the CPO receives payment from the roaming agreement.\n\nUsage rules:\n• Always capitalize both words as a UI label: \"Outbound Roaming\"\n• Do not use \"Ausgehendes Roaming\" in German — keep the English term\n• Use to describe traffic flowing out from an eMSP's user base to external charge points\n\nPlatform: Hub, Control\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "de",
+          "translation": "Outbound-Roaming",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -18210,6 +18298,20 @@
       "additionalDescriptions": []
     },
     {
+      "id": 320,
+      "term": "Selbstverwaltetes Roaming",
+      "description": "LEGACY FORBIDDEN: use Self-Managed Roaming instead. Retired German translation — keep in English.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": true,
+      "tags": null,
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 270,
       "term": "self-billing",
       "description": "Description: A financial and accounting process where the buyer — rather than the seller — issues the invoice for goods or services received.\n This method is often used in recurring or automated business relationships where transactions happen frequently (for example, between Monta and its partners or charge point operators).",
@@ -18459,6 +18561,26 @@
           "languageCode": "is",
           "translation": "sjálfvirk viðgerð",
           "grammarNotes": "K | acc sg: sjálfvirka viðgerð | nom pl: sjálfvirkar viðgerðir"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 316,
+      "term": "Self-Managed Roaming",
+      "description": "A Monta roaming configuration where the operator negotiates direct bilateral agreements with partner networks, sets their own tariffs, and handles invoicing and payment collection independently. The platform provides technical connectivity only, with a reduced transaction fee.\n\nUsage rules:\n• Always capitalize all three words as a UI label: \"Self-Managed Roaming\"\n• Do not use \"Selbstverwaltetes Roaming\" in German — keep the English term\n• Contrast with Managed Roaming when explaining roaming configuration options\n\nPlatform: Hub, Control\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "de",
+          "translation": "Self-Managed-Roaming",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -22148,6 +22270,20 @@
           "description": "Made to Move"
         }
       ]
+    },
+    {
+      "id": 319,
+      "term": "Verwaltetes Roaming",
+      "description": "LEGACY FORBIDDEN: use Managed Roaming instead. Retired German translation — keep in English.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": true,
+      "tags": null,
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [],
+      "alternatives": [],
+      "additionalDescriptions": []
     },
     {
       "id": 46,
