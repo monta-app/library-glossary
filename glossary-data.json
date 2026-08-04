@@ -22539,6 +22539,91 @@
       ],
       "alternatives": [],
       "additionalDescriptions": []
+    },
+    {
+      "id": 321,
+      "term": "Workflow",
+      "description": "An automation in Hub that runs a defined sequence of action steps against charge points, price groups, or reports — triggered manually, on a schedule, or by a charging station event.\n\nUsage rules:\n• Capitalise as a UI label (\"Workflow\", \"New workflow\"); lowercase in running text.\n• Do not use as a generic business-process term — this refers specifically to Monta's Hub automation feature.\n• Available only to Administrator/Manager roles; not applicable to Charge or Control.\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "Workflow",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Workflow",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "Arbejdsgang",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Arbetsflöde",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "Arbeidsflyt",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Workflow",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Workflow",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Flux de travail",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Flux de travail",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "Flujo de trabajo",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "Flusso di lavoro",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Flux de lucru",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Workflow",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "Vinnuferli",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
     }
   ]
 }
