@@ -5157,13 +5157,13 @@
     {
       "id": 92,
       "term": "connector",
-      "description": "Description: The physical interface (socket or cable end) that connects the electric vehicle (EV) to the charge point. Supported connector types in Monta include Type 2, CCS, Type 1, CHAdeMO, and others. Each connector is tracked individually for status, pricing, and reporting in Monta Hub.",
+      "description": "Description: The physical interface (socket or cable end) that connects the electric vehicle (EV) to the EVSE. Supported connector types in Monta include Type 2, CCS, Type 1, CHAdeMO, and others. Each connector is tracked individually for status, pricing, and reporting in Monta Hub.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always lowercase (“connector”) in running text. Use singular or plural as context requires. Distinguish clearly from “cable” (the wire) and “port” (the vehicle inlet).",
+      "usageRules": "Always lowercase (“connector”) in running text. Use singular or plural as context requires. Distinguish clearly from “cable” (the wire) and “port” (the vehicle inlet). Layer 4 of the charging hierarchy: location > charging station > EVSE > connector. One EVSE may have multiple connectors, but only one is active per charging session.",
       "translations": [
         {
           "languageCode": "en",
@@ -12217,7 +12217,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Capitalise as a UI label (\"Location\"); lowercase in running text (\"the location has three charging stations\"). Replaces \"site\" and \"charging site\" across all operator-facing contexts. The three-level hierarchy is: location > charging station > EVSE.",
+      "usageRules": "Capitalise as a UI label (\"Location\"); lowercase in running text (\"the location has three charging stations\"). Replaces \"site\" and \"charging site\" across all operator-facing contexts. The four-level hierarchy is: location > charging station > EVSE > connector.",
       "translations": [
         {
           "languageCode": "en",
@@ -12840,13 +12840,13 @@
     {
       "id": 146,
       "term": "member",
-      "description": "Description: A user who belongs to a team and can access shared charge points, wallets, and benefits according to assigned permissions.",
+      "description": "Description: A user who belongs to an account and can access shared charging stations, wallets, and benefits according to assigned permissions.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Capitalize only when referring to the role label in UI (“Member”). Distinguish from “Manager” and “Owner.” Use for team membership; not for marketplace or subscription membership. Pluralize as “members.”",
+      "usageRules": "Capitalize only when referring to the role label in UI (“Member”). Distinguish from “Manager” and “Owner.” Use for account membership; not for marketplace or subscription membership. Pluralize as “members.”",
       "translations": [
         {
           "languageCode": "en",
@@ -12925,7 +12925,7 @@
     {
       "id": 147,
       "term": "member fee",
-      "description": "Description: A cost applied to internal team members for charging on shared or company-managed charge points. May differ from public pricing.",
+      "description": "Description: A cost applied to internal account members for charging on shared or company-managed charging stations. May differ from public pricing.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -13010,13 +13010,13 @@
     {
       "id": 287,
       "term": "member group",
-      "description": "Description: A configuration feature that allows team administrators to organize members into groups with shared settings, including role, pricing, permissions, and cost allocation. Changes to a group's settings automatically propagate to all assigned members.",
+      "description": "Description: A configuration feature that allows account administrators to organize members into groups with shared settings, including role, pricing, permissions, and cost allocation. Changes to a group's settings automatically propagate to all assigned members.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use \"member group\" in lowercase in running text. Capitalize when referring to the feature name or in UI contexts (e.g., Member Groups, Create Member Group). Do not confuse with \"member role\" (an individual's permission level) or \"member price group\" (a pricing configuration). A member can belong to at most one member group at a time. Use only in contexts describing team member organization and bulk settings management.",
+      "usageRules": "Use \"member group\" in lowercase in running text. Capitalize when referring to the feature name or in UI contexts (e.g., Member Groups, Create Member Group). Do not confuse with \"member role\" (an individual's permission level) or \"member price group\" (a pricing configuration). A member can belong to at most one member group at a time. Use only in contexts describing account member organization and bulk settings management.",
       "translations": [
         {
           "languageCode": "en",
@@ -13095,7 +13095,7 @@
     {
       "id": 148,
       "term": "member price",
-      "description": "escription: The internal charging rate applied to team members on shared or company-managed charge points. Typically lower than public rates.",
+      "description": "Description: The internal charging rate applied to account members on shared or company-managed charging stations. Typically lower than public rates.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -13180,7 +13180,7 @@
     {
       "id": 149,
       "term": "member price group",
-      "description": "Description: A predefined pricing configuration for specific user groups or teams. Standardizes internal charging rates and can be customized for different tiers.",
+      "description": "Description: A predefined pricing configuration for specific user groups or accounts. Standardizes internal charging rates and can be customized for different tiers.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -13265,7 +13265,7 @@
     {
       "id": 150,
       "term": "member role",
-      "description": "Description: A user’s permission level within a team (e.g., Owner, Manager, Member) defining what actions they can perform across charge points, finances, and users.",
+      "description": "Description: A user’s permission level within an account (e.g., Owner, Manager, Member) defining what actions they can perform across charging stations, finances, and users.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -14985,91 +14985,6 @@
           "languageCode": "is",
           "translation": "rekstraraðili",
           "grammarNotes": "M | acc sg: rekstraraðila | nom pl: rekstraraðilar"
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 161,
-      "term": "operator team",
-      "description": "Description: The team entity in Monta that represents an operator’s organization. Manages charge points, wallets, and pricing under one operational unit.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "product",
-      "pluralForm": "",
-      "usageRules": "Use sentence case in running text and in UI labels. Distinguish from “parent team” and “nested team” in nested structures.",
-      "translations": [
-        {
-          "languageCode": "en",
-          "translation": "operator team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "da",
-          "translation": "operatørteam",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "operatörsteam",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "operatørteam",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "equipo operador",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Betreiberteam",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "team operatore",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "groupe de l’opérateur",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "équipe d’opérateurs",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "operator team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "grup de operatori",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "veitaratoymi",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "operator team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "rekstraraðgangur",
-          "grammarNotes": "M | acc sg: rekstraraðgang | nom pl: rekstraraðgangar"
         }
       ],
       "alternatives": [],
@@ -21232,91 +21147,6 @@
           "languageCode": "sv",
           "translation": "team",
           "grammarNotes": null
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 273,
-      "term": "team owner",
-      "description": "Description: An owner of a shared organizational unit that groups users under common wallets, sites, and permissions to manage charge points, access, pricing, and reporting. 4 team types: personal, private, professional, and operator.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "product",
-      "pluralForm": "",
-      "usageRules": "Use sentence case in running text and stand-alone UI labels. All other case, use lower case.",
-      "translations": [
-        {
-          "languageCode": "en",
-          "translation": "team owner",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "da",
-          "translation": "teamejer",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "teamägare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "teameier",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "propietario de equipo",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Teameigentümer",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "proprietario del team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "propriétaire du groupe",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "propriétaire de l'équipe",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "team owner",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "administratorul echipei",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "tyomieigar",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "team-eigenaar",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "rétthafi aðgangs",
-          "grammarNotes": "M | acc sg: rétthafa aðgangs | nom pl: rétthafar aðganga"
         }
       ],
       "alternatives": [],
