@@ -19458,6 +19458,261 @@
       "additionalDescriptions": []
     },
     {
+      "id": 324,
+      "term": "spend cap",
+      "description": "A single enforcement threshold within a spending rule, defined as a monetary amount over a specific period (e.g. €300 per month). Multiple spend caps can be stacked in one rule and are all enforced simultaneously — the first cap a driver hits triggers the configured action. Spend caps measure total session cost (energy, time, and fees combined).\n\nUsage rules:\n• Always write as two words, both lowercase in running text; capitalise in UI labels (\"Spend cap\", \"Spend caps\")\n• Do not use as a synonym for \"spending limit\" or \"spending rule\" — a spend cap is a component inside a spending rule\n• Distinct from \"spend cap\" in the promotions context (campaign budget ceiling) — in the spending limits feature, spend caps apply to drivers, not campaigns\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "spend cap",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "spend cap",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "forbrugsloft",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "utgiftstak",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "forbrukstak",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ausgabenobergrenze",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "bestedingsplafond",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "plafond de dépense",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "plafond de dépense",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "tope de gasto",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "tetto di spesa",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "plafon de cheltuieli",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "forbrugsloft",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "útgjaldaþak",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 323,
+      "term": "spending limit",
+      "description": "The Hub feature that allows operators to control driver spending by creating and managing spending rules. Also the general concept of a monetary cap applied to a driver charging activity. Distinct from spending rule — spending limits is the feature area; a spending rule is the individual entity created within it.\n\nUsage rules:\n• Always write as two words, both lowercase in running text; capitalise as a feature name (\"Spending limits\")\n• Do not use interchangeably with \"spending rule\"\n• Plural (\"spending limits\") when referring to the feature section or category; singular when referring to the concept\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "spending limit",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "spending limit",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "forbrugsgrænse",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "utgiftsgräns",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "forbruksgrense",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ausgabenlimit",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "bestedingslimiet",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "limite de dépense",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "limite de dépense",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "límite de gasto",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "limite di spesa",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "limită de cheltuieli",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "útgjaldarmark",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "útgjaldamörk",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 322,
+      "term": "spending rule",
+      "description": "An operator-defined rule that governs how much a driver can spend on charging and how often they can charge. Contains spend caps, optional charge frequency limits, and a configured action taken when a cap is exceeded. Rules are saved as drafts until activated.\n\nUsage rules:\n• Always write as two words, both lowercase in running text; capitalise in UI labels and titles (\"Spending rule\")\n• Do not use as a synonym for \"spending limit\" — spending limit is the feature; spending rule is the individual entity an operator creates\n• Use only in the Hub (B2B operator context), not in the Charge app\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "spending rule",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "spending rule",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "forbrugsregel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "utgiftsregel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "forbruksregel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ausgabenregel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "bestedingsregel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "règle de dépense",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "règle de dépense",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "regla de gasto",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "regola di spesa",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "regulă de cheltuieli",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "útgjaldaregla",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "útgjaldaregla",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 307,
       "term": "Split billing",
       "description": "Payment feature where a team (employer) covers charging costs up to a configured kWh rate cap; the driver pays any amount above the cap from their personal wallet or payment method.",
