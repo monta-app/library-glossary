@@ -21325,13 +21325,13 @@
     {
       "id": 215,
       "term": "team",
-      "description": "Deprecated term — use 'account' instead. The Hub organizational unit was renamed from 'team' to 'account' in summer 2026.",
+      "description": "Deprecated product term — use 'account' instead. The Monta Hub organizational unit was renamed from 'team' to 'account' in summer 2026. Do not use 'team' to refer to the account entity in any copy. Note: 'team' remains correct in general-language phrases that refer to a human team (e.g. 'support team', 'Monta team') — see usage rules.",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": true,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "",
+      "usageRules": "Exception: when 'team' appears as part of an established phrase referring to a human team (e.g. 'support team', 'customer success team', 'Monta team', 'our team', 'your team', 'finance team', 'ops team', 'engineering team', 'product team'), preserve the phrase unchanged. Only standalone 'team' used as the Monta workspace or account concept must be replaced with 'account'.",
       "translations": [
         {
           "languageCode": "da",
