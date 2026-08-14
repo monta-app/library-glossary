@@ -11096,7 +11096,7 @@
         },
         {
           "languageCode": "fr",
-          "translation": "roaming entrant",
+          "translation": "itinérance entrante",
           "grammarNotes": null
         },
         {
@@ -11116,7 +11116,7 @@
         },
         {
           "languageCode": "nl",
-          "translation": "inkomende roaming",
+          "translation": "inbound roaming",
           "grammarNotes": null
         },
         {
@@ -15188,7 +15188,7 @@
         },
         {
           "languageCode": "nl",
-          "translation": "uitgaande roaming",
+          "translation": "outbound roaming",
           "grammarNotes": null
         },
         {
