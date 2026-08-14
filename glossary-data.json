@@ -11078,6 +11078,66 @@
           "languageCode": "de",
           "translation": "Inbound-Roaming",
           "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "indgående roaming",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "roaming entrante",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "inngangandi reiking",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "roaming entrant",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "itinérance entrante",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "Innkomið reiki",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "roaming in entrata",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "inkomende roaming",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "innkommende roaming",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "roaming de intrare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "inkommande roaming",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en",
+          "translation": "inbound roaming",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -15089,6 +15149,66 @@
         {
           "languageCode": "de",
           "translation": "Outbound-Roaming",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "udgående roaming",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "roaming saliente",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "útgangandi reiking",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "itinérance sortante",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "itinérance sortante",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "útlægt reiki",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "roaming in uscita",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "uitgaande roaming",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "utgående roaming",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "roaming de ieșire",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "utgående roaming",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en",
+          "translation": "outbound roaming",
           "grammarNotes": null
         }
       ],
