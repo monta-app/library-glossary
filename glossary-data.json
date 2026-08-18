@@ -5336,6 +5336,16 @@
       "usageRules": ". Use “CP” only after introducing the full term (“Charge Point (CP)”). Use only in technical documentation or developer contexts. Prefer “charge point” over “CP” in UI, marketing, or consumer-facing content.",
       "translations": [
         {
+          "languageCode": "da",
+          "translation": "CP",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "CP",
+          "grammarNotes": null
+        },
+        {
           "languageCode": "en",
           "translation": "CP",
           "grammarNotes": null
@@ -5346,53 +5356,8 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "da",
-          "translation": "ladestander",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Ladestation",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "borne de recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "ladepunkt",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "stație de încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddpunkt",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "es",
-          "translation": "punto de recarga",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "punto di ricarica",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "laadpaal",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "borne de recharge",
+          "translation": "CP",
           "grammarNotes": null
         },
         {
@@ -5401,7 +5366,47 @@
           "grammarNotes": null
         },
         {
+          "languageCode": "fr",
+          "translation": "CP",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "CP",
+          "grammarNotes": null
+        },
+        {
           "languageCode": "is",
+          "translation": "CP",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "CP",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "CP",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "CP",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "CP",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "CP",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_CA",
           "translation": "CP",
           "grammarNotes": null
         }
