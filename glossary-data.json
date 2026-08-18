@@ -14206,6 +14206,91 @@
       "additionalDescriptions": []
     },
     {
+      "id": 325,
+      "term": "Network",
+      "description": "Network is the Hub navigation label for an operator's own charging estate — the page that brings together their EVSEs, charging stations, and locations in one place. It answers the question \"what do I operate?\"\n\nUsage rules:\n• Capitalise only as a UI label or page title (Network); lowercase in running text (\"your network\").\n• Do not use as a synonym for the Monta network / roaming network (the cross-operator set of public charging stations) or for network tariff (grid cost).\n• Scope to the operator's own estate, not the public or roaming network.\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "Network",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Network",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "Netværk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Netzwerk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Netwerk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Réseau",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Réseau",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Nätverk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "Nettverk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "Red",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "Rete",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Rețea",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Net",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "Net",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 158,
       "term": "network tariff",
       "description": "Description: The underlying cost for electricity distribution set by the local grid or utility. Used by Monta in pricing, forecasting, and smart charging logic to optimize costs and protect capacity.",
