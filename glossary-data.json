@@ -4735,6 +4735,93 @@
       "additionalDescriptions": []
     },
     {
+      "id": 329,
+      "term": "charging station identity",
+      "description": "The unique device identifier a charging station uses when authenticating its WebSocket connection to a backend OCPP system (CSMS). Defined in OCPP 1.6 as \"chargeBoxId\" and in OCPP 2.0.1 as \"chargingStationId\". Also referred to in the EV industry as \"Chargebox Identity (CBID)\" or \"Charge Point ID\". In Monta OCPP Proxy UI it appears as a column header (\"Identity\") and in tooltips/toasts (\"charging station identity\", \"Copy charging station identity\"). It is a technical string — similar to a device username — baked into the charging station firmware or configuration, not a human-assigned display name.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "ocpp-proxy,technical,ocpp-spec",
+      "pluralForm": null,
+      "usageRules": "FRENCH (fr, fr_CA): Use \"identifiant\" — NOT \"identite\". In French, \"identite\" refers to personal identity (as in an ID card or passport); \"identifiant\" is the correct technical term for a device or system identifier. cFos French OCPP documentation confirms this distinction. Using \"identite\" in French would feel wrong to a technical operator. GERMAN: Use \"Kennung\" (or \"Ladestation-Kennung\" for the full phrase). \"Kennung\" is the established German EV industry term for the chargeBoxId, confirmed by the gridundco DE e-mobility glossary. DUTCH/DANISH: Keep close to the established industry pattern of using the English abbreviation \"ID\" — \"laadpunt-ID\" (NL) and \"ladepunkts-id\" (DA) match what Wallbox and cFos use in their Dutch and Danish documentation. SWEDISH: \"laddpunkts-ID\" is preferred and consistent with Scandinavian neighbours.",
+      "translations": [
+        {
+          "languageCode": "de",
+          "translation": "Ladestation-Kennung",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "identifiant de la borne de recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "identifiant de la borne de recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "ladepunkts-id",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddpunkts-ID",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laadpunt-ID",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "ladepunkts-ID",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "identificador de la estacion de carga",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "identificatore della stazione di ricarica",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "identificator statie de incarcare",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "charging station ID",
+          "isPlural": false
+        },
+        {
+          "alternative": "chargeBoxId",
+          "isPlural": false
+        },
+        {
+          "alternative": "charge point identity",
+          "isPlural": false
+        }
+      ],
+      "additionalDescriptions": [
+        {
+          "languageCode": "fr",
+          "description": "Utiliser \"identifiant\" et non \"identite\". En francais, \"identite\" designe l identite personnelle; \"identifiant\" est le terme technique correct pour un identifiant de systeme ou d appareil."
+        },
+        {
+          "languageCode": "de",
+          "description": "\"Kennung\" ist der etablierte Begriff in der deutschen E-Mobilitatsbranche fur die chargeBoxId (laut gridundco-Glossar). \"Ladestation-Kennung\" fur die vollstandige Phrase."
+        }
+      ]
+    },
+    {
       "id": 87,
       "term": "chat",
       "description": "Description: Label for the communication feature within Monta used to exchange messages between users, charge point owners, or Monta Support. “Chat” can refer to both the in-app messaging tool and its associated action (to chat).",
@@ -6910,6 +6997,76 @@
       ],
       "alternatives": [],
       "additionalDescriptions": []
+    },
+    {
+      "id": 328,
+      "term": "destination group",
+      "description": "A routing configuration object within a proxy domain in Monta's OCPP Proxy product. A destination group defines which backend OCPP URL a set of charging stations should forward their traffic to. One proxy domain can contain multiple destination groups, allowing operators to route different stations to different backends. This is a Monta-specific product term — it does not appear in the OCPP specification.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "ocpp-proxy,technical",
+      "pluralForm": null,
+      "usageRules": "CRITICAL for German: Do NOT use \"Zielgruppe\" — this is an established German marketing term meaning \"target audience / target demographic\" and will confuse OCPP operators managing routing configuration. Use \"Routing-Gruppe\" instead. For all other languages, translate the concept of a routing destination group literally — the word \"destination\" carries no special ambiguity in French, Dutch, Swedish, Danish, or the other target languages.",
+      "translations": [
+        {
+          "languageCode": "de",
+          "translation": "Routing-Gruppe",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "groupe de destination",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "groupe de destination",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "destinationsgruppe",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "destinationsgrupp",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "bestemmingsgroep",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "destinasjonsgruppe",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "grupo de destino",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "gruppo di destinazione",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "grup de destinație",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": [
+        {
+          "languageCode": "de",
+          "description": "Verwende \"Routing-Gruppe\" statt der wörtlichen Übersetzung \"Zielgruppe\". \"Zielgruppe\" ist ein etablierter deutscher Marketingbegriff für Zielgruppen/Demografien und würde Operatoren in einem OCPP-Routing-Kontext verwirren."
+        }
+      ]
     },
     {
       "id": 102,
@@ -14801,6 +14958,20 @@
       "additionalDescriptions": []
     },
     {
+      "id": 326,
+      "term": "OCPP Proxy",
+      "description": "A Monta product that sits between a charging station and an operator's own OCPP backend (CSMS), intercepting and forwarding OCPP WebSocket traffic. Operators configure their charging stations to connect to Monta's proxy URL, and the proxy routes the traffic to the operator's backend. Enables traffic monitoring, routing control, and migration between backends without reconfiguring individual stations.",
+      "caseSensitive": true,
+      "translatable": false,
+      "forbidden": false,
+      "tags": "ocpp-proxy,product-name,technical",
+      "pluralForm": null,
+      "usageRules": "Do not translate in any language. Keep as \"OCPP Proxy\" verbatim across all locales. Industry research confirms no language in the EV charging sector has a native-language equivalent — German, Danish, French, and Dutch EV industry content all use \"OCPP Proxy\" or \"OCPP-Proxy\" unchanged. It is both a Monta product name and a universal networking term. Some German vendors use \"OCPP Broker\" as an alternative product name (still English) — this is a synonym, not a translation. Do not substitute \"Broker\" for \"Proxy\" in Monta copy.",
+      "translations": [],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 27,
       "term": "OCPP Toolkit",
       "description": "Description: Monta’s internal environment for validating and debugging charge point integrations, including firmware testing, message validation, and configuration checks.",
@@ -16684,6 +16855,20 @@
           "grammarNotes": "M | acc sg: afsláttarkóða | nom pl: afsláttarkóðar"
         }
       ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 327,
+      "term": "proxy domain",
+      "description": "A Monta-specific product concept within OCPP Proxy. A proxy domain is the top-level configuration object an operator creates to connect their charging stations to Monta's OCPP Proxy. Creating a proxy domain gives the operator a Connection URL they configure on their chargers. The domain groups those stations and controls which destination groups they forward to and which other operators have access. This term does not appear in the OCPP specification and is not used by any other OCPP proxy vendor — it is a Monta-coined product term.",
+      "caseSensitive": false,
+      "translatable": false,
+      "forbidden": false,
+      "tags": "ocpp-proxy,product-name,technical",
+      "pluralForm": null,
+      "usageRules": "Do not translate in any language. \"Proxy domain\" is a Monta-invented product term with no established equivalent in any target language and no OCPP specification precedent. The word \"domain\" in this context refers to a routing scope, not a web/DNS domain, but no better equivalent exists in any of the 9 target languages. Keeping it in English signals to operators that this is a named product concept. Do not render as \"Proxy-Domäne\" (German), \"domaine proxy\" (French), or any other literal translation.",
+      "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
     },
