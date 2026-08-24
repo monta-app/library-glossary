@@ -20841,7 +20841,7 @@
     {
       "id": 208,
       "term": "sticker",
-      "description": "A physical label with a QR code (and sometimes NFC chip) placed on a charge point that lets drivers identify the device and start a charging session by scanning or tapping.\n\nUsage rules:\n• Use lowercase in running text ('sticker'). Capitalise only as a UI label ('Sticker').\n• Icelandic (IS): use 'QR kóði' by default — for scanning, pairing, deep link, and any action context. Use 'límmiði' only when the key is about ordering or purchasing a physical sticker (shop/order flow).\n• Distinguish from 'RFID card/key' and 'Payment Terminal'.\n\nPlatform: Hub, Charge, Control\nAudience: B2B and B2C\n\nGrammar:\n• IS: M | acc sg: QR kóða | nom pl: QR kóðar (default scanning/action context); for ordering context use límmiði (M | acc sg: límmiða | nom pl: límmiðar)",
+      "description": "A physical label with a QR code (and sometimes NFC chip) placed on a charge point that lets drivers identify the device and start a charging session by scanning or tapping.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -20849,16 +20849,6 @@
       "pluralForm": "",
       "usageRules": "Use lowercase in running text ('sticker'). Capitalize only as a UI label ('Sticker'). Distinguish from 'RFID card/key' and 'Payment Terminal'.",
       "translations": [
-        {
-          "languageCode": "en",
-          "translation": "sticker",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "sticker",
-          "grammarNotes": null
-        },
         {
           "languageCode": "da",
           "translation": "sticker",
@@ -20870,8 +20860,23 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "nl",
+          "languageCode": "en",
           "translation": "sticker",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "sticker",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "sticker",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "heftimerki",
           "grammarNotes": null
         },
         {
@@ -20885,7 +20890,17 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "sv",
+          "languageCode": "is",
+          "translation": "QR kóði",
+          "grammarNotes": "M | acc sg: QR kóða | nom pl: QR kóðar"
+        },
+        {
+          "languageCode": "it",
+          "translation": "sticker",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
           "translation": "sticker",
           "grammarNotes": null
         },
@@ -20895,28 +20910,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "es",
-          "translation": "sticker",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "sticker",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "ro",
           "translation": "autocolant",
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "heftimerki",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "QR kóði",
+          "languageCode": "sv",
+          "translation": "sticker",
           "grammarNotes": null
         }
       ],
