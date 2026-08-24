@@ -20841,7 +20841,7 @@
     {
       "id": 208,
       "term": "sticker",
-      "description": "Description: A physical label with a QR code on a charge point that lets drivers identify the device and start a session via Charge. May include charge point ID, operator logo, and quick-start steps.",
+      "description": "A physical label with a QR code (and sometimes NFC chip) placed on a charge point that lets drivers identify the device and start a charging session by scanning or tapping.\n\nUsage rules:\n• Use lowercase in running text ('sticker'). Capitalise only as a UI label ('Sticker').\n• Icelandic (IS): use 'QR kóði' by default — for scanning, pairing, deep link, and any action context. Use 'límmiði' only when the key is about ordering or purchasing a physical sticker (shop/order flow).\n• Distinguish from 'RFID card/key' and 'Payment Terminal'.\n\nPlatform: Hub, Charge, Control\nAudience: B2B and B2C\n\nGrammar:\n• IS: M | acc sg: QR kóða | nom pl: QR kóðar (default scanning/action context); for ordering context use límmiði (M | acc sg: límmiða | nom pl: límmiðar)",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -20849,16 +20849,6 @@
       "pluralForm": "",
       "usageRules": "Use lowercase in running text ('sticker'). Capitalize only as a UI label ('Sticker'). Distinguish from 'RFID card/key' and 'Payment Terminal'.",
       "translations": [
-        {
-          "languageCode": "da",
-          "translation": "sticker",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Sticker",
-          "grammarNotes": null
-        },
         {
           "languageCode": "en",
           "translation": "sticker",
@@ -20870,13 +20860,18 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "es",
+          "languageCode": "da",
           "translation": "sticker",
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "heftimerki",
+          "languageCode": "de",
+          "translation": "Sticker",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "sticker",
           "grammarNotes": null
         },
         {
@@ -20890,12 +20885,7 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "sticker",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
+          "languageCode": "sv",
           "translation": "sticker",
           "grammarNotes": null
         },
@@ -20905,19 +20895,29 @@
           "grammarNotes": null
         },
         {
+          "languageCode": "es",
+          "translation": "sticker",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "sticker",
+          "grammarNotes": null
+        },
+        {
           "languageCode": "ro",
           "translation": "autocolant",
           "grammarNotes": null
         },
         {
-          "languageCode": "sv",
-          "translation": "sticker",
+          "languageCode": "fo",
+          "translation": "heftimerki",
           "grammarNotes": null
         },
         {
           "languageCode": "is",
-          "translation": "límmiði",
-          "grammarNotes": "M | acc sg: límmiða | nom pl: límmiðar"
+          "translation": "QR kóði",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
