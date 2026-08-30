@@ -19593,6 +19593,91 @@
       "additionalDescriptions": []
     },
     {
+      "id": 330,
+      "term": "SoC",
+      "description": "Abbreviation for State of Charge — the current EV battery level expressed as a percentage of total capacity. Industry-standard abbreviation used across EV interfaces globally.",
+      "caseSensitive": true,
+      "translatable": true,
+      "forbidden": false,
+      "tags": null,
+      "pluralForm": null,
+      "usageRules": "Keep as SoC (capital S, lowercase o, capital C) in all target languages — do not translate, expand, or localise.",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo_FO",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_CA",
+          "translation": "SoC",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en",
+          "translation": "SoC",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 200,
       "term": "solar charging ",
       "description": "Description: B2C feature in Charge, enables EV charging directly from solar panels, using real-time or forecasted production data. Helps maximise self-consumption, reduce grid reliance, lower energy costs, and minimise carbon footprint. Can be configured to operate only when surplus solar energy is available.",
@@ -20190,13 +20275,13 @@
     {
       "id": 304,
       "term": "sponsor",
-      "description": "LEGACY FORBIDDEN: use reimburse instead",
+      "description": "LEGACY FORBIDDEN: use reimburse instead.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
       "tags": null,
       "pluralForm": null,
-      "usageRules": null,
+      "usageRules": "Do not use. Replace with: reimburse (verb, e.g. the employer reimburses the driver).",
       "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
@@ -20204,13 +20289,13 @@
     {
       "id": 301,
       "term": "sponsored",
-      "description": "LEGACY FORBIDDEN: use reimbursed instead",
+      "description": "LEGACY FORBIDDEN: use reimbursed instead. Monta previously used sponsored to refer to employer-funded charging and related features. All user-facing content now uses reimbursed (adjective) or reimbursement (noun).",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
       "tags": null,
       "pluralForm": null,
-      "usageRules": null,
+      "usageRules": "Do not use. Replace with: reimbursed (adjective, e.g. reimbursed employee, reimbursed EVSE), or reimbursement (noun, e.g. reimbursement price, reimbursement payout). Default to reimbursed when context is ambiguous.",
       "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
@@ -20218,13 +20303,13 @@
     {
       "id": 302,
       "term": "sponsoring",
-      "description": "LEGACY FORBIDDEN: use reimbursing instead",
+      "description": "LEGACY FORBIDDEN: use reimbursing instead.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
       "tags": null,
       "pluralForm": null,
-      "usageRules": null,
+      "usageRules": "Do not use. Replace with: reimbursing (present participle of reimburse).",
       "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
@@ -20232,13 +20317,13 @@
     {
       "id": 303,
       "term": "sponsorship",
-      "description": "LEGACY FORBIDDEN: use reimbursement instead",
+      "description": "LEGACY FORBIDDEN: use reimbursement instead.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
       "tags": null,
       "pluralForm": null,
-      "usageRules": null,
+      "usageRules": "Do not use. Replace with: reimbursement (noun, e.g. reimbursement payout, reimbursement price).",
       "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
