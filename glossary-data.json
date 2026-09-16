@@ -12261,6 +12261,91 @@
       "additionalDescriptions": []
     },
     {
+      "id": 331,
+      "term": "List",
+      "description": "A named, reusable collection of one entity type — EVSEs, users, accounts, locations, charge keys, or vehicles — that operators curate once and apply across Hub features such as pricing, access, and outreach. A list can be built manually or set to update automatically via a filter rule.\n\nUsage rules:\n• Always capitalise: \"List\" (singular), \"Lists\" (plural) when referring to the Hub feature\n• Do not use as a generic synonym for any simple enumeration of items\n• Hub only; not applicable to the Charge app or Control\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "List",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "List",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "Liste",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Lista",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "Liste",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Liste",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Lijst",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Liste",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Liste",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "Lista",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "Lista",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Listă",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Listi",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "Listi",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 142,
       "term": "load balancing",
       "description": "Description: Monta’s distribution of available electrical capacity across multiple charge points. Keeps total power within site or fuse limits while maximizing throughput and preventing overloads.",
