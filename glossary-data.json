@@ -93,8 +93,8 @@
       "translatable": true,
       "forbidden": false,
       "tags": "product",
-      "pluralForm": null,
-      "usageRules": "Always lowercase in running text (\"create an account\", \"invite members to your account\"). Capitalise only as a standalone UI label or heading (\"Accounts\", \"Account settings\"). Do not use \"team\" to refer to this entity in new copy — \"account\" is the canonical term. Do not confuse with \"profile\" (personal user identity) or \"operator\" (the parent business entity).",
+      "pluralForm": "",
+      "usageRules": "Do not use \"team\" to refer to this entity in new copy — \"account\" is the canonical term. Do not confuse with \"profile\" (personal user identity) or \"operator\" (the parent business entity).",
       "translations": [
         {
           "languageCode": "en",
@@ -1149,31 +1149,11 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase. Always written as “auto refill” (two words). Use consistently with feature name in UI and documentation.",
+      "usageRules": "",
       "translations": [
-        {
-          "languageCode": "en",
-          "translation": "auto refill",
-          "grammarNotes": null
-        },
         {
           "languageCode": "da",
           "translation": "automatisk påfyldning",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "autopåfyllning",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "automatisk påfylling",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "recarga automática",
           "grammarNotes": null
         },
         {
@@ -1182,8 +1162,23 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "ricarica automatica",
+          "languageCode": "en",
+          "translation": "auto refill",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "auto refill",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "recarga automática",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "sjálvvirkin áfylling",
           "grammarNotes": null
         },
         {
@@ -1197,18 +1192,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
-          "translation": "auto refill",
-          "grammarNotes": null
+          "languageCode": "is",
+          "translation": "sjálfvirk áfylling",
+          "grammarNotes": "F | acc sg: sjálfvirka áfyllingu | nom pl: sjálfvirkar áfyllingar"
         },
         {
-          "languageCode": "ro",
-          "translation": "realimentare automată",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "sjálvvirkin áfylling",
+          "languageCode": "it",
+          "translation": "ricarica automatica",
           "grammarNotes": null
         },
         {
@@ -1217,9 +1207,19 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "is",
-          "translation": "sjálfvirk áfylling",
-          "grammarNotes": "F | acc sg: sjálfvirka áfyllingu | nom pl: sjálfvirkar áfyllingar"
+          "languageCode": "no",
+          "translation": "automatisk påfylling",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "realimentare automată",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "autopåfyllning",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -1659,30 +1659,10 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in text. In UI, display as “Balance.”",
+      "usageRules": "",
       "translations": [
         {
-          "languageCode": "en",
-          "translation": "balance",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "da",
-          "translation": "saldo",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "saldo",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "saldo",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
           "translation": "saldo",
           "grammarNotes": null
         },
@@ -1692,8 +1672,23 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
+          "languageCode": "en",
+          "translation": "balance",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "balance",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
           "translation": "saldo",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "salda",
           "grammarNotes": null
         },
         {
@@ -1707,18 +1702,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
-          "translation": "balance",
-          "grammarNotes": null
+          "languageCode": "is",
+          "translation": "innistæða",
+          "grammarNotes": "F | acc sg: innistæðu | nom pl: innistæður"
         },
         {
-          "languageCode": "ro",
-          "translation": "sold",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "salda",
+          "languageCode": "it",
+          "translation": "saldo",
           "grammarNotes": null
         },
         {
@@ -1727,9 +1717,19 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "is",
-          "translation": "innistæða",
-          "grammarNotes": "F | acc sg: innistæðu | nom pl: innistæður"
+          "languageCode": "no",
+          "translation": "saldo",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "sold",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "saldo",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -1829,31 +1829,11 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case in UI (\"Battery level\").",
+      "usageRules": "",
       "translations": [
-        {
-          "languageCode": "en",
-          "translation": "battery level",
-          "grammarNotes": null
-        },
         {
           "languageCode": "da",
           "translation": "batteriniveau",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "batterinivå",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "batterinivå",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "nivel de batería",
           "grammarNotes": null
         },
         {
@@ -1862,8 +1842,23 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "livello della batteria",
+          "languageCode": "en",
+          "translation": "battery level",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "battery level",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "nivel de batería",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "battarístøða",
           "grammarNotes": null
         },
         {
@@ -1877,18 +1872,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
-          "translation": "battery level",
-          "grammarNotes": null
+          "languageCode": "is",
+          "translation": "staða rafhlöðu",
+          "grammarNotes": "K | acc sg: stöðu rafhlöðu | nom pl: stöður rafhlöðu"
         },
         {
-          "languageCode": "ro",
-          "translation": "nivel baterie",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "battarístøða",
+          "languageCode": "it",
+          "translation": "livello della batteria",
           "grammarNotes": null
         },
         {
@@ -1897,9 +1887,19 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "is",
-          "translation": "staða rafhlöðu",
-          "grammarNotes": "K | acc sg: stöðu rafhlöðu | nom pl: stöður rafhlöðu"
+          "languageCode": "no",
+          "translation": "batterinivå",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "nivel baterie",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "batterinivå",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -14286,25 +14286,25 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text and in UI labels.",
+      "usageRules": "",
       "translations": [
-        {
-          "languageCode": "en",
-          "translation": "native schedule",
-          "grammarNotes": null
-        },
         {
           "languageCode": "da",
           "translation": "native schedule",
           "grammarNotes": null
         },
         {
-          "languageCode": "sv",
-          "translation": "grundschema",
+          "languageCode": "de",
+          "translation": "Integrierter Zeitplan",
           "grammarNotes": null
         },
         {
-          "languageCode": "no",
+          "languageCode": "en",
+          "translation": "native schedule",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
           "translation": "native schedule",
           "grammarNotes": null
         },
@@ -14314,13 +14314,8 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "de",
-          "translation": "Integrierter Zeitplan",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "programmazione nativa",
+          "languageCode": "fo",
+          "translation": "innbygd løðiætlan",
           "grammarNotes": null
         },
         {
@@ -14334,7 +14329,22 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
+          "languageCode": "is",
+          "translation": "innbyggð hleðsluáætlun",
+          "grammarNotes": "F | acc sg: innbyggða hleðsluáætlun | nom pl: innbyggðar hleðsluáætlanir"
+        },
+        {
+          "languageCode": "it",
+          "translation": "programmazione nativa",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "native schedule",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
           "translation": "native schedule",
           "grammarNotes": null
         },
@@ -14344,19 +14354,9 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "innbygd løðiætlan",
+          "languageCode": "sv",
+          "translation": "grundschema",
           "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "native schedule",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "innbyggð hleðsluáætlun",
-          "grammarNotes": "F | acc sg: innbyggða hleðsluáætlun | nom pl: innbyggðar hleðsluáætlanir"
         }
       ],
       "alternatives": [],
@@ -15740,8 +15740,18 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text and in UI labels.",
+      "usageRules": "",
       "translations": [
+        {
+          "languageCode": "da",
+          "translation": "overordnet konto",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Übergeordnetes Konto",
+          "grammarNotes": null
+        },
         {
           "languageCode": "en",
           "translation": "parent account",
@@ -15753,28 +15763,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "da",
-          "translation": "overordnet konto",
+          "languageCode": "es",
+          "translation": "cuenta principal",
           "grammarNotes": null
         },
         {
-          "languageCode": "sv",
-          "translation": "överordnat konto",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "overordnet konto",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Übergeordnetes Konto",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "hoofdaccount",
+          "languageCode": "fo",
+          "translation": "upphavstkonta",
           "grammarNotes": null
         },
         {
@@ -15788,13 +15783,23 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "es",
-          "translation": "cuenta principal",
-          "grammarNotes": null
+          "languageCode": "is",
+          "translation": "aðalaðgangur",
+          "grammarNotes": "M | acc sg: aðalaðgang | nom pl: aðalaðgangar"
         },
         {
           "languageCode": "it",
           "translation": "account principale",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "hoofdaccount",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "overordnet konto",
           "grammarNotes": null
         },
         {
@@ -15803,14 +15808,9 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "upphavstkonta",
+          "languageCode": "sv",
+          "translation": "överordnat konto",
           "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "aðalaðgangur",
-          "grammarNotes": "M | acc sg: aðalaðgang | nom pl: aðalaðgangar"
         }
       ],
       "alternatives": [],
