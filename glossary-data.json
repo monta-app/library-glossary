@@ -3,6 +3,7 @@
     {
       "id": 224,
       "term": "AC",
+      "sense": null,
       "description": "Description:\n Type of charge point providing slower charging speeds, typically used in home, workplace, or public locations.",
       "caseSensitive": false,
       "translatable": true,
@@ -88,6 +89,7 @@
     {
       "id": 308,
       "term": "account",
+      "sense": null,
       "description": "The organizational unit within an Operator that groups members, EVSEs, wallet, and settings under one entity. Formerly displayed as \"Team\" across all product surfaces.",
       "caseSensitive": false,
       "translatable": true,
@@ -173,6 +175,7 @@
     {
       "id": 48,
       "term": "additional fee",
+      "sense": null,
       "description": "Description: An extra fee added to a price group by a Team Owner to adjust session pricing. Examples include start fee, charging fee, minute fee, and idle fee. Used to manage and fine-tune pricing behavior for charging sessions.",
       "caseSensitive": false,
       "translatable": true,
@@ -258,6 +261,7 @@
     {
       "id": 228,
       "term": "Admin",
+      "sense": null,
       "description": "Description: A user role in Monta Hub with full access to account management, permissions, and organizational configurations for Business plan users.",
       "caseSensitive": false,
       "translatable": true,
@@ -343,6 +347,7 @@
     {
       "id": 229,
       "term": "Advenir",
+      "sense": null,
       "description": "Description: A French government incentive program that supports the installation and expansion of EV charging infrastructure across France. Advenir provides financial aid to promote the adoption of electric mobility.",
       "caseSensitive": false,
       "translatable": true,
@@ -428,6 +433,7 @@
     {
       "id": 225,
       "term": "AFIR ",
+      "sense": null,
       "description": "Description: Acronym for Alternative Fuels Infrastructure Regulation, an EU regulation that establishes binding targets for the deployment of EV charging and refueling infrastructure across member states.",
       "caseSensitive": false,
       "translatable": true,
@@ -513,6 +519,7 @@
     {
       "id": 49,
       "term": "alert",
+      "sense": null,
       "description": "Description: A system-generated notification that informs operators about important operational or device-related events, such as errors, outages, or failed charges. Alerts are automatically triggered when specific conditions or thresholds are met.",
       "caseSensitive": false,
       "translatable": true,
@@ -592,12 +599,18 @@
           "grammarNotes": "F | acc sg: tilkynningu | nom pl: tilkynningar"
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "alarm",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
       "id": 50,
       "term": "alert group",
+      "sense": null,
       "description": "Description: A configuration feature that allows users to organize and manage alerts for charge points, charging sites, or teams. Alert groups ensure that the appropriate people are notified when specific incidents or conditions occur.",
       "caseSensitive": false,
       "translatable": true,
@@ -683,6 +696,7 @@
     {
       "id": 230,
       "term": "Alternative Fuels Infrastructure Regulation",
+      "sense": null,
       "description": "Description: An EU regulation that sets mandatory targets for member states to deploy accessible and interoperable alternative fuel infrastructure, including EV charging and refuelling stations. It aims to support the transition to sustainable mobility across the EU.",
       "caseSensitive": false,
       "translatable": true,
@@ -768,6 +782,7 @@
     {
       "id": 226,
       "term": "API",
+      "sense": null,
       "description": "Monta’s Public API allows end customers to integrate their Monta-connected charge points and EVs with any system to use the data. For example, triggering a home charge based on conditions like house meter or solar energy",
       "caseSensitive": false,
       "translatable": true,
@@ -874,6 +889,7 @@
     {
       "id": 227,
       "term": "API key",
+      "sense": null,
       "description": "Description: A unique identifier used to authenticate and validate a client’s identity when sending requests to the Monta API. It ensures secure communication between systems and prevents unauthorized access.",
       "caseSensitive": false,
       "translatable": true,
@@ -959,6 +975,7 @@
     {
       "id": 232,
       "term": "App Clips",
+      "sense": null,
       "description": "Description: Lightweight Apple experience that lets iOS drivers start a charge or complete a quick action in Monta Charge without installing the full app.",
       "caseSensitive": false,
       "translatable": true,
@@ -1044,6 +1061,7 @@
     {
       "id": 231,
       "term": "App Store",
+      "sense": null,
       "description": "Description: Apple’s digital marketplace for downloading and updating iOS and iPadOS applications, including the Monta Charge app.",
       "caseSensitive": false,
       "translatable": true,
@@ -1129,6 +1147,7 @@
     {
       "id": 318,
       "term": "Ausgehendes Roaming",
+      "sense": null,
       "description": "LEGACY FORBIDDEN: use Outbound Roaming instead. Retired German translation — keep in English.",
       "caseSensitive": false,
       "translatable": true,
@@ -1143,6 +1162,7 @@
     {
       "id": 51,
       "term": "auto refill",
+      "sense": "noun",
       "description": "Description: Automatic top-up feature in the wallet > Refill section that adds funds when the balance reaches a defined threshold. Users can set the trigger amount and refill value.",
       "caseSensitive": false,
       "translatable": true,
@@ -1228,6 +1248,7 @@
     {
       "id": 233,
       "term": "auto withdrawal",
+      "sense": null,
       "description": "Description: Automatic monthly transfer feature in the wallet > Withdraw section that moves available funds to a linked bank account.",
       "caseSensitive": false,
       "translatable": true,
@@ -1313,6 +1334,7 @@
     {
       "id": 234,
       "term": "Autocharge",
+      "sense": null,
       "description": "Description: Monta feature that automatically starts a charging session when a registered EV is plugged into a compatible charge point.",
       "caseSensitive": false,
       "translatable": true,
@@ -1398,6 +1420,7 @@
     {
       "id": 52,
       "term": "automatic reading",
+      "sense": null,
       "description": "Description: Remote collection of data from an electricity meter, where consumption data is recorded and made accessible to the service provider for monitoring and reporting.",
       "caseSensitive": false,
       "translatable": true,
@@ -1483,6 +1506,7 @@
     {
       "id": 235,
       "term": "Autostart",
+      "sense": null,
       "description": "Description: Feature that enables a charge to begin automatically when an EV is plugged into a private charge point configured for AutoStart. Used in private and closed networks.",
       "caseSensitive": false,
       "translatable": true,
@@ -1568,6 +1592,7 @@
     {
       "id": 53,
       "term": "available",
+      "sense": null,
       "description": "Description: Status indicating that a charge point is online, connected, and ready for use.",
       "caseSensitive": false,
       "translatable": true,
@@ -1653,6 +1678,7 @@
     {
       "id": 54,
       "term": "balance",
+      "sense": null,
       "description": "Description: The available amount of money in a user’s wallet within Monta, representing funds available for charging or withdrawals.",
       "caseSensitive": false,
       "translatable": true,
@@ -1738,6 +1764,7 @@
     {
       "id": 55,
       "term": "battery capacity",
+      "sense": null,
       "description": "Description: The total amount of electrical energy a battery can store and deliver, typically measured in ampere-hours (Ah) or watt-hours (Wh). It represents the battery’s total storage potential.",
       "caseSensitive": false,
       "translatable": true,
@@ -1823,6 +1850,7 @@
     {
       "id": 56,
       "term": "battery level",
+      "sense": null,
       "description": "Description: Field label showing the current battery percentage of an integrated vehicle, for example “Battery level: 78%.”",
       "caseSensitive": false,
       "translatable": true,
@@ -1908,6 +1936,7 @@
     {
       "id": 57,
       "term": "bilateral agreement",
+      "sense": null,
       "description": "Description: Monta Hub feature allowing operators to define and manage price agreements and access terms with eMSPs (Electric Mobility Service Providers), primarily for roaming partnerships.",
       "caseSensitive": false,
       "translatable": true,
@@ -1993,6 +2022,7 @@
     {
       "id": 251,
       "term": "bulk import",
+      "sense": null,
       "description": "Description: Internal and operator-facing functionality that lets users create or update multiple assets or configurations in a single operation, instead of performing each action one by one.",
       "caseSensitive": false,
       "translatable": true,
@@ -2078,6 +2108,7 @@
     {
       "id": 58,
       "term": "busy",
+      "sense": null,
       "description": "Description: Charge point status indicating that the hardware is currently in use or reserved. May include sub-states such as blocked, scheduled, or actively charging.",
       "caseSensitive": false,
       "translatable": true,
@@ -2163,11 +2194,12 @@
     {
       "id": 242,
       "term": "California Pricing",
+      "sense": null,
       "description": "escription:\n An OCPP-based method that enables a Charge Point Management System (CPMS) to communicate live pricing data, such as price per kWh, ongoing cost, and total cost, to a charge point during an active charging session. Originally developed to meet California’s transparency regulations, it is now widely adopted as a best-practice standard for real-time tariff display and cost calculation in EV charging.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "industry,brand",
+      "tags": "industry",
       "pluralForm": "",
       "usageRules": "Keep capitalization (“California Pricing”). Use the full term on first mention and include a brief explanation if context is technical. Do not translate or localize. Use only when referring to the specific OCPP-based functionality, not as a general description of regional or geographic pricing. Avoid abbreviating (e.g., “Cal Pricing”) or using as a generic label.",
       "translations": [
@@ -2248,6 +2280,7 @@
     {
       "id": 59,
       "term": "certified electronic mail",
+      "sense": null,
       "description": "Description: Italian billing compliance term used exclusively in Italy for legally recognized electronic communications between entities (geo-specific term). There is no equivalent in other locales; do descriptive translation.",
       "caseSensitive": false,
       "translatable": true,
@@ -2333,6 +2366,7 @@
     {
       "id": 252,
       "term": "Changelog",
+      "sense": null,
       "description": "Description: Monta’s record of shipped product updates, feature releases, accessed in HUB, under “What’s new” side panel label, hosted by Beamer.",
       "caseSensitive": false,
       "translatable": true,
@@ -2416,178 +2450,9 @@
       "additionalDescriptions": []
     },
     {
-      "id": 255,
-      "term": "charge (adj.)",
-      "description": "Description: Adjective. Used to describe a charging-related object, log, or record linked to a session or transaction. Examples: “charge log,” “charge ID,” “charge object.”",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": "",
-      "usageRules": "Always lowercase. Use only as a descriptive modifier. Avoid using where “charging” is the more natural form for localization.",
-      "translations": [
-        {
-          "languageCode": "en",
-          "translation": "charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "da",
-          "translation": "lade-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "ladd-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "lade-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "de carga",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Lade-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "di ricarica",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "de recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "de recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "de încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løði",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "laad-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "hleðslu-",
-          "grammarNotes": null
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 254,
-      "term": "Charge (app)",
-      "description": "Description: Monta’s mobile app for EV drivers to find, start, schedule, and pay for charging sessions.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "brand",
-      "pluralForm": "",
-      "usageRules": "Reduce combination “Monta Charge” It is redundant and hardcoded for white label partners. Do not translate, pluralize. Uninflected across all languages, treated as brand-like identifiers. Use “charging app” only when referring to a generic category.",
-      "translations": [
-        {
-          "languageCode": "en",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "da",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "Charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "ON Hleðsla",
-          "grammarNotes": "F | acc sg: ON Hleðslu"
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
       "id": 253,
-      "term": "charge (noun)",
+      "term": "charge",
+      "sense": "noun",
       "description": "Description: Noun. The event or session during which an EV is connected to a charge point and receives electricity until completion.",
       "caseSensitive": false,
       "translatable": true,
@@ -2671,8 +2536,181 @@
       "additionalDescriptions": []
     },
     {
+      "id": 254,
+      "term": "Charge",
+      "sense": "app name",
+      "description": "Description: Monta’s mobile app for EV drivers to find, start, schedule, and pay for charging sessions.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "brand",
+      "pluralForm": "",
+      "usageRules": "Reduce combination “Monta Charge” It is redundant and hardcoded for white label partners. Do not translate, pluralize. Uninflected across all languages, treated as brand-like identifiers. Use “charging app” only when referring to a generic category.",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "Charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en",
+          "translation": "Charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "Charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "ON Hleðsla",
+          "grammarNotes": "F | acc sg: ON Hleðslu"
+        },
+        {
+          "languageCode": "it",
+          "translation": "Charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "Charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Charge",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 255,
+      "term": "charge",
+      "sense": "noun – compound modifier",
+      "description": "Description: Adjective. Used to describe a charging-related object, log, or record linked to a session or transaction. Examples: “charge log,” “charge ID,” “charge object.”",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "usageRules": "Always lowercase. Use only as a descriptive modifier. Avoid using where “charging” is the more natural form for localization.",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "lade-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Lade-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en",
+          "translation": "charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "de carga",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løði",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "de recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "de recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "hleðslu-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "di ricarica",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laad-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "lade-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "de încărcare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ladd-",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 60,
-      "term": "charge (verb)",
+      "term": "charge",
+      "sense": "verb",
       "description": "Description: Verb. To supply electricity to an EV using a charge point or compatible setup.",
       "caseSensitive": false,
       "translatable": true,
@@ -2758,6 +2796,7 @@
     {
       "id": 63,
       "term": "charge history",
+      "sense": null,
       "description": "Description: A header label in the Me section of the Charge app that displays a user’s charging logs, including energy delivered (kWh), charge point name, and total cost.",
       "caseSensitive": false,
       "translatable": true,
@@ -2843,6 +2882,7 @@
     {
       "id": 64,
       "term": "charge key",
+      "sense": null,
       "description": "Description: A physical device (RFID card or fob) used to identify a user or team and authorize charging on compatible charge points.",
       "caseSensitive": false,
       "translatable": true,
@@ -2928,6 +2968,7 @@
     {
       "id": 65,
       "term": "charge limit",
+      "sense": null,
       "description": "Description: The maximum battery level to which an electric vehicle (EV) is charged during a session, usually defined by the user or the vehicle’s system.",
       "caseSensitive": false,
       "translatable": true,
@@ -3013,6 +3054,7 @@
     {
       "id": 66,
       "term": "charge point",
+      "sense": null,
       "description": "B2C (Charge mobile app): preferred driver-facing term for EV charging hardware — use for the hardware unit or outlet from the driver's perspective.\n\nB2B: do not use — use \"charging station\" for the full hardware unit, or \"EVSE\" for the outlet/connector level.\n\nReplaces previous use of \"charger\" for B2C context.\n\nPlatform: Charge (mobile app) — B2C only\nAudience: B2C (drivers, consumers)",
       "caseSensitive": false,
       "translatable": true,
@@ -3098,6 +3140,7 @@
     {
       "id": 67,
       "term": "charge point management system",
+      "sense": null,
       "description": "Description: Software platform used by operators to monitor, manage, and optimize EV charging infrastructure, including connectivity, pricing, access, reporting, and integrations.",
       "caseSensitive": false,
       "translatable": true,
@@ -3183,6 +3226,7 @@
     {
       "id": 68,
       "term": "charge point operator",
+      "sense": null,
       "description": "Description: Entity that owns, operates, and maintains EV charge points or networks. In Monta’s ecosystem, operators are classified as Partners, with dedicated features supporting their operations.",
       "caseSensitive": false,
       "translatable": true,
@@ -3268,6 +3312,7 @@
     {
       "id": 71,
       "term": "charge power",
+      "sense": null,
       "description": "Description: Amount of electrical power delivered from the charge point to the EV at a given moment, measured in kilowatts (kW).",
       "caseSensitive": false,
       "translatable": true,
@@ -3353,6 +3398,7 @@
     {
       "id": 72,
       "term": "charge price",
+      "sense": null,
       "description": "Description: The total price accumulated during a charging session, including components such as price per kWh, per minute, or membership rates.",
       "caseSensitive": false,
       "translatable": true,
@@ -3438,6 +3484,7 @@
     {
       "id": 297,
       "term": "charger",
+      "sense": null,
       "description": "FORBIDDEN — do not use in any product.\n\nReplaced by surface-specific terms:\n\nB2C copy (Charge mobile app):\n• Hardware unit or outlet → \"charge point\"\n\nB2B copy (Hub, Control Tower, Installer, Operator Portal):\n• Physical device at a site → \"charging station\"\n• Individual outlet or connector on a station → \"EVSE\"",
       "caseSensitive": false,
       "translatable": true,
@@ -3528,6 +3575,7 @@
     {
       "id": 256,
       "term": "Chargers",
+      "sense": null,
       "description": "Description: UI label on the Charge app home screen linking to the list or map of available charging locations.",
       "caseSensitive": false,
       "translatable": true,
@@ -3613,6 +3661,7 @@
     {
       "id": 258,
       "term": "charging (adj)",
+      "sense": null,
       "description": "Description: Adjective. Describes states, processes, or attributes related to an ongoing charge. Examples: “charging session,” “charging port,” “charging time.”",
       "caseSensitive": false,
       "translatable": true,
@@ -3622,28 +3671,8 @@
       "usageRules": "Always lowercase (“charging”). Use only as a modifier (adjective). Avoid redundancy when the context already implies charging (e.g., “charging session” → not “EV charging session”).",
       "translations": [
         {
-          "languageCode": "en",
-          "translation": "charging",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "da",
           "translation": "lade-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "ladd-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "lade-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "de carga",
           "grammarNotes": null
         },
         {
@@ -3652,8 +3681,23 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "di ricarica",
+          "languageCode": "en",
+          "translation": "charging",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "de carga",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðing",
           "grammarNotes": null
         },
         {
@@ -3667,18 +3711,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
-          "translation": "charging",
+          "languageCode": "is",
+          "translation": "hleðslu-",
           "grammarNotes": null
         },
         {
-          "languageCode": "ro",
-          "translation": "de încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðing",
+          "languageCode": "it",
+          "translation": "di ricarica",
           "grammarNotes": null
         },
         {
@@ -3687,8 +3726,18 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "is",
-          "translation": "hleðslu-",
+          "languageCode": "no",
+          "translation": "lade-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "de încărcare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ladd-",
           "grammarNotes": null
         }
       ],
@@ -3698,6 +3747,7 @@
     {
       "id": 257,
       "term": "charging (noun)",
+      "sense": null,
       "description": "Description: Noun. The act or process of supplying electricity to an EV battery via a charge point.",
       "caseSensitive": false,
       "translatable": true,
@@ -3707,28 +3757,8 @@
       "usageRules": "Always lowercase (“charging”). Use for general or conceptual process descriptions. Do not confuse with “charge” (noun), which refers to a specific session or transaction. Avoid when referring to a single event — use “charge session” instead.",
       "translations": [
         {
-          "languageCode": "en",
-          "translation": "charging",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "da",
           "translation": "opladning",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddning",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "lading",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "carga",
           "grammarNotes": null
         },
         {
@@ -3737,8 +3767,23 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "ricarica",
+          "languageCode": "en",
+          "translation": "charging",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "carga",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðir",
           "grammarNotes": null
         },
         {
@@ -3752,18 +3797,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
-          "translation": "charging",
-          "grammarNotes": null
+          "languageCode": "is",
+          "translation": "hleðsla",
+          "grammarNotes": "F | acc sg: hleðslu | nom pl: hleðslur"
         },
         {
-          "languageCode": "ro",
-          "translation": "încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðir",
+          "languageCode": "it",
+          "translation": "ricarica",
           "grammarNotes": null
         },
         {
@@ -3772,9 +3812,19 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "is",
-          "translation": "hleðsla",
-          "grammarNotes": "F | acc sg: hleðslu | nom pl: hleðslur"
+          "languageCode": "no",
+          "translation": "lading",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "încărcare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddning",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -3783,6 +3833,7 @@
     {
       "id": 78,
       "term": "charging app",
+      "sense": null,
       "description": "Description: Generic term for mobile applications that enable EV drivers to find, start, schedule, and pay for charging sessions.",
       "caseSensitive": false,
       "translatable": true,
@@ -3868,6 +3919,7 @@
     {
       "id": 79,
       "term": "charging cable",
+      "sense": null,
       "description": "Description: A cable that connects an electric vehicle to a charge point to transfer electricity for charging.",
       "caseSensitive": false,
       "translatable": true,
@@ -3953,6 +4005,7 @@
     {
       "id": 259,
       "term": "charging discount",
+      "sense": null,
       "description": "Description: A feature within the Charge Subscription plan that allows users to apply a discount to charging sessions.",
       "caseSensitive": false,
       "translatable": true,
@@ -4038,6 +4091,7 @@
     {
       "id": 80,
       "term": "charging fee",
+      "sense": null,
       "description": "Description: A fee type applied during a charging session after a specified time threshold, e.g., DKK 50,00 added after 60 minutes of charging.",
       "caseSensitive": false,
       "translatable": true,
@@ -4123,6 +4177,7 @@
     {
       "id": 260,
       "term": "charging power",
+      "sense": null,
       "description": "Description: The instantaneous rate at which electrical energy is transferred or used during charging. Expressed in kilowatts (kW).",
       "caseSensitive": false,
       "translatable": true,
@@ -4213,6 +4268,7 @@
     {
       "id": 261,
       "term": "charging rule",
+      "sense": null,
       "description": "Description: Feature in the Charge app allowing users to pre-define charge schedules when plugging into a private charge point, automating repetitive home-charging actions.",
       "caseSensitive": false,
       "translatable": true,
@@ -4298,6 +4354,7 @@
     {
       "id": 83,
       "term": "charging schedule",
+      "sense": null,
       "description": "Description: Plan that defines when an EV should start or stop charging, enabling users to optimize for energy cost or grid demand. Managed via the Schedule feature in the Charge app.",
       "caseSensitive": false,
       "translatable": true,
@@ -4383,6 +4440,7 @@
     {
       "id": 75,
       "term": "charging session",
+      "sense": null,
       "description": "Description: The duration in which an EV is connected to a charge point and receiving power until the session ends.",
       "caseSensitive": false,
       "translatable": true,
@@ -4468,6 +4526,7 @@
     {
       "id": 84,
       "term": "charging site",
+      "sense": null,
       "description": "LEGACY FORBIDDEN: do not use \"charging site\" to refer to a charging location.\n\nReplaced by: \"location\" in all Hub, Control, and operator product copy.",
       "caseSensitive": false,
       "translatable": false,
@@ -4553,6 +4612,7 @@
     {
       "id": 85,
       "term": "charging speed",
+      "sense": null,
       "description": "Description: The rate at which an EV battery gains energy during charging, expressed as power (kW) or estimated time to charge.",
       "caseSensitive": false,
       "translatable": true,
@@ -4638,6 +4698,7 @@
     {
       "id": 298,
       "term": "charging station",
+      "sense": null,
       "description": "Description: The hardware-level unit at a site that hosts one or more EVSEs. The physical enclosure or device that supplies charging infrastructure — a single charging station may have multiple outlets (EVSEs), each serving one vehicle at a time.",
       "caseSensitive": false,
       "translatable": true,
@@ -4737,6 +4798,7 @@
     {
       "id": 329,
       "term": "charging station identity",
+      "sense": null,
       "description": "The unique device identifier a charging station uses when authenticating its WebSocket connection to a backend OCPP system (CSMS). Defined in OCPP 1.6 as \"chargeBoxId\" and in OCPP 2.0.1 as \"chargingStationId\". Also referred to in the EV industry as \"Chargebox Identity (CBID)\" or \"Charge Point ID\". In Monta OCPP Proxy UI it appears as a column header (\"Identity\") and in tooltips/toasts (\"charging station identity\", \"Copy charging station identity\"). It is a technical string — similar to a device username — baked into the charging station firmware or configuration, not a human-assigned display name.",
       "caseSensitive": false,
       "translatable": true,
@@ -4824,6 +4886,7 @@
     {
       "id": 87,
       "term": "chat",
+      "sense": null,
       "description": "Description: Label for the communication feature within Monta used to exchange messages between users, charge point owners, or Monta Support. “Chat” can refer to both the in-app messaging tool and its associated action (to chat).",
       "caseSensitive": false,
       "translatable": true,
@@ -4909,6 +4972,7 @@
     {
       "id": 88,
       "term": "client secret",
+      "sense": null,
       "description": "Description: A private key used in Monta’s API authentication (OAuth 2.0). It identifies and authenticates a client application (such as a partner integration) to the Monta API securely, ensuring only authorized systems can access protected data.",
       "caseSensitive": false,
       "translatable": true,
@@ -4994,6 +5058,7 @@
     {
       "id": 89,
       "term": "company car",
+      "sense": null,
       "description": "Description: A vehicle provided by an employer for business or mixed (business and personal) use. In Monta, Company Car agreements link employees’ charging sessions to their employer’s Monta Wallet. Work-related charges are automatically reimbursed, and wallet reconciliation is managed through the Company Car reimbursement flow.",
       "caseSensitive": false,
       "translatable": true,
@@ -5074,6 +5139,7 @@
     {
       "id": 90,
       "term": "company registration number ",
+      "sense": null,
       "description": "Description: A legal business identifier assigned to a company in its country of registration. In Monta, this number is required for business account setup, billing, and regulatory compliance within the EU and UK.",
       "caseSensitive": false,
       "translatable": true,
@@ -5159,6 +5225,7 @@
     {
       "id": 91,
       "term": "connect",
+      "sense": null,
       "description": "Description: Verb used when a charge point or external system establishes a link with Monta software, either via OCPP (Open Charge Point Protocol), Partner API, or physical plug-in connection by a driver.",
       "caseSensitive": false,
       "translatable": true,
@@ -5244,6 +5311,7 @@
     {
       "id": 92,
       "term": "connector",
+      "sense": null,
       "description": "Description: The physical interface (socket or cable end) that connects the electric vehicle (EV) to the EVSE. Supported connector types in Monta include Type 2, CCS, Type 1, CHAdeMO, and others. Each connector is tracked individually for status, pricing, and reporting in Monta Hub.",
       "caseSensitive": false,
       "translatable": true,
@@ -5329,6 +5397,7 @@
     {
       "id": 93,
       "term": "cost group",
+      "sense": null,
       "description": "Description: Defines the actual cost of electricity for an operator or team. A cost group represents what the operator pays (the “cost price”) rather than what is charged to end users (the “sale price”). Cost groups are used for internal reporting, budgeting, and profitability analysis - not for payments or transactions.",
       "caseSensitive": false,
       "translatable": true,
@@ -5414,6 +5483,7 @@
     {
       "id": 237,
       "term": "CP",
+      "sense": null,
       "description": "Description: Acronym for Charge Point - the hardware device providing EV charging. In Monta documentation, “charge point” is preferred for clarity, especially in English. Each charge point can have multiple connectors and be linked to teams, sites, or operators.",
       "caseSensitive": false,
       "translatable": true,
@@ -5525,6 +5595,7 @@
     {
       "id": 238,
       "term": "CPI",
+      "sense": null,
       "description": "Description: An acronym for Charge Point Integration, which enables communication and data exchange between charging stations and central management systems or external platforms. It supports data flow, status updates, and control signals across connected systems.",
       "caseSensitive": false,
       "translatable": true,
@@ -5631,6 +5702,7 @@
     {
       "id": 239,
       "term": "CPMS",
+      "sense": null,
       "description": "Description: Acronym for Charge Point Management System. In Monta’s context, this refers to Monta Hub, the central platform used by operators and partners to manage charge points, sites, users, pricing, and operational workflows.",
       "caseSensitive": false,
       "translatable": true,
@@ -5716,6 +5788,7 @@
     {
       "id": 240,
       "term": "CPO",
+      "sense": null,
       "description": "Description: Abbreviation for Charge Point Operator, the entity responsible for operating, maintaining, and managing EV charge points or sites. In Monta, CPOs use Monta Hub to manage their network, set pricing, monitor uptime, and integrate with payment systems.",
       "caseSensitive": false,
       "translatable": true,
@@ -5801,6 +5874,7 @@
     {
       "id": 94,
       "term": "credit",
+      "sense": null,
       "description": "Description: Non-withdrawable funds stored in a team wallet, used to pay for Monta-related transactions such as charging sessions, subscriptions, or fees. Credits can be earned through referrals, promotions, or PowerBank participation and are tracked separately from withdrawable wallet balances.",
       "caseSensitive": false,
       "translatable": true,
@@ -5886,6 +5960,7 @@
     {
       "id": 95,
       "term": "credit note",
+      "sense": null,
       "description": "Description: A financial document issued to correct or reduce the amount of a previously issued invoice, typically due to returns, adjustments, or billing errors. In Monta, credit notes appear in the Finance section of Hub and are automatically linked to the original invoice.",
       "caseSensitive": false,
       "translatable": true,
@@ -5971,6 +6046,7 @@
     {
       "id": 241,
       "term": "CT clamp",
+      "sense": null,
       "description": "Description: A Current Transformer (CT) clamp is a device used to measure electrical current flowing through a conductor without direct contact. In Monta, CT clamps are used in Smart Meter and Load Balancing setups to provide real-time current measurements from a site’s main fuse or solar installation. These readings help Monta’s CPI service optimize charging based on available power.",
       "caseSensitive": false,
       "translatable": true,
@@ -6056,6 +6132,7 @@
     {
       "id": 96,
       "term": "current",
+      "sense": null,
       "description": "Description: The flow of electric charge that powers an EV during charging. Monta supports both Alternating Current (AC) and Direct Current (DC) charging, depending on the charge point hardware and configuration. Current type affects charging speed and connector compatibility.",
       "caseSensitive": false,
       "translatable": true,
@@ -6141,6 +6218,7 @@
     {
       "id": 97,
       "term": "custom subscription",
+      "sense": null,
       "description": "Description: A feature in Monta Hub that allows charge point operators or service providers to create tailored subscription plans for their clients. These plans can include services such as charge point operation, maintenance, leasing, software access, or tax refund management. End users are billed monthly through Monta, and payments are handled via the Wallet and Subscriptions modules.",
       "caseSensitive": false,
       "translatable": true,
@@ -6226,6 +6304,7 @@
     {
       "id": 98,
       "term": "customer success manager",
+      "sense": null,
       "description": "Description: A Monta specialist responsible for onboarding new business users, ensuring successful adoption of Monta’s platform, and supporting long-term account growth. Customer Success Managers (CSMs) proactively assist partners (CPOs, installers, or enterprises) to achieve operational success and maximize value from Monta Hub and related services.",
       "caseSensitive": false,
       "translatable": true,
@@ -6311,6 +6390,7 @@
     {
       "id": 306,
       "term": "dashboards",
+      "sense": null,
       "description": "The analytics section in Monta Hub where operators access embedded reports, the Control Tower overview, and custom Studio dashboards.",
       "caseSensitive": false,
       "translatable": true,
@@ -6406,6 +6486,7 @@
     {
       "id": 246,
       "term": "Data pipelines",
+      "sense": null,
       "description": "Description: B2B feature in Monta Hub that allows operators to discover, connect, and monitor managed data-sharing integrations with external systems. Data Pipelines automate the secure delivery of static and dynamic data to endpoints such as National Access Points (NAPs), AFIR compliance systems, rebate programs, and other partner or regulatory platforms.",
       "caseSensitive": false,
       "translatable": true,
@@ -6491,6 +6572,7 @@
     {
       "id": 247,
       "term": "Data warehouse",
+      "sense": null,
       "description": "Description: Monta’s centralized, cloud-based data storage and analytics system that enables sharing of operational and performance data with partners through secure integrations or embedded dashboards. It supports advanced analytics, exports, and visualization features such as Tableau dashboards, data pipelines, and API feeds.",
       "caseSensitive": false,
       "translatable": true,
@@ -6576,6 +6658,7 @@
     {
       "id": 248,
       "term": "Data+",
+      "sense": null,
       "description": "Description: A Monta product add-on available for partner and operator subscriptions. Data+ unlocks enhanced data capabilities such as advanced analytics, detailed charge point performance insights, extended data retention, or additional integrations beyond the standard Monta Hub plan.",
       "caseSensitive": false,
       "translatable": true,
@@ -6661,6 +6744,7 @@
     {
       "id": 244,
       "term": "DC",
+      "sense": null,
       "description": "Description: Type of charging using Direct Current (DC), delivering higher power outputs than AC (Alternating Current). DC charge points enable fast and ultra-fast charging, typically located at public charging parks or highways.",
       "caseSensitive": false,
       "translatable": true,
@@ -6746,6 +6830,7 @@
     {
       "id": 99,
       "term": "deep link",
+      "sense": null,
       "description": "Description: A unique URL that connects directly to a specific charge point or related page, enabling EV drivers to start charging by scanning a QR code or NFC tag. In Monta Hub, the Deeplinks feature allow Solution Providers to create, link, and manage deeplinks remotely.",
       "caseSensitive": false,
       "translatable": true,
@@ -6831,6 +6916,7 @@
     {
       "id": 100,
       "term": "delayed start",
+      "sense": null,
       "description": "Description: A smart charging scheduling option that allows users to postpone the start of a charging session. When enabled, the session begins automatically at the optimal or user-defined time, usually to align with lower energy prices or grid-friendly charging windows.",
       "caseSensitive": false,
       "translatable": true,
@@ -6916,6 +7002,7 @@
     {
       "id": 101,
       "term": "deposit",
+      "sense": null,
       "description": "Description: Noun, funds added to a user’s or team’s Monta Wallet and made available for payments or transactions such as charging, or subscriptions. Deposits are withdrawable.",
       "caseSensitive": false,
       "translatable": true,
@@ -7001,6 +7088,7 @@
     {
       "id": 328,
       "term": "destination group",
+      "sense": null,
       "description": "A routing configuration object within a proxy domain in Monta's OCPP Proxy product. A destination group defines which backend OCPP URL a set of charging stations should forward their traffic to. One proxy domain can contain multiple destination groups, allowing operators to route different stations to different backends. This is a Monta-specific product term — it does not appear in the OCPP specification.",
       "caseSensitive": false,
       "translatable": true,
@@ -7071,6 +7159,7 @@
     {
       "id": 102,
       "term": "distribution system operator",
+      "sense": null,
       "description": "Description: A Distribution System Operator (DSO) manages and maintains the local electricity distribution grid that delivers power from transmission systems to end users. In Monta’s context, DSOs are external stakeholders in grid-service integrations such as PowerBank, Smart Charging, and Load Management, where real-time load data or flexibility services may be exchanged.",
       "caseSensitive": false,
       "translatable": true,
@@ -7156,6 +7245,7 @@
     {
       "id": 286,
       "term": "Driver Support",
+      "sense": null,
       "description": "A Monta feature that enables charge point operators to offer a dedicated support channel to drivers experiencing issues with charging sessions, charge points, or their accounts. Support can be handled directly by Monta or delegated to the operator.",
       "caseSensitive": false,
       "translatable": true,
@@ -7241,6 +7331,7 @@
     {
       "id": 245,
       "term": "DSO",
+      "sense": null,
       "description": "Description: Abbreviation for Distribution System Operator. See distribution system operator (DSO) for the full definition.\n ",
       "caseSensitive": false,
       "translatable": true,
@@ -7352,6 +7443,7 @@
     {
       "id": 103,
       "term": "dynamic load balancing",
+      "sense": null,
       "description": "Description: A load management method that dynamically allocates available electrical power between multiple charge points in real time, based on total site consumption. Dynamic Load Balancing ensures grid limits are respected while optimizing charging speed for connected EVs. It relies on external meters such as CT clamps or smart meters to measure total consumption and continuously adjust power distribution.",
       "caseSensitive": false,
       "translatable": true,
@@ -7437,6 +7529,7 @@
     {
       "id": 104,
       "term": "dynamic price",
+      "sense": null,
       "description": "Description: A price group type where the base (master) price follows the spot market price for electricity. Dynamic pricing fluctuates with market rates and can include operator-defined markups or limits. Used by CPOs to align charging prices with real-time energy costs.",
       "caseSensitive": false,
       "translatable": true,
@@ -7522,6 +7615,7 @@
     {
       "id": 105,
       "term": "e-mobility service provider",
+      "sense": null,
       "description": "Description: A company that offers charging services to drivers via apps, subscriptions, or roaming networks, including account creation, authentication, and billing. In Monta, an e-mobility service provider connects driver access with charging networks for pricing, payments, and roaming.",
       "caseSensitive": false,
       "translatable": true,
@@ -7607,6 +7701,7 @@
     {
       "id": 249,
       "term": "EIN",
+      "sense": null,
       "description": "Description: Employer Identification Number (EIN): a 9-digit U.S. federal tax ID used to identify businesses.",
       "caseSensitive": false,
       "translatable": true,
@@ -7713,6 +7808,7 @@
     {
       "id": 317,
       "term": "Eingehendes Roaming",
+      "sense": null,
       "description": "LEGACY FORBIDDEN: use Inbound Roaming instead. Retired German translation — keep in English.",
       "caseSensitive": false,
       "translatable": true,
@@ -7727,6 +7823,7 @@
     {
       "id": 106,
       "term": "electricity costs",
+      "sense": null,
       "description": "General term, indicating electricity costs. Applied for pricing setting.",
       "caseSensitive": false,
       "translatable": true,
@@ -7812,6 +7909,7 @@
     {
       "id": 107,
       "term": "electricity price",
+      "sense": null,
       "description": "Description: The amount charged to drivers for consumed energy, expressed as a per-kWh rate. In Monta, it’s the energy component of a charging session price, separate from time fees or fixed session fees.",
       "caseSensitive": false,
       "translatable": true,
@@ -7897,6 +7995,7 @@
     {
       "id": 108,
       "term": "electricity tax refund ",
+      "sense": null,
       "description": "Description: A Danish government scheme that reimburses private EV owners for the electricity tax paid on home charging, provided charging is metered and handled via an approved subscription or provider.",
       "caseSensitive": false,
       "translatable": true,
@@ -7982,6 +8081,7 @@
     {
       "id": 109,
       "term": "electricity tax refund subscription",
+      "sense": null,
       "description": "Description: A Danish government scheme that reimburses private EV owners for the electricity tax paid on home charging, provided charging is metered and handled via an approved subscription or provider.",
       "caseSensitive": false,
       "translatable": true,
@@ -8067,6 +8167,7 @@
     {
       "id": 250,
       "term": "EMSP",
+      "sense": null,
       "description": "An e-Mobility Service Provider (eMSP) is a company or platform that gives EV drivers access to public and private charge points across multiple networks through a single app, card, or account.",
       "caseSensitive": false,
       "translatable": true,
@@ -8173,6 +8274,7 @@
     {
       "id": 110,
       "term": "end time",
+      "sense": null,
       "description": "Description: The timestamp when a charging session, schedule, or reservation finishes. In Monta, it marks the close of a time range paired with a start time for reporting, pricing, and availability.",
       "caseSensitive": false,
       "translatable": true,
@@ -8258,6 +8360,7 @@
     {
       "id": 263,
       "term": "energy amount",
+      "sense": null,
       "description": "Description: The amount of energy delivered during a charging session, expressed in kilowatt-hours (kWh).",
       "caseSensitive": false,
       "translatable": true,
@@ -8343,6 +8446,7 @@
     {
       "id": 1,
       "term": "EV",
+      "sense": null,
       "description": "Description: Electric vehicle (EV): a road vehicle powered fully or primarily by electricity from a battery. In Monta, used to identify the driver’s or fleet’s vehicle type for charging, pricing, and reporting.",
       "caseSensitive": false,
       "translatable": true,
@@ -8428,6 +8532,7 @@
     {
       "id": 2,
       "term": "EVSE",
+      "sense": null,
       "description": "Description: The outlet-level entity within a charging station — a single supply unit that manages one charging session at a time. One EVSE may have multiple connectors (sockets or cable ends), but only one EV can be actively charged per EVSE at once. Refers to the hardware that controls and meters energy delivery and communicates via OCPP.",
       "caseSensitive": false,
       "translatable": true,
@@ -8523,6 +8628,7 @@
     {
       "id": 111,
       "term": "excise tax",
+      "sense": null,
       "description": "Description: US-centric, a government-imposed tax on specific goods or energy use in the US. A tax imposed during EV charging in the US. No direct tax directive is applicable in EU.",
       "caseSensitive": false,
       "translatable": true,
@@ -8608,6 +8714,7 @@
     {
       "id": 112,
       "term": "fail-safe",
+      "sense": null,
       "description": "Description: A mode that defaults to a safe state when a component, signal, or process fails.",
       "caseSensitive": false,
       "translatable": true,
@@ -8693,6 +8800,7 @@
     {
       "id": 113,
       "term": "fair price",
+      "sense": null,
       "description": "Description: Concept to benchmark good/bad market price on a public charge point for end-users. A filtering option in Maps in Charge app.",
       "caseSensitive": false,
       "translatable": true,
@@ -8778,6 +8886,7 @@
     {
       "id": 114,
       "term": "fallback price",
+      "sense": null,
       "description": "Description: A default price applied automatically when the intended tariff or price source is unavailable. The fallback price ensures sessions can be billed when normal pricing cannot be resolved.",
       "caseSensitive": false,
       "translatable": true,
@@ -8863,6 +8972,7 @@
     {
       "id": 115,
       "term": "fee",
+      "sense": null,
       "description": "Description: A monetary amount added to a charging session that is not the per-kWh energy price or a tax. In Monta, fees cover extras such as a fixed session fee, a per-minute time fee, or other operator-defined charges.",
       "caseSensitive": false,
       "translatable": true,
@@ -8948,6 +9058,7 @@
     {
       "id": 116,
       "term": "fee per minute",
+      "sense": null,
       "description": "Description: A time-based fee charged for each minute of a charging session or an idle period. In Monta, it’s configured by operators and applied alongside the per-kWh energy price when enabled.",
       "caseSensitive": false,
       "translatable": true,
@@ -9033,6 +9144,7 @@
     {
       "id": 4,
       "term": "Finance+",
+      "sense": null,
       "description": "Description: A add-on subscription plan that extends billing, settlements, and reporting with advanced features (e.g., automated invoicing, payouts/reconciliation, and accounting exports)",
       "caseSensitive": false,
       "translatable": true,
@@ -9118,6 +9230,7 @@
     {
       "id": 117,
       "term": "firmware",
+      "sense": null,
       "description": "Description: embedded software on charging hardware that provides low-level control and enables communication with Monta (e.g., via OCPP). In Monta, firmware affects safety checks, metering, connector control, and interoperability.",
       "caseSensitive": false,
       "translatable": true,
@@ -9203,6 +9316,7 @@
     {
       "id": 118,
       "term": "fixed price",
+      "sense": null,
       "description": "Description: A static charging tariff you set either per kWh or per minute. Unlike spot pricing, the rate remains constant until you change it.",
       "caseSensitive": false,
       "translatable": true,
@@ -9288,6 +9402,7 @@
     {
       "id": 119,
       "term": "fleet",
+      "sense": null,
       "description": "Description: A business-managed group of vehicles supported by Monta for public and depot charging. Includes tools for planning, cost control, load management, and future V2G workflows.",
       "caseSensitive": false,
       "translatable": true,
@@ -9373,6 +9488,7 @@
     {
       "id": 120,
       "term": "forecast",
+      "sense": null,
       "description": "Description: Predictive estimates of charging demand, timing, or energy usage generated from historical and operational data. Used to plan schedules and reduce energy costs across sites.",
       "caseSensitive": false,
       "translatable": true,
@@ -9458,6 +9574,7 @@
     {
       "id": 121,
       "term": "funds",
+      "sense": null,
       "description": "Description: Funds represent the withdrawable monetary balance available in a Monta wallet. Funds can be transferred to a user’s private bank account through Monta’s integrated payout system.",
       "caseSensitive": false,
       "translatable": true,
@@ -9543,6 +9660,7 @@
     {
       "id": 122,
       "term": "fuse protection",
+      "sense": null,
       "description": "Description: Limits charging so the site’s electrical fuse or circuit capacity is not exceeded. Managed through Monta load management to distribute power across charge points and prevent overloads or tripped fuses.",
       "caseSensitive": false,
       "translatable": true,
@@ -9628,6 +9746,7 @@
     {
       "id": 264,
       "term": "grace period",
+      "sense": null,
       "description": "Description: A short period before or after a charging session during which a driver is not charged idle fees or overstay fees.",
       "caseSensitive": false,
       "translatable": true,
@@ -9713,6 +9832,7 @@
     {
       "id": 123,
       "term": "grid",
+      "sense": null,
       "description": "Description: The external electricity network that supplies energy to Monta-connected sites and can receive energy in V2G setups. Monta coordinates charging (e.g., load balancing, PowerBank) to avoid overloads and support grid stability.",
       "caseSensitive": false,
       "translatable": true,
@@ -9798,6 +9918,7 @@
     {
       "id": 6,
       "term": "Growth",
+      "sense": null,
       "description": "Description: Monta’s premium growth-focused subscription plan providing advanced management, automation, and analytics capabilities. Designed for operators and partners scaling beyond the Free plan to increase operational efficiency.",
       "caseSensitive": false,
       "translatable": true,
@@ -9883,6 +10004,7 @@
     {
       "id": 124,
       "term": "hardware",
+      "sense": null,
       "description": "Description: Physical charge points and connected electrical devices integrated with the Monta platform. Compatibility and performance rely on certified integrations and firmware that enable features such as load balancing, PowerBank, and SolarCharging.",
       "caseSensitive": false,
       "translatable": true,
@@ -9968,6 +10090,7 @@
     {
       "id": 125,
       "term": "hardware agnostic",
+      "sense": null,
       "description": "Description: Monta’s ability to work with any compatible charge point brand or model. Enables mixing and managing multiple hardware types in one setup without vendor lock-in.",
       "caseSensitive": false,
       "translatable": true,
@@ -10053,6 +10176,7 @@
     {
       "id": 126,
       "term": "hardware manufacturer",
+      "sense": null,
       "description": "Description: A company that designs and produces EV charge points compatible with Monta via certified integrations and APIs. Manufacturers use Hub to support configuration, firmware workflows, and reliable communication.",
       "caseSensitive": false,
       "translatable": true,
@@ -10138,6 +10262,7 @@
     {
       "id": 290,
       "term": "Help",
+      "sense": null,
       "description": "Short-form brand name for Monta's self-service knowledge base, Help Centre. Used in navigation labels, menu items, and compact UI contexts where the full name \"Help Centre\" does not fit.",
       "caseSensitive": false,
       "translatable": true,
@@ -10218,6 +10343,7 @@
     {
       "id": 8,
       "term": "Help Centre",
+      "sense": null,
       "description": "Description: Monta’s self-service knowledge base with product guides, troubleshooting articles, and instructional videos. Enables users to resolve issues and learn features across Monta products.",
       "caseSensitive": false,
       "translatable": true,
@@ -10303,6 +10429,7 @@
     {
       "id": 127,
       "term": "home charger",
+      "sense": null,
       "description": "Description: A residential EV charge point connected to Charge. Enables private users to schedule charging, use features like SolarCharging or PowerBank, and monitor energy usage at home.",
       "caseSensitive": false,
       "translatable": true,
@@ -10393,6 +10520,7 @@
     {
       "id": 128,
       "term": "home charging",
+      "sense": null,
       "description": "Description: Charging an electric vehicle at a private residence using a Monta-connected home charge point via Charge. Supports scheduling, smart features (e.g., solar charging, smart charging, and session monitoring.",
       "caseSensitive": false,
       "translatable": true,
@@ -10478,6 +10606,7 @@
     {
       "id": 129,
       "term": "home energy",
+      "sense": null,
       "description": "Description: Monta’s residential energy management scope connecting devices like charge points, solar, smart meters, and heat pumps to optimize electricity use and self-consumption. Coordinates charging and home energy flows to reduce grid dependency.",
       "caseSensitive": false,
       "translatable": true,
@@ -10563,6 +10692,7 @@
     {
       "id": 130,
       "term": "housing association",
+      "sense": null,
       "description": "Description: A collective property management organization that operates shared residential charging for tenants or owners. Monta enables centralized access control, billing, and reporting across shared charge points.",
       "caseSensitive": false,
       "translatable": true,
@@ -10648,6 +10778,7 @@
     {
       "id": 9,
       "term": "Hub",
+      "sense": null,
       "description": "Description: Monta’s web platform for managing charge points, sites, teams, pricing, and operations at scale. Provides tools for analytics, subscriptions, automation, and financial workflows for professional operators.",
       "caseSensitive": false,
       "translatable": true,
@@ -10738,6 +10869,7 @@
     {
       "id": 10,
       "term": "Hypercare",
+      "sense": null,
       "description": "Description: A dedicated post-launch support phase for new partners or deployments focused on proactive monitoring, rapid issue resolution, and close cross-team collaboration. Ensures a stable rollout and optimal performance across Monta products.",
       "caseSensitive": false,
       "translatable": true,
@@ -10823,6 +10955,7 @@
     {
       "id": 11,
       "term": "IBAN",
+      "sense": null,
       "description": "Description: A standardized international bank account identifier used in Monta wallet to enable withdrawals, deposits, and automated payouts. Required to link a user or operator bank account for payment operations.",
       "caseSensitive": false,
       "translatable": true,
@@ -10908,6 +11041,7 @@
     {
       "id": 12,
       "term": "ICE vehicle",
+      "sense": null,
       "description": "Description: A non-electric vehicle powered by petrol or diesel. Used in Monta context when contrasting with EVs in adoption, fleet transition, and operational policies.",
       "caseSensitive": false,
       "translatable": true,
@@ -10993,6 +11127,7 @@
     {
       "id": 131,
       "term": "idle fee",
+      "sense": null,
       "description": "Description: A fee applied when a vehicle remains parked and connected after charging has completed. Encourages charge point turnover and efficient site utilization.",
       "caseSensitive": false,
       "translatable": true,
@@ -11078,6 +11213,7 @@
     {
       "id": 132,
       "term": "idle time",
+      "sense": null,
       "description": "Description: The duration a vehicle stays connected after reaching full charge. Used to monitor congestion, manage turnover, and trigger idle fee policies.",
       "caseSensitive": false,
       "translatable": true,
@@ -11143,6 +11279,7 @@
     {
       "id": 13,
       "term": "In-Between Charges",
+      "sense": null,
       "description": "Description: The official Monta podcast available on Spotify, covering EV charging, clean tech, and the future of sustainable energy.",
       "caseSensitive": false,
       "translatable": true,
@@ -11228,6 +11365,7 @@
     {
       "id": 313,
       "term": "Inbound Roaming",
+      "sense": null,
       "description": "A roaming session in which a driver from an external eMSP uses a CPO's charging station. The CPO hosts the session and receives payment; the external eMSP handles authorization and billing for their driver.\n\nUsage rules:\n• Always capitalize both words as a UI label: \"Inbound Roaming\"\n• Do not use \"Eingehendes Roaming\" in German — keep the English term\n• Use to describe traffic flowing into a CPO's network from external network users\n\nPlatform: Hub, Control\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -11308,6 +11446,7 @@
     {
       "id": 133,
       "term": "incident",
+      "sense": null,
       "description": "Description: A reported operational issue or failure within Monta systems or connected services (e.g., charge point error, API disruption, user-side fault). Incidents are tracked and resolved through support and engineering workflows.",
       "caseSensitive": false,
       "translatable": true,
@@ -11393,6 +11532,7 @@
     {
       "id": 14,
       "term": "insights",
+      "sense": null,
       "description": "'Description: Actionable analytics and reports in Hub covering performance, usage, financials, and operational trends. Supports data-driven decisions and network optimization.",
       "caseSensitive": false,
       "translatable": true,
@@ -11478,6 +11618,7 @@
     {
       "id": 134,
       "term": "installation",
+      "sense": null,
       "description": "Description: The physical setup and configuration of EV charge points, including wiring, mounting, commissioning, and connecting hardware to Monta. Ensures safe, compliant, and functional operation.",
       "caseSensitive": false,
       "translatable": true,
@@ -11563,6 +11704,7 @@
     {
       "id": 135,
       "term": "installer",
+      "sense": null,
       "description": "Description: A certified technician or partner who deploys and configures charge points for operators or end users. Uses Installer Jobs to connect, test, and verify hardware during setup.",
       "caseSensitive": false,
       "translatable": true,
@@ -11648,6 +11790,7 @@
     {
       "id": 136,
       "term": "installer job",
+      "sense": null,
       "description": "Description: A predefined task in Hub granting installers temporary access to connect and commission charge points. Streamlines deployment by enabling testing and documentation without adding installers to operator teams.",
       "caseSensitive": false,
       "translatable": true,
@@ -11733,6 +11876,7 @@
     {
       "id": 15,
       "term": "Instant App",
+      "sense": null,
       "description": "Description: A lightweight, browser-based charging flow that lets drivers start and pay for a session without installing Charge. Simplifies public, ad-hoc charging access.",
       "caseSensitive": false,
       "translatable": true,
@@ -11818,6 +11962,7 @@
     {
       "id": 137,
       "term": "integration",
+      "sense": null,
       "description": "Description: A technical connection between Monta and external systems (e.g., hardware manufacturers, payment providers, fleet tools) to enable interoperability and automation. Ensures reliable data exchange and coordinated workflows.",
       "caseSensitive": false,
       "translatable": true,
@@ -11903,6 +12048,7 @@
     {
       "id": 138,
       "term": "invoice",
+      "sense": null,
       "description": "Description: An official financial document issued by Monta summarizing charges, payments, or subscription fees. Available to users and partners via Monta Wallet and Hub for accounting and compliance.",
       "caseSensitive": false,
       "translatable": true,
@@ -11988,6 +12134,7 @@
     {
       "id": 291,
       "term": "invoicing",
+      "sense": null,
       "description": "Description:\n Monta Hub feature that generates, manages, and distributes invoices for charging sessions and services — enabling operators to bill end-customers, team members, or third-party clients under their own brand.",
       "caseSensitive": false,
       "translatable": true,
@@ -12008,6 +12155,7 @@
     {
       "id": 139,
       "term": "join code",
+      "sense": null,
       "description": "Description: A unique code used to invite users to join a specific team in Monta. Entering the code grants access to the team’s charge points, wallets, and shared settings without manual admin approval (when enabled).",
       "caseSensitive": false,
       "translatable": true,
@@ -12093,6 +12241,7 @@
     {
       "id": 289,
       "term": "kWh",
+      "sense": null,
       "description": "Kilowatt-hour — the standard SI unit of energy used across the Monta platform to express the amount of electricity delivered, consumed, or metered during a charging session.",
       "caseSensitive": true,
       "translatable": true,
@@ -12178,6 +12327,7 @@
     {
       "id": 141,
       "term": "kWh price",
+      "sense": null,
       "description": "Description: The electricity cost per kilowatt-hour applied to a charging session. Defined in a pricing group or tariff and may be fixed, dynamic, or spot-based.",
       "caseSensitive": false,
       "translatable": true,
@@ -12263,6 +12413,7 @@
     {
       "id": 331,
       "term": "List",
+      "sense": null,
       "description": "A named, reusable collection of one entity type — EVSEs, users, accounts, locations, charge keys, or vehicles — that operators curate once and apply across Hub features such as pricing, access, and outreach. A list can be built manually or set to update automatically via a filter rule.\n\nUsage rules:\n• Always capitalise: \"List\" (singular), \"Lists\" (plural) when referring to the Hub feature\n• Do not use as a generic synonym for any simple enumeration of items\n• Hub only; not applicable to the Charge app or Control\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -12348,6 +12499,7 @@
     {
       "id": 142,
       "term": "load balancing",
+      "sense": null,
       "description": "Description: Monta’s distribution of available electrical capacity across multiple charge points. Keeps total power within site or fuse limits while maximizing throughput and preventing overloads.",
       "caseSensitive": false,
       "translatable": true,
@@ -12433,6 +12585,7 @@
     {
       "id": 143,
       "term": "load management",
+      "sense": null,
       "description": "Description: Monta’s broader strategy to optimize energy distribution across charge points, buildings, and grid connections. Includes load balancing, dynamic power control, and integrations with smart meters and solar.",
       "caseSensitive": false,
       "translatable": true,
@@ -12518,6 +12671,7 @@
     {
       "id": 299,
       "term": "location",
+      "sense": null,
       "description": "The top-level entity in the charging hierarchy, representing a geographic grouping of one or more charging stations and their EVSEs. Corresponds to the Location object in OCPI 2.3, defined as a group of EVSEs that belong together geographically or spatially.",
       "caseSensitive": false,
       "translatable": true,
@@ -12603,6 +12757,7 @@
     {
       "id": 17,
       "term": "Made to Move",
+      "sense": null,
       "description": "Description: Monta’s brand slogan expressing the mission to power the transition to sustainable mobility. Used in brand campaigns and high-level messaging.",
       "caseSensitive": false,
       "translatable": true,
@@ -12688,6 +12843,7 @@
     {
       "id": 312,
       "term": "main account",
+      "sense": null,
       "description": "LEGACY FORBIDDEN: use \"main operator\" instead. Do not use in any Hub UI copy.",
       "caseSensitive": false,
       "translatable": false,
@@ -12702,6 +12858,7 @@
     {
       "id": 265,
       "term": "main operator",
+      "sense": null,
       "description": "The top-level business entity that owns and governs one or more Sub-operators. Defines global policies for access, financial ownership, and configuration across all linked sub-operators.",
       "caseSensitive": false,
       "translatable": true,
@@ -12787,6 +12944,7 @@
     {
       "id": 315,
       "term": "Managed Roaming",
+      "sense": null,
       "description": "The default Monta roaming configuration where the platform manages all partner connections, applies a standard platform fee, and provides consolidated invoicing. Operators do not negotiate bilateral commercial agreements directly.\n\nUsage rules:\n• Always capitalize both words as a UI label: \"Managed Roaming\"\n• Do not use \"Verwaltetes Roaming\" in German — keep the English term\n• Contrast with Self-Managed Roaming when explaining roaming configuration options\n\nPlatform: Hub, Control\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -12807,6 +12965,7 @@
     {
       "id": 19,
       "term": "map",
+      "sense": null,
       "description": "Description: The visual interface in Charge showing available charge points with pricing, availability, and live status. Lets users locate, navigate to, and start sessions.",
       "caseSensitive": false,
       "translatable": true,
@@ -12892,6 +13051,7 @@
     {
       "id": 144,
       "term": "marketplace",
+      "sense": null,
       "description": "Description: The in-product area for browsing, purchasing, or managing subscription-based services such as charge discounts, operational plans, and partner offers.",
       "caseSensitive": false,
       "translatable": true,
@@ -12977,6 +13137,7 @@
     {
       "id": 145,
       "term": "master price",
+      "sense": null,
       "description": "Description: The base pricing layer for a charge point or site used as the default rate. Additional or conditional rules (e.g., member discounts, spot pricing) apply on top.",
       "caseSensitive": false,
       "translatable": true,
@@ -13062,6 +13223,7 @@
     {
       "id": 20,
       "term": "Me",
+      "sense": null,
       "description": "Description: The personal account view in Charge for managing profile, vehicles, payment methods, linked charge points, and history.",
       "caseSensitive": false,
       "translatable": true,
@@ -13147,6 +13309,7 @@
     {
       "id": 146,
       "term": "member",
+      "sense": null,
       "description": "Description: A user who belongs to an account and can access shared charging stations, wallets, and benefits according to assigned permissions.",
       "caseSensitive": false,
       "translatable": true,
@@ -13232,6 +13395,7 @@
     {
       "id": 147,
       "term": "member fee",
+      "sense": null,
       "description": "Description: A cost applied to internal account members for charging on shared or company-managed charging stations. May differ from public pricing.",
       "caseSensitive": false,
       "translatable": true,
@@ -13317,6 +13481,7 @@
     {
       "id": 287,
       "term": "member group",
+      "sense": null,
       "description": "Description: A configuration feature that allows account administrators to organize members into groups with shared settings, including role, pricing, permissions, and cost allocation. Changes to a group's settings automatically propagate to all assigned members.",
       "caseSensitive": false,
       "translatable": true,
@@ -13402,6 +13567,7 @@
     {
       "id": 148,
       "term": "member price",
+      "sense": null,
       "description": "Description: The internal charging rate applied to account members on shared or company-managed charging stations. Typically lower than public rates.",
       "caseSensitive": false,
       "translatable": true,
@@ -13487,6 +13653,7 @@
     {
       "id": 149,
       "term": "member price group",
+      "sense": null,
       "description": "Description: A predefined pricing configuration for specific user groups or accounts. Standardizes internal charging rates and can be customized for different tiers.",
       "caseSensitive": false,
       "translatable": true,
@@ -13572,6 +13739,7 @@
     {
       "id": 150,
       "term": "member role",
+      "sense": null,
       "description": "Description: A user’s permission level within an account (e.g., Owner, Manager, Member) defining what actions they can perform across charging stations, finances, and users.",
       "caseSensitive": false,
       "translatable": true,
@@ -13657,6 +13825,7 @@
     {
       "id": 152,
       "term": "meter accuracy",
+      "sense": null,
       "description": "Description: The precision of a charge point’s energy meter for measuring consumption. Ensures compliant billing and consistent transaction reporting.",
       "caseSensitive": false,
       "translatable": true,
@@ -13742,6 +13911,7 @@
     {
       "id": 151,
       "term": "meter ID",
+      "sense": null,
       "description": "Description: The unique identifier of a charge point’s energy meter used to associate readings with specific sessions or hardware.",
       "caseSensitive": false,
       "translatable": true,
@@ -13827,6 +13997,7 @@
     {
       "id": 153,
       "term": "meter reading",
+      "sense": null,
       "description": "Description: The recorded energy measurement (kWh) consumed or delivered during a session or over a period. Forms the basis for cost calculation and usage monitoring.",
       "caseSensitive": false,
       "translatable": true,
@@ -13912,6 +14083,7 @@
     {
       "id": 16,
       "term": "MID",
+      "sense": null,
       "description": "Description: The EU Measuring Instruments Directive standard ensuring meters meet legal accuracy requirements for billing. MID-certified meters provide compliant, reliable transaction data.",
       "caseSensitive": false,
       "translatable": true,
@@ -13997,6 +14169,7 @@
     {
       "id": 305,
       "term": "Monta",
+      "sense": null,
       "description": "Monta is the company and software platform powering the EV charging ecosystem for drivers, operators, and installers.",
       "caseSensitive": false,
       "translatable": true,
@@ -14087,6 +14260,7 @@
     {
       "id": 262,
       "term": "Monta AI",
+      "sense": null,
       "description": "Description: Monta AI is Monta’s AI-powered functionality that helps users create, summarize, or understand content and workflows across Monta products. Use it when referring to Monta’s built-in AI features, not AI in general.",
       "caseSensitive": false,
       "translatable": true,
@@ -14190,6 +14364,7 @@
     {
       "id": 21,
       "term": "Monta Control",
+      "sense": null,
       "description": "Description: Monta’s toolset for remote, real-time monitoring, management, and troubleshooting of charge points across networks and sites.",
       "caseSensitive": false,
       "translatable": true,
@@ -14280,6 +14455,7 @@
     {
       "id": 155,
       "term": "native schedule",
+      "sense": null,
       "description": "Description: Built-in smart charging that lets users set automated charging times directly in Charge or Hub. Optimizes energy use by scheduling during preferred hours or low-cost tariff periods without external integrations.",
       "caseSensitive": false,
       "translatable": true,
@@ -14365,6 +14541,7 @@
     {
       "id": 156,
       "term": "nested account",
+      "sense": null,
       "description": "An account that operates under another account and inherits defined resources or settings (e.g., permissions, wallets). Supports multi-brand, franchise, or enterprise hierarchies.\n\nUsage rules:\n• Use sentence case in running text and in UI labels.\n• Use \"parent account\" to describe hierarchy.\n• Do not use for ad-hoc groups; use \"account\" instead.\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -14450,6 +14627,7 @@
     {
       "id": 325,
       "term": "Network",
+      "sense": null,
       "description": "Network is the Hub navigation label for an operator's own charging estate — the page that brings together their EVSEs, charging stations, and locations in one place. It answers the question \"what do I operate?\"\n\nUsage rules:\n• Capitalise only as a UI label or page title (Network); lowercase in running text (\"your network\").\n• Do not use as a synonym for the Monta network / roaming network (the cross-operator set of public charging stations) or for network tariff (grid cost).\n• Scope to the operator's own estate, not the public or roaming network.\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -14535,6 +14713,7 @@
     {
       "id": 158,
       "term": "network tariff",
+      "sense": null,
       "description": "Description: The underlying cost for electricity distribution set by the local grid or utility. Used by Monta in pricing, forecasting, and smart charging logic to optimize costs and protect capacity.",
       "caseSensitive": false,
       "translatable": true,
@@ -14620,6 +14799,7 @@
     {
       "id": 22,
       "term": "NFC",
+      "sense": null,
       "description": "Description: Near Field Communication used to start a charge by tapping an NFC-enabled device or card (e.g., charge key, smartphone) on compatible charge points. Provides secure, convenient authentication.",
       "caseSensitive": false,
       "translatable": true,
@@ -14705,6 +14885,7 @@
     {
       "id": 23,
       "term": "NOC Agent",
+      "sense": null,
       "description": "Description: A Network Operations Center user responsible for real-time monitoring, troubleshooting, and support of Monta-connected charge points. Helps maintain uptime, resolve incidents, and ensure continuity for large operators.",
       "caseSensitive": false,
       "translatable": true,
@@ -14790,6 +14971,7 @@
     {
       "id": 24,
       "term": "OCPI",
+      "sense": null,
       "description": "Open Charge Point Interface — the industry-standard protocol for interoperability between EV charging networks. OCPI enables CPOs and eMSPs to exchange data on Locations (charge point availability and status), Tokens (driver authorization), Sessions (live session data), CDRs (completed session billing records), and Tariffs (pricing). Monta uses OCPI for roaming, session sharing, and pricing synchronization. Not to be confused with OCPP, which governs charger-to-backend communication.",
       "caseSensitive": false,
       "translatable": true,
@@ -14875,6 +15057,7 @@
     {
       "id": 25,
       "term": "OCPI tariff ",
+      "sense": null,
       "description": "Description: The pricing structure communicated to roaming partners via OCPI so external eMSPs receive consistent price information for cross-network sessions.",
       "caseSensitive": false,
       "translatable": true,
@@ -14960,6 +15143,7 @@
     {
       "id": 26,
       "term": "OCPP",
+      "sense": null,
       "description": "Description: Open Charge Point Protocol for communication between charge points and back-end systems. Monta uses OCPP to control, monitor, and configure multi-brand hardware.",
       "caseSensitive": false,
       "translatable": true,
@@ -15045,6 +15229,7 @@
     {
       "id": 326,
       "term": "OCPP Proxy",
+      "sense": null,
       "description": "A Monta product that sits between a charging station and an operator's own OCPP backend (CSMS), intercepting and forwarding OCPP WebSocket traffic. Operators configure their charging stations to connect to Monta's proxy URL, and the proxy routes the traffic to the operator's backend. Enables traffic monitoring, routing control, and migration between backends without reconfiguring individual stations.",
       "caseSensitive": true,
       "translatable": false,
@@ -15059,6 +15244,7 @@
     {
       "id": 27,
       "term": "OCPP Toolkit",
+      "sense": null,
       "description": "Description: Monta’s internal environment for validating and debugging charge point integrations, including firmware testing, message validation, and configuration checks.",
       "caseSensitive": false,
       "translatable": true,
@@ -15144,6 +15330,7 @@
     {
       "id": 28,
       "term": "OICP",
+      "sense": null,
       "description": "Description: Open InterCharge Protocol by Hubject enabling roaming interoperability between networks and eMSPs. Used by Monta for cross-network availability, authentication, and pricing data exchange.",
       "caseSensitive": false,
       "translatable": true,
@@ -15229,6 +15416,7 @@
     {
       "id": 29,
       "term": "Open Charge Point Protocol",
+      "sense": null,
       "description": "Description: The full name of OCPP, a communication standard that enables EV charge points and back-end systems to exchange operational and transactional data. Ensures interoperability across hardware vendors.",
       "caseSensitive": false,
       "translatable": true,
@@ -15314,6 +15502,7 @@
     {
       "id": 160,
       "term": "operator ",
+      "sense": null,
       "description": "Description: An organization or individual managing public or private EV charging through Monta, including deployment, pricing, maintenance, and analytics. Uses Hub for billing, automation, and operations.",
       "caseSensitive": false,
       "translatable": true,
@@ -15399,6 +15588,7 @@
     {
       "id": 266,
       "term": "order",
+      "sense": null,
       "description": "Description: An order created by a business user when purchasing services through the Monta Shop in Hub.",
       "caseSensitive": false,
       "translatable": true,
@@ -15484,6 +15674,7 @@
     {
       "id": 314,
       "term": "Outbound Roaming",
+      "sense": null,
       "description": "A roaming session in which a Monta eMSP's driver uses a third-party CPO's charging station. The eMSP authorizes the session on the external network; the CPO receives payment from the roaming agreement.\n\nUsage rules:\n• Always capitalize both words as a UI label: \"Outbound Roaming\"\n• Do not use \"Ausgehendes Roaming\" in German — keep the English term\n• Use to describe traffic flowing out from an eMSP's user base to external charge points\n\nPlatform: Hub, Control\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -15564,6 +15755,7 @@
     {
       "id": 30,
       "term": "P2P",
+      "sense": null,
       "description": "Description: Peer-to-peer interactions or data flows between users or devices without an intermediary service. In Monta, used for shared access, localized coordination, or direct device communication when supported.",
       "caseSensitive": false,
       "translatable": true,
@@ -15649,6 +15841,7 @@
     {
       "id": 162,
       "term": "pair",
+      "sense": null,
       "description": "Description: The setup step that links a charge point to a Monta account or team so it can communicate with Monta for control, monitoring, and transactions.",
       "caseSensitive": false,
       "translatable": true,
@@ -15734,6 +15927,7 @@
     {
       "id": 267,
       "term": "parent account",
+      "sense": null,
       "description": "The top-level account in a nested structure that controls shared resources, permissions, and financial settings inherited by nested accounts.\n\nUsage rules:\n• Use sentence case in running text and in UI labels.\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -15819,6 +16013,7 @@
     {
       "id": 164,
       "term": "passcode",
+      "sense": null,
       "description": "Description: A four number code used to authenticate actions such as joining a team, confirming payments, or unlocking restricted features.",
       "caseSensitive": false,
       "translatable": true,
@@ -15904,6 +16099,7 @@
     {
       "id": 165,
       "term": "password",
+      "sense": null,
       "description": "Description: A confidential credential used to sign in to a Monta account, protecting user data and access. Supports enterprise authentication (e.g., SSO, MFA) where enabled.",
       "caseSensitive": false,
       "translatable": true,
@@ -15989,6 +16185,7 @@
     {
       "id": 166,
       "term": "payment",
+      "sense": null,
       "description": "Description: The financial transaction process covering charging sessions, subscriptions, and Marketplace purchases. Payments can use stored methods (cards, Wallet) or third-party providers.",
       "caseSensitive": false,
       "translatable": true,
@@ -16074,6 +16271,7 @@
     {
       "id": 168,
       "term": "payment terminal",
+      "sense": null,
       "description": "Description: A physical device integrated with Monta that lets drivers pay on-site with a card. Supported integrations include hardware and cloud-based terminals (e.g., Payter, CCV) for public charging.",
       "caseSensitive": false,
       "translatable": true,
@@ -16159,6 +16357,7 @@
     {
       "id": 169,
       "term": "peak hours",
+      "sense": null,
       "description": "Description: Time window with the highest electricity demand and typically the highest grid/tariff prices. Monta uses peak-hour data to shift charging to off-peak windows, reducing costs and easing grid load.",
       "caseSensitive": false,
       "translatable": true,
@@ -16244,6 +16443,7 @@
     {
       "id": 170,
       "term": "personal tax number",
+      "sense": null,
       "description": "Description: A government-issued tax identifier collected for billing, payouts, and compliance when users or operators receive income through Monta.",
       "caseSensitive": false,
       "translatable": true,
@@ -16329,6 +16529,7 @@
     {
       "id": 293,
       "term": "plan",
+      "sense": null,
       "description": "A predefined template or product offering created by operators in Monta Hub. Outlines services, pricing structure, billing frequency, and included features. Acts as a reusable blueprint that can be applied to multiple customers. Once applied to a team, charge point, or sub-account, it becomes an active Subscription.",
       "caseSensitive": false,
       "translatable": true,
@@ -16414,6 +16615,7 @@
     {
       "id": 31,
       "term": "Plug&Charge",
+      "sense": null,
       "description": "Description: Automated charging where an EV authenticates and starts by being plugged in, no app (Charge) or RFID required. Supported for ISO 15118–compatible vehicles and charge points connected to Monta.",
       "caseSensitive": false,
       "translatable": true,
@@ -16499,6 +16701,7 @@
     {
       "id": 32,
       "term": "PowerBank",
+      "sense": null,
       "description": "Description: Monta’s grid service that temporarily pauses charging during grid stress to support stability. Participants earn financial rewards or Monta credits for providing flexibility.",
       "caseSensitive": false,
       "translatable": true,
@@ -16584,6 +16787,7 @@
     {
       "id": 171,
       "term": "price group",
+      "sense": null,
       "description": "Description: A predefined pricing configuration applied to one or more charge points or teams, defining kWh rates, time-based fees, and member pricing for consistent billing.",
       "caseSensitive": false,
       "translatable": true,
@@ -16686,6 +16890,7 @@
     {
       "id": 174,
       "term": "production forecast",
+      "sense": null,
       "description": "Description: The projected amount of energy expected to be generated (e.g., from solar) used to align smart charging with peak renewable output.",
       "caseSensitive": false,
       "translatable": true,
@@ -16776,6 +16981,7 @@
     {
       "id": 47,
       "term": "profile",
+      "sense": null,
       "description": "The personal identity and settings area for an individual Monta user. Contains personal details, notification preferences, connected charge keys, and default charging settings.",
       "caseSensitive": false,
       "translatable": true,
@@ -16861,6 +17067,7 @@
     {
       "id": 176,
       "term": "promotion code",
+      "sense": null,
       "description": "Description: A time-limited or usage-based code that applies discounts to subscriptions, charging sessions, or Marketplace purchases in Monta.",
       "caseSensitive": false,
       "translatable": true,
@@ -16946,6 +17153,7 @@
     {
       "id": 327,
       "term": "proxy domain",
+      "sense": null,
       "description": "A Monta-specific product concept within OCPP Proxy. A proxy domain is the top-level configuration object an operator creates to connect their charging stations to Monta's OCPP Proxy. Creating a proxy domain gives the operator a Connection URL they configure on their chargers. The domain groups those stations and controls which destination groups they forward to and which other operators have access. This term does not appear in the OCPP specification and is not used by any other OCPP proxy vendor — it is a Monta-coined product term.",
       "caseSensitive": false,
       "translatable": false,
@@ -16960,6 +17168,7 @@
     {
       "id": 268,
       "term": "public link",
+      "sense": null,
       "description": "Description: A shareable, view-only web link to specific data in Hub (e.g., dashboards, site or charge point details) that does not require the viewer to log in; can be password-protected. Used to surface live insights externally without granting Hub access.",
       "caseSensitive": false,
       "translatable": true,
@@ -17045,6 +17254,7 @@
     {
       "id": 178,
       "term": "public price",
+      "sense": null,
       "description": "Description: The standard charging rate shown to all users on a public charge point. There are 4 price groups in total, i.e. member, public, reimbursed, and cost price group. A price group is comprised of a master price (set per minute, kWh or spot price) and additional fees ( minute, start, charging, idle fee).",
       "caseSensitive": false,
       "translatable": true,
@@ -17130,6 +17340,7 @@
     {
       "id": 179,
       "term": "reboot",
+      "sense": null,
       "description": "Description: Restarting a charge point locally or remotely to restore normal operation after an error or update. Operators can trigger reboots via Hub/OCPP tools.",
       "caseSensitive": false,
       "translatable": true,
@@ -17215,6 +17426,7 @@
     {
       "id": 180,
       "term": "recipient code ",
+      "sense": null,
       "description": "Description: Italian billing compliance. A unique identifier used to route payments or invoices to the correct entity or team in financial workflows, ensuring attribution to the intended wallet or account.",
       "caseSensitive": false,
       "translatable": true,
@@ -17300,6 +17512,7 @@
     {
       "id": 36,
       "term": "Refer & Earn",
+      "sense": null,
       "description": "Description: Referral program that rewards users for inviting others. Credits or incentives are granted when the invitee activates or completes a qualifying action (e.g., first charge).\n \n\n Usage:\n • UI label, use exact spelling and capitalization\n \n\n Platform: Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
@@ -17385,6 +17598,7 @@
     {
       "id": 181,
       "term": "referral",
+      "sense": null,
       "description": "Description: A tracked invitation linking a referrer and invitee within Monta to attribute rewards and growth.",
       "caseSensitive": false,
       "translatable": true,
@@ -17470,6 +17684,7 @@
     {
       "id": 182,
       "term": "refill",
+      "sense": null,
       "description": "escription: verb, adding funds to a wallet or team balance to cover charging, subscriptions, or automated payouts.",
       "caseSensitive": false,
       "translatable": true,
@@ -17560,6 +17775,7 @@
     {
       "id": 278,
       "term": "reimburse",
+      "sense": null,
       "description": "Description: To repay a user or customer for an eligible amount they have already paid, such as a charging session or fee.",
       "caseSensitive": false,
       "translatable": true,
@@ -17645,6 +17861,7 @@
     {
       "id": 183,
       "term": "reimbursement",
+      "sense": null,
       "description": "Description: Automated compensation feature for electricity costs incurred when employees or users charge at home. A feature, allowing employers to reimburse their employees for charge sessions. Variations: Home reimbursement ( B2C, Charge) Employer reimbursement B2B, HUB). Replacement of the legacy feature name \"Sponsored Charging\".",
       "caseSensitive": false,
       "translatable": true,
@@ -17747,6 +17964,7 @@
     {
       "id": 184,
       "term": "reimbursement price",
+      "sense": null,
       "description": "Description: The per-kWh rate used to calculate how much an employee is compensated for home and work charging sessions. Configured by the company or fleet manager in Hub.",
       "caseSensitive": false,
       "translatable": true,
@@ -17832,6 +18050,7 @@
     {
       "id": 309,
       "term": "Release channel",
+      "sense": null,
       "description": "Release channel is a Hub feature that controls how quickly new Monta features become available in an operator's account. Operators choose a release track — Early Access, Standard, or Self-managed — to set the default rollout pace, override individual features on or off for the whole organisation, and trial a feature on their own login via \"Try myself\" before rolling it out to everyone.\n\nUsage rules:\n• Write as \"Release channel\" (sentence case); do not use title case (\"Release Channel\")\n• Use \"release track\" for the specific option chosen (Early Access, Standard, Self-managed); reserve \"release channel\" for the feature or overall concept\n• Do not use as a synonym for \"release track\"\n• Fully rolled-out features leave the page automatically and are no longer manageable here\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -17917,6 +18136,7 @@
     {
       "id": 310,
       "term": "Release track",
+      "sense": null,
       "description": "The specific rollout pace an operator has selected within the Release channel feature — Early Access, Standard, or Self-managed. Each track determines which features are enabled by default.\n\nUsage rules:\n• Write as \"Release track\" (sentence case); do not use title case (\"Release Track\")\n• Use \"release channel\" when referring to the overall feature/page; use \"release track\" for the selected option\n• Do not use as a synonym for \"release channel\"\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -18002,6 +18222,7 @@
     {
       "id": 185,
       "term": "reliability",
+      "sense": null,
       "description": "Description: The operational stability and uptime of Monta and connected charge points, reflected in successful session rates and consistent service. Used to assess performance and availability across networks.",
       "caseSensitive": false,
       "translatable": true,
@@ -18087,6 +18308,7 @@
     {
       "id": 269,
       "term": "reversal of deposit",
+      "sense": null,
       "description": "Description: A financial action that cancels or refunds a previously applied deposit/prepayment on an invoice, fully or partially. It reverses the original deposit transaction and restores the outstanding invoice balance.",
       "caseSensitive": false,
       "translatable": true,
@@ -18172,6 +18394,7 @@
     {
       "id": 187,
       "term": "reverse charge",
+      "sense": null,
       "description": "Description: EU VAT regulation term. A mechanisms where buyer, not the seller, reports and pays the VAT, used in cross-border B2B sales. VAT is shown as 0% on invoices with a reverse charge note.",
       "caseSensitive": false,
       "translatable": true,
@@ -18257,6 +18480,7 @@
     {
       "id": 35,
       "term": "RFID",
+      "sense": null,
       "description": "Description: Radio-Frequency Identification used to start/stop sessions with charge keys or cards for secure, offline-compatible authentication. Supported across private and public chargers.",
       "caseSensitive": false,
       "translatable": true,
@@ -18342,6 +18566,7 @@
     {
       "id": 189,
       "term": "roaming",
+      "sense": null,
       "description": "An industry-standard capability enabling EV drivers to charge on third-party networks through interoperability agreements. Roaming relies on standardized protocols (primarily OCPI) to exchange data on driver authorization, sessions, pricing, and payment between a CPO and an eMSP. Monta supports roaming as both a CPO and eMSP.",
       "caseSensitive": false,
       "translatable": true,
@@ -18427,6 +18652,7 @@
     {
       "id": 190,
       "term": "sales tax",
+      "sense": null,
       "description": "Description: A US-specific consumption tax applied at the point of sale on goods and services, paid by the end user. In EU and other markets, the analogous concept is VAT (Value Added Tax); use the local legal term per jurisdiction.",
       "caseSensitive": false,
       "translatable": true,
@@ -18512,6 +18738,7 @@
     {
       "id": 191,
       "term": "schedule",
+      "sense": null,
       "description": "Description: A predefined plan to start or stop a charging session at a specific time. Helps users target off-peak pricing and optimize energy use.",
       "caseSensitive": false,
       "translatable": true,
@@ -18610,6 +18837,7 @@
     {
       "id": 192,
       "term": "scheduled charging",
+      "sense": null,
       "description": "Description: A feature that automatically begins charging at a set time—typically during off-peak hours—to reduce cost and balance grid load.",
       "caseSensitive": false,
       "translatable": true,
@@ -18695,6 +18923,7 @@
     {
       "id": 320,
       "term": "Selbstverwaltetes Roaming",
+      "sense": null,
       "description": "LEGACY FORBIDDEN: use Self-Managed Roaming instead. Retired German translation — keep in English.",
       "caseSensitive": false,
       "translatable": true,
@@ -18709,6 +18938,7 @@
     {
       "id": 270,
       "term": "self-billing",
+      "sense": null,
       "description": "Description: A financial and accounting process where the buyer — rather than the seller — issues the invoice for goods or services received.\n This method is often used in recurring or automated business relationships where transactions happen frequently (for example, between Monta and its partners or charge point operators).",
       "caseSensitive": false,
       "translatable": true,
@@ -18794,6 +19024,7 @@
     {
       "id": 271,
       "term": "self-billing invoice",
+      "sense": null,
       "description": "Description: An invoice generated by Monta on a partner’s behalf under a self-billing agreement, based on system-logged transactions (e.g., charge sessions, fees, energy refunds). Used for payouts and partner accounting records.",
       "caseSensitive": false,
       "translatable": true,
@@ -18879,6 +19110,7 @@
     {
       "id": 193,
       "term": "self-healing",
+      "sense": null,
       "description": "Description: Automated recovery that detects, diagnoses, and resolves common charge point or communication issues without manual intervention. Improves stability by reducing downtime.",
       "caseSensitive": false,
       "translatable": true,
@@ -18964,6 +19196,7 @@
     {
       "id": 316,
       "term": "Self-Managed Roaming",
+      "sense": null,
       "description": "A Monta roaming configuration where the operator negotiates direct bilateral agreements with partner networks, sets their own tariffs, and handles invoicing and payment collection independently. The platform provides technical connectivity only, with a reduced transaction fee.\n\nUsage rules:\n• Always capitalize all three words as a UI label: \"Self-Managed Roaming\"\n• Do not use \"Selbstverwaltetes Roaming\" in German — keep the English term\n• Contrast with Managed Roaming when explaining roaming configuration options\n\nPlatform: Hub, Control\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -18984,6 +19217,7 @@
     {
       "id": 37,
       "term": "SEPA Direct Debit",
+      "sense": null,
       "description": "Description: A European payment method that allows Monta to automatically collect payments from a user’s or company’s bank account within the SEPA zone. Used for secure, recurring payments such as subscriptions and wallet refills.",
       "caseSensitive": false,
       "translatable": true,
@@ -19069,6 +19303,7 @@
     {
       "id": 194,
       "term": "serial number",
+      "sense": null,
       "description": "Description: The unique hardware identifier assigned to a charge point or connected device. Used by Monta to verify authenticity, pair devices, and track unit performance.",
       "caseSensitive": false,
       "translatable": true,
@@ -19154,6 +19389,7 @@
     {
       "id": 195,
       "term": "service provider",
+      "sense": null,
       "description": "Description: An organization delivering operational or technical services in the Monta ecosystem (e.g., installation, maintenance, roaming, payments). Can include CPOs, eMSPs, and vetted third-party vendors.\n \n\n Platform: Hub, Control\n Audience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -19239,6 +19475,7 @@
     {
       "id": 39,
       "term": "Shop",
+      "sense": null,
       "description": "Description: The in-product area where users can purchase subscriptions, charge point services, or partner offerings.",
       "caseSensitive": false,
       "translatable": true,
@@ -19324,6 +19561,7 @@
     {
       "id": 40,
       "term": "Single Sign-On",
+      "sense": null,
       "description": "Description: An authentication method allowing users to access Monta with existing corporate or third-party credentials.",
       "caseSensitive": false,
       "translatable": true,
@@ -19404,6 +19642,7 @@
     {
       "id": 196,
       "term": "site",
+      "sense": null,
       "description": "LEGACY FORBIDDEN: do not use \"site\" to refer to a charging location in any operator-facing context.\n\nReplaced by: \"location\" in all Hub, Control, and operator product copy.\n\nExceptions (not forbidden):\n• on-site (compound adjective meaning at the premises)\n• website (digital context)\n• Energy Site (the energy management product feature name)",
       "caseSensitive": false,
       "translatable": false,
@@ -19484,6 +19723,7 @@
     {
       "id": 198,
       "term": "smart charge",
+      "sense": null,
       "description": "Description: An optimized charging session managed by Monta’s intelligent scheduling that adjusts start time and charging power to reduce cost and environmental impact. Factors include energy prices, grid signals, and renewable availability.\n \n\n Usag",
       "caseSensitive": false,
       "translatable": true,
@@ -19569,6 +19809,7 @@
     {
       "id": 199,
       "term": "smart charging",
+      "sense": null,
       "description": "Description: Data-driven feature that controls when and how vehicles charge based on grid load, energy prices, and user preferences. Ensures efficient, affordable, and sustainable energy use across sites.",
       "caseSensitive": false,
       "translatable": true,
@@ -19675,6 +19916,7 @@
     {
       "id": 330,
       "term": "SoC",
+      "sense": null,
       "description": "Abbreviation for State of Charge — the current EV battery level expressed as a percentage of total capacity. Industry-standard abbreviation used across EV interfaces globally.",
       "caseSensitive": true,
       "translatable": true,
@@ -19760,6 +20002,7 @@
     {
       "id": 200,
       "term": "solar charging ",
+      "sense": null,
       "description": "Description: B2C feature in Charge, enables EV charging directly from solar panels, using real-time or forecasted production data. Helps maximise self-consumption, reduce grid reliance, lower energy costs, and minimise carbon footprint. Can be configured to operate only when surplus solar energy is available.",
       "caseSensitive": false,
       "translatable": true,
@@ -19845,6 +20088,7 @@
     {
       "id": 201,
       "term": "solar surplus charging",
+      "sense": null,
       "description": "Description: A solar mode where charging starts only when excess solar production is available, minimizing imported grid energy. Supports energy autonomy and cost control.",
       "caseSensitive": false,
       "translatable": true,
@@ -19935,6 +20179,7 @@
     {
       "id": 202,
       "term": "sort code",
+      "sense": null,
       "description": "Description: A six-digit bank code used in the UK and Ireland to identify a specific bank and branch for an account. Used by Monta to validate bank details for withdrawals or direct debits in these markets.",
       "caseSensitive": false,
       "translatable": true,
@@ -20020,6 +20265,7 @@
     {
       "id": 324,
       "term": "spend cap",
+      "sense": null,
       "description": "A single enforcement threshold within a spending rule, defined as a monetary amount over a specific period (e.g. €300 per month). Multiple spend caps can be stacked in one rule and are all enforced simultaneously — the first cap a driver hits triggers the configured action. Spend caps measure total session cost (energy, time, and fees combined).\n\nUsage rules:\n• Always write as two words, both lowercase in running text; capitalise in UI labels (\"Spend cap\", \"Spend caps\")\n• Do not use as a synonym for \"spending limit\" or \"spending rule\" — a spend cap is a component inside a spending rule\n• Distinct from \"spend cap\" in the promotions context (campaign budget ceiling) — in the spending limits feature, spend caps apply to drivers, not campaigns\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -20105,6 +20351,7 @@
     {
       "id": 323,
       "term": "spending limit",
+      "sense": null,
       "description": "The Hub feature that allows operators to control driver spending by creating and managing spending rules. Also the general concept of a monetary cap applied to a driver charging activity. Distinct from spending rule — spending limits is the feature area; a spending rule is the individual entity created within it.\n\nUsage rules:\n• Always write as two words, both lowercase in running text; capitalise as a feature name (\"Spending limits\")\n• Do not use interchangeably with \"spending rule\"\n• Plural (\"spending limits\") when referring to the feature section or category; singular when referring to the concept\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -20190,6 +20437,7 @@
     {
       "id": 322,
       "term": "spending rule",
+      "sense": null,
       "description": "An operator-defined rule that governs how much a driver can spend on charging and how often they can charge. Contains spend caps, optional charge frequency limits, and a configured action taken when a cap is exceeded. Rules are saved as drafts until activated.\n\nUsage rules:\n• Always write as two words, both lowercase in running text; capitalise in UI labels and titles (\"Spending rule\")\n• Do not use as a synonym for \"spending limit\" — spending limit is the feature; spending rule is the individual entity an operator creates\n• Use only in the Hub (B2B operator context), not in the Charge app\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
@@ -20275,6 +20523,7 @@
     {
       "id": 307,
       "term": "Split billing",
+      "sense": null,
       "description": "Payment feature where a team (employer) covers charging costs up to a configured kWh rate cap; the driver pays any amount above the cap from their personal wallet or payment method.",
       "caseSensitive": false,
       "translatable": true,
@@ -20355,6 +20604,7 @@
     {
       "id": 304,
       "term": "sponsor",
+      "sense": null,
       "description": "LEGACY FORBIDDEN: use reimburse instead.",
       "caseSensitive": false,
       "translatable": true,
@@ -20369,6 +20619,7 @@
     {
       "id": 301,
       "term": "sponsored",
+      "sense": null,
       "description": "LEGACY FORBIDDEN: use reimbursed instead. Monta previously used sponsored to refer to employer-funded charging and related features. All user-facing content now uses reimbursed (adjective) or reimbursement (noun).",
       "caseSensitive": false,
       "translatable": true,
@@ -20383,6 +20634,7 @@
     {
       "id": 302,
       "term": "sponsoring",
+      "sense": null,
       "description": "LEGACY FORBIDDEN: use reimbursing instead.",
       "caseSensitive": false,
       "translatable": true,
@@ -20397,6 +20649,7 @@
     {
       "id": 303,
       "term": "sponsorship",
+      "sense": null,
       "description": "LEGACY FORBIDDEN: use reimbursement instead.",
       "caseSensitive": false,
       "translatable": true,
@@ -20411,6 +20664,7 @@
     {
       "id": 203,
       "term": "spot price",
+      "sense": null,
       "description": "Description: Real-time electricity price per kWh from market data (e.g., Nord Pool) used to calculate dynamic charging costs and shift usage to cheaper hours. Available only in supported markets.",
       "caseSensitive": false,
       "translatable": true,
@@ -20496,6 +20750,7 @@
     {
       "id": 38,
       "term": "SSO",
+      "sense": null,
       "description": "Description: An authentication method allowing users to access Monta with existing organizational or third-party credentials.",
       "caseSensitive": false,
       "translatable": true,
@@ -20581,6 +20836,7 @@
     {
       "id": 204,
       "term": "start fee",
+      "sense": null,
       "description": "Description: A fixed cost applied at the initiation of a charging session. Operators configure start fees within pricing to cover connection or transaction costs.",
       "caseSensitive": false,
       "translatable": true,
@@ -20666,6 +20922,7 @@
     {
       "id": 205,
       "term": "start time",
+      "sense": null,
       "description": "Description: The exact moment a charging session begins or is scheduled to begin. Used for reporting, smart scheduling, and billing calculations.\n \n\n Platform: Hub, Charge\n Audience: B2B and B2C (shared)",
       "caseSensitive": false,
       "translatable": true,
@@ -20751,6 +21008,7 @@
     {
       "id": 206,
       "term": "state of charge",
+      "sense": null,
       "description": "Description: The current EV battery level expressed as a percentage of total capacity. Monta uses SoC to inform smart charging, session insights, and energy forecasting.",
       "caseSensitive": false,
       "translatable": true,
@@ -20836,6 +21094,7 @@
     {
       "id": 207,
       "term": "statement",
+      "sense": null,
       "description": "Description: A financial summary in Monta that consolidates transactions, earnings, and withdrawals for a defined period. Used by operators and team owners for accounting and reconciliation.",
       "caseSensitive": false,
       "translatable": true,
@@ -20921,6 +21180,7 @@
     {
       "id": 41,
       "term": "StationID",
+      "sense": null,
       "description": "Description: The unique identifier assigned by Monta to a charge point for consistent tracking, reporting, and integrations. Used across hardware mappings, APIs, and operator networks.",
       "caseSensitive": false,
       "translatable": true,
@@ -21006,6 +21266,7 @@
     {
       "id": 208,
       "term": "sticker",
+      "sense": null,
       "description": "A physical label with a QR code (and sometimes NFC chip) placed on a charge point that lets drivers identify the device and start a charging session by scanning or tapping.",
       "caseSensitive": false,
       "translatable": true,
@@ -21091,6 +21352,7 @@
     {
       "id": 311,
       "term": "sub-account",
+      "sense": null,
       "description": "LEGACY FORBIDDEN: use \"sub-operator\" instead. Do not use in any Hub UI copy.",
       "caseSensitive": false,
       "translatable": false,
@@ -21105,6 +21367,7 @@
     {
       "id": 272,
       "term": "sub-operator",
+      "sense": null,
       "description": "A separate business entity that operates under a Main operator. Each sub-operator is fully independent with its own accounts, members, EVSEs, and financial setup, while remaining linked to the Main operator's umbrella structure.",
       "caseSensitive": false,
       "translatable": true,
@@ -21190,6 +21453,7 @@
     {
       "id": 294,
       "term": "Subscription",
+      "sense": null,
       "description": "The active instance of a Plan, created when a Plan is applied to a customer's team, charge point, or sub-account. Represents the contractual relationship between the operator and the customer — tracking billing details, renewals, and lifecycle (start, cancellation, edits). Distinct from a Plan, which is the reusable template.",
       "caseSensitive": false,
       "translatable": true,
@@ -21275,6 +21539,7 @@
     {
       "id": 209,
       "term": "support settings",
+      "sense": null,
       "description": "Description: Hub configurations that define how support is handled for a team, site, or partner (contacts, escalation, and system integrations). Streamlines routing and resolution.",
       "caseSensitive": false,
       "translatable": true,
@@ -21360,6 +21625,7 @@
     {
       "id": 43,
       "term": "Supporter",
+      "sense": null,
       "description": "Description: A member role with permissions to assist users, monitor charge points, and handle inquiries with limited administration rights.",
       "caseSensitive": false,
       "translatable": true,
@@ -21445,6 +21711,7 @@
     {
       "id": 210,
       "term": "surplus energy",
+      "sense": null,
       "description": "Description: Excess electricity—typically from on-site renewables—not immediately consumed. Used by solar surplus charging to power EVs, reducing grid import and waste.",
       "caseSensitive": false,
       "translatable": true,
@@ -21540,6 +21807,7 @@
     {
       "id": 211,
       "term": "swipe",
+      "sense": null,
       "description": "Description: CTA in Charge that lets a user start or stop a charging session by swiping to confirm.",
       "caseSensitive": false,
       "translatable": true,
@@ -21625,6 +21893,7 @@
     {
       "id": 212,
       "term": "tariff",
+      "sense": null,
       "description": "Description: A structured pricing model that defines how charging costs are calculated (e.g., per kWh, per minute, idle or start fees). In Monta, tariffs can be fixed, spot-based (dynamic), or customized for specific user groups.",
       "caseSensitive": false,
       "translatable": true,
@@ -21710,6 +21979,7 @@
     {
       "id": 213,
       "term": "tax ID",
+      "sense": null,
       "description": "Description: US-centric, a tax authority identifier for individuals or businesses used for tax reporting purposes. European equivalent is VAT number.",
       "caseSensitive": false,
       "translatable": true,
@@ -21795,6 +22065,7 @@
     {
       "id": 214,
       "term": "tax identification number ",
+      "sense": null,
       "description": "Description: An Italian tax identifier used exclusively for invoicing and fiscal reporting in Italy. In practice this is Codice Fiscale for individuals and Partita IVA for businesses.",
       "caseSensitive": false,
       "translatable": true,
@@ -21885,6 +22156,7 @@
     {
       "id": 215,
       "term": "team",
+      "sense": null,
       "description": "Deprecated product term — use 'account' instead. The Monta Hub organizational unit was renamed from 'team' to 'account' in summer 2026. Do not use 'team' to refer to the account entity in any copy. Note: 'team' remains correct in general-language phrases that refer to a human team (e.g. 'support team', 'Monta team') — see usage rules.",
       "caseSensitive": false,
       "translatable": true,
@@ -21970,6 +22242,7 @@
     {
       "id": 274,
       "term": "temporary hold",
+      "sense": null,
       "description": "Description: A temporary reservation of funds on a customer’s payment card to confirm sufficient balance before the final charge amount is captured. Used during charging to validate payment; the hold is released or adjusted when the final amount is settled.",
       "caseSensitive": false,
       "translatable": true,
@@ -22055,6 +22328,7 @@
     {
       "id": 275,
       "term": "Terms and Conditions",
+      "sense": null,
       "description": "Description: The legally binding agreement that defines how users may access and use Monta’s products and services (Hub, Charge, Control), including rights, obligations, and limitations.",
       "caseSensitive": false,
       "translatable": true,
@@ -22140,6 +22414,7 @@
     {
       "id": 216,
       "term": "theme",
+      "sense": null,
       "description": "Description: The configurable visual style (e.g., colors, typography accents) applied in Charge or Hub to align with brand guidelines and improve usability.",
       "caseSensitive": false,
       "translatable": true,
@@ -22225,6 +22500,7 @@
     {
       "id": 300,
       "term": "Token",
+      "sense": "OCPI",
       "description": "A unique identifier used by an eMSP to authorize an EV driver on a charging network. CPOs receive token lists from eMSPs via OCPI and use them for local authorization without a real-time callback. Token types per OCPI 2.2.1: RFID (physical card or key fob), APP_USER (app-generated ID), AD_HOC_USER (one-time ID), and EMAID (ISO 15118 Plug&Charge vehicle identifier). B2C equivalent in Monta copy: \"charge key\" or \"RFID card\".",
       "caseSensitive": false,
       "translatable": true,
@@ -22319,6 +22595,7 @@
     {
       "id": 217,
       "term": "transaction fee",
+      "sense": null,
       "description": "Description: A per-transaction cost applied to charging sessions or financial operations processed through Monta. Covers payment handling, processing, and platform service costs for operators and teams.",
       "caseSensitive": false,
       "translatable": true,
@@ -22404,6 +22681,7 @@
     {
       "id": 288,
       "term": "uptime",
+      "sense": null,
       "description": "The percentage of time a charge point is operational and available to start a charging session, excluding periods when it is offline, in a fault state, or otherwise unavailable. Used as a key reliability and performance metric across charge point networks.",
       "caseSensitive": false,
       "translatable": true,
@@ -22489,6 +22767,7 @@
     {
       "id": 218,
       "term": "user",
+      "sense": null,
       "description": "Description: An individual with a Monta account. Users can manage charging, access charge points, join teams, and handle payments based on assigned permissions.",
       "caseSensitive": false,
       "translatable": true,
@@ -22574,6 +22853,7 @@
     {
       "id": 219,
       "term": "user role",
+      "sense": null,
       "description": "Description: The permission level assigned to a user within a team or organization (e.g., Owner, Manager, Member, Supporter). Determines allowed actions across sites, wallets, and charge points.",
       "caseSensitive": false,
       "translatable": true,
@@ -22659,6 +22939,7 @@
     {
       "id": 276,
       "term": "VAT (%)",
+      "sense": null,
       "description": "Description: a percentage tax rate applied to the price of goods or services and shown on Monta invoices. It is relevant for EU transactions, including cross-border sales; in a U.S. context, the rough equivalent concept is “sales tax.”",
       "caseSensitive": false,
       "translatable": true,
@@ -22708,6 +22989,11 @@
           "grammarNotes": null
         },
         {
+          "languageCode": "is",
+          "translation": "VSK (%)",
+          "grammarNotes": null
+        },
+        {
           "languageCode": "it",
           "translation": "IVA",
           "grammarNotes": null
@@ -22731,11 +23017,6 @@
           "languageCode": "sv",
           "translation": "moms",
           "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "VSK (%)",
-          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -22744,6 +23025,7 @@
     {
       "id": 44,
       "term": "VAT (code)",
+      "sense": null,
       "description": "Description: A unique code assigned for businesses registered for Value Added Tax, used to identify taxable entities in EU and international trade. Typically formatted as an ISO country code (e.g., DK, DE, FR) followed by a numeric or alphanumeric sequence per local rules.",
       "caseSensitive": false,
       "translatable": true,
@@ -22793,6 +23075,11 @@
           "grammarNotes": null
         },
         {
+          "languageCode": "is",
+          "translation": "VSK (kóði)",
+          "grammarNotes": "M | acc sg: VSK (kóða) | nom pl: VSK (kóðar)"
+        },
+        {
           "languageCode": "it",
           "translation": "P.IVA",
           "grammarNotes": null
@@ -22816,11 +23103,6 @@
           "languageCode": "sv",
           "translation": "momsnr",
           "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "VSK (kóði)",
-          "grammarNotes": "M | acc sg: VSK (kóða) | nom pl: VSK (kóðar)"
         }
       ],
       "alternatives": [],
@@ -22829,6 +23111,7 @@
     {
       "id": 45,
       "term": "VAT export ",
+      "sense": null,
       "description": "Description: EU VAT term for transactions taxed at 0% (zero-rated) due to export rules. Although no VAT is charged, the sale must be shown on the invoice with the correct legal reference and included in VAT reports/exports.",
       "caseSensitive": false,
       "translatable": true,
@@ -22919,6 +23202,7 @@
     {
       "id": 319,
       "term": "Verwaltetes Roaming",
+      "sense": null,
       "description": "LEGACY FORBIDDEN: use Managed Roaming instead. Retired German translation — keep in English.",
       "caseSensitive": false,
       "translatable": true,
@@ -22933,6 +23217,7 @@
     {
       "id": 46,
       "term": "VIN",
+      "sense": null,
       "description": "Description: A globally standardized unique code that identifies an individual vehicle and encodes manufacturer and build details (e.g., make, model, year, origin).",
       "caseSensitive": false,
       "translatable": true,
@@ -23018,6 +23303,7 @@
     {
       "id": 220,
       "term": "wallet",
+      "sense": null,
       "description": "Description: Monta’s internal digital payment account for storing, managing, and transferring funds. Supports deposits, withdrawals, reimbursements, and automated payments for charging and subscriptions.",
       "caseSensitive": false,
       "translatable": true,
@@ -23103,6 +23389,7 @@
     {
       "id": 221,
       "term": "white label",
+      "sense": null,
       "description": "Description: Monta’s branding capability that lets partners run the platform under their own brand (logos, colors, custom domain), so end users see the partner’s identity across login, Hub, and user-facing links.",
       "caseSensitive": false,
       "translatable": true,
@@ -23188,6 +23475,7 @@
     {
       "id": 321,
       "term": "Workflow",
+      "sense": null,
       "description": "An automation in Hub that runs a defined sequence of action steps against charge points, price groups, or reports — triggered manually, on a schedule, or by a charging station event.\n\nUsage rules:\n• Capitalise as a UI label (\"Workflow\", \"New workflow\"); lowercase in running text.\n• Do not use as a generic business-process term — this refers specifically to Monta's Hub automation feature.\n• Available only to Administrator/Manager roles; not applicable to Charge or Control.\n\nPlatform: Hub\nAudience: B2B",
       "caseSensitive": false,
       "translatable": true,
