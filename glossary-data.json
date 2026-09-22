@@ -731,9 +731,9 @@
       "translatable": true,
       "forbidden": false,
       "sourceWriting": false,
-      "tags": "product",
+      "tags": "industry",
       "pluralForm": "",
-      "usageRules": null,
+      "usageRules": "",
       "translations": [
         {
           "languageCode": "en",
@@ -926,7 +926,7 @@
       "translatable": true,
       "forbidden": false,
       "sourceWriting": false,
-      "tags": "industry,brand",
+      "tags": "industry",
       "pluralForm": "",
       "usageRules": "Use \"App Clips\" (Apple's official term). Mention only when the experience differs from the full app. Do not equate with Shortcuts, Widgets, or Instant Apps. For Android, reference the equivalent \"Instant Apps\".",
       "translations": [
@@ -1013,7 +1013,7 @@
       "translatable": true,
       "forbidden": false,
       "sourceWriting": false,
-      "tags": "industry,brand",
+      "tags": "industry",
       "pluralForm": "",
       "usageRules": "Do not translate or modify. Use the definite article when referring to it (\"on the App Store\").",
       "translations": [
@@ -3283,93 +3283,6 @@
       "additionalDescriptions": []
     },
     {
-      "id": 71,
-      "term": "charge power",
-      "sense": null,
-      "description": "Description: Amount of electrical power delivered from the charge point to the EV at a given moment, measured in kilowatts (kW).",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "sourceWriting": true,
-      "tags": "industry",
-      "pluralForm": "",
-      "usageRules": "Use for live or measured performance data (telemetry, dashboards, analytics). Do not confuse with “charged energy” (kWh). Format units as lowercase “kW” with a non-breaking space (e.g., “11 kW”). Use “charging speed” in consumer-facing or simplified copy.",
-      "translations": [
-        {
-          "languageCode": "en",
-          "translation": "charge power",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "da",
-          "translation": "ladeeffekt",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddeffekt",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "ladeeffekt",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "potencia de carga",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Ladeleistung",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "potenza di carica",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "puissance de charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "puissance de charge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "charge power",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "putere de încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðimegi",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "laadvermogen",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "hleðsluafl",
-          "grammarNotes": "N | acc sg: hleðsluafl | nom pl: hleðsluafl"
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
       "id": 72,
       "term": "charge price",
       "sense": null,
@@ -4165,7 +4078,7 @@
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "sourceWriting": false,
+      "sourceWriting": true,
       "tags": "industry",
       "pluralForm": "",
       "usageRules": "Preferred terms: 'power' or 'charging power'. charging speed reserve it for consumer-friendly copy only if needed.",
@@ -4243,7 +4156,7 @@
       ],
       "alternatives": [
         {
-          "alternative": "",
+          "alternative": "charge power",
           "isPlural": false
         }
       ],
@@ -19385,7 +19298,7 @@
       "translatable": true,
       "forbidden": false,
       "sourceWriting": false,
-      "tags": "industry,brand",
+      "tags": "industry",
       "pluralForm": "",
       "usageRules": "Write exactly “SEPA Direct Debit”; do not alter capitalization or abbreviate. Not a payout method. For non-EU locales, use a descriptive local equivalent; if space allows, add a brief explainer (e.g., “pan-European bank debit”).",
       "translations": [
@@ -19733,7 +19646,7 @@
       "translatable": true,
       "forbidden": false,
       "sourceWriting": false,
-      "tags": "industry,brand",
+      "tags": "industry",
       "pluralForm": "",
       "usageRules": "Capitalize all three words and hyphenate: 'Single Sign-On'. On first mention, write 'Single Sign-On (SSO)'; use 'SSO' thereafter. Distinguish from MFA and password-based login.",
       "translations": [
@@ -21303,7 +21216,7 @@
       "translatable": true,
       "forbidden": false,
       "sourceWriting": false,
-      "tags": "industry,brand",
+      "tags": "industry",
       "pluralForm": "",
       "usageRules": "Do not confuse with “serial number” (hardware) or “Meter ID.” Do not modify, it’s a technical term. Source and target intact, do not translate.",
       "translations": [
@@ -23075,93 +22988,6 @@
       "additionalDescriptions": []
     },
     {
-      "id": 276,
-      "term": "VAT",
-      "sense": "precentage",
-      "description": "A tax rate applied to the price of goods or services and shown on Monta invoices. It is relevant for EU transactions, including cross-border sales; in a U.S. context, the rough equivalent concept is “sales tax.”",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "sourceWriting": true,
-      "tags": "industry",
-      "pluralForm": "",
-      "usageRules": "Use 'VAT' where it is the legal standard; do not mix with 'sales tax' (US concept). Follow localisation rules for wording, rounding, and export formats.",
-      "translations": [
-        {
-          "languageCode": "da",
-          "translation": "moms",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "USt",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en",
-          "translation": "VAT",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "sales tax",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "IVA",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "meirvirðisgjald",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "TVA",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "taxe de vente",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "VSK (%)",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "IVA",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "BTW",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "MVA",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "TVA",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "moms",
-          "grammarNotes": null
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
       "id": 44,
       "term": "VAT",
       "sense": "code",
@@ -23242,6 +23068,93 @@
         {
           "languageCode": "sv",
           "translation": "momsnr",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 276,
+      "term": "VAT",
+      "sense": "precentage",
+      "description": "A tax rate applied to the price of goods or services and shown on Monta invoices. It is relevant for EU transactions, including cross-border sales; in a U.S. context, the rough equivalent concept is “sales tax.”",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": true,
+      "tags": "industry",
+      "pluralForm": "",
+      "usageRules": "Use 'VAT' where it is the legal standard; do not mix with 'sales tax' (US concept). Follow localisation rules for wording, rounding, and export formats.",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "moms",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "USt",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en",
+          "translation": "VAT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "sales tax",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "IVA",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "meirvirðisgjald",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "TVA",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "taxe de vente",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "VSK (%)",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "IVA",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "BTW",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "MVA",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "TVA",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "moms",
           "grammarNotes": null
         }
       ],
