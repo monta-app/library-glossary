@@ -1148,13 +1148,13 @@
       "id": 318,
       "term": "Ausgehendes Roaming",
       "sense": null,
-      "description": "LEGACY FORBIDDEN: use Outbound Roaming instead. Retired German translation — keep in English.",
+      "description": "Retired German translation of Outbound Roaming. Always use the English form.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
-      "tags": null,
-      "pluralForm": null,
-      "usageRules": null,
+      "tags": "industry",
+      "pluralForm": "",
+      "usageRules": "Use 'Outbound Roaming' instead. Retired German translation — always keep in English.",
       "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
@@ -3485,13 +3485,13 @@
       "id": 297,
       "term": "charger",
       "sense": null,
-      "description": "FORBIDDEN — do not use in any product.\n\nReplaced by surface-specific terms:\n\nB2C copy (Charge mobile app):\n• Hardware unit or outlet → \"charge point\"\n\nB2B copy (Hub, Control Tower, Installer, Operator Portal):\n• Physical device at a site → \"charging station\"\n• Individual outlet or connector on a station → \"EVSE\"",
+      "description": "Legacy term for EV charging hardware. Replaced by surface-specific terms — see usage rules.\n\n",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
-      "tags": "product, b2c",
+      "tags": "product",
       "pluralForm": "",
-      "usageRules": null,
+      "usageRules": "B2C (Charge app): use 'charge point'. B2B (Hub, Control Tower, Installer, Operator Portal): use 'charging station' for the physical device, or 'EVSE' for an individual outlet or connector.",
       "translations": [
         {
           "languageCode": "da",
@@ -3659,9 +3659,95 @@
       "additionalDescriptions": []
     },
     {
+      "id": 257,
+      "term": "charging",
+      "sense": "noun",
+      "description": "The act or process of supplying electricity to an EV battery via a charge point.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "usageRules": "Always lowercase (“charging”). Use for general or conceptual process descriptions. Do not confuse with “charge” (noun), which refers to a specific session or transaction. Avoid when referring to a single event — use “charge session” instead.",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "opladning",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Laden",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "carga",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðir",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "la recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "hleðsla",
+          "grammarNotes": "F | acc sg: hleðslu | nom pl: hleðslur"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ricarica",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laden",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "lading",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "încărcare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddning",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 258,
-      "term": "charging (adj)",
-      "sense": null,
+      "term": "charging",
+      "sense": "participle – compound modifier",
       "description": "Description: Adjective. Describes states, processes, or attributes related to an ongoing charge. Examples: “charging session,” “charging port,” “charging time.”",
       "caseSensitive": false,
       "translatable": true,
@@ -3738,92 +3824,6 @@
         {
           "languageCode": "sv",
           "translation": "ladd-",
-          "grammarNotes": null
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 257,
-      "term": "charging (noun)",
-      "sense": null,
-      "description": "Description: Noun. The act or process of supplying electricity to an EV battery via a charge point.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": "",
-      "usageRules": "Always lowercase (“charging”). Use for general or conceptual process descriptions. Do not confuse with “charge” (noun), which refers to a specific session or transaction. Avoid when referring to a single event — use “charge session” instead.",
-      "translations": [
-        {
-          "languageCode": "da",
-          "translation": "opladning",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Laden",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en",
-          "translation": "charging",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "charging",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "carga",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "la recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "hleðsla",
-          "grammarNotes": "F | acc sg: hleðslu | nom pl: hleðslur"
-        },
-        {
-          "languageCode": "it",
-          "translation": "ricarica",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "laden",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "lading",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddning",
           "grammarNotes": null
         }
       ],
@@ -4527,13 +4527,13 @@
       "id": 84,
       "term": "charging site",
       "sense": null,
-      "description": "LEGACY FORBIDDEN: do not use \"charging site\" to refer to a charging location.\n\nReplaced by: \"location\" in all Hub, Control, and operator product copy.",
+      "description": "Legacy term for a charging location. Replaced by 'location' across all operator-facing copy.",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": true,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": null,
+      "usageRules": "Use 'location' in all Hub, Control, and operator product copy.",
       "translations": [
         {
           "languageCode": "en",
@@ -4803,9 +4803,9 @@
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "ocpp-proxy,technical,ocpp-spec",
-      "pluralForm": null,
-      "usageRules": "FRENCH (fr, fr_CA): Use \"identifiant\" — NOT \"identite\". In French, \"identite\" refers to personal identity (as in an ID card or passport); \"identifiant\" is the correct technical term for a device or system identifier. cFos French OCPP documentation confirms this distinction. Using \"identite\" in French would feel wrong to a technical operator. GERMAN: Use \"Kennung\" (or \"Ladestation-Kennung\" for the full phrase). \"Kennung\" is the established German EV industry term for the chargeBoxId, confirmed by the gridundco DE e-mobility glossary. DUTCH/DANISH: Keep close to the established industry pattern of using the English abbreviation \"ID\" — \"laadpunt-ID\" (NL) and \"ladepunkts-id\" (DA) match what Wallbox and cFos use in their Dutch and Danish documentation. SWEDISH: \"laddpunkts-ID\" is preferred and consistent with Scandinavian neighbours.",
+      "tags": "product, ocpp-proxy,technical,ocpp-spec",
+      "pluralForm": "",
+      "usageRules": "",
       "translations": [
         {
           "languageCode": "de",
@@ -4893,7 +4893,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Always capitalize (“Chat”) when referring to the product feature or UI label. Use lowercase (“chat”) when referring to the action (e.g., “chat with support”). Use consistently across Charge for user-to-user and support communication.",
+      "usageRules": "",
       "translations": [
         {
           "languageCode": "en",
@@ -7809,13 +7809,13 @@
       "id": 317,
       "term": "Eingehendes Roaming",
       "sense": null,
-      "description": "LEGACY FORBIDDEN: use Inbound Roaming instead. Retired German translation — keep in English.",
+      "description": "Retired German translation of Inbound Roaming. Always use the English form.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
-      "tags": null,
-      "pluralForm": null,
-      "usageRules": null,
+      "tags": "industry",
+      "pluralForm": "",
+      "usageRules": "Use 'Inbound Roaming' instead. Retired German translation — always keep in English.",
       "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
@@ -12844,13 +12844,13 @@
       "id": 312,
       "term": "main account",
       "sense": null,
-      "description": "LEGACY FORBIDDEN: use \"main operator\" instead. Do not use in any Hub UI copy.",
+      "description": "",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": true,
       "tags": "product",
-      "pluralForm": null,
-      "usageRules": null,
+      "pluralForm": "",
+      "usageRules": "Use 'main operator' instead. Do not use in Hub UI copy.",
       "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
@@ -15234,8 +15234,8 @@
       "caseSensitive": true,
       "translatable": false,
       "forbidden": false,
-      "tags": "ocpp-proxy,product-name,technical",
-      "pluralForm": null,
+      "tags": "industry, product",
+      "pluralForm": "",
       "usageRules": "Do not translate in any language. Keep as \"OCPP Proxy\" verbatim across all locales. Industry research confirms no language in the EV charging sector has a native-language equivalent — German, Danish, French, and Dutch EV industry content all use \"OCPP Proxy\" or \"OCPP-Proxy\" unchanged. It is both a Monta product name and a universal networking term. Some German vendors use \"OCPP Broker\" as an alternative product name (still English) — this is a synonym, not a translation. Do not substitute \"Broker\" for \"Proxy\" in Monta copy.",
       "translations": [],
       "alternatives": [],
@@ -18924,13 +18924,13 @@
       "id": 320,
       "term": "Selbstverwaltetes Roaming",
       "sense": null,
-      "description": "LEGACY FORBIDDEN: use Self-Managed Roaming instead. Retired German translation — keep in English.",
+      "description": "Retired German translation of Self-Managed Roaming. Always use the English form.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
-      "tags": null,
-      "pluralForm": null,
-      "usageRules": null,
+      "tags": "industry",
+      "pluralForm": "",
+      "usageRules": "Use 'Self-Managed Roaming' instead. Retired German translation — always keep in English.",
       "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
@@ -19643,13 +19643,13 @@
       "id": 196,
       "term": "site",
       "sense": null,
-      "description": "LEGACY FORBIDDEN: do not use \"site\" to refer to a charging location in any operator-facing context.\n\nReplaced by: \"location\" in all Hub, Control, and operator product copy.\n\nExceptions (not forbidden):\n• on-site (compound adjective meaning at the premises)\n• website (digital context)\n• Energy Site (the energy management product feature name)",
+      "description": "Legacy term for a charging location in operator context. Replaced by 'location'.",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": true,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": null,
+      "usageRules": "Use 'location' in operator-facing copy. Exceptions: 'on-site' (compound adjective meaning at the premises), 'website' (digital context), 'Energy Site' (product feature name).",
       "translations": [
         {
           "languageCode": "en",
@@ -20605,12 +20605,12 @@
       "id": 304,
       "term": "sponsor",
       "sense": null,
-      "description": "LEGACY FORBIDDEN: use reimburse instead.",
+      "description": "Legacy term for employer-funded charging. Replaced by 'reimburse'.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
-      "tags": null,
-      "pluralForm": null,
+      "tags": "industry",
+      "pluralForm": "",
       "usageRules": "Do not use. Replace with: reimburse (verb, e.g. the employer reimburses the driver).",
       "translations": [],
       "alternatives": [],
@@ -20620,12 +20620,12 @@
       "id": 301,
       "term": "sponsored",
       "sense": null,
-      "description": "LEGACY FORBIDDEN: use reimbursed instead. Monta previously used sponsored to refer to employer-funded charging and related features. All user-facing content now uses reimbursed (adjective) or reimbursement (noun).",
+      "description": "Legacy term. Monta previously used 'sponsored' for employer-funded charging. Replaced by 'reimbursed'.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
-      "tags": null,
-      "pluralForm": null,
+      "tags": "industry",
+      "pluralForm": "",
       "usageRules": "Do not use. Replace with: reimbursed (adjective, e.g. reimbursed employee, reimbursed EVSE), or reimbursement (noun, e.g. reimbursement price, reimbursement payout). Default to reimbursed when context is ambiguous.",
       "translations": [],
       "alternatives": [],
@@ -20635,12 +20635,12 @@
       "id": 302,
       "term": "sponsoring",
       "sense": null,
-      "description": "LEGACY FORBIDDEN: use reimbursing instead.",
+      "description": "Legacy term. Replaced by 'reimbursing'.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
-      "tags": null,
-      "pluralForm": null,
+      "tags": "industry",
+      "pluralForm": "",
       "usageRules": "Do not use. Replace with: reimbursing (present participle of reimburse).",
       "translations": [],
       "alternatives": [],
@@ -20650,12 +20650,12 @@
       "id": 303,
       "term": "sponsorship",
       "sense": null,
-      "description": "LEGACY FORBIDDEN: use reimbursement instead.",
+      "description": "Legacy term. Replaced by 'reimbursement'",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
-      "tags": null,
-      "pluralForm": null,
+      "tags": "industry",
+      "pluralForm": "",
       "usageRules": "Do not use. Replace with: reimbursement (noun, e.g. reimbursement payout, reimbursement price).",
       "translations": [],
       "alternatives": [],
@@ -21353,13 +21353,13 @@
       "id": 311,
       "term": "sub-account",
       "sense": null,
-      "description": "LEGACY FORBIDDEN: use \"sub-operator\" instead. Do not use in any Hub UI copy.",
+      "description": "Legacy account hierarchy term. Replaced by 'sub-operator'",
       "caseSensitive": false,
-      "translatable": false,
+      "translatable": true,
       "forbidden": true,
       "tags": "product",
-      "pluralForm": null,
-      "usageRules": null,
+      "pluralForm": "",
+      "usageRules": "Use 'sub-operator' instead. Do not use in Hub UI copy.",
       "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
@@ -22499,14 +22499,14 @@
     },
     {
       "id": 300,
-      "term": "Token",
-      "sense": "OCPI",
+      "term": "token",
+      "sense": null,
       "description": "A unique identifier used by an eMSP to authorize an EV driver on a charging network. CPOs receive token lists from eMSPs via OCPI and use them for local authorization without a real-time callback. Token types per OCPI 2.2.1: RFID (physical card or key fob), APP_USER (app-generated ID), AD_HOC_USER (one-time ID), and EMAID (ISO 15118 Plug&Charge vehicle identifier). B2C equivalent in Monta copy: \"charge key\" or \"RFID card\".",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
-      "pluralForm": null,
+      "pluralForm": "",
       "usageRules": "Capitalize 'Token' when referring to the OCPI technical object. Use lowercase 'token' in generic or descriptive references.",
       "translations": [
         {
@@ -22938,8 +22938,8 @@
     },
     {
       "id": 276,
-      "term": "VAT (%)",
-      "sense": null,
+      "term": "VAT",
+      "sense": "precentage",
       "description": "Description: a percentage tax rate applied to the price of goods or services and shown on Monta invoices. It is relevant for EU transactions, including cross-border sales; in a U.S. context, the rough equivalent concept is “sales tax.”",
       "caseSensitive": false,
       "translatable": true,
@@ -23024,8 +23024,8 @@
     },
     {
       "id": 44,
-      "term": "VAT (code)",
-      "sense": null,
+      "term": "VAT",
+      "sense": "code",
       "description": "Description: A unique code assigned for businesses registered for Value Added Tax, used to identify taxable entities in EU and international trade. Typically formatted as an ISO country code (e.g., DK, DE, FR) followed by a numeric or alphanumeric sequence per local rules.",
       "caseSensitive": false,
       "translatable": true,
@@ -23203,13 +23203,13 @@
       "id": 319,
       "term": "Verwaltetes Roaming",
       "sense": null,
-      "description": "LEGACY FORBIDDEN: use Managed Roaming instead. Retired German translation — keep in English.",
+      "description": "Retired German translation of Managed Roaming. Always use the English form.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": true,
-      "tags": null,
-      "pluralForm": null,
-      "usageRules": null,
+      "tags": "industry",
+      "pluralForm": "",
+      "usageRules": "Use 'Managed Roaming' instead. Retired German translation — always keep in English.",
       "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
