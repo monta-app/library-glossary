@@ -10,7 +10,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always write “AC” in uppercase. Use in full expressions such as “AC charge point” for clarity. Do not translate the acronym in localized content. Avoid using “alternating current” unless in technical or educational documentation. Acceptable in both UI and documentation when describing charger type or specifications.",
+      "usageRules": "Use in full expressions such as \"AC charge point\" for clarity. Do not translate the acronym. Avoid using \"alternating current\" unless in technical or educational documentation.",
       "translations": [
         {
           "languageCode": "en",
@@ -187,7 +187,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use additional fee in lowercase in running text. Do not abbreviate or shorten. Avoid using interchangeably with price or tariff - these refer to separate pricing structures. Use consistently when describing extra costs applied on top of a base rate in Hub.",
+      "usageRules": "Do not abbreviate or shorten. Avoid using interchangeably with price or tariff — these refer to separate pricing structures. Use consistently when describing extra costs applied on top of a base rate in Hub.",
       "translations": [
         {
           "languageCode": "en",
@@ -359,7 +359,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always capitalize as a proper name (\"Advenir\"). Keep in French; do not translate or localize.",
+      "usageRules": "Keep in French; do not translate or localise.",
       "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
@@ -374,7 +374,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always write in all caps: AFIR. On first mention, spell out the full name followed by the acronym in parentheses - Alternative Fuels Infrastructure Regulation (AFIR). Use the acronym alone (AFIR) after the first mention. Do not pluralize or translate. Use only in regulatory, compliance, or policy-related contexts relevant to EU infrastructure standards.",
+      "usageRules": "Do not pluralise or translate. Use only in regulatory, compliance, or policy-related contexts relevant to EU infrastructure standards.",
       "translations": [
         {
           "languageCode": "en",
@@ -637,7 +637,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use the full name Alternative Fuels Infrastructure Regulation on first mention, followed by the acronym in parentheses - Alternative Fuels Infrastructure Regulation (AFIR). Use AFIR alone in subsequent mentions. Keep capitalization exactly as in the official title.  Use only in contexts related to compliance, infrastructure deployment, or EU regulatory standards.",
+      "usageRules": "Keep capitalisation exactly as in the official title. Use only in contexts related to compliance, infrastructure deployment, or EU regulatory standards.",
       "translations": [
         {
           "languageCode": "en",
@@ -723,7 +723,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Always write 'API' in all caps, never spell out",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "en",
@@ -916,7 +916,7 @@
       "forbidden": false,
       "tags": "industry,brand",
       "pluralForm": "",
-      "usageRules": "Use “App Clips” (Apple’s official term).  Keep capitalization: Both words capitalized. Mention only when the experience differs from the full app. Do not equate with Shortcuts, Widgets, or Instant Apps. For Android, reference the equivalent “Instant Apps.”",
+      "usageRules": "Use \"App Clips\" (Apple's official term). Mention only when the experience differs from the full app. Do not equate with Shortcuts, Widgets, or Instant Apps. For Android, reference the equivalent \"Instant Apps\".",
       "translations": [
         {
           "languageCode": "en",
@@ -1002,7 +1002,7 @@
       "forbidden": false,
       "tags": "industry,brand",
       "pluralForm": "",
-      "usageRules": "Keep capitalization as “App Store.” Do not translate or modify. Use the definite article when referring to it (“on the App Store”).",
+      "usageRules": "Do not translate or modify. Use the definite article when referring to it (\"on the App Store\").",
       "translations": [
         {
           "languageCode": "en",
@@ -1447,7 +1447,7 @@
       "forbidden": false,
       "tags": "product,brand",
       "pluralForm": "",
-      "usageRules": "Use sentence case for stand alone UI labels, beginning of the sentence. Use lower case when in the running texts. Avoid short form auto, as it implies “car” Use only for describing this specific B2C feature",
+      "usageRules": "Avoid short form \"auto\" as it implies \"car\". Use only for describing this specific B2C feature.",
       "translations": [
         {
           "languageCode": "en",
@@ -1533,7 +1533,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text. Capitalize as a UI label (\"Available\"). Use only for charge point status, not for pricing or feature readiness.",
+      "usageRules": "Use only for charge point status, not for pricing or feature readiness.",
       "translations": [
         {
           "languageCode": "en",
@@ -1705,7 +1705,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase. Prefer concise form (e.g., “battery capacity: 60 kWh”). Use only in technical or informative contexts.",
+      "usageRules": "Prefer concise form (e.g., \"battery capacity: 60 kWh\"). Use only in technical or informative contexts.",
       "translations": [
         {
           "languageCode": "en",
@@ -2049,7 +2049,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in text. In UI, display as “Busy.” Do not apply to people or teams.",
+      "usageRules": "Do not apply to people or teams.",
       "translations": [
         {
           "languageCode": "en",
@@ -2221,7 +2221,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase. Apply only in Italian market and legal or billing contexts. Do not replace with “email” in other languages.",
+      "usageRules": "Apply only in Italian market and legal or billing contexts. Do not replace with \"email\" in other languages.",
       "translations": [
         {
           "languageCode": "en",
@@ -2307,7 +2307,7 @@
       "forbidden": false,
       "tags": "product,brand",
       "pluralForm": "",
-      "usageRules": "Capitalize “Changelog” when referring to the UI label; use lowercase in generic references.",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "en",
@@ -2384,60 +2384,30 @@
       "additionalDescriptions": []
     },
     {
-      "id": 253,
+      "id": 255,
       "term": "charge",
-      "sense": "noun",
-      "description": "The event or session during which an EV is connected to a charge point and receives electricity until completion.",
+      "sense": "noun – compound modifier",
+      "description": "Used to describe a charging-related object, log, or record linked to a session or transaction. Examples: “charge log,” “charge ID,” “charge object.”",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use “charge” to describe the session event. Do not use “charge” alone to mean fee or payment. Keep lowercase except in proper nouns (e.g., Charge History).",
+      "usageRules": "Use only as a descriptive modifier. Avoid using where \"charging\" is the more natural form for localisation.",
       "translations": [
         {
-          "languageCode": "en",
-          "translation": "charge",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "da",
-          "translation": "opladning",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddning",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "lading",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "carga",
+          "translation": "lade-",
           "grammarNotes": null
         },
         {
           "languageCode": "de",
-          "translation": "Ladevorgang",
+          "translation": "Lade-",
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "ricarica",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "recharge",
+          "languageCode": "en",
+          "translation": "charge",
           "grammarNotes": null
         },
         {
@@ -2446,24 +2416,54 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "ro",
-          "translation": "încărcare",
+          "languageCode": "es",
+          "translation": "de carga",
           "grammarNotes": null
         },
         {
           "languageCode": "fo",
-          "translation": "løðing",
+          "translation": "løði",
           "grammarNotes": null
         },
         {
-          "languageCode": "nl",
-          "translation": "lading",
+          "languageCode": "fr",
+          "translation": "de recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "de recharge",
           "grammarNotes": null
         },
         {
           "languageCode": "is",
-          "translation": "hleðsla",
-          "grammarNotes": "F | acc sg: hleðslu | nom pl: hleðslur"
+          "translation": "hleðslu-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "di ricarica",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laad-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "lade-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "de încărcare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ladd-",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -2556,30 +2556,60 @@
       "additionalDescriptions": []
     },
     {
-      "id": 255,
+      "id": 253,
       "term": "charge",
-      "sense": "noun – compound modifier",
-      "description": "Used to describe a charging-related object, log, or record linked to a session or transaction. Examples: “charge log,” “charge ID,” “charge object.”",
+      "sense": "noun",
+      "description": "The event or session during which an EV is connected to a charge point and receives electricity until completion.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always lowercase. Use only as a descriptive modifier. Avoid using where “charging” is the more natural form for localization.",
+      "usageRules": "Use \"charge\" to describe the session event. Do not use \"charge\" alone to mean fee or payment.",
       "translations": [
         {
+          "languageCode": "en",
+          "translation": "charge",
+          "grammarNotes": null
+        },
+        {
           "languageCode": "da",
-          "translation": "lade-",
+          "translation": "opladning",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddning",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "lading",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "carga",
           "grammarNotes": null
         },
         {
           "languageCode": "de",
-          "translation": "Lade-",
+          "translation": "Ladevorgang",
           "grammarNotes": null
         },
         {
-          "languageCode": "en",
-          "translation": "charge",
+          "languageCode": "it",
+          "translation": "ricarica",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "recharge",
           "grammarNotes": null
         },
         {
@@ -2588,54 +2618,24 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "es",
-          "translation": "de carga",
+          "languageCode": "ro",
+          "translation": "încărcare",
           "grammarNotes": null
         },
         {
           "languageCode": "fo",
-          "translation": "løði",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "de recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "de recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "hleðslu-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "di ricarica",
+          "translation": "løðing",
           "grammarNotes": null
         },
         {
           "languageCode": "nl",
-          "translation": "laad-",
+          "translation": "lading",
           "grammarNotes": null
         },
         {
-          "languageCode": "no",
-          "translation": "lade-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "de încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "ladd-",
-          "grammarNotes": null
+          "languageCode": "is",
+          "translation": "hleðsla",
+          "grammarNotes": "F | acc sg: hleðslu | nom pl: hleðslur"
         }
       ],
       "alternatives": [],
@@ -2651,7 +2651,7 @@
       "forbidden": false,
       "tags": "industry ",
       "pluralForm": "",
-      "usageRules": "Use only for the energy transfer process, not payment. In UI, use imperative form (“Charge now”). In documentation, use infinitive (“to charge an EV”). Lowercase unless at sentence start or part of a product name.",
+      "usageRules": "Use only for the energy transfer process, not payment. In UI, use imperative form (\"Charge now\"). In documentation, use infinitive (\"to charge an EV\").",
       "translations": [
         {
           "languageCode": "da",
@@ -2737,7 +2737,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text (\"charge history\"). Capitalize only the first word as a UI label (\"Charge history\"). Do not use plural form — always \"Charge history\".",
+      "usageRules": "Do not use plural form — always \"Charge history\".",
       "translations": [
         {
           "languageCode": "en",
@@ -2823,7 +2823,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use “charge key” in consumer-facing and support content. Use “RFID card” or “RFID tag” in technical, integration, or API documentation. Lowercase in running text unless used in a UI label (e.g., “Charge Key Settings”).",
+      "usageRules": "Use \"charge key\" in consumer-facing and support content. Use \"RFID card\" or \"RFID tag\" in technical, integration, or API documentation.",
       "translations": [
         {
           "languageCode": "da",
@@ -2909,7 +2909,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always lowercase (“charge limit”). Use “charge limit” in text and labels. Express as a percentage (%) in UI when shown numerically.",
+      "usageRules": "Express as a percentage (%) in UI when shown numerically.",
       "translations": [
         {
           "languageCode": "en",
@@ -2995,7 +2995,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('charge point'). Capitalize only the first word as a UI label ('Charge point'). Preferred B2C term (Charge app) for charging hardware; use 'charging station' in B2B frontends.",
+      "usageRules": "Preferred B2C term (Charge app) for charging hardware; use 'charging station' in B2B frontends.",
       "translations": [
         {
           "languageCode": "da",
@@ -3167,7 +3167,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase (“charge point operator”) unless abbreviated. Reduce usage of abbrev., unless well-established. Introduce the abbreviation “CPO” on first mention, then use consistently thereafter. Keep consistent with industry usage and avoid shortening to “operator” alone.",
+      "usageRules": "Reduce usage of abbreviation unless well-established. Introduce the abbreviation \"CPO\" on first mention, then use consistently thereafter. Keep consistent with industry usage and avoid shortening to \"operator\" alone.",
       "translations": [
         {
           "languageCode": "en",
@@ -3339,7 +3339,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always lowercase (“charge price”). Do not shorten to “price” when referring to session cost. Differentiate clearly from configuration or tariff setup prices in Hub.",
+      "usageRules": "Do not shorten to \"price\" when referring to session cost. Differentiate clearly from configuration or tariff setup prices in Hub.",
       "translations": [
         {
           "languageCode": "en",
@@ -3593,92 +3593,6 @@
       "additionalDescriptions": []
     },
     {
-      "id": 257,
-      "term": "charging",
-      "sense": "noun",
-      "description": "The act or process of supplying electricity to an EV battery via a charge point.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "tags": "industry",
-      "pluralForm": "",
-      "usageRules": "Always lowercase (“charging”). Use for general or conceptual process descriptions. Do not confuse with “charge” (noun), which refers to a specific session or transaction. Avoid when referring to a single event — use “charge session” instead.",
-      "translations": [
-        {
-          "languageCode": "da",
-          "translation": "opladning",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Laden",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en",
-          "translation": "charging",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "charging",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "carga",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "la recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "hleðsla",
-          "grammarNotes": "F | acc sg: hleðslu | nom pl: hleðslur"
-        },
-        {
-          "languageCode": "it",
-          "translation": "ricarica",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "laden",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "lading",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddning",
-          "grammarNotes": null
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
       "id": 258,
       "term": "charging",
       "sense": "participle – compound modifier",
@@ -3688,7 +3602,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always lowercase (“charging”). Use only as a modifier (adjective). Avoid redundancy when the context already implies charging (e.g., “charging session” → not “EV charging session”).",
+      "usageRules": "Use only as a modifier (adjective). Avoid redundancy when the context already implies charging (e.g., \"charging session\" → not \"EV charging session\").",
       "translations": [
         {
           "languageCode": "da",
@@ -3765,6 +3679,92 @@
       "additionalDescriptions": []
     },
     {
+      "id": 257,
+      "term": "charging",
+      "sense": "noun",
+      "description": "The act or process of supplying electricity to an EV battery via a charge point.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "tags": "industry",
+      "pluralForm": "",
+      "usageRules": "Use for general or conceptual process descriptions. Do not confuse with \"charge\" (noun), which refers to a specific session or transaction. Avoid when referring to a single event — use \"charge session\" instead.",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "opladning",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Laden",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "carga",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðir",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "la recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "hleðsla",
+          "grammarNotes": "F | acc sg: hleðslu | nom pl: hleðslur"
+        },
+        {
+          "languageCode": "it",
+          "translation": "ricarica",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laden",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "lading",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "încărcare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddning",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 78,
       "term": "charging app",
       "sense": null,
@@ -3774,7 +3774,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use “charging app” only when referring to the category of EV charging applications. Never use in UI, use “Monta Charge” when referring specifically to Monta’s product. Keep lowercase in running text. May be used in comparative or educational contexts (e.g., “Unlike other charging apps…”).",
+      "usageRules": "Use \"charging app\" only when referring to the category of EV charging applications. Never use in UI — use \"Monta Charge\" when referring specifically to Monta's product. May be used in comparative or educational contexts (e.g., \"Unlike other charging apps…\").",
       "translations": [
         {
           "languageCode": "en",
@@ -3946,7 +3946,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('charging discount'). Capitalize only the first word as a UI label ('Charging discount'). Avoid 'charge' as it can imply 'fee'. Use only when describing product features or subscription benefits.",
+      "usageRules": "Avoid 'charge' as it can imply 'fee'. Use only when describing product features or subscription benefits.",
       "translations": [
         {
           "languageCode": "da",
@@ -4032,7 +4032,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Always lowercase (“charging fee”). Use in documentation or UI where the fee condition is defined. Always specify timing or application condition.",
+      "usageRules": "Use in documentation or UI where the fee condition is defined. Always specify timing or application condition.",
       "translations": [
         {
           "languageCode": "en",
@@ -4118,7 +4118,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('charging power'). Preferred terms: 'power' or 'charging power'. Avoid 'charging speed' in technical UI; reserve it for consumer-friendly copy only if needed.",
+      "usageRules": "Preferred terms: 'power' or 'charging power'. Avoid 'charging speed' in technical UI; reserve it for consumer-friendly copy only if needed.",
       "translations": [
         {
           "languageCode": "da",
@@ -4209,7 +4209,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always lowercase (“charging rule”). Mention only in relation to the scheduling functionality within the app. Do not use as a synonym for “policy” or “restriction.”",
+      "usageRules": "Mention only in relation to the scheduling functionality within the app. Do not use as a synonym for \"policy\" or \"restriction\".",
       "translations": [
         {
           "languageCode": "en",
@@ -4295,7 +4295,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Always lowercase (“charging schedule”). Prefer “Schedule” when referring to the UI feature name. Use the full phrase in documentation or support contexts for clarity.",
+      "usageRules": "Prefer \"Schedule\" when referring to the UI feature name. Use the full phrase in documentation or support contexts for clarity.",
       "translations": [
         {
           "languageCode": "en",
@@ -4381,7 +4381,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always lowercase (“charge session”). Prefer “charge session” over “charge” alone for clarity in UI and documentation. Maintain consistency across reports, app logs, and analytics dashboards.",
+      "usageRules": "Prefer \"charge session\" over \"charge\" alone for clarity in UI and documentation. Maintain consistency across reports, app logs, and analytics dashboards.",
       "translations": [
         {
           "languageCode": "en",
@@ -4553,7 +4553,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always lowercase (“charging speed”). Use in consumer or marketing contexts. Use “charge power (kW)” for technical accuracy or live telemetry data. Do not confuse with “charging time” (duration).",
+      "usageRules": "Use in consumer or marketing contexts. Use \"charge power (kW)\" for technical accuracy or live telemetry data. Do not confuse with \"charging time\" (duration).",
       "translations": [
         {
           "languageCode": "en",
@@ -4913,7 +4913,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always lowercase (“client secret”). Use only in technical and developer documentation. Use alongside related terms like “client ID” and “API key.”",
+      "usageRules": "Use only in technical and developer documentation. Use alongside related terms like \"client ID\" and \"API key\".",
       "translations": [
         {
           "languageCode": "da",
@@ -4999,7 +4999,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase (“company car”) in text. Use only in fleet or reimbursement-related contexts.",
+      "usageRules": "Use only in fleet or reimbursement-related contexts.",
       "translations": [
         {
           "languageCode": "en",
@@ -5080,7 +5080,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase (“company registration number”). Do not abbreviate (avoid “CRN”). Use in forms, billing flows, and verification processes.",
+      "usageRules": "Do not abbreviate (avoid \"CRN\"). Use in forms, billing flows, and verification processes.",
       "translations": [
         {
           "languageCode": "en",
@@ -5252,7 +5252,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always lowercase (“connector”) in running text. Use singular or plural as context requires. Distinguish clearly from “cable” (the wire) and “port” (the vehicle inlet). Layer 4 of the charging hierarchy: location > charging station > EVSE > connector. One EVSE may have multiple connectors, but only one is active per charging session.",
+      "usageRules": "Use singular or plural as context requires. Distinguish clearly from \"cable\" (the wire) and \"port\" (the vehicle inlet). Layer 4 of the charging hierarchy: location > charging station > EVSE > connector. One EVSE may have multiple connectors, but only one is active per charging session.",
       "translations": [
         {
           "languageCode": "en",
@@ -5338,7 +5338,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Always lowercase in running text (\"cost group\"). Capitalize only the first word as a UI label (\"Cost group\").",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "en",
@@ -5424,7 +5424,7 @@
       "forbidden": true,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": ". Use “CP” only after introducing the full term (“Charge Point (CP)”). Use only in technical documentation or developer contexts. Prefer “charge point” over “CP” in UI, marketing, or consumer-facing content.",
+      "usageRules": "Use only in technical documentation or developer contexts. Prefer \"charge point\" over \"CP\" in UI, marketing, or consumer-facing content.",
       "translations": [
         {
           "languageCode": "da",
@@ -5536,7 +5536,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always capitalize the acronym “CPI.” Spell out “Charge Point Integration (CPI)” on first mention in documentation or long-form content. Use only in technical or integration-related contexts; avoid in high-level customer-facing copy. Do not use as a replacement for specific protocols or standards (e.g., OCPP) when those are meant.",
+      "usageRules": "Use only in technical or integration-related contexts; avoid in high-level customer-facing copy. Do not use as a replacement for specific protocols or standards (e.g., OCPP) when those are meant.",
       "translations": [
         {
           "languageCode": "en",
@@ -5643,7 +5643,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always capitalize “CPMS.” Spell out “Charge Point Management System (CPMS)” on first mention. Prefer “Monta Hub” when referring to Monta’s own CPMS, but it can be used to describe comparable systems. Do not shorten to “management system.”",
+      "usageRules": "Prefer \"Monta Hub\" when referring to Monta's own CPMS, but it can be used to describe comparable systems. Do not shorten to \"management system\".",
       "translations": [
         {
           "languageCode": "en",
@@ -5729,7 +5729,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always capitalize when referring to this role or partner type. Introduce abbreviation “CPO” in parentheses after first mention and use consistently thereafter. Avoid using “operator” alone when referring to this entity.",
+      "usageRules": "Avoid using \"operator\" alone when referring to this entity.",
       "translations": [
         {
           "languageCode": "en",
@@ -5815,7 +5815,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase “credit” in running text. Use plural “credits” when referring to multiple units. Do not confuse with “wallet balance” or “withdrawable funds.” Use only when referring to non-withdrawable wallet funds.",
+      "usageRules": "Use plural \"credits\" when referring to multiple units. Do not confuse with \"wallet balance\" or \"withdrawable funds\". Use only when referring to non-withdrawable wallet funds.",
       "translations": [
         {
           "languageCode": "en",
@@ -5901,7 +5901,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase “credit note” in running text. Use plural “credit notes” for multiple documents. Do not shorten to “note” alone. Use only in billing and finance contexts.",
+      "usageRules": "Use plural \"credit notes\" for multiple documents. Do not shorten to \"note\" alone. Use only in billing and finance contexts.",
       "translations": [
         {
           "languageCode": "en",
@@ -5987,7 +5987,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Spell out on first mention: “Current Transformer (CT) clamp.” Use abbreviation “CT clamp” thereafter. Keep “CT” capitalized as it is a technical abbreviation. Use only in technical or installer-facing documentation.",
+      "usageRules": "Use only in technical or installer-facing documentation.",
       "translations": [
         {
           "languageCode": "en",
@@ -6073,7 +6073,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase “current” in running text. Use “AC” and “DC” in uppercase when referring to current types. Avoid using in isolation in UI; specify type where relevant (e.g., “AC current”).",
+      "usageRules": "Avoid using in isolation in UI; specify type where relevant (e.g., \"AC current\").",
       "translations": [
         {
           "languageCode": "en",
@@ -6159,7 +6159,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text unless appearing as a feature name or UI label. Avoid shortening to “subscription” when referring to custom plans. Use only in Hub contexts related to service management.",
+      "usageRules": "Avoid shortening to \"subscription\" when referring to custom plans. Use only in Hub contexts related to service management.",
       "translations": [
         {
           "languageCode": "en",
@@ -6245,7 +6245,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text; capitalize when referring to a specific title (e.g., “Your Customer Success Manager will contact you”). Introduce abbreviation “CSM” after first mention and use consistently. Use only for Monta internal and partner-facing roles.",
+      "usageRules": "Introduce abbreviation \"CSM\" after first mention and use consistently. Use only for Monta internal and partner-facing roles.",
       "translations": [
         {
           "languageCode": "en",
@@ -6427,7 +6427,7 @@
       "forbidden": false,
       "tags": "brand",
       "pluralForm": "",
-      "usageRules": "Sentence case capitalization “Data pipelines” when referring to the Hub feature or UI label. Use lowercase “data pipelines” in general descriptions. Avoid shortening to “pipelines” without context. Use only in data integration or compliance contexts.",
+      "usageRules": "Avoid shortening to \"pipelines\" without context. Use only in data integration or compliance contexts.",
       "translations": [
         {
           "languageCode": "en",
@@ -6685,7 +6685,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always capitalize “DC” and “AC.” Use “DC charge point,” not “DC unit” in customer-facing copy.",
+      "usageRules": "Use \"DC charge point\", not \"DC unit\" in customer-facing copy.",
       "translations": [
         {
           "languageCode": "en",
@@ -6857,7 +6857,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text (\"delayed start\"). Use sentence case in UI labels or menu items (\"Delayed start\").",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "en",
@@ -6943,7 +6943,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase “deposit” in running text. Use plural “deposits” when referring to multiple transactions. Avoid confusing with “credit” or “top-up.”",
+      "usageRules": "Use plural \"deposits\" when referring to multiple transactions. Avoid confusing with \"credit\" or \"top-up\".",
       "translations": [
         {
           "languageCode": "en",
@@ -7100,7 +7100,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Spell out on first mention: “distribution system operator (DSO).” Use abbreviation “DSO” thereafter. Use only in energy, grid, or flexibility contexts.",
+      "usageRules": "Use only in energy, grid, or flexibility contexts.",
       "translations": [
         {
           "languageCode": "en",
@@ -7272,7 +7272,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always write 'DSO' in all caps. Spell out 'distribution system operator' on first mention.",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "en",
@@ -7470,7 +7470,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase “dynamic price” in running text. Use “dynamic pricing” when referring to the broader pricing method. Use only in pricing or energy cost configuration contexts.",
+      "usageRules": "Use \"dynamic pricing\" when referring to the broader pricing method. Use only in pricing or energy cost configuration contexts.",
       "translations": [
         {
           "languageCode": "en",
@@ -7556,7 +7556,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Spell as “e-mobility service provider” (hyphen after “e”). Use sentence case in running text. Introduce abbreviation on first mention: “e-mobility service provider (eMSP)”; use “eMSP” thereafter. Article: “an eMSP.” Plural: “eMSPs.” Use when referring to the driver-facing service entity; do not use when you mean the infrastructure operator—use “Charge Point Operator (CPO)” instead. In UI and configuration (e.g., roaming, partner type), use “eMSP” for brevity and consistency. Avoid alternatives like “mobility provider” or “charging provider” unless required by third-party naming.",
+      "usageRules": "Spell as \"e-mobility service provider\" (hyphen after \"e\"). Article: \"an eMSP.\" Plural: \"eMSPs.\" Use when referring to the driver-facing service entity; do not use when you mean the infrastructure operator — use \"Charge Point Operator (CPO)\" instead. In UI and configuration (e.g., roaming, partner type), use \"eMSP\" for brevity. Avoid alternatives like \"mobility provider\" or \"charging provider\" unless required by third-party naming.",
       "translations": [
         {
           "languageCode": "en",
@@ -7764,7 +7764,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('electricity costs'). Capitalize only the first word as a UI label ('Electricity costs').",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "da",
@@ -7936,7 +7936,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('electricity tax refund'). Use descriptive translation for languages other than Danish — this is a Denmark-specific concept. Avoid using as a synonym for 'reimbursement'.",
+      "usageRules": "Use descriptive translation for languages other than Danish — this is a Denmark-specific concept. Avoid using as a synonym for 'reimbursement'.",
       "translations": [
         {
           "languageCode": "da",
@@ -8022,7 +8022,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text. Use descriptive translation for languages other than Danish — this is a Denmark-specific concept. Avoid using as a synonym for 'reimbursement'.",
+      "usageRules": "Use descriptive translation for languages other than Danish — this is a Denmark-specific concept. Avoid using as a synonym for 'reimbursement'.",
       "translations": [
         {
           "languageCode": "da",
@@ -8108,7 +8108,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Write as 'eMSP' — lowercase 'e', uppercase 'MSP'. Always use this mixed-case form; do not modify. On first mention, write 'e-mobility service provider (eMSP)'; use 'eMSP' thereafter.",
+      "usageRules": "Write as 'eMSP' — lowercase 'e', uppercase 'MSP'. Always use this mixed-case form; do not modify.",
       "translations": [
         {
           "languageCode": "da",
@@ -8215,7 +8215,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('end time'). Capitalize only as a UI label ('End time'). Avoid synonyms like 'finish time' or 'stop time' in customer-facing copy; keep 'end time' consistent across surfaces.",
+      "usageRules": "Avoid synonyms like 'finish time' or 'stop time' in customer-facing copy; keep 'end time' consistent across surfaces.",
       "translations": [
         {
           "languageCode": "da",
@@ -8301,7 +8301,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Always lowercase (“charge amount”). Avoid using this term to refer to price, payment, or cost.",
+      "usageRules": "Avoid using this term to refer to price, payment, or cost.",
       "translations": [
         {
           "languageCode": "en",
@@ -8387,7 +8387,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Article: “an EV.” Plural: “EVs.” Always capitalize the abbreviation “EV.” Use sentence case for the full term in running text. Avoid redundant phrasing like “EV car”; prefer “EV” or “vehicle.” Use “vehicle” (not “EV”) if the context already implies electric (e.g., within an EV-only list or filter). In UI labels and filters, use “EV” for brevity (e.g., “EV model,” “EV battery”);",
+      "usageRules": "Article: \"an EV.\" Plural: \"EVs.\" Avoid redundant phrasing like \"EV car\"; prefer \"EV\" or \"vehicle.\" Use \"vehicle\" (not \"EV\") if the context already implies electric (e.g., within an EV-only list or filter). In UI labels and filters, use \"EV\" for brevity (e.g., \"EV model,\" \"EV battery\").",
       "translations": [
         {
           "languageCode": "en",
@@ -8655,7 +8655,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Spell with a hyphen: “fail-safe.” Do not use “failsafe” or “fail safe.” Use lowercase in running text; Sentence in labels or headings. Can be an adjective (“fail-safe mode”) or a countable noun (“a fail-safe”). Plural: “fail-safes.”",
+      "usageRules": "Spell with a hyphen: \"fail-safe.\" Do not use \"failsafe\" or \"fail safe.\" Can be an adjective (\"fail-safe mode\") or a countable noun (\"a fail-safe\"). Plural: \"fail-safes\".",
       "translations": [
         {
           "languageCode": "en",
@@ -8741,7 +8741,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text: “fair price.” Do not capitalize or abbreviate.",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "en",
@@ -8827,7 +8827,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text: “fallback price.” In UI labels and settings, use “Fallback price.” Avoid synonyms like “backup price” or “base price”; keep terminology consistent with “fallback price.”",
+      "usageRules": "Avoid synonyms like \"backup price\" or \"base price\"; keep terminology consistent with \"fallback price\".",
       "translations": [
         {
           "languageCode": "en",
@@ -9171,7 +9171,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text: “firmware.” No abbreviation. Prefer precise collocations: “firmware update,” “firmware version,” “firmware release.” Plurals: use “firmware versions” (not “firmwares”)",
+      "usageRules": "No abbreviation. Prefer precise collocations: \"firmware update,\" \"firmware version,\" \"firmware release.\" Plurals: use \"firmware versions\" (not \"firmwares\").",
       "translations": [
         {
           "languageCode": "en",
@@ -9343,7 +9343,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "- Use lowercase “fleet” in running text; capitalize only if part of a feature or stand alone UI label. Use for business-operated vehicle groups; do not use for personal driver groups. Do not confuse with “team” or “company” in Monta account structures.",
+      "usageRules": "Use for business-operated vehicle groups; do not use for personal driver groups. Do not confuse with \"team\" or \"company\" in Monta account structures.",
       "translations": [
         {
           "languageCode": "en",
@@ -9429,7 +9429,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "- Use lowercase in running text; capitalize only when matching a UI label or report title. Use to describe predictive outputs, not commitments or reservations. Not a synonym for “schedule” or “booking.” No abbreviations; if used as a verb, write “to forecast.”",
+      "usageRules": "Use to describe predictive outputs, not commitments or reservations. Not a synonym for \"schedule\" or \"booking\". No abbreviations; if used as a verb, write \"to forecast\".",
       "translations": [
         {
           "languageCode": "en",
@@ -9515,7 +9515,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase “funds” in running text; capitalize only when matching an exact UI label. Use “balance” for the current amount; use “funds” when referring to the withdrawable money or movements. Plural noun; do not abbreviate. Avoid synonyms such as “credits” or “cash” in product copy.",
+      "usageRules": "Use \"balance\" for the current amount; use \"funds\" when referring to the withdrawable money or movements. Plural noun; do not abbreviate. Avoid synonyms such as \"credits\" or \"cash\" in product copy.",
       "translations": [
         {
           "languageCode": "en",
@@ -9773,7 +9773,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('grid'). Capitalize only as a UI label. Use for the public electricity network; for on-site wiring use 'installation'. Do not use as a synonym for 'utility' or 'DSO'.",
+      "usageRules": "Use for the public electricity network; for on-site wiring use 'installation'. Do not use as a synonym for 'utility' or 'DSO'.",
       "translations": [
         {
           "languageCode": "da",
@@ -9945,7 +9945,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text; capitalize only when part of a proper name or UI label. Use “charge point” for the EVSE; avoid generic “charger” when precision is needed.",
+      "usageRules": "Use \"charge point\" for the EVSE; avoid generic \"charger\" when precision is needed.",
       "translations": [
         {
           "languageCode": "en",
@@ -10031,7 +10031,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use “hardware agnostic” in sentence case in running text; capitalize only in headings or UI labels. Do not imply support for unsupported models; reference the certified hardware list where relevant. Not a partnership or endorsement claim.",
+      "usageRules": "Do not imply support for unsupported models; reference the certified hardware list where relevant. Not a partnership or endorsement claim.",
       "translations": [
         {
           "languageCode": "en",
@@ -10117,7 +10117,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text; capitalize only when part of a proper name (e.g., “ABB hardware manufacturer” → “ABB”). Not the same as a charge point operator (CPO) or installer; use the precise role. Pluralize as “hardware manufacturers”; do not abbreviate.",
+      "usageRules": "Not the same as a charge point operator (CPO) or installer; use the precise role. Pluralise as \"hardware manufacturers\"; do not abbreviate.",
       "translations": [
         {
           "languageCode": "en",
@@ -10370,7 +10370,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text; in technical contexts prefer “home charge point” for precision. Do not use for workplace or public chargers. Avoid using “charger” to refer to cables or adapters.",
+      "usageRules": "Prefer \"home charge point\" in technical contexts. Do not use for workplace or public chargers. Avoid using \"charger\" to refer to cables or adapters.",
       "translations": [
         {
           "languageCode": "en",
@@ -10461,7 +10461,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text (“home charging”); capitalize only in headings or UI labels. Use for private residential contexts; do not use for workplace or public charging. Use “home charger” or “home charge point” for the device; use “home charging” for the activity.",
+      "usageRules": "Use for private residential contexts; do not use for workplace or public charging. Use \"home charger\" or \"home charge point\" for the device; use \"home charging\" for the activity.",
       "translations": [
         {
           "languageCode": "en",
@@ -10547,7 +10547,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case (“home energy”) in running text; capitalize only in headings or UI labels. Use when describing the overall residential energy setup; name specific devices/features when needed. Avoid using as a product name unless labeled in UI; otherwise describe the capability.",
+      "usageRules": "Use when describing the overall residential energy setup; name specific devices/features when needed. Avoid using as a product name unless labeled in UI; otherwise describe the capability.",
       "translations": [
         {
           "languageCode": "en",
@@ -10633,7 +10633,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text; capitalize only when part of a legal entity’s proper name. Use for multi-dwelling/shared residential contexts; not for single-family homes or commercial sites. Prefer “housing association” over “HOA” unless the local market requires that term.",
+      "usageRules": "Use for multi-dwelling/shared residential contexts; not for single-family homes or commercial sites. Prefer \"housing association\" over \"HOA\" unless the local market requires that term.",
       "translations": [
         {
           "languageCode": "en",
@@ -10719,7 +10719,7 @@
       "forbidden": false,
       "tags": "brand",
       "pluralForm": "",
-      "usageRules": "Use the exact product name “Hub”; do not use “portal.” Uninflected across all languages, treated as brand-like identifier. Capitalize “Hub” in all references; avoid abbreviations.",
+      "usageRules": "Use the exact product name \"Hub\"; do not use \"portal.\" Uninflected across all languages, treated as brand-like identifier.",
       "translations": [
         {
           "languageCode": "da",
@@ -10810,7 +10810,7 @@
       "forbidden": false,
       "tags": "brand",
       "pluralForm": "",
-      "usageRules": "Capitalize “Hypercare” when referring to the formal support phase. Reference the specific scope (products, SLAs, duration) when documented.",
+      "usageRules": "Reference the specific scope (products, SLAs, duration) when documented.",
       "translations": [
         {
           "languageCode": "en",
@@ -10896,7 +10896,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Write “IBAN” in all caps; spell out “International Bank Account Number” on first mention if needed. Do not localize the acronym; follow local formatting rules only when displaying IBANs from user input. Not interchangeable with “account number” or “BIC/SWIFT.”",
+      "usageRules": "Do not localise the acronym; follow local formatting rules only when displaying IBANs from user input. Not interchangeable with \"account number\" or \"BIC/SWIFT\".",
       "translations": [
         {
           "languageCode": "en",
@@ -10982,7 +10982,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text (“ICE vehicle” with ICE in caps). Do not use “gas car” in formal copy; use “ICE vehicle.” Pluralize as “ICE vehicles.”",
+      "usageRules": "Do not use \"gas car\" in formal copy; use \"ICE vehicle.\" Pluralise as \"ICE vehicles\".",
       "translations": [
         {
           "languageCode": "en",
@@ -11068,7 +11068,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case (“idle fee”) in running text; capitalize only in UI labels. Distinguish from energy pricing; applies post-charge completion.",
+      "usageRules": "Distinguish from energy pricing; applies post-charge completion.",
       "translations": [
         {
           "languageCode": "en",
@@ -11154,7 +11154,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case (“idle time”) in running text; capitalize only in UI labels. Not a synonym for “parking time.”",
+      "usageRules": "Not a synonym for \"parking time\".",
       "translations": [
         {
           "languageCode": "en",
@@ -11387,7 +11387,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case; capitalize only if matching a specific UI status.",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "en",
@@ -11473,7 +11473,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Capitalize “Insights” only if referring to a named module; otherwise use “insights” in sentence case. Do not use as a synonym for “reports” when referring to downloadable invoices or receipts.",
+      "usageRules": "Do not use as a synonym for \"reports\" when referring to downloadable invoices or receipts.",
       "translations": [
         {
           "languageCode": "en",
@@ -11559,7 +11559,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text; avoid using as a job role.",
+      "usageRules": "Avoid using as a job role.",
       "translations": [
         {
           "languageCode": "en",
@@ -11645,7 +11645,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case; capitalize only when part of a proper title. Not the same as a charge point operator (CPO) or site owner. Pluralize as “installers”; do not abbreviate.",
+      "usageRules": "Not the same as a charge point operator (CPO) or site owner. Pluralise as \"installers\"; do not abbreviate.",
       "translations": [
         {
           "languageCode": "en",
@@ -11731,7 +11731,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Sentence title when used as a stand-alone UI label. Use for time-bound commissioning tasks; not for ongoing maintenance.",
+      "usageRules": "Use for time-bound commissioning tasks; not for ongoing maintenance.",
       "translations": [
         {
           "languageCode": "en",
@@ -11903,7 +11903,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text; capitalize only when naming a specific integration. Distinguish from “API” when referring to the interface itself.",
+      "usageRules": "Distinguish from \"API\" when referring to the interface itself.",
       "translations": [
         {
           "languageCode": "en",
@@ -11989,7 +11989,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text; capitalize only in UI labels or document titles. Do not confuse with “receipt” (proof of payment for a single transaction).",
+      "usageRules": "Do not confuse with \"receipt\" (proof of payment for a single transaction).",
       "translations": [
         {
           "languageCode": "en",
@@ -12096,7 +12096,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Write in sentence case (“join code”) in running text; capitalize to match exact UI labels (“Join code”). Use “a join code” with the indefinite article; pluralize as “join codes.”",
+      "usageRules": "Use \"a join code\" with the indefinite article; pluralise as \"join codes\".",
       "translations": [
         {
           "languageCode": "en",
@@ -12268,7 +12268,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case (“kWh price”) in running text; capitalize only in UI labels. Distinguish from time-based pricing (per minute) and fees. Do not abbreviate or use as a product name.",
+      "usageRules": "Distinguish from time-based pricing (per minute) and fees. Do not abbreviate or use as a product name.",
       "translations": [
         {
           "languageCode": "en",
@@ -12440,7 +12440,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text; capitalize only in UI labels. Distinguish from “load management” (broader strategy). Avoid using as a synonym for “fuse protection.”",
+      "usageRules": "Distinguish from \"load management\" (broader strategy). Avoid using as a synonym for \"fuse protection\".",
       "translations": [
         {
           "languageCode": "en",
@@ -12526,7 +12526,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text; capitalize only in UI labels. Use when describing site-wide or multi-site optimization.",
+      "usageRules": "Use when describing site-wide or multi-site optimisation.",
       "translations": [
         {
           "languageCode": "en",
@@ -13078,7 +13078,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text; capitalize only in UI labels. Always state unit (per kWh or per minute).",
+      "usageRules": "Always state unit (per kWh or per minute).",
       "translations": [
         {
           "languageCode": "en",
@@ -13250,7 +13250,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Capitalize only when referring to the role label in UI (“Member”). Distinguish from “Manager” and “Owner.” Use for account membership; not for marketplace or subscription membership. Pluralize as “members.”",
+      "usageRules": "Distinguish from \"Manager\" and \"Owner\". Use for account membership; not for marketplace or subscription membership. Pluralise as \"members\".",
       "translations": [
         {
           "languageCode": "en",
@@ -13336,7 +13336,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text; capitalize only in UI labels. Distinguish from “member price” (the rate per unit).",
+      "usageRules": "Distinguish from \"member price\" (the rate per unit).",
       "translations": [
         {
           "languageCode": "en",
@@ -13508,7 +13508,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text; capitalize only in UI labels. Distinguish from “member fee” (additional cost) and “master price.”",
+      "usageRules": "Distinguish from \"member fee\" (additional cost) and \"master price\".",
       "translations": [
         {
           "languageCode": "en",
@@ -13594,7 +13594,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text; capitalize only in UI labels. Use when grouping multiple member prices under one configuration. Clarify priority and inheritance relative to master price.",
+      "usageRules": "Use when grouping multiple member prices under one configuration. Clarify priority and inheritance relative to master price.",
       "translations": [
         {
           "languageCode": "en",
@@ -13680,7 +13680,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Capitalize role names when they match exact UI labels. Use for access control and governance; not a job title.",
+      "usageRules": "Use for access control and governance; not a job title.",
       "translations": [
         {
           "languageCode": "en",
@@ -13766,7 +13766,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence case; capitalize only in UI or compliance headings. Reference standards (e.g., MID) where required.",
+      "usageRules": "Reference standards (e.g., MID) where required.",
       "translations": [
         {
           "languageCode": "en",
@@ -13938,7 +13938,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text; capitalize only in UI labels.",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "en",
@@ -14024,7 +14024,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Write “MID” in all caps; spell out on first mention if needed. Use only when referring to the directive or certified devices.",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "en",
@@ -14740,7 +14740,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Write the acronym “NFC”; spell out on first mention if needed. Use for authentication at the charger; not for in-app (Charge) flows.",
+      "usageRules": "Use for authentication at the charger; not for in-app (Charge) flows.",
       "translations": [
         {
           "languageCode": "en",
@@ -14912,7 +14912,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Write 'OCPI' in all caps. Spell out 'Open Charge Point Interface' on first mention if needed.",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "da",
@@ -15084,7 +15084,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Write “OCPP” in all caps; spell out on first mention if needed. Do not conflate with OCPI (roaming).",
+      "usageRules": "Do not conflate with OCPI (roaming).",
       "translations": [
         {
           "languageCode": "en",
@@ -15271,7 +15271,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Write “OICP” in all caps; spell out on first mention if needed. Distinguish from OCPI; specify which protocol is used per partner.",
+      "usageRules": "Distinguish from OCPI; specify which protocol is used per partner.",
       "translations": [
         {
           "languageCode": "en",
@@ -15696,7 +15696,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Write “P2P” in all caps; spell out on first mention if needed.",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "en",
@@ -16126,7 +16126,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case (“payment”) in running text and in UI. Distinguish from “payout” (funds sent to a bank) and “invoice” (document). Do not use as a synonym for “pricing” or “tariff.”",
+      "usageRules": "Distinguish from \"payout\" (funds sent to a bank) and \"invoice\" (document). Do not use as a synonym for \"pricing\" or \"tariff\".",
       "translations": [
         {
           "languageCode": "en",
@@ -16212,7 +16212,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use sentence title in running text and in UI labels. Use for on-site card acceptance; not for in-app payments.",
+      "usageRules": "Use for on-site card acceptance; not for in-app payments.",
       "translations": [
         {
           "languageCode": "en",
@@ -16728,7 +16728,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('price group'). Capitalize only the first word as a UI label ('Price group'). Distinguish from 'master price' (base rate) and 'member price' (internal rate).",
+      "usageRules": "Distinguish from 'master price' (base rate) and 'member price' (internal rate).",
       "translations": [
         {
           "languageCode": "da",
@@ -16831,7 +16831,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('production forecast'). Use for predicted generation only; do not use for consumption ('load forecast'). Specify time window and source when relevant.",
+      "usageRules": "Use for predicted generation only; do not use for consumption ('load forecast'). Specify time window and source when relevant.",
       "translations": [
         {
           "languageCode": "da",
@@ -17109,7 +17109,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use “public link” in running text; capitalize only when it matches a UI label or title (“Public Link”). Plural: “public links.” Use the article “a public link.” Avoid abbreviations.",
+      "usageRules": "Plural: \"public links\". Use the article \"a public link\". Avoid abbreviations.",
       "translations": [
         {
           "languageCode": "en",
@@ -17195,7 +17195,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('public price'). Capitalize only the first word as a UI label ('Public price'). Distinguish from 'member price' and 'master price'.",
+      "usageRules": "Distinguish from 'member price' and 'master price'.",
       "translations": [
         {
           "languageCode": "da",
@@ -17281,7 +17281,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('reboot'). Capitalize only as a UI label ('Reboot'). Use as a verb for device restart actions; not for application restarts.",
+      "usageRules": "Use as a verb for device restart actions; not for application restarts.",
       "translations": [
         {
           "languageCode": "da",
@@ -17539,7 +17539,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('referral'). Distinguish from 'promotion code' and 'invite link'.",
+      "usageRules": "Distinguish from 'promotion code' and 'invite link'.",
       "translations": [
         {
           "languageCode": "da",
@@ -17625,7 +17625,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('refill'). Capitalize only as a UI label ('Refill'). Use 'refill' for adding funds; use 'withdrawal' for moving funds out. Do not use as a synonym for 'top-up' if the UI uses 'Refill'.",
+      "usageRules": "Use 'refill' for adding funds; use 'withdrawal' for moving funds out. Do not use as a synonym for 'top-up' if the UI uses 'Refill'.",
       "translations": [
         {
           "languageCode": "da",
@@ -18163,7 +18163,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('reliability'). Pair with concrete KPIs (uptime %, success rate, MTTR). Distinguish platform reliability from hardware reliability where relevant.",
+      "usageRules": "Pair with concrete KPIs (uptime %, success rate, MTTR). Distinguish platform reliability from hardware reliability where relevant.",
       "translations": [
         {
           "languageCode": "da",
@@ -18335,7 +18335,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('reverse charge'). Geo-specific EU VAT term used in invoices. For non-EU locales, use a descriptive translation; do not substitute the nearest local concept.",
+      "usageRules": "Geo-specific EU VAT term used in invoices. For non-EU locales, use a descriptive translation; do not substitute the nearest local concept.",
       "translations": [
         {
           "languageCode": "da",
@@ -18421,7 +18421,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Write “RFID” in all caps. Distinguish from NFC and Plug&Charge flows.",
+      "usageRules": "Distinguish from NFC and Plug&Charge flows.",
       "translations": [
         {
           "languageCode": "en",
@@ -18507,7 +18507,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('roaming'). Capitalize only as a UI feature label ('Roaming').",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "da",
@@ -18679,7 +18679,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('schedule'). Capitalize only as a UI label ('Schedule'). Use 'to schedule' as the verb; avoid synonyms like 'plan' or 'set'. Not a synonym for 'forecast' or 'booking'.",
+      "usageRules": "Use 'to schedule' as the verb; avoid synonyms like 'plan' or 'set'. Not a synonym for 'forecast' or 'booking'.",
       "translations": [
         {
           "languageCode": "da",
@@ -18778,7 +18778,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('scheduled charging'). Capitalize only as a UI label. Distinguish from 'smart charging' (price-signal driven).",
+      "usageRules": "Distinguish from 'smart charging' (price-signal driven).",
       "translations": [
         {
           "languageCode": "da",
@@ -19051,7 +19051,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('self-healing'). Capitalize only as a UI label. Used both as noun and adjective.",
+      "usageRules": "Used both as noun and adjective.",
       "translations": [
         {
           "languageCode": "da",
@@ -19244,7 +19244,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('serial number'). Capitalize only as a UI label ('Serial number'). Do not confuse with 'Meter ID', 'IMEI', or 'device ID'. Keep formatting exactly as on the device label.",
+      "usageRules": "Do not confuse with 'Meter ID', 'IMEI', or 'device ID'. Keep formatting exactly as on the device label.",
       "translations": [
         {
           "languageCode": "da",
@@ -19330,7 +19330,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('service provider'). Capitalize only as a UI label or part of a proper name.",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "da",
@@ -19664,7 +19664,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('smart charge'). Capitalize only as a UI label ('Smart charge').",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "da",
@@ -19750,7 +19750,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('smart charging'). Capitalize only as a UI label ('Smart charging'). Do not modify the spelling (avoid 'SmartCharge') or introduce synonyms like 'intelligent charging'.",
+      "usageRules": "Do not modify the spelling (avoid 'SmartCharge') or introduce synonyms like 'intelligent charging'.",
       "translations": [
         {
           "languageCode": "da",
@@ -19872,7 +19872,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('solar charging'). Capitalize only as a UI label ('Solar charging'). Distinguish from 'solar surplus charging'. Do not modify the label (avoid 'SolarCharge').",
+      "usageRules": "Distinguish from 'solar surplus charging'. Do not modify the label (avoid 'SolarCharge').",
       "translations": [
         {
           "languageCode": "da",
@@ -19958,7 +19958,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('solar surplus charging'). Capitalize only as a UI label. Distinguish from generic 'solar charging'.",
+      "usageRules": "Distinguish from generic 'solar charging'.",
       "translations": [
         {
           "languageCode": "da",
@@ -20534,7 +20534,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('spot price'). Capitalize only as a UI label ('Spot price'). Distinguish from fixed price and member price tariffs.",
+      "usageRules": "Distinguish from fixed price and member price tariffs.",
       "translations": [
         {
           "languageCode": "da",
@@ -20620,7 +20620,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Write 'SSO' in all caps. On first mention write 'Single Sign-On (SSO)'; use 'SSO' thereafter. Distinguish from MFA and password login.",
+      "usageRules": "Distinguish from MFA and password login.",
       "translations": [
         {
           "languageCode": "da",
@@ -20792,7 +20792,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('start time'). Capitalize only as a UI label ('Start time').",
+      "usageRules": null,
       "translations": [
         {
           "languageCode": "da",
@@ -20964,7 +20964,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('statement'). Capitalize only as a UI label. Distinguish from 'invoice' (bill) and 'receipt' (proof of payment).",
+      "usageRules": "Distinguish from 'invoice' (bill) and 'receipt' (proof of payment).",
       "translations": [
         {
           "languageCode": "da",
@@ -21136,7 +21136,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('sticker'). Capitalize only as a UI label ('Sticker'). Distinguish from 'RFID card/key' and 'Payment Terminal'.",
+      "usageRules": "Distinguish from 'RFID card/key' and 'Payment Terminal'.",
       "translations": [
         {
           "languageCode": "da",
@@ -21409,7 +21409,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use sentence case in running text (\"support settings\"). Capitalize only as a UI label. Distinguish from \"roles\" (permissions) and \"status page\" (service health).",
+      "usageRules": "Distinguish from 'roles' (permissions) and 'status page' (service health).",
       "translations": [
         {
           "languageCode": "da",
@@ -21581,7 +21581,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text (\"surplus energy\"). Capitalize only as a UI label. Distinguish from \"solar charging\" (general concept) and \"export\" (energy sent to grid).",
+      "usageRules": "Distinguish from \"solar charging\" (general concept) and \"export\" (energy sent to grid).",
       "translations": [
         {
           "languageCode": "da",
@@ -21677,7 +21677,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text. Use \"swipe to start\" / \"swipe to stop\" for action copy; avoid synonyms like \"slide\". Do not use for Hub actions — Charge (B2C) only.",
+      "usageRules": "Use \"swipe to start\" / \"swipe to stop\" for action copy; avoid synonyms like \"slide\". Do not use for Hub actions — Charge (B2C) only.",
       "translations": [
         {
           "languageCode": "da",
@@ -21763,7 +21763,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('tariff'). Capitalize only as a UI label ('Tariff'). Distinguish from 'price group' (configuration entity) and 'master price' (base rate).",
+      "usageRules": "Distinguish from 'price group' (configuration entity) and 'master price' (base rate).",
       "translations": [
         {
           "languageCode": "da",
@@ -22284,7 +22284,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('theme'). Capitalize only as a UI label ('Theme'). Do not imply functional changes; theme affects appearance only.",
+      "usageRules": "Do not imply functional changes; theme affects appearance only.",
       "translations": [
         {
           "languageCode": "da",
@@ -22465,7 +22465,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('transaction fee'). Capitalize only as a UI label ('Transaction fee'). Distinguish from 'start fee', 'idle fee', and 'service fee'.",
+      "usageRules": "Distinguish from 'start fee', 'idle fee', and 'service fee'.",
       "translations": [
         {
           "languageCode": "da",
@@ -22637,7 +22637,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('user'). Capitalize only as a UI label ('User'). Distinguish from 'Member/Manager/Owner' (roles). Avoid 'driver' unless specifically referring to B2C usage.",
+      "usageRules": "Distinguish from 'Member/Manager/Owner' (roles). Avoid 'driver' unless specifically referring to B2C usage.",
       "translations": [
         {
           "languageCode": "da",
@@ -22723,7 +22723,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use lowercase in running text ('user role'). Capitalize only as a UI label ('User role'). Do not invent new role names; use the approved set.",
+      "usageRules": "Do not invent new role names; use the approved set.",
       "translations": [
         {
           "languageCode": "da",
@@ -22809,7 +22809,7 @@
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Write 'VAT' in all caps. Use 'VAT' where it is the legal standard; do not mix with 'sales tax' (U.S. concept). Follow localization rules for wording, rounding, and export formats.",
+      "usageRules": "Use 'VAT' where it is the legal standard; do not mix with 'sales tax' (US concept). Follow localisation rules for wording, rounding, and export formats.",
       "translations": [
         {
           "languageCode": "da",
