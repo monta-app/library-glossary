@@ -4,7 +4,7 @@
       "id": 224,
       "term": "AC",
       "sense": null,
-      "description": "Description:\n Type of charge point providing slower charging speeds, typically used in home, workplace, or public locations.",
+      "description": "Type of charge point providing slower charging speeds, typically used in home, workplace, or public locations.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -83,7 +83,12 @@
           "grammarNotes": null
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "alternating current",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -262,7 +267,7 @@
       "id": 228,
       "term": "Admin",
       "sense": null,
-      "description": "Description: A user role in Monta Hub with full access to account management, permissions, and organizational configurations for Business plan users.",
+      "description": "A user role in Monta Hub with full access to account management, permissions, and organizational configurations for Business plan users.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -348,85 +353,14 @@
       "id": 229,
       "term": "Advenir",
       "sense": null,
-      "description": "Description: A French government incentive program that supports the installation and expansion of EV charging infrastructure across France. Advenir provides financial aid to promote the adoption of electric mobility.",
+      "description": "A French government incentive program that supports the installation and expansion of EV charging infrastructure across France. Advenir provides financial aid to promote the adoption of electric mobility.",
       "caseSensitive": false,
-      "translatable": true,
+      "translatable": false,
       "forbidden": false,
-      "tags": "industry,brand",
+      "tags": "industry",
       "pluralForm": "",
       "usageRules": "Always capitalize as a proper name (\"Advenir\"). Keep in French; do not translate or localize.",
-      "translations": [
-        {
-          "languageCode": "en",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "da",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "Advenir",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "Advenir",
-          "grammarNotes": null
-        }
-      ],
+      "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
     },
@@ -434,7 +368,7 @@
       "id": 225,
       "term": "AFIR ",
       "sense": null,
-      "description": "Description: Acronym for Alternative Fuels Infrastructure Regulation, an EU regulation that establishes binding targets for the deployment of EV charging and refueling infrastructure across member states.",
+      "description": "Acronym for Alternative Fuels Infrastructure Regulation, an EU regulation that establishes binding targets for the deployment of EV charging and refueling infrastructure across member states.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -520,13 +454,13 @@
       "id": 49,
       "term": "alert",
       "sense": null,
-      "description": "Description: A system-generated notification that informs operators about important operational or device-related events, such as errors, outages, or failed charges. Alerts are automatically triggered when specific conditions or thresholds are met.",
+      "description": "A system-generated notification that informs operators about important operational or device-related events, such as errors, outages, or failed charges. Alerts are automatically triggered when specific conditions or thresholds are met.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use alert in lowercase in running text. Capitalize only when part of a UI label, menu item, or title (e.g., Alert Settings, New Alert). Do not use interchangeably with notification - alert refers to automated, event-driven system messages, while notification may include general updates or communications. Use consistently in contexts describing system logic, monitoring, or operator responses.",
+      "usageRules": "Do not use interchangeably with notification - alert refers to automated, event-driven system messages, while notification may include general updates or communications. Use consistently in contexts describing system logic, monitoring, or operator responses.",
       "translations": [
         {
           "languageCode": "en",
@@ -611,13 +545,13 @@
       "id": 50,
       "term": "alert group",
       "sense": null,
-      "description": "Description: A configuration feature that allows users to organize and manage alerts for charge points, charging sites, or teams. Alert groups ensure that the appropriate people are notified when specific incidents or conditions occur.",
+      "description": "A configuration feature that allows users to organize and manage alerts for charge points, charging sites, or teams. Alert groups ensure that the appropriate people are notified when specific incidents or conditions occur.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use alert group in lowercase in running text. Capitalize when referring to the feature name or in UI contexts (e.g., Alert Groups, Create Alert Group). Avoid using interchangeably with notification group or team alerts, alert group refers specifically to system-triggered operational events. Use only in contexts describing monitoring, alert management, or incident response settings.",
+      "usageRules": "Avoid using interchangeably with notification group or team alerts, alert group refers specifically to system-triggered operational events. Use only in contexts describing monitoring, alert management, or incident response settings.",
       "translations": [
         {
           "languageCode": "en",
@@ -697,13 +631,13 @@
       "id": 230,
       "term": "Alternative Fuels Infrastructure Regulation",
       "sense": null,
-      "description": "Description: An EU regulation that sets mandatory targets for member states to deploy accessible and interoperable alternative fuel infrastructure, including EV charging and refuelling stations. It aims to support the transition to sustainable mobility across the EU.",
+      "description": "An EU regulation that sets mandatory targets for member states to deploy accessible and interoperable alternative fuel infrastructure, including EV charging and refuelling stations. It aims to support the transition to sustainable mobility across the EU.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use the full name Alternative Fuels Infrastructure Regulation on first mention, followed by the acronym in parentheses - Alternative Fuels Infrastructure Regulation (AFIR). Use AFIR alone in subsequent mentions. Keep capitalization exactly as in the official title. Do not translate or abbreviate further. Use only in contexts related to compliance, infrastructure deployment, or EU regulatory standards.",
+      "usageRules": "Use the full name Alternative Fuels Infrastructure Regulation on first mention, followed by the acronym in parentheses - Alternative Fuels Infrastructure Regulation (AFIR). Use AFIR alone in subsequent mentions. Keep capitalization exactly as in the official title.  Use only in contexts related to compliance, infrastructure deployment, or EU regulatory standards.",
       "translations": [
         {
           "languageCode": "en",
@@ -789,7 +723,7 @@
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Always write 'API' in all caps.",
+      "usageRules": "Always write 'API' in all caps, never spell out",
       "translations": [
         {
           "languageCode": "en",
@@ -890,7 +824,7 @@
       "id": 227,
       "term": "API key",
       "sense": null,
-      "description": "Description: A unique identifier used to authenticate and validate a client’s identity when sending requests to the Monta API. It ensures secure communication between systems and prevents unauthorized access.",
+      "description": "A unique identifier used to authenticate and validate a client’s identity when sending requests to the Monta API. It ensures secure communication between systems and prevents unauthorized access.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -976,13 +910,13 @@
       "id": 232,
       "term": "App Clips",
       "sense": null,
-      "description": "Description: Lightweight Apple experience that lets iOS drivers start a charge or complete a quick action in Monta Charge without installing the full app.",
+      "description": "Lightweight Apple experience that lets iOS drivers start a charge or complete a quick action in Monta Charge without installing the full app.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry,brand",
       "pluralForm": "",
-      "usageRules": "Use “App Clips” (Apple’s official term). Translatable: Partial - FR Extrait d’app, FR_CA Extrait d’appli. Keep capitalization: Both words capitalized. Mention only when the experience differs from the full app. Do not equate with Shortcuts, Widgets, or Instant Apps. For Android, reference the equivalent “Instant Apps.”",
+      "usageRules": "Use “App Clips” (Apple’s official term).  Keep capitalization: Both words capitalized. Mention only when the experience differs from the full app. Do not equate with Shortcuts, Widgets, or Instant Apps. For Android, reference the equivalent “Instant Apps.”",
       "translations": [
         {
           "languageCode": "en",
@@ -1062,7 +996,7 @@
       "id": 231,
       "term": "App Store",
       "sense": null,
-      "description": "Description: Apple’s digital marketplace for downloading and updating iOS and iPadOS applications, including the Monta Charge app.",
+      "description": "Apple’s digital marketplace for downloading and updating iOS and iPadOS applications, including the Monta Charge app.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -1163,7 +1097,7 @@
       "id": 51,
       "term": "auto refill",
       "sense": "noun",
-      "description": "Description: Automatic top-up feature in the wallet > Refill section that adds funds when the balance reaches a defined threshold. Users can set the trigger amount and refill value.",
+      "description": "Automatic top-up feature in the wallet > Refill section that adds funds when the balance reaches a defined threshold. Users can set the trigger amount and refill value.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -1249,13 +1183,13 @@
       "id": 233,
       "term": "auto withdrawal",
       "sense": null,
-      "description": "Description: Automatic monthly transfer feature in the wallet > Withdraw section that moves available funds to a linked bank account.",
+      "description": "Automatic monthly transfer feature in the wallet > Withdraw section that moves available funds to a linked bank account.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Capitalize only the first word in UI contexts (“Auto withdrawal”). Keep phrasing consistent with the in-app label.",
+      "usageRules": "",
       "translations": [
         {
           "languageCode": "en",
@@ -1335,13 +1269,13 @@
       "id": 234,
       "term": "Autocharge",
       "sense": null,
-      "description": "Description: Monta feature that automatically starts a charging session when a registered EV is plugged into a compatible charge point.",
+      "description": "Monta feature that automatically starts a charging session when a registered EV is plugged into a compatible charge point.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "product,brand",
       "pluralForm": "",
-      "usageRules": "Use sentence case for stand alone UI labels, beginning of the sentence. use lower case when in the running texts. Avoid short form auto, as it implies “car” Use only for describing this specific B2C feature.",
+      "usageRules": "Avoid short form auto, as it implies “car” Use only for describing this specific B2C feature.",
       "translations": [
         {
           "languageCode": "en",
@@ -1421,13 +1355,13 @@
       "id": 52,
       "term": "automatic reading",
       "sense": null,
-      "description": "Description: Remote collection of data from an electricity meter, where consumption data is recorded and made accessible to the service provider for monitoring and reporting.",
+      "description": "Remote collection of data from an electricity meter, where consumption data is recorded and made accessible to the service provider for monitoring and reporting.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use lowercase. Prefer “automatic reading” over “auto reading.” Avoid abbreviations or rephrasing.",
+      "usageRules": "Prefer “automatic reading” over “auto reading.” Avoid abbreviations or rephrasing.",
       "translations": [
         {
           "languageCode": "en",
@@ -2453,7 +2387,7 @@
       "id": 253,
       "term": "charge",
       "sense": "noun",
-      "description": "Description: Noun. The event or session during which an EV is connected to a charge point and receives electricity until completion.",
+      "description": "The event or session during which an EV is connected to a charge point and receives electricity until completion.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -2539,7 +2473,7 @@
       "id": 254,
       "term": "Charge",
       "sense": "app name",
-      "description": "Description: Monta’s mobile app for EV drivers to find, start, schedule, and pay for charging sessions.",
+      "description": "Monta’s mobile app for EV drivers to find, start, schedule, and pay for charging sessions.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -2625,7 +2559,7 @@
       "id": 255,
       "term": "charge",
       "sense": "noun – compound modifier",
-      "description": "Description: Adjective. Used to describe a charging-related object, log, or record linked to a session or transaction. Examples: “charge log,” “charge ID,” “charge object.”",
+      "description": "Used to describe a charging-related object, log, or record linked to a session or transaction. Examples: “charge log,” “charge ID,” “charge object.”",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -2711,7 +2645,7 @@
       "id": 60,
       "term": "charge",
       "sense": "verb",
-      "description": "Description: Verb. To supply electricity to an EV using a charge point or compatible setup.",
+      "description": "To supply electricity to an EV using a charge point or compatible setup.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -3748,7 +3682,7 @@
       "id": 258,
       "term": "charging",
       "sense": "participle – compound modifier",
-      "description": "Description: Adjective. Describes states, processes, or attributes related to an ongoing charge. Examples: “charging session,” “charging port,” “charging time.”",
+      "description": "Describes states, processes, or attributes related to an ongoing charge. Examples: \"charging session,\" \"charging port,\" \"charging time.\"",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -4703,7 +4637,7 @@
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "industry, b2b",
+      "tags": "industry",
       "pluralForm": "",
       "usageRules": "Use in all B2B monorepo frontends (Hub, Control, Installer, portals). Do not use in the Charge mobile app (B2C) — hardware level is not exposed to drivers; use \"charge point\" instead. A charging station contains one or more EVSEs. Do not use as a synonym for EVSE. Replaces ambiguous use of \"charge point\" at the hardware level. Example: a HYC400 with two outlets = one charging station with two EVSEs.",
       "translations": [
@@ -4803,7 +4737,7 @@
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "product, ocpp-proxy,technical,ocpp-spec",
+      "tags": "industry",
       "pluralForm": "",
       "usageRules": "",
       "translations": [
@@ -5226,7 +5160,7 @@
       "id": 91,
       "term": "connect",
       "sense": null,
-      "description": "Description: Verb used when a charge point or external system establishes a link with Monta software, either via OCPP (Open Charge Point Protocol), Partner API, or physical plug-in connection by a driver.",
+      "description": "Used when a charge point or external system establishes a link with Monta software, either via OCPP (Open Charge Point Protocol), Partner API, or physical plug-in connection by a driver.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -7003,7 +6937,7 @@
       "id": 101,
       "term": "deposit",
       "sense": null,
-      "description": "Description: Noun, funds added to a user’s or team’s Monta Wallet and made available for payments or transactions such as charging, or subscriptions. Deposits are withdrawable.",
+      "description": "Funds added to a user's or team's Monta Wallet and made available for payments or transactions such as charging, or subscriptions. Deposits are withdrawable.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -7093,7 +7027,7 @@
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "ocpp-proxy,technical",
+      "tags": "industry",
       "pluralForm": null,
       "usageRules": "CRITICAL for German: Do NOT use \"Zielgruppe\" — this is an established German marketing term meaning \"target audience / target demographic\" and will confuse OCPP operators managing routing configuration. Use \"Routing-Gruppe\" instead. For all other languages, translate the concept of a routing destination group literally — the word \"destination\" carries no special ambiguity in French, Dutch, Swedish, Danish, or the other target languages.",
       "translations": [
@@ -8537,7 +8471,7 @@
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "tags": "industry, b2b",
+      "tags": "industry",
       "pluralForm": "",
       "usageRules": "Use in all B2B monorepo frontends (Hub, Control, Installer, portals) when referring to individual outlets or supply units within a charging station. Do not use in the Charge mobile app (B2C) — use \"charger\" instead. EVSE is not a synonym for \"charging station\". A charging station contains one or more EVSEs. Do not replace EVSE with \"charge point\" — that term is forbidden. Example: a HYC400 with two outlets = one charging station with two EVSEs.",
       "translations": [
@@ -15234,7 +15168,7 @@
       "caseSensitive": true,
       "translatable": false,
       "forbidden": false,
-      "tags": "industry, product",
+      "tags": "product",
       "pluralForm": "",
       "usageRules": "Do not translate in any language. Keep as \"OCPP Proxy\" verbatim across all locales. Industry research confirms no language in the EV charging sector has a native-language equivalent — German, Danish, French, and Dutch EV industry content all use \"OCPP Proxy\" or \"OCPP-Proxy\" unchanged. It is both a Monta product name and a universal networking term. Some German vendors use \"OCPP Broker\" as an alternative product name (still English) — this is a synonym, not a translation. Do not substitute \"Broker\" for \"Proxy\" in Monta copy.",
       "translations": [],
@@ -17158,7 +17092,7 @@
       "caseSensitive": false,
       "translatable": false,
       "forbidden": false,
-      "tags": "ocpp-proxy,product-name,technical",
+      "tags": "industry",
       "pluralForm": null,
       "usageRules": "Do not translate in any language. \"Proxy domain\" is a Monta-invented product term with no established equivalent in any target language and no OCPP specification precedent. The word \"domain\" in this context refers to a routing scope, not a web/DNS domain, but no better equivalent exists in any of the 9 target languages. Keeping it in English signals to operators that this is a named product concept. Do not render as \"Proxy-Domäne\" (German), \"domaine proxy\" (French), or any other literal translation.",
       "translations": [],
@@ -19919,83 +19853,12 @@
       "sense": null,
       "description": "Abbreviation for State of Charge — the current EV battery level expressed as a percentage of total capacity. Industry-standard abbreviation used across EV interfaces globally.",
       "caseSensitive": true,
-      "translatable": true,
+      "translatable": false,
       "forbidden": false,
-      "tags": null,
-      "pluralForm": null,
+      "tags": "industry",
+      "pluralForm": "",
       "usageRules": "Keep as SoC (capital S, lowercase o, capital C) in all target languages — do not translate, expand, or localise.",
-      "translations": [
-        {
-          "languageCode": "da",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_CA",
-          "translation": "SoC",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en",
-          "translation": "SoC",
-          "grammarNotes": null
-        }
-      ],
+      "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
     },
@@ -22940,7 +22803,7 @@
       "id": 276,
       "term": "VAT",
       "sense": "precentage",
-      "description": "Description: a percentage tax rate applied to the price of goods or services and shown on Monta invoices. It is relevant for EU transactions, including cross-border sales; in a U.S. context, the rough equivalent concept is “sales tax.”",
+      "description": "A tax rate applied to the price of goods or services and shown on Monta invoices. It is relevant for EU transactions, including cross-border sales; in a U.S. context, the rough equivalent concept is “sales tax.”",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -23026,7 +22889,7 @@
       "id": 44,
       "term": "VAT",
       "sense": "code",
-      "description": "Description: A unique code assigned for businesses registered for Value Added Tax, used to identify taxable entities in EU and international trade. Typically formatted as an ISO country code (e.g., DK, DE, FR) followed by a numeric or alphanumeric sequence per local rules.",
+      "description": "A unique code assigned for businesses registered for Value Added Tax, used to identify taxable entities in EU and international trade. Typically formatted as an ISO country code (e.g., DK, DE, FR) followed by a numeric or alphanumeric sequence per local rules.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -23112,7 +22975,7 @@
       "id": 45,
       "term": "VAT export ",
       "sense": null,
-      "description": "Description: EU VAT term for transactions taxed at 0% (zero-rated) due to export rules. Although no VAT is charged, the sale must be shown on the invoice with the correct legal reference and included in VAT reports/exports.",
+      "description": "EU VAT term for transactions taxed at 0% (zero-rated) due to export rules. Although no VAT is charged, the sale must be shown on the invoice with the correct legal reference and included in VAT reports/exports.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
