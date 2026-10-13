@@ -10395,6 +10395,98 @@
       "additionalDescriptions": []
     },
     {
+      "id": 332,
+      "term": "Helpdesk",
+      "sense": null,
+      "description": "Monta Hub's built-in support case management feature for operators. The Inbox receives cases from the operator's own accounts and sub-operators; the Sent view tracks cases the operator has raised to their parent operator or to Monta.\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": true,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": "Sentence case — capitalise as a standalone label and at the start of a sentence; lowercase mid-sentence (e.g. \"open a helpdesk ticket\"). DE exception: capitalise as a noun throughout.",
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "Helpdesk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Helpdesk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "Helpdesk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Helpdesk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "Kundestøtte",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Helpdesk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Helpdesk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Helpdesk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Service d'assistance",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "Servicio de asistencia",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "Helpdesk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Helpdesk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Helpdesk",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "Þjónustuborð",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "help desk",
+          "isPlural": false
+        }
+      ],
+      "additionalDescriptions": []
+    },
+    {
       "id": 127,
       "term": "home charger",
       "sense": null,
