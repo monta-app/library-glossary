@@ -3549,93 +3549,6 @@
       "additionalDescriptions": []
     },
     {
-      "id": 258,
-      "term": "charging",
-      "sense": "participle – compound modifier",
-      "description": "Describes states, processes, or attributes related to an ongoing charge. Examples: \"charging session,\" \"charging port,\" \"charging time.\"",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "sourceWriting": true,
-      "tags": "industry",
-      "pluralForm": "",
-      "usageRules": "Use only as a modifier (adjective). Avoid redundancy when the context already implies charging (e.g., \"charging session\" → not \"EV charging session\").",
-      "translations": [
-        {
-          "languageCode": "da",
-          "translation": "lade-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Lade-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en",
-          "translation": "charging",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "charging",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "de carga",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðing",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "de recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "de recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "hleðslu-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "di ricarica",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "laad-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "lade-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "de încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "ladd-",
-          "grammarNotes": null
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
       "id": 257,
       "term": "charging",
       "sense": "noun",
@@ -3716,6 +3629,93 @@
         {
           "languageCode": "sv",
           "translation": "laddning",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 258,
+      "term": "charging",
+      "sense": "participle – compound modifier",
+      "description": "Describes states, processes, or attributes related to an ongoing charge. Examples: \"charging session,\" \"charging port,\" \"charging time.\"",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": true,
+      "tags": "industry",
+      "pluralForm": "",
+      "usageRules": "Use only as a modifier (adjective). Avoid redundancy when the context already implies charging (e.g., \"charging session\" → not \"EV charging session\").",
+      "translations": [
+        {
+          "languageCode": "da",
+          "translation": "lade-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Lade-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en",
+          "translation": "charging",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "charging",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "de carga",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðing",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "de recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "de recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "hleðslu-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "di ricarica",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laad-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "lade-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "de încărcare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ladd-",
           "grammarNotes": null
         }
       ],
@@ -6048,9 +6048,96 @@
       "additionalDescriptions": []
     },
     {
+      "id": 333,
+      "term": "current",
+      "sense": "adjective - present/latest",
+      "description": "Description: Adjective meaning present, latest, or at this moment — as in \"Current balance\", \"Current plan\", \"Current status\". This is the ordinary English adjective, not the electrical noun (see \"current\", sense \"noun - electrical\"). Exists as a separate sense so the electrical translation is not force-applied to adjective uses.\n\nUsage rules:\n• Lowercase in running text; capitalise only as a UI label\n• Never translate as the electrical term (strøm / Strom / courant)\n• In source copy, prefer a more specific word where the UI allows it\n\nPlatform: Hub | Charge | Control\nAudience: B2B and B2C",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "industry",
+      "pluralForm": null,
+      "usageRules": "Adjective sense — present, latest, or at this moment (\"Current balance\", \"Current status\"). Do NOT translate as the electrical noun (strøm / Strom / courant); use the ordinary target-language adjective. Lowercase in running text; capitalise only as a UI label.",
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "current",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "current",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "nuværende",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "nuvarande",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "nåværende",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "aktuell",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "huidige",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "actuel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "actuel",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "actual",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "attuale",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "actual",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "núverandi",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "núverandi",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 96,
       "term": "current",
-      "sense": null,
+      "sense": "noun - electrical",
       "description": "Description: The flow of electric charge that powers an EV during charging. Monta supports both Alternating Current (AC) and Direct Current (DC) charging, depending on the charge point hardware and configuration. Current type affects charging speed and connector compatibility.",
       "caseSensitive": false,
       "translatable": true,
@@ -10402,9 +10489,9 @@
       "caseSensitive": true,
       "translatable": true,
       "forbidden": false,
-      "sourceWriting": false,
+      "sourceWriting": true,
       "tags": "product",
-      "pluralForm": null,
+      "pluralForm": "",
       "usageRules": "Sentence case — capitalise as a standalone label and at the start of a sentence; lowercase mid-sentence (e.g. \"open a helpdesk ticket\"). DE exception: capitalise as a noun throughout.",
       "translations": [
         {
@@ -10429,7 +10516,7 @@
         },
         {
           "languageCode": "no",
-          "translation": "Kundestøtte",
+          "translation": "Helpdesk",
           "grammarNotes": null
         },
         {
