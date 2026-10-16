@@ -22384,11 +22384,11 @@
       "tags": "industry",
       "pluralForm": "",
       "usageRules": "Distinguish from 'price group' (configuration entity) and 'master price' (base rate).",
-      "translationRules": null,
+      "translationRules": "",
       "translations": [
         {
           "languageCode": "da",
-          "translation": "tariff",
+          "translation": "tarif",
           "grammarNotes": null
         },
         {
