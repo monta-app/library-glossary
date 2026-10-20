@@ -13031,28 +13031,8 @@
       "translationRules": null,
       "translations": [
         {
-          "languageCode": "en",
-          "translation": "location",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "da",
           "translation": "lokation",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddlokation",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "ladelokasjon",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "estación de recarga",
           "grammarNotes": null
         },
         {
@@ -13061,8 +13041,23 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "stazione di ricarica",
+          "languageCode": "en",
+          "translation": "location",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "location",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "ubicación",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "løðistaður",
           "grammarNotes": null
         },
         {
@@ -13076,18 +13071,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
-          "translation": "location",
-          "grammarNotes": null
+          "languageCode": "is",
+          "translation": "staðsetning",
+          "grammarNotes": "F | acc sg: staðsetningu | nom pl: staðsetningar"
         },
         {
-          "languageCode": "ro",
-          "translation": "locație",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "løðistaður",
+          "languageCode": "it",
+          "translation": "stazione di ricarica",
           "grammarNotes": null
         },
         {
@@ -13096,9 +13086,19 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "is",
-          "translation": "staðsetning",
-          "grammarNotes": "F | acc sg: staðsetningu | nom pl: staðsetningar"
+          "languageCode": "no",
+          "translation": "ladelokasjon",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "locație",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddlokation",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
