@@ -376,7 +376,7 @@
     },
     {
       "id": 225,
-      "term": "AFIR ",
+      "term": "AFIR",
       "sense": null,
       "description": "Acronym for Alternative Fuels Infrastructure Regulation, an EU regulation that establishes binding targets for the deployment of EV charging and refueling infrastructure across member states.",
       "caseSensitive": false,
@@ -5104,7 +5104,7 @@
     },
     {
       "id": 90,
-      "term": "company registration number ",
+      "term": "company registration number",
       "sense": null,
       "description": "Description: A legal business identifier assigned to a company in its country of registration. In Monta, this number is required for business account setup, billing, and regulatory compliance within the EU and UK.",
       "caseSensitive": false,
@@ -8114,7 +8114,7 @@
     },
     {
       "id": 108,
-      "term": "electricity tax refund ",
+      "term": "electricity tax refund",
       "sense": null,
       "description": "Description: A Danish government scheme that reimburses private EV owners for the electricity tax paid on home charging, provided charging is metered and handled via an approved subscription or provider.",
       "caseSensitive": false,
@@ -11512,18 +11512,23 @@
       "translationRules": null,
       "translations": [
         {
-          "languageCode": "en",
-          "translation": "idle time",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "de",
           "translation": "Blockierzeit",
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "tempo di inattività",
+          "languageCode": "en",
+          "translation": "idle time",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "idle time",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "tíð í tómgongd",
           "grammarNotes": null
         },
         {
@@ -11537,18 +11542,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "en_US",
-          "translation": "idle time",
-          "grammarNotes": null
+          "languageCode": "is",
+          "translation": "biðtími",
+          "grammarNotes": "M | acc sg: biðtíma | nom pl: biðtímar"
         },
         {
-          "languageCode": "ro",
-          "translation": "timp blocare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "tíð í tómgongd",
+          "languageCode": "it",
+          "translation": "tempo di inattività",
           "grammarNotes": null
         },
         {
@@ -11557,9 +11557,34 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "is",
-          "translation": "biðtími",
-          "grammarNotes": "M | acc sg: biðtíma | nom pl: biðtímar"
+          "languageCode": "ro",
+          "translation": "timp blocare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "blockeringstid",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "tomgangstid",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "tiempo de inactividad",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "overliggetid",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_CA",
+          "translation": "idle time",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -15437,7 +15462,7 @@
     },
     {
       "id": 25,
-      "term": "OCPI tariff ",
+      "term": "OCPI tariff",
       "sense": null,
       "description": "Description: The pricing structure communicated to roaming partners via OCPI so external eMSPs receive consistent price information for cross-network sessions.",
       "caseSensitive": false,
@@ -15894,7 +15919,7 @@
     },
     {
       "id": 160,
-      "term": "operator ",
+      "term": "operator",
       "sense": null,
       "description": "Description: An organization or individual managing public or private EV charging through Monta, including deployment, pricing, maintenance, and analytics. Uses Hub for billing, automation, and operations.",
       "caseSensitive": false,
@@ -15904,7 +15929,7 @@
       "tags": "industry",
       "pluralForm": "",
       "usageRules": "Use sentence case in the running text and when used as UI stand-alone. Distinguish from “installer,” “manufacturer,” and “CPO” if roles differ locally.",
-      "translationRules": null,
+      "translationRules": "",
       "translations": [
         {
           "languageCode": "en",
@@ -17262,8 +17287,13 @@
           "grammarNotes": null
         },
         {
+          "languageCode": "is",
+          "translation": "verðflokkur",
+          "grammarNotes": "M | acc sg: verðflokk | nom pl: verðflokkar"
+        },
+        {
           "languageCode": "it",
-          "translation": "configura gruppo prezzi",
+          "translation": "gruppo prezzi",
           "grammarNotes": null
         },
         {
@@ -17285,11 +17315,6 @@
           "languageCode": "sv",
           "translation": "prisgrupp",
           "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "verðflokkur",
-          "grammarNotes": "M | acc sg: verðflokk | nom pl: verðflokkar"
         }
       ],
       "alternatives": [
@@ -17864,7 +17889,7 @@
     },
     {
       "id": 180,
-      "term": "recipient code ",
+      "term": "recipient code",
       "sense": null,
       "description": "Description: Italian billing compliance. A unique identifier used to route payments or invoices to the correct entity or team in financial workflows, ensuring attribution to the intended wallet or account.",
       "caseSensitive": false,
@@ -20431,7 +20456,7 @@
     },
     {
       "id": 200,
-      "term": "solar charging ",
+      "term": "solar charging",
       "sense": null,
       "description": "Description: B2C feature in Charge, enables EV charging directly from solar panels, using real-time or forecasted production data. Helps maximise self-consumption, reduce grid reliance, lower energy costs, and minimise carbon footprint. Can be configured to operate only when surplus solar energy is available.",
       "caseSensitive": false,
@@ -22550,7 +22575,7 @@
     },
     {
       "id": 214,
-      "term": "tax identification number ",
+      "term": "tax identification number",
       "sense": null,
       "description": "Description: An Italian tax identifier used exclusively for invoicing and fiscal reporting in Italy. In practice this is Codice Fiscale for individuals and Partita IVA for businesses.",
       "caseSensitive": false,
@@ -23620,7 +23645,7 @@
     },
     {
       "id": 45,
-      "term": "VAT export ",
+      "term": "VAT export",
       "sense": null,
       "description": "EU VAT term for transactions taxed at 0% (zero-rated) due to export rules. Although no VAT is charged, the sale must be shown on the invoice with the correct legal reference and included in VAT reports/exports.",
       "caseSensitive": false,
