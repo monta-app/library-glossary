@@ -1,6 +1,94 @@
 {
   "terms": [
     {
+      "id": 336,
+      "term": "ABB",
+      "sense": null,
+      "description": "Manufacturer name (ABB). Keep as is in every language.",
+      "caseSensitive": true,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "brand",
+      "pluralForm": null,
+      "usageRules": "Manufacturer name (ABB). Keep as is in every language.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "ABB",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ABB",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 224,
       "term": "AC",
       "sense": null,
@@ -2442,32 +2530,62 @@
       "additionalDescriptions": []
     },
     {
-      "id": 255,
+      "id": 253,
       "term": "charge",
-      "sense": "noun – compound modifier",
-      "description": "Used to describe a charging-related object, log, or record linked to a session or transaction. Examples: “charge log,” “charge ID,” “charge object.”",
+      "sense": "noun",
+      "description": "The event or session during which an EV is connected to a charge point and receives electricity until completion.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "sourceWriting": false,
+      "sourceWriting": true,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use only as a descriptive modifier. Avoid using where \"charging\" is the more natural form for localisation.",
+      "usageRules": "Use \"charge\" to describe the session event. Do not use \"charge\" alone to mean fee or payment.",
       "translationRules": null,
       "translations": [
         {
+          "languageCode": "en",
+          "translation": "charge",
+          "grammarNotes": null
+        },
+        {
           "languageCode": "da",
-          "translation": "lade-",
+          "translation": "opladning",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "laddning",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "lading",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "carga",
           "grammarNotes": null
         },
         {
           "languageCode": "de",
-          "translation": "Lade-",
+          "translation": "Ladevorgang",
           "grammarNotes": null
         },
         {
-          "languageCode": "en",
-          "translation": "charge",
+          "languageCode": "it",
+          "translation": "ricarica",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "recharge",
           "grammarNotes": null
         },
         {
@@ -2476,54 +2594,24 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "es",
-          "translation": "de carga",
+          "languageCode": "ro",
+          "translation": "încărcare",
           "grammarNotes": null
         },
         {
           "languageCode": "fo",
-          "translation": "løði",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "de recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "de recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "hleðslu-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "di ricarica",
+          "translation": "løðing",
           "grammarNotes": null
         },
         {
           "languageCode": "nl",
-          "translation": "laad-",
+          "translation": "lading",
           "grammarNotes": null
         },
         {
-          "languageCode": "no",
-          "translation": "lade-",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "de încărcare",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "ladd-",
-          "grammarNotes": null
+          "languageCode": "is",
+          "translation": "hleðsla",
+          "grammarNotes": "F | acc sg: hleðslu | nom pl: hleðslur"
         }
       ],
       "alternatives": [],
@@ -2618,62 +2706,32 @@
       "additionalDescriptions": []
     },
     {
-      "id": 253,
+      "id": 255,
       "term": "charge",
-      "sense": "noun",
-      "description": "The event or session during which an EV is connected to a charge point and receives electricity until completion.",
+      "sense": "noun – compound modifier",
+      "description": "Used to describe a charging-related object, log, or record linked to a session or transaction. Examples: “charge log,” “charge ID,” “charge object.”",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
-      "sourceWriting": true,
+      "sourceWriting": false,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use \"charge\" to describe the session event. Do not use \"charge\" alone to mean fee or payment.",
+      "usageRules": "Use only as a descriptive modifier. Avoid using where \"charging\" is the more natural form for localisation.",
       "translationRules": null,
       "translations": [
         {
-          "languageCode": "en",
-          "translation": "charge",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "da",
-          "translation": "opladning",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "laddning",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "lading",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "carga",
+          "translation": "lade-",
           "grammarNotes": null
         },
         {
           "languageCode": "de",
-          "translation": "Ladevorgang",
+          "translation": "Lade-",
           "grammarNotes": null
         },
         {
-          "languageCode": "it",
-          "translation": "ricarica",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "recharge",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "recharge",
+          "languageCode": "en",
+          "translation": "charge",
           "grammarNotes": null
         },
         {
@@ -2682,24 +2740,54 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "ro",
-          "translation": "încărcare",
+          "languageCode": "es",
+          "translation": "de carga",
           "grammarNotes": null
         },
         {
           "languageCode": "fo",
-          "translation": "løðing",
+          "translation": "løði",
           "grammarNotes": null
         },
         {
-          "languageCode": "nl",
-          "translation": "lading",
+          "languageCode": "fr",
+          "translation": "de recharge",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "de recharge",
           "grammarNotes": null
         },
         {
           "languageCode": "is",
-          "translation": "hleðsla",
-          "grammarNotes": "F | acc sg: hleðslu | nom pl: hleðslur"
+          "translation": "hleðslu-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "di ricarica",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "laad-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "lade-",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "de încărcare",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ladd-",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
@@ -14548,6 +14636,94 @@
       "additionalDescriptions": []
     },
     {
+      "id": 337,
+      "term": "Modbus",
+      "sense": null,
+      "description": "Industrial communication protocol name. Keep as is in every language.",
+      "caseSensitive": true,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "industry",
+      "pluralForm": null,
+      "usageRules": "Industrial communication protocol name. Keep as is in every language.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Modbus",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Modbus",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 305,
       "term": "Monta",
       "sense": null,
@@ -14930,6 +15106,94 @@
           "isPlural": false
         }
       ],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 339,
+      "term": "MQTT",
+      "sense": null,
+      "description": "Messaging protocol name. Keep as is in every language.",
+      "caseSensitive": true,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "industry",
+      "pluralForm": null,
+      "usageRules": "Messaging protocol name. Keep as is in every language.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "MQTT",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "MQTT",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
       "additionalDescriptions": []
     },
     {
@@ -20069,6 +20333,94 @@
           "languageCode": "is",
           "translation": "þjónustuveitandi",
           "grammarNotes": "M | acc sg: þjónustuveitanda | nom pl: þjónustuveitendur"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 338,
+      "term": "Shelly",
+      "sense": null,
+      "description": "Smart meter / relay brand name. Keep as is in every language.",
+      "caseSensitive": true,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "brand",
+      "pluralForm": null,
+      "usageRules": "Smart meter / relay brand name. Keep as is in every language.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Shelly",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Shelly",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
