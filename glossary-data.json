@@ -4550,11 +4550,6 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "løðistað",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "is",
           "translation": "hleðslustaðsetning",
           "grammarNotes": null
@@ -20280,11 +20275,6 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "sv",
-          "translation": "plats",
-          "grammarNotes": null
-        },
-        {
           "languageCode": "no",
           "translation": "sted",
           "grammarNotes": null
@@ -22791,11 +22781,6 @@
         {
           "languageCode": "en_US",
           "translation": "team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "equipo",
           "grammarNotes": null
         },
         {
