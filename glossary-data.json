@@ -23122,9 +23122,19 @@
       "sourceWriting": false,
       "tags": "product",
       "pluralForm": "tickets",
-      "usageRules": "Use for Helpdesk support requests only. da: always \"sag\", never \"ticket\" or \"billet\". fr_CA: \"ticket\" (OQLF: ticket d'assistance), not \"billet\", which means an admission ticket. es: \"ticket\", not \"incidencia\". sv: \"ärende\".",
+      "usageRules": "Use for Helpdesk support requests only. da: always \"sag\", never \"ticket\" or \"billet\". es: \"ticket\", not \"incidencia\". sv: \"ärende\".",
       "translationRules": null,
       "translations": [
+        {
+          "languageCode": "da",
+          "translation": "sag",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ticket",
+          "grammarNotes": null
+        },
         {
           "languageCode": "en",
           "translation": "ticket",
@@ -23136,28 +23146,13 @@
           "grammarNotes": null
         },
         {
-          "languageCode": "da",
-          "translation": "sag",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "ärende",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "sak",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Ticket",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
+          "languageCode": "es",
           "translation": "ticket",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "mál",
           "grammarNotes": null
         },
         {
@@ -23167,12 +23162,12 @@
         },
         {
           "languageCode": "fr_CA",
-          "translation": "ticket",
+          "translation": "billet",
           "grammarNotes": null
         },
         {
-          "languageCode": "es",
-          "translation": "ticket",
+          "languageCode": "is",
+          "translation": "mál",
           "grammarNotes": null
         },
         {
@@ -23181,18 +23176,23 @@
           "grammarNotes": null
         },
         {
+          "languageCode": "nl",
+          "translation": "ticket",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "sak",
+          "grammarNotes": null
+        },
+        {
           "languageCode": "ro",
           "translation": "tichet",
           "grammarNotes": null
         },
         {
-          "languageCode": "fo",
-          "translation": "mál",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "mál",
+          "languageCode": "sv",
+          "translation": "ärende",
           "grammarNotes": null
         }
       ],
