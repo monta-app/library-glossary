@@ -14845,6 +14845,99 @@
       "additionalDescriptions": []
     },
     {
+      "id": 334,
+      "term": "Monta pricing engine",
+      "sense": null,
+      "description": "Monta's own engine that analyses market and local prices and produces the price recommendations shown to operators. Shown as a small label marking a value as suggested by Monta.\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": true,
+      "translatable": false,
+      "forbidden": false,
+      "sourceWriting": true,
+      "tags": "brand",
+      "pluralForm": null,
+      "usageRules": "Write in lower case after Monta: \"Monta pricing engine\". Keep in English in every language (Icelandic: \"ON pricing engine\"). Not a page or menu name; it labels values that come from Monta.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Monta pricing engine",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "ON pricing engine",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "Monta Pricing Engine",
+          "isPlural": false
+        }
+      ],
+      "additionalDescriptions": []
+    },
+    {
       "id": 155,
       "term": "native schedule",
       "sense": null,
@@ -23013,6 +23106,94 @@
           "languageCode": "is",
           "translation": "þema",
           "grammarNotes": "N | acc sg: þema | nom pl: þemu"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 335,
+      "term": "ticket",
+      "sense": "helpdesk support request",
+      "description": "A support request sent to Monta through the Helpdesk, tracked until it is resolved.\n\nPlatform: Hub\nAudience: B2B",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product",
+      "pluralForm": "tickets",
+      "usageRules": "Use for Helpdesk support requests only. da: always \"sag\", never \"ticket\" or \"billet\". fr_CA: \"ticket\" (OQLF: ticket d'assistance), not \"billet\", which means an admission ticket. es: \"ticket\", not \"incidencia\". sv: \"ärende\".",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "ticket",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "ticket",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "sag",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "ärende",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "sak",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Ticket",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "ticket",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "ticket",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "ticket",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "ticket",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "ticket",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "tichet",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "mál",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "mál",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
