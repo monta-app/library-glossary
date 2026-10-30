@@ -368,7 +368,7 @@
       "sourceWriting": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Capitalize Admin when referring to the specific user role (e.g., Admin role). Use lowercase (admin) when referring to a person performing the role in running text. Use consistently in Hub to describe users with full organizational access and control permissions.",
+      "usageRules": "Capitalize Admin when referring to the specific user role (e.g., Admin role). Use lowercase (admin) when referring to a person performing the role in running text. In a list of roles, keep the author's case for all of them. Use consistently in Hub to describe users with full organizational access and control permissions.",
       "translationRules": null,
       "translations": [
         {
@@ -2540,7 +2540,7 @@
       "sourceWriting": true,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Use \"charge\" to describe the session event. Do not use \"charge\" alone to mean fee or payment.",
+      "usageRules": "Use \"charge\" to describe the session event, including \"charges\" and \"charge fee(s)\". Do not use \"charge\" on its own to mean a fee or payment. Never change \"charge fees\" to \"charging fees\".",
       "translationRules": null,
       "translations": [
         {
