@@ -6,5 +6,5 @@ metadata:
 spec:
   type: library
   lifecycle: production
-  owner: frontier-engineering
+  owner: frontier
   system: cross-functional
