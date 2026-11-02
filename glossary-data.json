@@ -5627,28 +5627,7 @@
           "grammarNotes": null
         }
       ],
-      "alternatives": [
-        {
-          "alternative": "EV Charging Station",
-          "isPlural": false
-        },
-        {
-          "alternative": "EV Charger",
-          "isPlural": false
-        },
-        {
-          "alternative": "Charging Post",
-          "isPlural": false
-        },
-        {
-          "alternative": "Charging Spot",
-          "isPlural": false
-        },
-        {
-          "alternative": "Charging Station",
-          "isPlural": false
-        }
-      ],
+      "alternatives": [],
       "additionalDescriptions": []
     },
     {
@@ -23614,10 +23593,6 @@
       "alternatives": [
         {
           "alternative": "RFID token",
-          "isPlural": false
-        },
-        {
-          "alternative": "access token",
           "isPlural": false
         }
       ],
