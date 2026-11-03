@@ -19524,17 +19524,17 @@
         },
         {
           "languageCode": "it",
-          "translation": "IVA",
+          "translation": "imposte",
           "grammarNotes": null
         },
         {
           "languageCode": "nl",
-          "translation": "BTW",
+          "translation": "belasting",
           "grammarNotes": null
         },
         {
           "languageCode": "no",
-          "translation": "MVA",
+          "translation": "skatt",
           "grammarNotes": null
         },
         {
@@ -19544,7 +19544,7 @@
         },
         {
           "languageCode": "sv",
-          "translation": "moms",
+          "translation": "skatt",
           "grammarNotes": null
         },
         {
