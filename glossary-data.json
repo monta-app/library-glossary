@@ -7581,10 +7581,6 @@
       ],
       "alternatives": [
         {
-          "alternative": "Utility Company",
-          "isPlural": false
-        },
-        {
           "alternative": "Grid Operator",
           "isPlural": false
         },
