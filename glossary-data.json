@@ -19484,12 +19484,12 @@
       "translations": [
         {
           "languageCode": "da",
-          "translation": "moms",
+          "translation": "skat",
           "grammarNotes": null
         },
         {
           "languageCode": "de",
-          "translation": "USt",
+          "translation": "Steuern",
           "grammarNotes": null
         },
         {
@@ -19504,7 +19504,7 @@
         },
         {
           "languageCode": "es",
-          "translation": "IVA",
+          "translation": "impuestos",
           "grammarNotes": null
         },
         {
@@ -19514,7 +19514,7 @@
         },
         {
           "languageCode": "fr",
-          "translation": "TVA",
+          "translation": "taxes",
           "grammarNotes": null
         },
         {
