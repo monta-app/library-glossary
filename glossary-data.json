@@ -15491,7 +15491,7 @@
         },
         {
           "languageCode": "fr_CA",
-          "translation": "sur place",
+          "translation": "tarif d’utilisation des réseaux",
           "grammarNotes": null
         },
         {
@@ -17116,6 +17116,23 @@
           "grammarNotes": "F | acc sg: greiðslulausn | nom pl: greiðslulausnir"
         }
       ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 340,
+      "term": "Payter",
+      "sense": null,
+      "description": "Brand of payment terminals that Monta supports, alongside Nayax and CPI. In the Hub, \"Payter terminals\" means only this brand, while \"payment terminals\" covers all brands.",
+      "caseSensitive": false,
+      "translatable": false,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "brand",
+      "pluralForm": null,
+      "usageRules": "Keep the brand name as written. Never replace \"Payter\" with \"payment\" or another general word.",
+      "translationRules": null,
+      "translations": [],
       "alternatives": [],
       "additionalDescriptions": []
     },
@@ -22871,7 +22888,7 @@
         },
         {
           "languageCode": "sv",
-          "translation": "elnätsavgift",
+          "translation": "tariff",
           "grammarNotes": null
         },
         {
