@@ -18756,10 +18756,6 @@
         {
           "alternative": "sponsoring",
           "isPlural": false
-        },
-        {
-          "alternative": "sponsor",
-          "isPlural": false
         }
       ],
       "additionalDescriptions": []
@@ -19642,14 +19638,6 @@
         }
       ],
       "alternatives": [
-        {
-          "alternative": "plan",
-          "isPlural": false
-        },
-        {
-          "alternative": "set",
-          "isPlural": false
-        },
         {
           "alternative": "booking",
           "isPlural": false
