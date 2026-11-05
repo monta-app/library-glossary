@@ -23786,8 +23786,8 @@
       "sourceWriting": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Distinguish from 'Member/Manager/Owner' (roles). Avoid 'driver' unless specifically referring to B2C usage.",
-      "translationRules": null,
+      "usageRules": "Distinguish from 'Member/Manager/Owner' (roles). ",
+      "translationRules": "",
       "translations": [
         {
           "languageCode": "da",
