@@ -5919,7 +5919,7 @@
       "id": 94,
       "term": "credit",
       "sense": null,
-      "description": "Description: Non-withdrawable funds stored in a team wallet, used to pay for Monta-related transactions such as charging sessions, subscriptions, or fees. Credits can be earned through referrals, promotions, or PowerBank participation and are tracked separately from withdrawable wallet balances.",
+      "description": "Description: Non-withdrawable funds stored in a team wallet, used to pay for Monta-related transactions such as charging sessions, subscriptions, or fees. Credits can be earned through referrals, promotions, or Grid Services participation and are tracked separately from withdrawable wallet balances.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -7322,7 +7322,7 @@
       "id": 102,
       "term": "distribution system operator",
       "sense": null,
-      "description": "Description: A Distribution System Operator (DSO) manages and maintains the local electricity distribution grid that delivers power from transmission systems to end users. In Monta’s context, DSOs are external stakeholders in grid-service integrations such as PowerBank, Smart Charging, and Load Management, where real-time load data or flexibility services may be exchanged.",
+      "description": "Description: A Distribution System Operator (DSO) manages and maintains the local electricity distribution grid that delivers power from transmission systems to end users. In Monta’s context, DSOs are external stakeholders in grid-service integrations such as Grid Services, Smart Charging, and Load Management, where real-time load data or flexibility services may be exchanged.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -10053,7 +10053,7 @@
       "id": 123,
       "term": "grid",
       "sense": null,
-      "description": "Description: The external electricity network that supplies energy to Monta-connected sites and can receive energy in V2G setups. Monta coordinates charging (e.g., load balancing, PowerBank) to avoid overloads and support grid stability.",
+      "description": "Description: The external electricity network that supplies energy to Monta-connected sites and can receive energy in V2G setups. Monta coordinates charging (e.g., load balancing, Grid Services) to avoid overloads and support grid stability.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -10135,6 +10135,99 @@
         }
       ],
       "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 341,
+      "term": "Grid Services",
+      "sense": null,
+      "description": "Monta's grid service that temporarily pauses or reduces charging during grid stress to support stability. Formerly PowerBank.\n\nPlatform: Hub, Charge\nAudience: B2B and B2C",
+      "caseSensitive": true,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product,brand",
+      "pluralForm": null,
+      "usageRules": "Always capitalise both words, in labels and in sentences. Do not translate or inflect. Do not use PowerBank.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "Grid Services",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "PowerBank",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
@@ -10229,7 +10322,7 @@
       "id": 124,
       "term": "hardware",
       "sense": null,
-      "description": "Description: Physical charge points and connected electrical devices integrated with the Monta platform. Compatibility and performance rely on certified integrations and firmware that enable features such as load balancing, PowerBank, and SolarCharging.",
+      "description": "Description: Physical charge points and connected electrical devices integrated with the Monta platform. Compatibility and performance rely on certified integrations and firmware that enable features such as load balancing, Grid Services, and SolarCharging.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -10757,7 +10850,7 @@
       "id": 127,
       "term": "home charger",
       "sense": null,
-      "description": "Description: A residential EV charge point connected to Charge. Enables private users to schedule charging, use features like SolarCharging or PowerBank, and monitor energy usage at home.",
+      "description": "Description: A residential EV charge point connected to Charge. Enables private users to schedule charging, use features like SolarCharging or Grid Services, and monitor energy usage at home.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -17492,14 +17585,14 @@
       "id": 32,
       "term": "PowerBank",
       "sense": null,
-      "description": "Description: Monta’s grid service that temporarily pauses charging during grid stress to support stability. Participants earn financial rewards or Monta credits for providing flexibility.",
+      "description": "LEGACY FORBIDDEN: use Grid Services instead. Former name of Grid Services.",
       "caseSensitive": false,
       "translatable": true,
-      "forbidden": false,
+      "forbidden": true,
       "sourceWriting": false,
       "tags": "product,brand",
       "pluralForm": "",
-      "usageRules": "Capitalize “PowerBank” exactly; do not translate the name, no dot modify the term. Uninflected across all languages, treated as brand-like identifiers.",
+      "usageRules": "Retired name. Do not use in new copy. Use Grid Services.",
       "translationRules": null,
       "translations": [
         {
