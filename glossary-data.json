@@ -1294,7 +1294,12 @@
           "grammarNotes": null
         }
       ],
-      "alternatives": [],
+      "alternatives": [
+        {
+          "alternative": "auto top-up",
+          "isPlural": false
+        }
+      ],
       "additionalDescriptions": []
     },
     {
