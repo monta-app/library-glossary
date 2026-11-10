@@ -12639,6 +12639,46 @@
           "languageCode": "is",
           "translation": "reikningagerð",
           "grammarNotes": "F | acc sg: reikningagerð | nom pl: reikningagerðir"
+        },
+        {
+          "languageCode": "da",
+          "translation": "fakturering",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Rechnungsstellung",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "facturación",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "facturation",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "facturation",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "fatturazione",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "facturering",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "fakturering",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
