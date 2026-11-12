@@ -185,14 +185,14 @@
       "id": 308,
       "term": "account",
       "sense": null,
-      "description": "The organizational unit within an Operator that groups members, EVSEs, wallet, and settings under one entity. Formerly displayed as \"Team\" across all product surfaces.",
+      "description": "The organizational unit within an operator that groups members, EVSEs, wallet, and settings under one entity. Accounts can sit under other accounts (sub-accounts). Formerly displayed as \"Team\" across all product surfaces.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
       "sourceWriting": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Do not use \"team\" to refer to this entity in new copy — \"account\" is the canonical term. Do not confuse with \"profile\" (personal user identity) or \"operator\" (the parent business entity).",
+      "usageRules": "Do not use \"team\" to refer to this entity in new copy — \"account\" is the canonical term. Do not confuse with \"profile\" (personal user identity) or \"operator\" (the business that owns the account).",
       "translationRules": null,
       "translations": [
         {
@@ -13409,7 +13409,7 @@
       "id": 265,
       "term": "main operator",
       "sense": null,
-      "description": "The top-level business entity that owns and governs one or more Sub-operators. Defines global policies for access, financial ownership, and configuration across all linked sub-operators.",
+      "description": "The top-level business entity that owns and governs one or more sub-operators. Defines global policies for access, financial ownership, and configuration across all linked sub-operators.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -16386,7 +16386,7 @@
       "id": 160,
       "term": "operator",
       "sense": null,
-      "description": "Description: An organization or individual managing public or private EV charging through Monta, including deployment, pricing, maintenance, and analytics. Uses Hub for billing, automation, and operations.",
+      "description": "An organization or individual running public or private EV charging through Monta. The operator is Monta's customer and owns one or more accounts, where members, EVSEs, wallet and settings are managed. An operator can have sub-operators under it; it is then their main operator.",
       "caseSensitive": false,
       "translatable": true,
       "forbidden": false,
@@ -22399,16 +22399,87 @@
       "id": 311,
       "term": "sub-account",
       "sense": null,
-      "description": "Legacy account hierarchy term. Replaced by 'sub-operator'",
+      "description": "An account that sits under another account. Has its own members, EVSEs, wallet and settings. Access to an account includes its sub-accounts.",
       "caseSensitive": false,
       "translatable": true,
-      "forbidden": true,
+      "forbidden": false,
       "sourceWriting": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Use 'sub-operator' instead. Do not use in Hub UI copy.",
+      "usageRules": "Always hyphenated: 'sub-account'. Lowercase in running text ('a sub-account'); capitalise only as a standalone UI label ('Sub-account'). Not the same as sub-operator: a sub-operator is a separate business, a sub-account is an account under another account.",
       "translationRules": null,
-      "translations": [],
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "sub-account",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "sub-account",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "underkonto",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "underkonto",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "underkonto",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Unterkonto",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "subaccount",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "sous-compte",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "sous-compte",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "subcuenta",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "sottoaccount",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "subcont",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "undirkonta",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "undiraðgangur",
+          "grammarNotes": "M | acc sg: undiraðgang | nom pl: undiraðgangar"
+        }
+      ],
       "alternatives": [],
       "additionalDescriptions": []
     },
@@ -22423,7 +22494,7 @@
       "sourceWriting": false,
       "tags": "product",
       "pluralForm": "",
-      "usageRules": "Always hyphenated: \"sub-operator\". Lowercase in running text (\"a sub-operator\", \"the sub-operator\"). Capitalise only as a standalone UI label (\"Sub-operator\"). Do not use \"sub-account\".",
+      "usageRules": "Always hyphenated: \"sub-operator\". Lowercase in running text (\"a sub-operator\", \"the sub-operator\"). Capitalise only as a standalone UI label (\"Sub-operator\"). Not the same as sub-account: a sub-operator is a separate business with its own billing; a sub-account is an account under another account.",
       "translationRules": null,
       "translations": [
         {
