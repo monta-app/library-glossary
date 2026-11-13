@@ -23358,6 +23358,21 @@
           "languageCode": "sv",
           "translation": "team",
           "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "equipo",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "équipe",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "echipă",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
