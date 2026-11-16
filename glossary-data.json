@@ -12534,6 +12534,94 @@
       "additionalDescriptions": []
     },
     {
+      "id": 139,
+      "term": "invite code",
+      "sense": null,
+      "description": "A code that people or accounts enter to join a specific Monta account. An account can have several invite codes, each with its own member group, active dates and auto accept. Formerly called join code.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product",
+      "pluralForm": "",
+      "usageRules": "Use \"invite code\" in all UI text; plural \"invite codes\". \"Join code\" is the old name and the internal/API name: never use it or its old translations in new text, even where an older English text still says join code.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "invite code",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "invitationskode",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "inbjudningskod",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "invitasjonskode",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "código de invitación",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Einladungscode",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "codice di invito",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "code d'invitation",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "code d’invitation",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "invite code",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "cod de invitație",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "innbjóðingarkota",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "uitnodigingscode",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "boðskóði",
+          "grammarNotes": "M | acc sg: boðskóða | nom pl: boðskóðar"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 138,
       "term": "invoice",
       "sense": null,
@@ -12679,94 +12767,6 @@
           "languageCode": "sv",
           "translation": "fakturering",
           "grammarNotes": null
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
-      "id": 139,
-      "term": "join code",
-      "sense": null,
-      "description": "Description: A unique code used to invite users to join a specific team in Monta. Entering the code grants access to the team’s charge points, wallets, and shared settings without manual admin approval (when enabled).",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "sourceWriting": false,
-      "tags": "product",
-      "pluralForm": "",
-      "usageRules": "Use \"a join code\" with the indefinite article; pluralise as \"join codes\".",
-      "translationRules": null,
-      "translations": [
-        {
-          "languageCode": "en",
-          "translation": "join code",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "da",
-          "translation": "joinkode",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "anslutningskod",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "deltakerkode",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "código de inscripción",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Beitrittscode",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "codice team",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "code d'accès",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "code d’adhésion",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "join code",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "cod de înscriere",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "limakota",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "deelnamecode",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "aðgangskóði",
-          "grammarNotes": "M | acc sg: aðgangskóða | nom pl: aðgangskóðar"
         }
       ],
       "alternatives": [],
