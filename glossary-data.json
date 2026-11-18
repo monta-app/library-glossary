@@ -5279,6 +5279,103 @@
       "additionalDescriptions": []
     },
     {
+      "id": 130,
+      "term": "condo",
+      "sense": null,
+      "description": "A residential building where each flat is owned by its resident, and the owners share the building and its parking (owners association). In the Hub: condo reimbursement, where an employer pays back an employee for charging at their building.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": true,
+      "tags": "industry",
+      "pluralForm": "",
+      "usageRules": "Use \"condo\" for shared residential buildings and their owners association, including condo reimbursement. Do not write \"housing association\" or \"condominium\" in new copy. Not for single-family homes or commercial sites.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "condo",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "boligforening",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "bostadsrättsförening",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "no",
+          "translation": "borettslag",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "comunidad de propietarios",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Eigentümergemeinschaft",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "condominio",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "copropriété",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "copropriété",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "condo",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "ro",
+          "translation": "asociație de proprietari",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fo",
+          "translation": "bústaðarfelag",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "VvE",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "is",
+          "translation": "húsfélag",
+          "grammarNotes": "N | acc sg: húsfélag | nom pl: húsfélög"
+        }
+      ],
+      "alternatives": [
+        {
+          "alternative": "housing association",
+          "isPlural": false
+        },
+        {
+          "alternative": "condominium",
+          "isPlural": false
+        }
+      ],
+      "additionalDescriptions": []
+    },
+    {
       "id": 91,
       "term": "connect",
       "sense": null,
@@ -11121,94 +11218,6 @@
       "additionalDescriptions": []
     },
     {
-      "id": 130,
-      "term": "housing association",
-      "sense": null,
-      "description": "Description: A collective property management organization that operates shared residential charging for tenants or owners. Monta enables centralized access control, billing, and reporting across shared charge points.",
-      "caseSensitive": false,
-      "translatable": true,
-      "forbidden": false,
-      "sourceWriting": true,
-      "tags": "industry",
-      "pluralForm": "",
-      "usageRules": "Use for multi-dwelling/shared residential contexts; not for single-family homes or commercial sites. Prefer \"housing association\" over \"HOA\" unless the local market requires that term.",
-      "translationRules": null,
-      "translations": [
-        {
-          "languageCode": "en",
-          "translation": "housing association",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "da",
-          "translation": "boligforening",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "sv",
-          "translation": "bostadsrättsförening",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "no",
-          "translation": "borettslag",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "es",
-          "translation": "complejo residencial",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "de",
-          "translation": "Wohnungsbaugesellschaft",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "it",
-          "translation": "comproprietà",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr",
-          "translation": "copropriété",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fr_CA",
-          "translation": "copropriété",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "en_US",
-          "translation": "residential site",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "ro",
-          "translation": "asociație de proprietari",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "fo",
-          "translation": "bústaðarfelag",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "nl",
-          "translation": "woningcorporatie",
-          "grammarNotes": null
-        },
-        {
-          "languageCode": "is",
-          "translation": "húsfélag",
-          "grammarNotes": "N | acc sg: húsfélag | nom pl: húsfélög"
-        }
-      ],
-      "alternatives": [],
-      "additionalDescriptions": []
-    },
-    {
       "id": 9,
       "term": "Hub",
       "sense": null,
@@ -12528,6 +12537,74 @@
           "languageCode": "is",
           "translation": "samþætting",
           "grammarNotes": "F | acc sg: samþættingu | nom pl: samþættingar"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 342,
+      "term": "inventory",
+      "sense": "charge keys",
+      "description": "An operator's stock of charge keys (cards) that are not yet handed out or registered by drivers. Shown as the Inventory tab under Charge keys.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product",
+      "pluralForm": null,
+      "usageRules": "Use for the charge key stock only. Not for a roaming partner's list of locations or for emissions (GHG) inventory accounting.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "inventory",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "inventory",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "lager",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "de",
+          "translation": "Bestand",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "es",
+          "translation": "inventario",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr",
+          "translation": "inventaire",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "inventaire",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "it",
+          "translation": "inventario",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "nl",
+          "translation": "voorraad",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "sv",
+          "translation": "lager",
+          "grammarNotes": null
         }
       ],
       "alternatives": [],
