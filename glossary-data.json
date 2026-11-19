@@ -12782,6 +12782,94 @@
       "additionalDescriptions": []
     },
     {
+      "id": 347,
+      "term": "job",
+      "sense": "work order",
+      "description": "The main Field service item: one piece of work at one Location (repair, inspection, installation…), with its own status, checklist, visits, evidence and costs. Other products call it a work order. An installer job is a kind of job (see \"installer job\"). Confirmed by Vlad Blagoy (feature owner), 19 Nov 2026.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product",
+      "pluralForm": "jobs",
+      "usageRules": "Use for a work order in Field service and for installer jobs. Do not use interchangeably with task, visit or run. Do not use for a background system job (e.g. a nightly job).",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "job",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "job",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "job",
+          "grammarNotes": "et; jobbet, job, jobbene. Not \"opgave\" (= task)"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Auftrag",
+          "grammarNotes": "der; Pl. Aufträge"
+        },
+        {
+          "languageCode": "es",
+          "translation": "trabajo",
+          "grammarNotes": "m.; el trabajo, los trabajos"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "intervention",
+          "grammarNotes": "f.; l'intervention, les interventions. Not \"tâche\" (= task)"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "intervention",
+          "grammarNotes": "f.; l'intervention, les interventions. Not \"tâche\" (= task)"
+        },
+        {
+          "languageCode": "it",
+          "translation": "intervento",
+          "grammarNotes": "m.; l'intervento, gli interventi"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "opdracht",
+          "grammarNotes": "de; opdrachten. Not \"taak\" (= task)"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "jobb",
+          "grammarNotes": "ett; jobbet, jobb, jobben"
+        },
+        {
+          "languageCode": "no",
+          "translation": "jobb",
+          "grammarNotes": "en; jobben, jobber, jobbene"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "job",
+          "grammarNotes": "n.; jobul, joburi"
+        },
+        {
+          "languageCode": "is",
+          "translation": "verk",
+          "grammarNotes": "N | acc sg: verk | nom pl: verk"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "uppgáva",
+          "grammarNotes": "f.; uppgávan, uppgávur"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 289,
       "term": "kWh",
       "sense": null,
@@ -19629,6 +19717,94 @@
       "additionalDescriptions": []
     },
     {
+      "id": 350,
+      "term": "run link",
+      "sense": "field service",
+      "description": "Field service: the no-login phone page for a whole service run: every stop in order with address, opening hours and map buttons, each opening that job's technician page. One passcode can unlock every job on the run; Send to partner emails it. Confirmed by Vlad Blagoy (feature owner), 19 Nov 2026.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product",
+      "pluralForm": "run links",
+      "usageRules": "Use for the link to a whole service run. Do not use interchangeably with technician link (the link to one job).",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "run link",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "run link",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "turlink",
+          "grammarNotes": "et; turlinket, turlinks"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Tour-Link",
+          "grammarNotes": "der; Pl. Tour-Links"
+        },
+        {
+          "languageCode": "es",
+          "translation": "enlace del recorrido",
+          "grammarNotes": "m.; el enlace del recorrido"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "lien de la tournée",
+          "grammarNotes": "m.; le lien de la tournée"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "lien de la tournée",
+          "grammarNotes": "m.; le lien de la tournée"
+        },
+        {
+          "languageCode": "it",
+          "translation": "link del giro",
+          "grammarNotes": "m.; il link del giro"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "rondelink",
+          "grammarNotes": "de; rondelinks"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "länk till rundan",
+          "grammarNotes": "en; länken till rundan"
+        },
+        {
+          "languageCode": "no",
+          "translation": "turlenke",
+          "grammarNotes": "en; turlenken, turlenker"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "link deplasare",
+          "grammarNotes": "n.; linkul deplasării"
+        },
+        {
+          "languageCode": "is",
+          "translation": "hlekkur ferðar",
+          "grammarNotes": "M | acc sg: hlekk ferðar | nom pl: hlekkir ferðar"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "ferðarleinki",
+          "grammarNotes": "n.; ferðarleinkið"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 190,
       "term": "sales tax",
       "sense": null,
@@ -20372,6 +20548,182 @@
           "languageCode": "is",
           "translation": "raðnúmer",
           "grammarNotes": "N | acc sg: raðnúmer | nom pl: raðnúmer"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 345,
+      "term": "service campaign",
+      "sense": "field service",
+      "description": "Field service: one purpose (a migration, SIM swap, rollout, inspection round, recall…) applied to many EVSEs across many Locations over weeks or months. Instead of raising jobs up front, its tasks are added to work a technician is already sent to do at that Location, on a service run or a single visit. Confirmed by Vlad Blagoy (feature owner), 19 Nov 2026.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product",
+      "pluralForm": "service campaigns",
+      "usageRules": "Use \"campaign\" as the short form in Field service. Do not use for a marketing or promotion campaign. Do not use interchangeably with service run or job.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "service campaign",
+          "grammarNotes": "Short form: Campaign"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "service campaign",
+          "grammarNotes": "Short form: Campaign"
+        },
+        {
+          "languageCode": "da",
+          "translation": "servicekampagne",
+          "grammarNotes": "en; servicekampagnen, servicekampagner. Short form: kampagne"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Servicekampagne",
+          "grammarNotes": "die; Pl. Servicekampagnen. Short form: Kampagne"
+        },
+        {
+          "languageCode": "es",
+          "translation": "campaña de servicio",
+          "grammarNotes": "f.; la campaña de servicio, las campañas de servicio. Short form: campaña"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "campagne de service",
+          "grammarNotes": "f.; la campagne de service, les campagnes de service. Short form: campagne"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "campagne de service",
+          "grammarNotes": "f.; la campagne de service, les campagnes de service. Short form: campagne"
+        },
+        {
+          "languageCode": "it",
+          "translation": "campagna di assistenza",
+          "grammarNotes": "f.; la campagna di assistenza, le campagne di assistenza. Short form: campagna"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "servicecampagne",
+          "grammarNotes": "de; servicecampagnes. Short form: campagne"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "servicekampanj",
+          "grammarNotes": "en; servicekampanjen, servicekampanjer. Short form: kampanj"
+        },
+        {
+          "languageCode": "no",
+          "translation": "servicekampanje",
+          "grammarNotes": "m.; servicekampanjen, servicekampanjer. Short form: kampanje"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "campanie de service",
+          "grammarNotes": "f.; campania de service, campanii de service. Short form: campanie"
+        },
+        {
+          "languageCode": "is",
+          "translation": "þjónustuherferð",
+          "grammarNotes": "F | acc sg: þjónustuherferð | nom pl: þjónustuherferðir. Short form: herferð"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "tænastuherferð",
+          "grammarNotes": "f.; tænastuherferðin, tænastuherferðir. Short form: herferð"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 346,
+      "term": "service partner",
+      "sense": "field service",
+      "description": "Field service: the company (an outside contractor or the operator's own in-house team) that the operator sends jobs to, and that assigns them to its technicians. Has its own email addresses, master passcode and default Locations. Confirmed by Vlad Blagoy (feature owner), 19 Nov 2026.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product",
+      "pluralForm": "service partners",
+      "usageRules": "Use \"partner\" as the short form in Field service. Do not use interchangeably with technician (the person). Not a roaming partner.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "service partner",
+          "grammarNotes": "Short form: Partner"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "service partner",
+          "grammarNotes": "Short form: Partner"
+        },
+        {
+          "languageCode": "da",
+          "translation": "servicepartner",
+          "grammarNotes": "en; servicepartneren, servicepartnere. Short form: partner"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Servicepartner",
+          "grammarNotes": "der; Pl. Servicepartner. Short form: Partner"
+        },
+        {
+          "languageCode": "es",
+          "translation": "socio de servicio",
+          "grammarNotes": "m.; el socio de servicio, los socios de servicio. Short form: socio"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "partenaire de service",
+          "grammarNotes": "m.; le partenaire de service, les partenaires de service. Short form: partenaire"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "partenaire de service",
+          "grammarNotes": "m.; le partenaire de service, les partenaires de service. Short form: partenaire"
+        },
+        {
+          "languageCode": "it",
+          "translation": "partner di assistenza",
+          "grammarNotes": "m.; il partner di assistenza, i partner di assistenza (invariable). Short form: partner"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "servicepartner",
+          "grammarNotes": "de; servicepartners. Short form: partner"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "servicepartner",
+          "grammarNotes": "en; servicepartnern, servicepartners. Short form: partner"
+        },
+        {
+          "languageCode": "no",
+          "translation": "servicepartner",
+          "grammarNotes": "m.; servicepartneren, servicepartnere. Short form: partner"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "partener de service",
+          "grammarNotes": "m.; partenerul de service, parteneri de service. Short form: partener"
+        },
+        {
+          "languageCode": "is",
+          "translation": "þjónustuaðili",
+          "grammarNotes": "M | acc sg: þjónustuaðila | nom pl: þjónustuaðilar. Short form: aðili"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "tænastupartnari",
+          "grammarNotes": "m.; tænastupartnarin, tænastupartarar. Short form: partnari"
         }
       ],
       "alternatives": [],
@@ -22497,6 +22849,94 @@
           "languageCode": "sv",
           "translation": "sticker",
           "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 349,
+      "term": "stop",
+      "sense": "field service",
+      "description": "Field service: a Location's job visit as part of a service run, shown in stop order (Stop 1, Stop 2…). Every stop is a visit; a visit is a stop only when it is on a run. Confirmed by Vlad Blagoy (feature owner), 19 Nov 2026.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product",
+      "pluralForm": "stops",
+      "usageRules": "Use for a place on a service run (noun). Not for stopping a charge.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "stop",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "stop",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "stop",
+          "grammarNotes": "et; stoppet, stop"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Stopp",
+          "grammarNotes": "der; Pl. Stopps"
+        },
+        {
+          "languageCode": "es",
+          "translation": "parada",
+          "grammarNotes": "f.; la parada, las paradas"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "arrêt",
+          "grammarNotes": "m.; l'arrêt, les arrêts. Not \"étape\" (= a step)"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "arrêt",
+          "grammarNotes": "m.; l'arrêt, les arrêts. Not \"étape\" (= a step)"
+        },
+        {
+          "languageCode": "it",
+          "translation": "tappa",
+          "grammarNotes": "f.; la tappa, le tappe. Not \"fermata\" or \"sosta\""
+        },
+        {
+          "languageCode": "nl",
+          "translation": "stop",
+          "grammarNotes": "de; stops"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "stopp",
+          "grammarNotes": "ett; stoppet, stopp"
+        },
+        {
+          "languageCode": "no",
+          "translation": "stopp",
+          "grammarNotes": "et; stoppet, stopp"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "oprire",
+          "grammarNotes": "f.; oprirea, opriri"
+        },
+        {
+          "languageCode": "is",
+          "translation": "viðkomustaður",
+          "grammarNotes": "M | acc sg: viðkomustað | nom pl: viðkomustaðir"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "steðgur",
+          "grammarNotes": "m.; steðgurin, steðgar"
         }
       ],
       "alternatives": [],
@@ -24739,6 +25179,94 @@
           "languageCode": "is",
           "translation": "VIN",
           "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
+      "id": 348,
+      "term": "visit",
+      "sense": "field service",
+      "description": "Field service: one technician at one Location on one day (one truck roll). A job can have several visits, e.g. the technician needs a part, ends the visit and comes back days later (a return visit). On a service run, each visit is a stop. Confirmed by Vlad Blagoy (feature owner), 19 Nov 2026.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product",
+      "pluralForm": "visits",
+      "usageRules": "Do not use interchangeably with job, stop or run.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "visit",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "visit",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "besøg",
+          "grammarNotes": "et; besøget, besøg"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Besuch",
+          "grammarNotes": "der; Pl. Besuche"
+        },
+        {
+          "languageCode": "es",
+          "translation": "visita",
+          "grammarNotes": "f.; la visita, las visitas"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "visite",
+          "grammarNotes": "f.; la visite, les visites"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "visite",
+          "grammarNotes": "f.; la visite, les visites"
+        },
+        {
+          "languageCode": "it",
+          "translation": "visita",
+          "grammarNotes": "f.; la visita, le visite"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "bezoek",
+          "grammarNotes": "het; bezoeken"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "besök",
+          "grammarNotes": "ett; besöket, besök"
+        },
+        {
+          "languageCode": "no",
+          "translation": "besøk",
+          "grammarNotes": "et; besøket, besøk"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "vizită",
+          "grammarNotes": "f.; vizita, vizite"
+        },
+        {
+          "languageCode": "is",
+          "translation": "heimsókn",
+          "grammarNotes": "F | acc sg: heimsókn | nom pl: heimsóknir"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "vitjan",
+          "grammarNotes": "f.; vitjanin, vitjanir"
         }
       ],
       "alternatives": [],
