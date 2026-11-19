@@ -23486,6 +23486,94 @@
       "additionalDescriptions": []
     },
     {
+      "id": 344,
+      "term": "technician",
+      "sense": "field service",
+      "description": "Field service: the individual person who does the work on site for a service partner. When starting a job, the technician picks their name from the partner's list or types it. Confirmed by Vlad Blagoy (feature owner), 19 Nov 2026.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product",
+      "pluralForm": "technicians",
+      "usageRules": "Use for the person doing the work on site. Do not use interchangeably with service partner (the company) or installer.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "technician",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "technician",
+          "grammarNotes": null
+        },
+        {
+          "languageCode": "da",
+          "translation": "tekniker",
+          "grammarNotes": "en; teknikeren, teknikere, teknikerne"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Techniker",
+          "grammarNotes": "der; Pl. die Techniker"
+        },
+        {
+          "languageCode": "es",
+          "translation": "técnico",
+          "grammarNotes": "m.; el técnico, los técnicos"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "technicien",
+          "grammarNotes": "m.; le technicien, les techniciens"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "technicien",
+          "grammarNotes": "m.; le technicien, les techniciens"
+        },
+        {
+          "languageCode": "it",
+          "translation": "tecnico",
+          "grammarNotes": "m.; il tecnico, i tecnici"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "monteur",
+          "grammarNotes": "de; monteurs"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "tekniker",
+          "grammarNotes": "en; teknikern, tekniker, teknikerna"
+        },
+        {
+          "languageCode": "no",
+          "translation": "tekniker",
+          "grammarNotes": "en; teknikeren, teknikere, teknikerne"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "tehnician",
+          "grammarNotes": "m.; tehnicianul, tehnicieni, tehnicienii"
+        },
+        {
+          "languageCode": "is",
+          "translation": "tæknimaður",
+          "grammarNotes": "M | acc sg: tæknimann | nom pl: tæknimenn"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "tekniker",
+          "grammarNotes": null
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 274,
       "term": "temporary hold",
       "sense": null,
