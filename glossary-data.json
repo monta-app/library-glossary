@@ -20466,6 +20466,94 @@
       "additionalDescriptions": []
     },
     {
+      "id": 343,
+      "term": "service run",
+      "sense": "field service",
+      "description": "A truck roll in Field service (Hub, Runs tab): one service partner, with a named technician, sent to several nearby Locations within a date window of one or more days. It groups the jobs open at those Locations; each job visit on a run is a stop. Final UI term confirmed by Vlad Blagoy (feature owner), 19 Nov 2026.",
+      "caseSensitive": false,
+      "translatable": true,
+      "forbidden": false,
+      "sourceWriting": false,
+      "tags": "product",
+      "pluralForm": "service runs",
+      "usageRules": "Use \"run\" as the short form in Field service. Do not use interchangeably with job, visit or stop. Do not translate with the word for a program or system run, or for a road route.",
+      "translationRules": null,
+      "translations": [
+        {
+          "languageCode": "en",
+          "translation": "service run",
+          "grammarNotes": "Short form: Run"
+        },
+        {
+          "languageCode": "en_US",
+          "translation": "service run",
+          "grammarNotes": "Short form: Run"
+        },
+        {
+          "languageCode": "da",
+          "translation": "servicetur",
+          "grammarNotes": "en; serviceturen, serviceture, serviceturene. Short form: tur"
+        },
+        {
+          "languageCode": "de",
+          "translation": "Servicetour",
+          "grammarNotes": "die; Pl. Servicetouren. Short form: Tour"
+        },
+        {
+          "languageCode": "es",
+          "translation": "recorrido de servicio",
+          "grammarNotes": "m.; el recorrido de servicio, los recorridos de servicio. Short form: recorrido"
+        },
+        {
+          "languageCode": "fr",
+          "translation": "tournée de service",
+          "grammarNotes": "f.; la tournée de service, les tournées de service. Short form: tournée"
+        },
+        {
+          "languageCode": "fr_CA",
+          "translation": "tournée de service",
+          "grammarNotes": "f.; la tournée de service, les tournées de service. Short form: tournée"
+        },
+        {
+          "languageCode": "it",
+          "translation": "giro di assistenza",
+          "grammarNotes": "m.; il giro di assistenza, i giri di assistenza. Short form: giro"
+        },
+        {
+          "languageCode": "nl",
+          "translation": "serviceronde",
+          "grammarNotes": "de; servicerondes. Short form: ronde"
+        },
+        {
+          "languageCode": "sv",
+          "translation": "servicerunda",
+          "grammarNotes": "en; servicerundan, servicerundor, servicerundorna. Short form: runda"
+        },
+        {
+          "languageCode": "no",
+          "translation": "servicetur",
+          "grammarNotes": "m.; serviceturen, serviceturer, serviceturene. Short form: tur"
+        },
+        {
+          "languageCode": "ro",
+          "translation": "deplasare de service",
+          "grammarNotes": "f.; deplasarea de service, deplasări de service. Short form: deplasare"
+        },
+        {
+          "languageCode": "is",
+          "translation": "þjónustuferð",
+          "grammarNotes": "F | acc sg: þjónustuferð | nom pl: þjónustuferðir. Short form: ferð"
+        },
+        {
+          "languageCode": "fo",
+          "translation": "tænastuferð",
+          "grammarNotes": "f.; tænastuferðin, tænastuferðir. Short form: ferð"
+        }
+      ],
+      "alternatives": [],
+      "additionalDescriptions": []
+    },
+    {
       "id": 338,
       "term": "Shelly",
       "sense": null,
