@@ -6821,7 +6821,7 @@
     },
     {
       "id": 247,
-      "term": "Data warehouse",
+      "term": "data warehouse",
       "sense": null,
       "description": "Description: Monta’s centralized, cloud-based data storage and analytics system that enables sharing of operational and performance data with partners through secure integrations or embedded dashboards. It supports advanced analytics, exports, and visualization features such as Tableau dashboards, data pipelines, and API feeds.",
       "caseSensitive": false,
@@ -6835,27 +6835,27 @@
       "translations": [
         {
           "languageCode": "en",
-          "translation": "Data warehouse",
+          "translation": "data warehouse",
           "grammarNotes": null
         },
         {
           "languageCode": "da",
-          "translation": "Data warehouse",
+          "translation": "data warehouse",
           "grammarNotes": null
         },
         {
           "languageCode": "sv",
-          "translation": "Data warehouse",
+          "translation": "data warehouse",
           "grammarNotes": null
         },
         {
           "languageCode": "no",
-          "translation": "Data warehouse",
+          "translation": "data warehouse",
           "grammarNotes": null
         },
         {
           "languageCode": "es",
-          "translation": "Data warehouse",
+          "translation": "data warehouse",
           "grammarNotes": null
         },
         {
@@ -6865,12 +6865,12 @@
         },
         {
           "languageCode": "it",
-          "translation": "Data warehouse",
+          "translation": "data warehouse",
           "grammarNotes": null
         },
         {
           "languageCode": "fr",
-          "translation": "Data warehouse",
+          "translation": "data warehouse",
           "grammarNotes": null
         },
         {
@@ -6880,12 +6880,12 @@
         },
         {
           "languageCode": "en_US",
-          "translation": "Data warehouse",
+          "translation": "data warehouse",
           "grammarNotes": null
         },
         {
           "languageCode": "ro",
-          "translation": "Data warehouse",
+          "translation": "data warehouse",
           "grammarNotes": null
         },
         {
@@ -6895,7 +6895,7 @@
         },
         {
           "languageCode": "nl",
-          "translation": "Data warehouse",
+          "translation": "data warehouse",
           "grammarNotes": null
         },
         {
