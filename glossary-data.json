@@ -3337,7 +3337,7 @@
       "sourceWriting": true,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Reduce usage of abbreviation unless well-established. Introduce the abbreviation \"CPO\" on first mention, then use consistently thereafter. Keep consistent with industry usage and avoid shortening to \"operator\" alone.",
+      "usageRules": "Reduce usage of abbreviation unless well-established. Introduce the abbreviation \"CPO\" on first mention, then use consistently thereafter. Keep consistent with industry usage. In Monta copy, \"operator\" alone already means the charge point operator: keep \"operator\" as written and never expand it to \"charge point operator\".",
       "translationRules": null,
       "translations": [
         {
@@ -5940,7 +5940,7 @@
       "sourceWriting": true,
       "tags": "industry",
       "pluralForm": "",
-      "usageRules": "Avoid using \"operator\" alone when referring to this entity.",
+      "usageRules": "In Monta copy, \"operator\" alone already means this entity: keep \"operator\" as written and never expand it to \"CPO\" or \"charge point operator\".",
       "translationRules": null,
       "translations": [
         {
